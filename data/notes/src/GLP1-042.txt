@@ -1,0 +1,111 @@
+=== GLP1-042-LAB-001
+LAB RESULT NOTE — 09/23/2024
+
+Fasting lipid panel reviewed: LDL 108, HDL 64, TG 125 mg/dL. No statin indicated. For future lipid panels, fast 10–12 hours (water OK). Released to portal.
+
+=== GLP1-042-GI-001
+GASTROENTEROLOGY PROCEDURE NOTE — 01/20/2025
+
+Screening colonoscopy (family history — brother with polyps).
+Prep: clear liquid diet day before, split-dose; good prep.
+Findings: two 4 mm sessile polyps removed from transverse colon.
+Plan: resume regular diet; pathology pending.
+
+=== GLP1-042-TEL-001
+TELEPHONE ENCOUNTER — 05/09/2025
+
+Pt asked for "an allergy pill" refill — no allergy medication on file. Advised OTC cetirizine or loratadine daily PRN. Call if not controlled.
+
+=== GLP1-042-UC-001
+URGENT CARE — 07/09/2025
+
+40 y/o M, dysuria and frequency x 2 days, no fever. Vitals: Wt 93.5 kg, BMI 36.5, BP 130/79.
+UA + nitrite, + LE; culture sent.
+Dx: acute cystitis. Nitrofurantoin 100 mg BID x 7 days. PCP follow-up — male UTI.
+
+=== GLP1-042-TEL-002
+TELEPHONE ENCOUNTER — 07/12/2025
+
+Pt confirmed lab appointment 07/16, 7:30 AM (PCP ordered PSA/UA follow-up + metabolic panel). Fasting 10–12 hours, water OK. Understood.
+
+=== GLP1-042-UC-002
+URGENT CARE — 08/09/2025
+
+40 y/o M, 10 days of sinus pressure, congestion, purulent drainage, worsening. Maxillary tenderness; lungs clear.
+Dx: acute bacterial sinusitis. Amoxicillin-clavulanate BID x 7 days; saline rinses.
+
+=== GLP1-042-MSG-001
+PATIENT PORTAL MESSAGE — 10/09/2025
+
+Pt: "Can I move my appointment to November? Also need a note for work for 10/6."
+MA reply: Moved to 11/12. Note uploaded.
+
+=== GLP1-042-MSG-002
+PATIENT PORTAL MESSAGE — 11/04/2025
+
+Pt: "New gym wants my immunization record for their paperwork."
+MA reply: Uploaded.
+
+=== GLP1-042-LAB-002
+LAB RESULT NOTE — 11/14/2025
+
+25-OH vitamin D 29 ng/mL — low-normal. Suggest OTC vitamin D3 1000–2000 IU daily.
+
+=== GLP1-042-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 01/05/2026
+
+S: 41 y/o M, BP follow-up. Brings up weight — "I know I need to lose some." Busy with work; eats out often.
+
+O: Wt 93.8 kg, Ht 160 cm, BMI 36.6. BP 126/89.
+
+A/P:
+1. Obesity — discussed diet and exercise; patient will try to cut portions and walk more. Revisit at next visit.
+2. Hypertension: BP 126/89 on lisinopril 10 mg daily; continue.
+3. Anxiety — stable on sertraline.
+
+=== GLP1-042-ORTH-001
+ORTHOPEDICS — 01/17/2026
+
+41 y/o M rolled right ankle on stairs. Lateral swelling, ATFL tenderness, Ottawa negative.
+Dx: R lateral ankle sprain. CAM boot, weight-bearing as tolerated in boot, ice/elevation; ankle rehab exercises after 2 weeks.
+
+=== GLP1-042-DERM-001
+DERMATOLOGY — 03/29/2026
+
+41 y/o M with itchy red rash in the lower abdominal skin fold, worse with sweating. Satellite papules.
+Dx: intertrigo, candidal. Nystatin powder BID; keep area dry.
+
+=== GLP1-042-ORTH-002
+ORTHOPEDICS — 05/17/2026
+
+41 y/o M, left shoulder pain with overhead lifting at work. Positive impingement signs, strength intact.
+Dx: left shoulder impingement. Subacromial injection; home exercise program for rotator cuff 5x/week.
+
+=== GLP1-042-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 05/20/2026
+
+Self-referred through clinic for weight management. Patient reports no prior structured diet or exercise plan; this is his first formal nutrition counseling. Food log: restaurant meals most days, sweet tea and soda, late snacks.
+Plan: Mediterranean-style reduced-calorie diet, cutting sugar-sweetened drinks, target ~1400 kcal/day; cook at home 4 nights; water aerobics / lap swimming 3 times a week (shoulder-friendly per ortho).
+RD follow-up in 6–8 weeks.
+
+=== GLP1-042-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 07/15/2026
+
+Food log reviewed: adherent most days, no sugar-sweetened drinks. Small adjustments to snack portions and restaurant choices.
+Reports keeping up with swimming/water aerobics about 3 times a week.
+Continue plan.
+
+=== GLP1-042-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 08/10/2026
+
+S: 41 y/o M, follow-up weight and BP. Has completed 8 months of dedicated diet and exercise efforts since around the new year. Weight 90.9 kg today, minimal change. Asks about Wegovy. No MTC/MEN2 history, no pancreatitis.
+
+O: Wt 90.9 kg, BMI 35.5. BP 129/85.
+
+A/P:
+1. Obesity, BMI 35.5 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Recheck in 3 months.
+2. Hypertension: BP 129/85 on lisinopril 10 mg daily; continue.

@@ -1,0 +1,527 @@
+{
+  "note": "Selected by objective criteria; measurements only.",
+  "cases": [
+    {
+      "selection_criterion": "hybrid_correct_gpt_wrong",
+      "evaluation_id": "GLP1-021__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-021",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "incomplete_longitudinal"
+      ],
+      "ground_truth_state": "READY",
+      "gpt_only": {
+        "predicted_state": "NOT_READY",
+        "correct": false,
+        "total_cost_usd": 0.018066,
+        "total_latency_ms": 17394.4,
+        "gpt_input_tokens": 4038,
+        "gpt_output_tokens": 999
+      },
+      "jev_plus_gpt": {
+        "predicted_state": "READY",
+        "correct": true,
+        "total_cost_usd": 0.00550328,
+        "decision_latency_ms": 170.0,
+        "total_latency_ms": 5522.2,
+        "jev_input_tokens": 3459,
+        "gpt_input_tokens": 1154,
+        "n_escalated_criteria": 0
+      },
+      "criteria": [
+        {
+          "pipeline": "gpt",
+          "criterion_id": "weight_management_program",
+          "ground_truth": "PASS",
+          "prediction": "INSUFFICIENT",
+          "engine": "gpt",
+          "confidence": 0.85,
+          "jev_prediction": null,
+          "jev_confidence": null,
+          "escalation_effect": "",
+          "failure_category": "TEMPORAL_REASONING"
+        }
+      ],
+      "trace_files": [
+        "results/traces/main_gpt.jsonl",
+        "results/traces/main_hybrid_t0.90.jsonl"
+      ]
+    },
+    {
+      "selection_criterion": "hybrid_correct_gpt_wrong",
+      "evaluation_id": "GLP1-033__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-033",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "continuity"
+      ],
+      "ground_truth_state": "REVIEW_REQUIRED",
+      "gpt_only": {
+        "predicted_state": "NOT_READY",
+        "correct": false,
+        "total_cost_usd": 0.014842,
+        "total_latency_ms": 10591.8,
+        "gpt_input_tokens": 3741,
+        "gpt_output_tokens": 736
+      },
+      "jev_plus_gpt": {
+        "predicted_state": "REVIEW_REQUIRED",
+        "correct": true,
+        "total_cost_usd": 0.00027968,
+        "decision_latency_ms": 281.9,
+        "total_latency_ms": 281.9,
+        "jev_input_tokens": 6659,
+        "gpt_input_tokens": 0,
+        "n_escalated_criteria": 0
+      },
+      "criteria": [
+        {
+          "pipeline": "gpt",
+          "criterion_id": "program_6_months",
+          "ground_truth": "CONFLICT",
+          "prediction": "FAIL",
+          "engine": "gpt",
+          "confidence": 0.98,
+          "jev_prediction": null,
+          "jev_confidence": null,
+          "escalation_effect": "",
+          "failure_category": "TEMPORAL_REASONING"
+        }
+      ],
+      "trace_files": [
+        "results/traces/main_gpt.jsonl",
+        "results/traces/main_hybrid_t0.90.jsonl"
+      ]
+    },
+    {
+      "selection_criterion": "hybrid_correct_gpt_wrong",
+      "evaluation_id": "GLP1-039__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-039",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "difficulty": "hard",
+      "challenge_tags": [
+        "stale_medication"
+      ],
+      "ground_truth_state": "READY",
+      "gpt_only": {
+        "predicted_state": "REVIEW_REQUIRED",
+        "correct": false,
+        "total_cost_usd": 0.020732,
+        "total_latency_ms": 16862.7,
+        "gpt_input_tokens": 4421,
+        "gpt_output_tokens": 1189
+      },
+      "jev_plus_gpt": {
+        "predicted_state": "READY",
+        "correct": true,
+        "total_cost_usd": 0.00701015,
+        "decision_latency_ms": 223.0,
+        "total_latency_ms": 5633.4,
+        "jev_input_tokens": 9337,
+        "gpt_input_tokens": 1524,
+        "n_escalated_criteria": 0
+      },
+      "criteria": [
+        {
+          "pipeline": "gpt",
+          "criterion_id": "program_6_months",
+          "ground_truth": "PASS",
+          "prediction": "CONFLICT",
+          "engine": "gpt",
+          "confidence": 0.94,
+          "jev_prediction": null,
+          "jev_confidence": null,
+          "escalation_effect": "",
+          "failure_category": "SEMANTIC_INTERPRETATION"
+        }
+      ],
+      "trace_files": [
+        "results/traces/main_gpt.jsonl",
+        "results/traces/main_hybrid_t0.90.jsonl"
+      ]
+    },
+    {
+      "selection_criterion": "jev_high_confidence_error",
+      "evaluation_id": "GLP1-027__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-027",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "vague_temporality"
+      ],
+      "ground_truth_state": "NOT_READY",
+      "gpt_only": {
+        "predicted_state": "NOT_READY",
+        "correct": true,
+        "total_cost_usd": 0.015426,
+        "total_latency_ms": 10684.8,
+        "gpt_input_tokens": 4183,
+        "gpt_output_tokens": 706
+      },
+      "jev_plus_gpt": {
+        "predicted_state": "NOT_READY",
+        "correct": true,
+        "total_cost_usd": 0.00033121,
+        "decision_latency_ms": 170.2,
+        "total_latency_ms": 170.2,
+        "jev_input_tokens": 7886,
+        "gpt_input_tokens": 0,
+        "n_escalated_criteria": 0
+      },
+      "criteria": [
+        {
+          "pipeline": "gpt",
+          "criterion_id": "adjunct_diet_and_activity",
+          "ground_truth": "PASS",
+          "prediction": "INSUFFICIENT",
+          "engine": "gpt",
+          "confidence": 0.96,
+          "jev_prediction": null,
+          "jev_confidence": null,
+          "escalation_effect": "",
+          "failure_category": "TEMPORAL_REASONING"
+        },
+        {
+          "pipeline": "hybrid",
+          "criterion_id": "adjunct_diet_and_activity",
+          "ground_truth": "PASS",
+          "prediction": "INSUFFICIENT",
+          "engine": "jev",
+          "confidence": 0.92,
+          "jev_prediction": "INSUFFICIENT",
+          "jev_confidence": 0.92,
+          "escalation_effect": "",
+          "failure_category": "TEMPORAL_REASONING"
+        }
+      ],
+      "trace_files": [
+        "results/traces/main_gpt.jsonl",
+        "results/traces/main_hybrid_t0.90.jsonl"
+      ],
+      "focus_criterion": "adjunct_diet_and_activity"
+    },
+    {
+      "selection_criterion": "jev_uncertain_gpt_resolved",
+      "evaluation_id": "GLP1-047__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-047",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "difficulty": "hard",
+      "challenge_tags": [
+        "retrieval_stress",
+        "long_context"
+      ],
+      "ground_truth_state": "READY",
+      "gpt_only": {
+        "predicted_state": "READY",
+        "correct": true,
+        "total_cost_usd": 0.021554,
+        "total_latency_ms": 15944.4,
+        "gpt_input_tokens": 5222,
+        "gpt_output_tokens": 1111
+      },
+      "jev_plus_gpt": {
+        "predicted_state": "READY",
+        "correct": true,
+        "total_cost_usd": 0.02720479,
+        "decision_latency_ms": 18592.2,
+        "total_latency_ms": 23887.8,
+        "jev_input_tokens": 9733,
+        "gpt_input_tokens": 7073,
+        "n_escalated_criteria": 2
+      },
+      "criteria": [
+        {
+          "pipeline": "hybrid",
+          "criterion_id": "adjunct_diet_and_activity",
+          "ground_truth": "PASS",
+          "prediction": "PASS",
+          "engine": "gpt_escalation",
+          "confidence": 0.82,
+          "jev_prediction": "INSUFFICIENT",
+          "jev_confidence": 0.09999999999999998,
+          "escalation_effect": "escalation_fixed",
+          "failure_category": ""
+        },
+        {
+          "pipeline": "hybrid",
+          "criterion_id": "program_6_months",
+          "ground_truth": "PASS",
+          "prediction": "PASS",
+          "engine": "gpt_escalation",
+          "confidence": 0.91,
+          "jev_prediction": "FAIL",
+          "jev_confidence": 0.79,
+          "escalation_effect": "escalation_fixed",
+          "failure_category": ""
+        }
+      ],
+      "trace_files": [
+        "results/traces/main_gpt.jsonl",
+        "results/traces/main_hybrid_t0.90.jsonl"
+      ],
+      "focus_criterion": "adjunct_diet_and_activity"
+    },
+    {
+      "selection_criterion": "escalation_changed_correct_jev_answer",
+      "evaluation_id": "GLP1-032__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-032",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "evidence_aggregation"
+      ],
+      "ground_truth_state": "READY",
+      "gpt_only": {
+        "predicted_state": "NOT_READY",
+        "correct": false,
+        "total_cost_usd": 0.01883,
+        "total_latency_ms": 14184.5,
+        "gpt_input_tokens": 4435,
+        "gpt_output_tokens": 996
+      },
+      "jev_plus_gpt": {
+        "predicted_state": "NOT_READY",
+        "correct": false,
+        "total_cost_usd": 0.014388300000000001,
+        "decision_latency_ms": 9997.5,
+        "total_latency_ms": 9997.5,
+        "jev_input_tokens": 7912,
+        "gpt_input_tokens": 4443,
+        "n_escalated_criteria": 1
+      },
+      "criteria": [
+        {
+          "pipeline": "gpt",
+          "criterion_id": "program_6_months",
+          "ground_truth": "PASS",
+          "prediction": "INSUFFICIENT",
+          "engine": "gpt",
+          "confidence": 0.98,
+          "jev_prediction": null,
+          "jev_confidence": null,
+          "escalation_effect": "",
+          "failure_category": "TEMPORAL_REASONING"
+        },
+        {
+          "pipeline": "hybrid",
+          "criterion_id": "program_6_months",
+          "ground_truth": "PASS",
+          "prediction": "INSUFFICIENT",
+          "engine": "gpt_escalation",
+          "confidence": 0.91,
+          "jev_prediction": "PASS",
+          "jev_confidence": 0.7,
+          "escalation_effect": "escalation_broke",
+          "failure_category": "TEMPORAL_REASONING"
+        }
+      ],
+      "trace_files": [
+        "results/traces/main_gpt.jsonl",
+        "results/traces/main_hybrid_t0.90.jsonl"
+      ],
+      "focus_criterion": "program_6_months"
+    },
+    {
+      "selection_criterion": "contradiction_medication",
+      "evaluation_id": "GLP1-045__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-045",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "difficulty": "hard",
+      "challenge_tags": [
+        "medication_reconciliation"
+      ],
+      "ground_truth_state": "REVIEW_REQUIRED",
+      "gpt_only": {
+        "predicted_state": "REVIEW_REQUIRED",
+        "correct": true,
+        "total_cost_usd": 0.016406,
+        "total_latency_ms": 13247.3,
+        "gpt_input_tokens": 4503,
+        "gpt_output_tokens": 740
+      },
+      "jev_plus_gpt": {
+        "predicted_state": "REVIEW_REQUIRED",
+        "correct": true,
+        "total_cost_usd": 0.01351721,
+        "decision_latency_ms": 7202.5,
+        "total_latency_ms": 7202.5,
+        "jev_input_tokens": 5743,
+        "gpt_input_tokens": 4523,
+        "n_escalated_criteria": 2
+      },
+      "criteria": [
+        {
+          "pipeline": "hybrid",
+          "criterion_id": "no_concurrent_glp1",
+          "ground_truth": "CONFLICT",
+          "prediction": "CONFLICT",
+          "engine": "gpt_escalation",
+          "confidence": 0.97,
+          "jev_prediction": "CONFLICT",
+          "jev_confidence": 0.79,
+          "escalation_effect": "both_correct",
+          "failure_category": ""
+        },
+        {
+          "pipeline": "hybrid",
+          "criterion_id": "no_concurrent_pa_weight_loss_med",
+          "ground_truth": "CONFLICT",
+          "prediction": "CONFLICT",
+          "engine": "gpt_escalation",
+          "confidence": 0.97,
+          "jev_prediction": "CONFLICT",
+          "jev_confidence": 0.79,
+          "escalation_effect": "both_correct",
+          "failure_category": ""
+        }
+      ],
+      "trace_files": [
+        "results/traces/main_gpt.jsonl",
+        "results/traces/main_hybrid_t0.90.jsonl"
+      ]
+    },
+    {
+      "selection_criterion": "temporal_reasoning",
+      "evaluation_id": "GLP1-037__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-037",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "difficulty": "hard",
+      "challenge_tags": [
+        "noncontinuous_duration"
+      ],
+      "ground_truth_state": "NOT_READY",
+      "gpt_only": {
+        "predicted_state": "NOT_READY",
+        "correct": true,
+        "total_cost_usd": 0.01403,
+        "total_latency_ms": 8990.5,
+        "gpt_input_tokens": 3665,
+        "gpt_output_tokens": 670
+      },
+      "jev_plus_gpt": {
+        "predicted_state": "NOT_READY",
+        "correct": true,
+        "total_cost_usd": 0.01032154,
+        "decision_latency_ms": 5816.9,
+        "total_latency_ms": 5816.9,
+        "jev_input_tokens": 7989,
+        "gpt_input_tokens": 3673,
+        "n_escalated_criteria": 1
+      },
+      "criteria": [
+        {
+          "pipeline": "hybrid",
+          "criterion_id": "program_6_months",
+          "ground_truth": "FAIL",
+          "prediction": "FAIL",
+          "engine": "gpt_escalation",
+          "confidence": 0.99,
+          "jev_prediction": "CONFLICT",
+          "jev_confidence": 0.89,
+          "escalation_effect": "escalation_fixed",
+          "failure_category": ""
+        }
+      ],
+      "trace_files": [
+        "results/traces/main_gpt.jsonl",
+        "results/traces/main_hybrid_t0.90.jsonl"
+      ]
+    },
+    {
+      "selection_criterion": "largest_gpt_token_saving",
+      "evaluation_id": "GLP1-017__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-017",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "counseling_not_program"
+      ],
+      "ground_truth_state": "NOT_READY",
+      "gpt_only": {
+        "predicted_state": "NOT_READY",
+        "correct": true,
+        "total_cost_usd": 0.016482,
+        "total_latency_ms": 10535.9,
+        "gpt_input_tokens": 4956,
+        "gpt_output_tokens": 657
+      },
+      "jev_plus_gpt": {
+        "predicted_state": "NOT_READY",
+        "correct": true,
+        "total_cost_usd": 0.0002352,
+        "decision_latency_ms": 222.5,
+        "total_latency_ms": 222.5,
+        "jev_input_tokens": 5600,
+        "gpt_input_tokens": 0,
+        "n_escalated_criteria": 0
+      },
+      "criteria": [],
+      "trace_files": [
+        "results/traces/main_gpt.jsonl",
+        "results/traces/main_hybrid_t0.90.jsonl"
+      ]
+    },
+    {
+      "selection_criterion": "unusual_latency_hybrid_max_decision_latency",
+      "evaluation_id": "GLP1-047__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-047",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "difficulty": "hard",
+      "challenge_tags": [
+        "retrieval_stress",
+        "long_context"
+      ],
+      "ground_truth_state": "READY",
+      "gpt_only": {
+        "predicted_state": "READY",
+        "correct": true,
+        "total_cost_usd": 0.021554,
+        "total_latency_ms": 15944.4,
+        "gpt_input_tokens": 5222,
+        "gpt_output_tokens": 1111
+      },
+      "jev_plus_gpt": {
+        "predicted_state": "READY",
+        "correct": true,
+        "total_cost_usd": 0.02720479,
+        "decision_latency_ms": 18592.2,
+        "total_latency_ms": 23887.8,
+        "jev_input_tokens": 9733,
+        "gpt_input_tokens": 7073,
+        "n_escalated_criteria": 2
+      },
+      "criteria": [
+        {
+          "pipeline": "hybrid",
+          "criterion_id": "adjunct_diet_and_activity",
+          "ground_truth": "PASS",
+          "prediction": "PASS",
+          "engine": "gpt_escalation",
+          "confidence": 0.82,
+          "jev_prediction": "INSUFFICIENT",
+          "jev_confidence": 0.09999999999999998,
+          "escalation_effect": "escalation_fixed",
+          "failure_category": ""
+        },
+        {
+          "pipeline": "hybrid",
+          "criterion_id": "program_6_months",
+          "ground_truth": "PASS",
+          "prediction": "PASS",
+          "engine": "gpt_escalation",
+          "confidence": 0.91,
+          "jev_prediction": "FAIL",
+          "jev_confidence": 0.79,
+          "escalation_effect": "escalation_fixed",
+          "failure_category": ""
+        }
+      ],
+      "trace_files": [
+        "results/traces/main_gpt.jsonl",
+        "results/traces/main_hybrid_t0.90.jsonl"
+      ]
+    }
+  ]
+}

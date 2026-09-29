@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PA Evidence Annotation",
+  "type": "object",
+  "required": [
+    "patient_id",
+    "resource_id",
+    "criterion_id",
+    "relevance",
+    "stance"
+  ],
+  "properties": {
+    "stance": {
+      "enum": [
+        "SUPPORTS",
+        "CONTRADICTS",
+        "NEUTRAL",
+        "AMBIGUOUS"
+      ]
+    }
+  }
+}

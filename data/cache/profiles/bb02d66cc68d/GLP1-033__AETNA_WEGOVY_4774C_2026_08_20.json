@@ -1,0 +1,327 @@
+{
+ "patient_id": "GLP1-033",
+ "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1976-12-11",
+   "age": 49,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-033-BMI-2026-08-17",
+    "date": "2026-08-17",
+    "value": 37.3
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-033-BMI-2025-10-08",
+     "date": "2025-10-08",
+     "value": 38.2
+    },
+    {
+     "resource_id": "Observation/GLP1-033-BMI-2026-07-08",
+     "date": "2026-07-08",
+     "value": 37.3
+    },
+    {
+     "resource_id": "Observation/GLP1-033-BMI-2026-08-17",
+     "date": "2026-08-17",
+     "value": 37.3
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-033-WT-2026-08-17",
+    "date": "2026-08-17",
+    "value": 110.3
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-033-WT-2025-10-08",
+     "date": "2025-10-08",
+     "value": 113.1
+    },
+    {
+     "resource_id": "Observation/GLP1-033-WT-2026-07-08",
+     "date": "2026-07-08",
+     "value": 110.4
+    },
+    {
+     "resource_id": "Observation/GLP1-033-WT-2026-08-17",
+     "date": "2026-08-17",
+     "value": 110.3
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-033-HT-2025-10-08",
+   "date": "2025-10-08",
+   "value": 172.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-033-BP-2026-08-17",
+    "date": "2026-08-17",
+    "systolic": 118.0,
+    "diastolic": 79.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-033-BP-2025-10-08",
+     "date": "2025-10-08",
+     "systolic": 122.0,
+     "diastolic": 76.0
+    },
+    {
+     "resource_id": "Observation/GLP1-033-BP-2026-07-08",
+     "date": "2026-07-08",
+     "systolic": 123.0,
+     "diastolic": 80.0
+    },
+    {
+     "resource_id": "Observation/GLP1-033-BP-2026-08-17",
+     "date": "2026-08-17",
+     "systolic": 118.0,
+     "diastolic": 79.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-033-A1C-2025-10-08",
+    "date": "2025-10-08",
+    "value": 5.2
+   },
+   "ldl": null,
+   "hdl": null,
+   "tg": null
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-033-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2018-09-04",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-033-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2015-06-17",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-033-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-07-16",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-033-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2022-12-13",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-033-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-033-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-17",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "adjunct_diet_and_activity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-033-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-033-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-08",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 38.2 — plan starting today:\n - Portion-controlled plate method with a daily food diary, ~1400 kcal/day.\n - Stationary bike 30–40 minutes 5 days a week.\n - Referred to a dietitian-led weight management program.\n Follow-up visits planned.\n2. Anxiety — stable on sertraline.",
+    "score": 21.686863,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-033-TEL-001#c0",
+    "resource_id": "DocumentReference/GLP1-033-TEL-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-09",
+    "note_type": "Telephone encounter",
+    "text": "TELEPHONE ENCOUNTER — 01/09/2026\nPt called to reschedule missed dietitian visit. States she \"fell off\" the meal plan over the holidays and hasn't been on the bike or walking since Thanksgiving. Will try to get back on track in the new year. Dietitian visit rescheduled for March (first available).",
+    "score": 16.559912,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-033-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-033-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-13",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 03/13/2026\nReturning after a break. Restarting meal plan — portion-controlled plate method with a daily food diary, ~1400 kcal/day. Reviewed barriers (holiday travel, caregiving for mother).\nResuming exercise: walking and stationary bike, starting 3x/week and building up.\nFollow-up in 6 weeks.",
+    "score": 26.274744,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-033-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-033-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-17",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/17/2026\nS: Follow-up. Has been on and off with the meal plan and exercise since last fall — stopped over the holidays, restarted in March, and more consistent since spring (food diary most days, bike/walking/jogging 3–4x/week). Frustrated: weight 110.3 kg today vs 113.1 kg when the lifestyle plan began (-2.5%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 110.3 kg, BMI 37.3. BP 118/79.",
+    "score": 17.75715,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-033-PCP-002#c1",
+    "resource_id": "DocumentReference/GLP1-033-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-17",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 37.3 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue meal plan and exercise. Recheck in 3 months.\n2. Anxiety — stable.",
+    "score": 11.085373,
+    "reason": "top_k"
+   }
+  ],
+  "program_6_months": [
+   {
+    "chunk_id": "DocumentReference/GLP1-033-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-033-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-08",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 38.2 — plan starting today:\n - Portion-controlled plate method with a daily food diary, ~1400 kcal/day.\n - Stationary bike 30–40 minutes 5 days a week.\n - Referred to a dietitian-led weight management program.\n Follow-up visits planned.\n2. Anxiety — stable on sertraline.",
+    "score": 21.686863,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-033-TEL-001#c0",
+    "resource_id": "DocumentReference/GLP1-033-TEL-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-09",
+    "note_type": "Telephone encounter",
+    "text": "TELEPHONE ENCOUNTER — 01/09/2026\nPt called to reschedule missed dietitian visit. States she \"fell off\" the meal plan over the holidays and hasn't been on the bike or walking since Thanksgiving. Will try to get back on track in the new year. Dietitian visit rescheduled for March (first available).",
+    "score": 16.559912,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-033-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-033-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-13",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 03/13/2026\nReturning after a break. Restarting meal plan — portion-controlled plate method with a daily food diary, ~1400 kcal/day. Reviewed barriers (holiday travel, caregiving for mother).\nResuming exercise: walking and stationary bike, starting 3x/week and building up.\nFollow-up in 6 weeks.",
+    "score": 26.274744,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-033-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-033-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-17",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/17/2026\nS: Follow-up. Has been on and off with the meal plan and exercise since last fall — stopped over the holidays, restarted in March, and more consistent since spring (food diary most days, bike/walking/jogging 3–4x/week). Frustrated: weight 110.3 kg today vs 113.1 kg when the lifestyle plan began (-2.5%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 110.3 kg, BMI 37.3. BP 118/79.",
+    "score": 17.75715,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-033-PCP-002#c1",
+    "resource_id": "DocumentReference/GLP1-033-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-17",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 37.3 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue meal plan and exercise. Recheck in 3 months.\n2. Anxiety — stable.",
+    "score": 8.540741,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-033-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-033-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-09-02",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 09/02/2025\nPt asked about 5-HTP for mood/sleep. Advised AGAINST combining 5-HTP with sertraline (serotonin syndrome risk). Melatonin acceptable. Pt will not take 5-HTP.",
+    "score": 2.69661,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-033-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-033-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-08",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 10/08/2025\nS: 48 y/o F wants to lose weight; knees and energy bothering her. Evening snacking, large portions. Has a stationary bike in the basement she hasn't used.\nO: Wt 113.1 kg, Ht 172 cm, BMI 38.2. BP 122/76.\nExam unremarkable.",
+    "score": 1.352913,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-033-UC-001#c0",
+    "resource_id": "DocumentReference/GLP1-033-UC-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-07-08",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 07/08/2026\n49 y/o F with cough and wheeze starting a few minutes into early-morning jogs, especially on humid, high-pollen days; resolves with rest. Vitals: Wt 110.4 kg, BMI 37.3, BP 123/80.\nExam: lungs clear at rest, SpO2 98%.\nDx: exercise-induced bronchospasm. Albuterol 2 puffs 15 min before exertion.",
+    "score": 3.330116,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-033-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-033-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-17",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/17/2026\nS: Follow-up. Has been on and off with the meal plan and exercise since last fall — stopped over the holidays, restarted in March, and more consistent since spring (food diary most days, bike/walking/jogging 3–4x/week). Frustrated: weight 110.3 kg today vs 113.1 kg when the lifestyle plan began (-2.5%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 110.3 kg, BMI 37.3. BP 118/79.",
+    "score": 1.026274,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 17,
+  "n_notes": 15,
+  "tokens": {
+   "raw_chart": {
+    "structured": 5896,
+    "notes": 1109,
+    "total": 7005
+   },
+   "retrieved_evidence": 691,
+   "structured_features": 1133,
+   "profile_total": 3733
+  }
+ }
+}

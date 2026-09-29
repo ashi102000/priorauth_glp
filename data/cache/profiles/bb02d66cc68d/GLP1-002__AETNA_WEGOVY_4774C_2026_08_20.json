@@ -1,0 +1,390 @@
+{
+ "patient_id": "GLP1-002",
+ "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1983-11-14",
+   "age": 42,
+   "gender": "male"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-002-BMI-2026-08-11",
+    "date": "2026-08-11",
+    "value": 34.1
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-002-BMI-2026-01-11",
+     "date": "2026-01-11",
+     "value": 35.3
+    },
+    {
+     "resource_id": "Observation/GLP1-002-BMI-2026-04-25",
+     "date": "2026-04-25",
+     "value": 34.8
+    },
+    {
+     "resource_id": "Observation/GLP1-002-BMI-2026-08-11",
+     "date": "2026-08-11",
+     "value": 34.1
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-002-WT-2026-08-11",
+    "date": "2026-08-11",
+    "value": 92.8
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-002-WT-2026-01-11",
+     "date": "2026-01-11",
+     "value": 96.0
+    },
+    {
+     "resource_id": "Observation/GLP1-002-WT-2026-04-25",
+     "date": "2026-04-25",
+     "value": 94.7
+    },
+    {
+     "resource_id": "Observation/GLP1-002-WT-2026-08-11",
+     "date": "2026-08-11",
+     "value": 92.8
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-002-HT-2026-01-11",
+   "date": "2026-01-11",
+   "value": 165.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-002-BP-2026-08-11",
+    "date": "2026-08-11",
+    "systolic": 117.0,
+    "diastolic": 67.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-002-BP-2026-01-11",
+     "date": "2026-01-11",
+     "systolic": 118.0,
+     "diastolic": 71.0
+    },
+    {
+     "resource_id": "Observation/GLP1-002-BP-2026-04-25",
+     "date": "2026-04-25",
+     "systolic": 118.0,
+     "diastolic": 71.0
+    },
+    {
+     "resource_id": "Observation/GLP1-002-BP-2026-08-11",
+     "date": "2026-08-11",
+     "systolic": 117.0,
+     "diastolic": 67.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-002-A1C-2026-01-11",
+    "date": "2026-01-11",
+    "value": 5.2
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-002-LDL-2026-01-11",
+    "date": "2026-01-11",
+    "value": 154.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-002-HDL-2026-01-11",
+    "date": "2026-01-11",
+    "value": 46.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-002-TG-2026-01-11",
+    "date": "2026-01-11",
+    "value": 187.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-002-DYSLIP",
+    "display": "Dyslipidemia",
+    "clinical_status": "active",
+    "onset": "2023-04-01",
+    "abatement": null,
+    "weight_related": true
+   },
+   {
+    "resource_id": "Condition/GLP1-002-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2015-02-25",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-002-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2023-04-16",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-002-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2023-07-04",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-002-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-09-02",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [
+   {
+    "resource_id": "Condition/GLP1-002-DYSLIP",
+    "display": "Dyslipidemia",
+    "clinical_status": "active",
+    "onset": "2023-04-01",
+    "abatement": null,
+    "weight_related": true
+   }
+  ],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-002-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2021-07-11",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-002-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2021-07-14",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-002-ATORVASTATIN",
+    "resource_type": "MedicationRequest",
+    "text": "atorvastatin 20 mg PO daily",
+    "status": "active",
+    "date": "2025-06-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-002-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-002-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-11",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "adjunct_diet_and_activity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-002-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-11",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity — patient motivated to start a lifestyle plan today.\n - Mediterranean-style reduced-calorie eating, target about 1600 kcal/day, cut out sugar-sweetened drinks.\n - Brisk walking with a coworker during lunch, 4 days a week.\n - Referred to the clinic's Healthy Weight lifestyle program (RD visits + group sessions). Follow-up here in ~3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 154. Continue; repeat lipids in 6 months.\n3. Eczema — stable with PRN triamcinolone.",
+    "score": 24.438745,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-002-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-29",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 01/29/2026\nHealthy Weight program intake.\nReviewed 5-day food log: restaurant lunches, 2–3 regular sodas, large late dinners, weekend beer (4–6 cans).\nPlan:\n- Mediterranean-style pattern at ~1600 kcal/day. Pack lunch 3 days/week; at restaurants choose grilled protein + vegetables.\n- Zero sugar-sweetened drinks — switch to diet soda or seltzer.\n- Limit beer to 2 on weekend days.\n- Log intake in the program app.\nActivity: brisk lunchtime walks with coworker 4 days/week, as set with PCP.\nGroup session schedule given. RD follow-up 6 weeks.",
+    "score": 21.490339,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-002-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-25",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 04/25/2026\nS: Weight follow-up. Continues the diet and walking plan started in January; packing lunch most days, off regular soda, attending Healthy Weight group sessions. Walks with coworker at lunch most weekdays unless raining. Adherence good most weeks.\nO: Wt 94.7 kg, BMI 34.8. BP 118/71.\nA/P:\n1. Obesity — continue lifestyle program; reinforced goals.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 154. Recheck lipids with next labs.",
+    "score": 17.881038,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-002-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/11/2026\nS: Weight follow-up. Continues the diet and exercise plan and has kept up with the Healthy Weight program visits since January. Still packing lunch, still walking at lunch, no regular soda. Frustrated: weight 92.8 kg today vs 96.0 kg in January when the plan began (-3.3%), and it has not budged since late spring. Asks whether medication is an option. No hx pancreatitis, no personal/family hx MTC or MEN2.\nO: Wt 92.8 kg, BMI 34.1. BP 117/67, HR 70.",
+    "score": 19.258378,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-002-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-11",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 34.1 — plateau despite adherence. Start semaglutide 2.4 mg weekly (Wegovy) with standard titration starting at 0.25 mg. Discussed GI side effects, small meals, hydration; call for severe abdominal pain or vomiting. Continue lifestyle plan. Recheck in 3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 154. Fasting lipid panel ordered.",
+    "score": 10.525735,
+    "reason": "top_k"
+   }
+  ],
+  "program_6_months": [
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-002-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-11",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity — patient motivated to start a lifestyle plan today.\n - Mediterranean-style reduced-calorie eating, target about 1600 kcal/day, cut out sugar-sweetened drinks.\n - Brisk walking with a coworker during lunch, 4 days a week.\n - Referred to the clinic's Healthy Weight lifestyle program (RD visits + group sessions). Follow-up here in ~3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 154. Continue; repeat lipids in 6 months.\n3. Eczema — stable with PRN triamcinolone.",
+    "score": 22.979644,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-002-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-29",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 01/29/2026\nHealthy Weight program intake.\nReviewed 5-day food log: restaurant lunches, 2–3 regular sodas, large late dinners, weekend beer (4–6 cans).\nPlan:\n- Mediterranean-style pattern at ~1600 kcal/day. Pack lunch 3 days/week; at restaurants choose grilled protein + vegetables.\n- Zero sugar-sweetened drinks — switch to diet soda or seltzer.\n- Limit beer to 2 on weekend days.\n- Log intake in the program app.\nActivity: brisk lunchtime walks with coworker 4 days/week, as set with PCP.\nGroup session schedule given. RD follow-up 6 weeks.",
+    "score": 21.490339,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-002-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-25",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 04/25/2026\nS: Weight follow-up. Continues the diet and walking plan started in January; packing lunch most days, off regular soda, attending Healthy Weight group sessions. Walks with coworker at lunch most weekdays unless raining. Adherence good most weeks.\nO: Wt 94.7 kg, BMI 34.8. BP 118/71.\nA/P:\n1. Obesity — continue lifestyle program; reinforced goals.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 154. Recheck lipids with next labs.",
+    "score": 16.514103,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-002-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/11/2026\nS: Weight follow-up. Continues the diet and exercise plan and has kept up with the Healthy Weight program visits since January. Still packing lunch, still walking at lunch, no regular soda. Frustrated: weight 92.8 kg today vs 96.0 kg in January when the plan began (-3.3%), and it has not budged since late spring. Asks whether medication is an option. No hx pancreatitis, no personal/family hx MTC or MEN2.\nO: Wt 92.8 kg, BMI 34.1. BP 117/67, HR 70.",
+    "score": 19.258378,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-002-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-11",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 34.1 — plateau despite adherence. Start semaglutide 2.4 mg weekly (Wegovy) with standard titration starting at 0.25 mg. Discussed GI side effects, small meals, hydration; call for severe abdominal pain or vomiting. Continue lifestyle plan. Recheck in 3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 154. Fasting lipid panel ordered.",
+    "score": 8.948471,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-002-LAB-001#c0",
+    "resource_id": "DocumentReference/GLP1-002-LAB-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-12-12",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 12/12/2024\nCBC: WBC 6.8, Hgb 14.9, Plt 241 — normal.\nCMP: Na 139, K 4.2, Cr 0.94, eGFR >90, glucose 92, AST 24, ALT 31, alk phos 71, albumin 4.4 — all within normal limits.\nNo action needed. Result released to patient portal with comment \"Your blood counts, kidney and liver tests are normal.\"",
+    "score": 2.360982,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-002-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 01/11/2026\nS: 42 y/o M here to address weight; says his cholesterol results and his clothes both \"got his attention.\" Eats out for lunch most days, drinks 2–3 regular sodas daily. Little regular activity. Taking atorvastatin daily without muscle aches.\nO: Wt 96.0 kg, Ht 165 cm, BMI 35.3. BP 118/71.\nExam unremarkable.",
+    "score": 3.759811,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-002-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-11",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity — patient motivated to start a lifestyle plan today.\n - Mediterranean-style reduced-calorie eating, target about 1600 kcal/day, cut out sugar-sweetened drinks.\n - Brisk walking with a coworker during lunch, 4 days a week.\n - Referred to the clinic's Healthy Weight lifestyle program (RD visits + group sessions). Follow-up here in ~3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 154. Continue; repeat lipids in 6 months.\n3. Eczema — stable with PRN triamcinolone.",
+    "score": 2.9182,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-002-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-25",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 04/25/2026\nS: Weight follow-up. Continues the diet and walking plan started in January; packing lunch most days, off regular soda, attending Healthy Weight group sessions. Walks with coworker at lunch most weekdays unless raining. Adherence good most weeks.\nO: Wt 94.7 kg, BMI 34.8. BP 118/71.\nA/P:\n1. Obesity — continue lifestyle program; reinforced goals.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 154. Recheck lipids with next labs.",
+    "score": 4.100804,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-002-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-002-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-11",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 34.1 — plateau despite adherence. Start semaglutide 2.4 mg weekly (Wegovy) with standard titration starting at 0.25 mg. Discussed GI side effects, small meals, hydration; call for severe abdominal pain or vomiting. Continue lifestyle plan. Recheck in 3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 154. Fasting lipid panel ordered.",
+    "score": 3.154527,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 15,
+  "n_notes": 13,
+  "tokens": {
+   "raw_chart": {
+    "structured": 7625,
+    "notes": 1659,
+    "total": 9284
+   },
+   "retrieved_evidence": 881,
+   "structured_features": 1557,
+   "profile_total": 4923
+  }
+ }
+}

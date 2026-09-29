@@ -1,0 +1,31 @@
+model,scope,bin,n,mean_confidence,empirical_accuracy,brier,ece,n_total
+jev,criteria evaluated by Jev (pre-routing confidence),0.0-0.1,1,0.1,0.0,0.020822,0.038104,327
+jev,criteria evaluated by Jev (pre-routing confidence),0.1-0.2,0,,,0.020822,0.038104,327
+jev,criteria evaluated by Jev (pre-routing confidence),0.2-0.3,1,0.24,1.0,0.020822,0.038104,327
+jev,criteria evaluated by Jev (pre-routing confidence),0.3-0.4,1,0.32,1.0,0.020822,0.038104,327
+jev,criteria evaluated by Jev (pre-routing confidence),0.4-0.5,1,0.44,0.0,0.020822,0.038104,327
+jev,criteria evaluated by Jev (pre-routing confidence),0.5-0.6,0,,,0.020822,0.038104,327
+jev,criteria evaluated by Jev (pre-routing confidence),0.6-0.7,3,0.643333,1.0,0.020822,0.038104,327
+jev,criteria evaluated by Jev (pre-routing confidence),0.7-0.8,8,0.75125,0.625,0.020822,0.038104,327
+jev,criteria evaluated by Jev (pre-routing confidence),0.8-0.9,17,0.868235,0.882353,0.020822,0.038104,327
+jev,criteria evaluated by Jev (pre-routing confidence),0.9-1.0,295,0.968949,0.99661,0.020822,0.038104,327
+gpt,"same criterion set, GPT self-reported confidence",0.0-0.1,0,,,0.055835,0.03526,327
+gpt,"same criterion set, GPT self-reported confidence",0.1-0.2,0,,,0.055835,0.03526,327
+gpt,"same criterion set, GPT self-reported confidence",0.2-0.3,0,,,0.055835,0.03526,327
+gpt,"same criterion set, GPT self-reported confidence",0.3-0.4,0,,,0.055835,0.03526,327
+gpt,"same criterion set, GPT self-reported confidence",0.4-0.5,0,,,0.055835,0.03526,327
+gpt,"same criterion set, GPT self-reported confidence",0.5-0.6,0,,,0.055835,0.03526,327
+gpt,"same criterion set, GPT self-reported confidence",0.6-0.7,0,,,0.055835,0.03526,327
+gpt,"same criterion set, GPT self-reported confidence",0.7-0.8,1,0.78,0.0,0.055835,0.03526,327
+gpt,"same criterion set, GPT self-reported confidence",0.8-0.9,10,0.856,0.4,0.055835,0.03526,327
+gpt,"same criterion set, GPT self-reported confidence",0.9-1.0,316,0.975285,0.955696,0.055835,0.03526,327
+gpt,"all criteria, GPT self-reported confidence",0.0-0.1,0,,,0.024347,0.01504,750
+gpt,"all criteria, GPT self-reported confidence",0.1-0.2,0,,,0.024347,0.01504,750
+gpt,"all criteria, GPT self-reported confidence",0.2-0.3,0,,,0.024347,0.01504,750
+gpt,"all criteria, GPT self-reported confidence",0.3-0.4,0,,,0.024347,0.01504,750
+gpt,"all criteria, GPT self-reported confidence",0.4-0.5,0,,,0.024347,0.01504,750
+gpt,"all criteria, GPT self-reported confidence",0.5-0.6,0,,,0.024347,0.01504,750
+gpt,"all criteria, GPT self-reported confidence",0.6-0.7,0,,,0.024347,0.01504,750
+gpt,"all criteria, GPT self-reported confidence",0.7-0.8,1,0.78,0.0,0.024347,0.01504,750
+gpt,"all criteria, GPT self-reported confidence",0.8-0.9,10,0.856,0.4,0.024347,0.01504,750
+gpt,"all criteria, GPT self-reported confidence",0.9-1.0,739,0.989093,0.981055,0.024347,0.01504,750

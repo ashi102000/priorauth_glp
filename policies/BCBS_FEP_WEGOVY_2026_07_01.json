@@ -1,0 +1,285 @@
+{
+  "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+  "payer": "BCBS Federal Employee Program (FEP Blue)",
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "effective_date": "2026-07-01",
+  "applicability": "FEP Blue Standard and FEP Blue Basic (Wegovy on formulary, Tier 3 with PA). NOT FEP Blue Focus (non-formulary; formulary-exception criteria not modeled). Adult (18+) branch of 'Saxenda and Wegovy injection only' prior-approval requirements.",
+  "source": {
+    "title": "FEP Medical Policy 5.99.030 Saxenda Wegovy",
+    "document_id": "5.99.030",
+    "urls": [
+      "https://www.fepblue.org/-/media/PDFs/Medical-Policies/2026/July-2026/Pharmacy-Policies/Remove--Replace/5_99_030-Saxenda-Wegovy.pdf",
+      "https://info.caremark.com/content/dam/enterprise/caremark/microsites/dig/pdfs/pa-fep/fep-criteria/FEP_Criteria_Wegovy.pdf"
+    ],
+    "version_as_printed": "Effective Date: July 1, 2026; Last Review Date: June 11, 2026; Original Policy Date: September 9, 2022",
+    "retrieved_at": "2026-09-29",
+    "local_copies": [
+      "policies/sources/bcbs_fep/source_fep_5_99_030_saxenda_wegovy_2026-07-01_current.md",
+      "policies/sources/bcbs_fep/source_fep_5_99_030_saxenda_wegovy_2026-02-13.md",
+      "policies/sources/bcbs_fep/source_caremark_fep_wegovy_pa_form_rev_2026-09-18.md",
+      "policies/sources/bcbs_fep/source_fep_plan_applicability_formulary_2026.md"
+    ],
+    "version_notes": "Version in force on the cohort index date (2026-09-01). The Feb 13, 2026 version (referenced as BCBS_FEP_WEGOVY_2026_02_13) has word-for-word identical adult initial criteria; differences are quantity-limit table, PI reference date and policy history only."
+  },
+  "human_verification": {
+    "required": true,
+    "status": "verified",
+    "verified_by": "user (project owner)",
+    "verified_at": "2026-09-29",
+    "notes": "Criteria transcribed by research agent from primary PDFs and spot-checked against saved local copies. Interpretation choices (interpretation_notes) need user sign-off. Verified by user 2026-09-29: documents/versions approved as-is; interpretation choices approved (see reports/policy_verification.md and DECISIONS.md)."
+  },
+  "criteria": [
+    {
+      "criterion_id": "age",
+      "description": "Patient is 18 years of age or older (adult branch).",
+      "source_quote": "Age 12 years of age or older ... a. Age 18+, must have ONE of the following:",
+      "source_location": "p.3, Prior-Approval Requirements – Saxenda and Wegovy injection only",
+      "source_confidence": "verified_verbatim",
+      "type": "deterministic",
+      "evaluator": "code",
+      "evidence_concepts": [
+        "age"
+      ],
+      "retrieval": {
+        "resources": [
+          "Patient"
+        ],
+        "concepts": [],
+        "temporal": false
+      },
+      "params": {
+        "min_age": 18,
+        "as_of": "request_date"
+      },
+      "interpretation_notes": "Age computed from Patient.birthDate on the request date (2026-09-01)."
+    },
+    {
+      "criterion_id": "indication",
+      "description": "Requested for chronic weight management.",
+      "source_quote": "Patient must be using for the following: Chronic weight management ... AND ALL of the following:",
+      "source_location": "p.3",
+      "source_confidence": "verified_verbatim",
+      "type": "deterministic",
+      "evaluator": "code",
+      "evidence_concepts": [],
+      "retrieval": {
+        "resources": [
+          "MedicationRequest"
+        ],
+        "concepts": [],
+        "temporal": false
+      },
+      "params": {
+        "required_indication": "chronic_weight_management"
+      },
+      "interpretation_notes": "Taken from the PA request context (all cohort requests are initial Wegovy for chronic weight management)."
+    },
+    {
+      "criterion_id": "bmi_threshold",
+      "description": "BMI >= 30, OR BMI >= 27 AND (established cardiovascular disease OR at least one weight-related comorbid condition).",
+      "source_quote": "i. Body mass index (BMI) ≥ 30 kg/m2 / ii. Body mass index (BMI) ≥ 27 kg/m2 AND ONE of the following: 1. Patient has established cardiovascular disease (e.g., congenital heart disease, cerebrovascular disease, peripheral artery disease, coronary heart disease, acute coronary syndrome (ACS), myocardial infarction (MI), unstable angina, coronary or other arterial revascularization, or prior percutaneous coronary intervention/coronary bypass surgery) ... 2. Patient has at least one weight related comorbid condition (e.g., type 2 diabetes mellitus, dyslipidemia, or hypertension)",
+      "source_location": "pp.3–4",
+      "source_confidence": "verified_verbatim",
+      "type": "deterministic",
+      "evaluator": "code",
+      "evidence_concepts": [
+        "bmi",
+        "comorbidity"
+      ],
+      "retrieval": {
+        "resources": [
+          "Observation",
+          "Condition",
+          "DocumentReference"
+        ],
+        "concepts": [
+          "bmi",
+          "hypertension",
+          "dyslipidemia",
+          "type 2 diabetes",
+          "cardiovascular disease"
+        ],
+        "temporal": false
+      },
+      "params": {
+        "bmi_primary": 30.0,
+        "bmi_with_comorbidity": 27.0,
+        "bmi_source": "latest_structured_observation",
+        "qualifying_comorbidity_examples": [
+          "type 2 diabetes mellitus",
+          "dyslipidemia",
+          "hypertension"
+        ],
+        "qualifying_cvd_examples": [
+          "congenital heart disease",
+          "cerebrovascular disease",
+          "peripheral artery disease",
+          "coronary heart disease",
+          "acute coronary syndrome",
+          "myocardial infarction",
+          "unstable angina",
+          "revascularization",
+          "PCI/CABG"
+        ],
+        "comorbidity_list_is_exhaustive": false
+      },
+      "interpretation_notes": "BMI = latest recorded structured BMI Observation on/before request date (cohort-wide rule; DECISIONS.md). BMI arithmetic is code. Comorbidity is a sub-requirement only when 27 <= BMI < 30; its presence is determined from active Conditions plus narrative evidence (narrative-only comorbidity counts; resolved does not). Lists are 'e.g.' (non-exhaustive). USER-APPROVED (2026-09-29): latest recorded structured BMI governs over narrative/outside values; elevated BP without a hypertension diagnosis is CONFLICT."
+    },
+    {
+      "criterion_id": "weight_management_program",
+      "description": "Patient has participated in a comprehensive weight management program. No minimum duration stated.",
+      "source_quote": "2. Patient has participated in a comprehensive weight management program (e.g., Teladoc or another weight loss program)",
+      "source_location": "p.4",
+      "source_confidence": "verified_verbatim",
+      "type": "semantic",
+      "evaluator": "semantic",
+      "evidence_concepts": [
+        "weight_management_program",
+        "diet",
+        "exercise"
+      ],
+      "retrieval": {
+        "resources": [
+          "DocumentReference"
+        ],
+        "concepts": [
+          "weight management program",
+          "dietitian",
+          "nutrition",
+          "diet",
+          "exercise",
+          "lifestyle program",
+          "coaching"
+        ],
+        "temporal": false
+      },
+      "params": {
+        "min_duration_months": null
+      },
+      "interpretation_notes": "Policy history (Dec 2023) describes the program as one 'that encourages behavioral modification, reduced calorie diet, and increased physical activity'. Counseling-only, a solo diet-only or exercise-only effort, a declined/never-enrolled program, or vague lifestyle statements do not establish participation. USER-APPROVED (2026-09-29): literal reading — any documented past or current enrollment/participation counts, including a program later abandoned (no duration, no ongoing requirement). Declined/never-enrolled FAILS; no program documentation is INSUFFICIENT."
+    },
+    {
+      "criterion_id": "no_concurrent_glp1",
+      "description": "No dual therapy with another GLP-1 receptor agonist (Appendix 1 list; includes Ozempic, Mounjaro, Zepbound, Saxenda).",
+      "source_quote": "3. NO dual therapy with other glucagon-like peptide-1 (GLP-1) receptor agonists (see Appendix 1)",
+      "source_location": "p.4; Appendix 1 p.11",
+      "source_confidence": "verified_verbatim",
+      "type": "medication_reconciliation",
+      "evaluator": "semantic",
+      "evidence_concepts": [
+        "concurrent_aom"
+      ],
+      "retrieval": {
+        "resources": [
+          "MedicationRequest",
+          "MedicationStatement",
+          "MedicationDispense",
+          "DocumentReference"
+        ],
+        "concepts": [
+          "Ozempic",
+          "Wegovy",
+          "Saxenda",
+          "Zepbound",
+          "Mounjaro",
+          "semaglutide",
+          "tirzepatide",
+          "liraglutide",
+          "GLP-1",
+          "weight-loss injection"
+        ],
+        "temporal": true
+      },
+      "params": {
+        "glp1_list": [
+          "Trulicity",
+          "Byetta",
+          "Bydureon",
+          "Bydureon BCise",
+          "Saxenda",
+          "Victoza",
+          "Xultophy",
+          "Adlyxin",
+          "Soliqua",
+          "Ozempic",
+          "Rybelsus",
+          "Wegovy",
+          "Mounjaro",
+          "Zepbound"
+        ],
+        "exclude_requested_order": true
+      },
+      "interpretation_notes": "The draft Wegovy order under review is excluded. Switching from a GLP-1 is allowed (PA form separates 'change in therapy' from 'additional GLP-1'); only current concurrent use fails. Stopped/completed therapy does not fail. USER-APPROVED (2026-09-29): newer explicit evidence wins — a newer explicit clinical statement overrides an older structured record (PASS); newer structured evidence contradicting the narrative is CONFLICT; unknown current status is INSUFFICIENT."
+    },
+    {
+      "criterion_id": "no_concurrent_pa_weight_loss_med",
+      "description": "No dual therapy with another PA weight-loss medication (Appendix 2: phentermine, Qsymia, Contrave, Xenical/orlistat, Saxenda, Zepbound, etc.).",
+      "source_quote": "4. NO dual therapy with another Prior Authorization (PA) medication for weight loss (see Appendix 2)",
+      "source_location": "p.4; Appendix 2 p.11",
+      "source_confidence": "verified_verbatim",
+      "type": "medication_reconciliation",
+      "evaluator": "semantic",
+      "evidence_concepts": [
+        "concurrent_aom"
+      ],
+      "retrieval": {
+        "resources": [
+          "MedicationRequest",
+          "MedicationStatement",
+          "MedicationDispense",
+          "DocumentReference"
+        ],
+        "concepts": [
+          "orlistat",
+          "Xenical",
+          "phentermine",
+          "Qsymia",
+          "Contrave",
+          "Saxenda",
+          "Zepbound",
+          "Plenity",
+          "weight-loss medication"
+        ],
+        "temporal": true
+      },
+      "params": {
+        "pa_weight_loss_list": [
+          "benzphetamine",
+          "Plenity",
+          "diethylpropion",
+          "Saxenda",
+          "Contrave",
+          "Xenical",
+          "phendimetrazine",
+          "phentermine",
+          "Adipex-P",
+          "Lomaira",
+          "Qsymia",
+          "Wegovy",
+          "Imcivree",
+          "Zepbound"
+        ],
+        "exclude_requested_order": true
+      },
+      "interpretation_notes": "Same reconciliation logic as no_concurrent_glp1, over the Appendix 2 list. USER-APPROVED (2026-09-29): same conflict rule as no_concurrent_glp1."
+    }
+  ],
+  "decision_logic": {
+    "all_of": [
+      "age",
+      "indication",
+      "bmi_threshold",
+      "weight_management_program",
+      "no_concurrent_glp1",
+      "no_concurrent_pa_weight_loss_med"
+    ]
+  },
+  "out_of_scope": [
+    "FEP Blue Focus formulary-exception criteria (non-formulary; not published)",
+    "PA form-only questions (Q6 change from Zepbound; Q7 Focus tried-and-failed; 4-month continuous-therapy rule) — not policy criteria",
+    "Pediatric (12–17), MASH, Wegovy tablet sections",
+    "Quantity limits (12 pens / 84 days) and approval duration (6 months) — administrative, not readiness criteria"
+  ]
+}

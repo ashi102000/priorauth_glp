@@ -1,0 +1,445 @@
+{
+ "patient_id": "GLP1-007",
+ "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1983-12-18",
+   "age": 42,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-007-BMI-2026-08-08",
+    "date": "2026-08-08",
+    "value": 32.5
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-007-BMI-2026-01-24",
+     "date": "2026-01-24",
+     "value": 33.3
+    },
+    {
+     "resource_id": "Observation/GLP1-007-BMI-2026-05-03",
+     "date": "2026-05-03",
+     "value": 33.0
+    },
+    {
+     "resource_id": "Observation/GLP1-007-BMI-2026-08-08",
+     "date": "2026-08-08",
+     "value": 32.5
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-007-WT-2026-08-08",
+    "date": "2026-08-08",
+    "value": 83.2
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-007-WT-2026-01-24",
+     "date": "2026-01-24",
+     "value": 85.3
+    },
+    {
+     "resource_id": "Observation/GLP1-007-WT-2026-05-03",
+     "date": "2026-05-03",
+     "value": 84.5
+    },
+    {
+     "resource_id": "Observation/GLP1-007-WT-2026-08-08",
+     "date": "2026-08-08",
+     "value": 83.2
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-007-HT-2026-01-24",
+   "date": "2026-01-24",
+   "value": 160.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-007-BP-2026-08-08",
+    "date": "2026-08-08",
+    "systolic": 116.0,
+    "diastolic": 69.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-007-BP-2026-01-24",
+     "date": "2026-01-24",
+     "systolic": 122.0,
+     "diastolic": 69.0
+    },
+    {
+     "resource_id": "Observation/GLP1-007-BP-2026-05-03",
+     "date": "2026-05-03",
+     "systolic": 119.0,
+     "diastolic": 69.0
+    },
+    {
+     "resource_id": "Observation/GLP1-007-BP-2026-08-08",
+     "date": "2026-08-08",
+     "systolic": 116.0,
+     "diastolic": 69.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-007-A1C-2026-01-24",
+    "date": "2026-01-24",
+    "value": 5.4
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-007-LDL-2026-01-24",
+    "date": "2026-01-24",
+    "value": 114.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-007-HDL-2026-01-24",
+    "date": "2026-01-24",
+    "value": 52.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-007-TG-2026-01-24",
+    "date": "2026-01-24",
+    "value": 97.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-007-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2021-12-18",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-007-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2018-06-21",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-007-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2018-07-18",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-007-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2021-08-20",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-007-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2019-04-18",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-007-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-04-26",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-007-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2022-04-02",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-007-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2024-01-20",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-007-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2024-05-09",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-007-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2025-06-12",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-007-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2025-09-20",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-007-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-007-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-007-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-08",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "weight_management_program": [
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-007-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-24",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 33.3 — plan starting today:\n - Reduced-calorie meal plan of about 1600 kcal/day with food logging in a phone app.\n - Gym sessions, treadmill + light weights, 4 days a week (~150 min/week).\n - Referred to a dietitian-led weight management program.\n Follow-up in ~3 months.\n2. Low back pain — mechanical; core strengthening at gym; ibuprofen PRN sparingly.\n3. Anxiety — stable on sertraline.",
+    "score": 17.655409,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-007-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-07",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 02/07/2026\nDietitian-led weight management program intake. Food log: regular meals, but 500–700 kcal of afternoon grazing (crackers, cheese, trail mix) while working from home.\nPlan: ~1600 kcal/day, logged in phone app; scheduled 3 PM snack (≤200 kcal, pre-portioned); keep snack foods out of the office; high-fiber lunch.\nActivity: gym 4 days/week, treadmill + light weights, ~150 min/week.\nRD follow-up in 4–6 weeks.",
+    "score": 23.070815,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-007-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-03",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 05/03/2026\nS: Weight follow-up. Continues the meal plan and gym routine she started in January; logging in the app most days, gym 3–4 days/week. Good adherence most weeks. Back pain better with strengthening.\nO: Wt 84.5 kg, BMI 33.0. BP 119/69.\nA/P:\n1. Obesity — continue program and RD visits.\n2. Low back pain — improved.",
+    "score": 5.58046,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-007-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/08/2026\nS: Weight follow-up. Continues the diet and exercise plan and program follow-ups since January — logging meals, gym 4 days a week. Frustrated: weight 83.2 kg today vs 85.3 kg in January when she started (-2.5%), stuck for the last couple of months despite reported adherence. Wants to discuss medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease. Tubal ligation.\nO: Wt 83.2 kg, BMI 32.5. BP 116/69.",
+    "score": 9.025072,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-007-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 32.5 — plateau on lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects and hydration. Continue diet/gym plan. Recheck in 3 months.\n2. Migraine — note possible nausea overlap; continue sumatriptan PRN.",
+    "score": 7.660233,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_glp1": [
+   {
+    "chunk_id": "DocumentReference/GLP1-007-OSR-001#c0",
+    "resource_id": "DocumentReference/GLP1-007-OSR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-03-01",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 03/01/2025\nSource: Evergreen Family Dentistry\nMedical clearance form for two crown preparations under local anesthesia. Current meds listed: sertraline, omeprazole, sumatriptan PRN, vitamin D. No cardiac or bleeding history, no bisphosphonate use. Cleared for dental procedure, no restrictions. Signed and returned.",
+    "score": 2.607095,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-007-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-03-16",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 03/16/2025\nPt asked whether she can take St. John's wort and a magnesium supplement for mood/headaches. Advised AGAINST St. John's wort with sertraline and sumatriptan (serotonin syndrome risk, and it reduces effectiveness of many meds). Magnesium oxide 400 mg daily is reasonable for migraine prevention; may cause loose stools. Pt will skip St. John's wort.",
+    "score": 3.341945,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-IMM-001#c0",
+    "resource_id": "DocumentReference/GLP1-007-IMM-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-07-29",
+    "note_type": "Immunization visit",
+    "text": "IMMUNIZATION VISIT — 07/29/2026\nEarly-season influenza vaccine administered per pt request before travel (0.5 mL IM R deltoid). VIS reviewed. No reaction after 15 min observation.",
+    "score": 1.948211,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-007-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/08/2026\nS: Weight follow-up. Continues the diet and exercise plan and program follow-ups since January — logging meals, gym 4 days a week. Frustrated: weight 83.2 kg today vs 85.3 kg in January when she started (-2.5%), stuck for the last couple of months despite reported adherence. Wants to discuss medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease. Tubal ligation.\nO: Wt 83.2 kg, BMI 32.5. BP 116/69.",
+    "score": 1.583657,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-007-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 32.5 — plateau on lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects and hydration. Continue diet/gym plan. Recheck in 3 months.\n2. Migraine — note possible nausea overlap; continue sumatriptan PRN.",
+    "score": 5.313951,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_pa_weight_loss_med": [
+   {
+    "chunk_id": "DocumentReference/GLP1-007-OSR-001#c0",
+    "resource_id": "DocumentReference/GLP1-007-OSR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-03-01",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 03/01/2025\nSource: Evergreen Family Dentistry\nMedical clearance form for two crown preparations under local anesthesia. Current meds listed: sertraline, omeprazole, sumatriptan PRN, vitamin D. No cardiac or bleeding history, no bisphosphonate use. Cleared for dental procedure, no restrictions. Signed and returned.",
+    "score": 2.607095,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-007-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-03-16",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 03/16/2025\nPt asked whether she can take St. John's wort and a magnesium supplement for mood/headaches. Advised AGAINST St. John's wort with sertraline and sumatriptan (serotonin syndrome risk, and it reduces effectiveness of many meds). Magnesium oxide 400 mg daily is reasonable for migraine prevention; may cause loose stools. Pt will skip St. John's wort.",
+    "score": 3.341945,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-IMM-001#c0",
+    "resource_id": "DocumentReference/GLP1-007-IMM-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-07-29",
+    "note_type": "Immunization visit",
+    "text": "IMMUNIZATION VISIT — 07/29/2026\nEarly-season influenza vaccine administered per pt request before travel (0.5 mL IM R deltoid). VIS reviewed. No reaction after 15 min observation.",
+    "score": 1.948211,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-007-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/08/2026\nS: Weight follow-up. Continues the diet and exercise plan and program follow-ups since January — logging meals, gym 4 days a week. Frustrated: weight 83.2 kg today vs 85.3 kg in January when she started (-2.5%), stuck for the last couple of months despite reported adherence. Wants to discuss medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease. Tubal ligation.\nO: Wt 83.2 kg, BMI 32.5. BP 116/69.",
+    "score": 1.583657,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-007-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 32.5 — plateau on lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects and hydration. Continue diet/gym plan. Recheck in 3 months.\n2. Migraine — note possible nausea overlap; continue sumatriptan PRN.",
+    "score": 5.313951,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-007-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-24",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 01/24/2026\nS: 42 y/o F wants help with weight — gained ~9 kg over 3 years; back pain and energy worse. Eats reasonably at meals but grazes all afternoon at home office. Has a gym membership she rarely uses.\nO: Wt 85.3 kg, Ht 160 cm, BMI 33.3. BP 122/69.\nExam unremarkable.",
+    "score": 1.467303,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-007-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-03",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 05/03/2026\nS: Weight follow-up. Continues the meal plan and gym routine she started in January; logging in the app most days, gym 3–4 days/week. Good adherence most weeks. Back pain better with strengthening.\nO: Wt 84.5 kg, BMI 33.0. BP 119/69.\nA/P:\n1. Obesity — continue program and RD visits.\n2. Low back pain — improved.",
+    "score": 1.443547,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-007-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-007-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/08/2026\nS: Weight follow-up. Continues the diet and exercise plan and program follow-ups since January — logging meals, gym 4 days a week. Frustrated: weight 83.2 kg today vs 85.3 kg in January when she started (-2.5%), stuck for the last couple of months despite reported adherence. Wants to discuss medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease. Tubal ligation.\nO: Wt 83.2 kg, BMI 32.5. BP 116/69.",
+    "score": 1.296604,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 15,
+  "n_notes": 13,
+  "tokens": {
+   "raw_chart": {
+    "structured": 8528,
+    "notes": 1543,
+    "total": 10071
+   },
+   "retrieved_evidence": 890,
+   "structured_features": 1741,
+   "profile_total": 5243
+  }
+ }
+}

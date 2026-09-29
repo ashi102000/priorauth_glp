@@ -1,0 +1,285 @@
+{
+ "patient_id": "GLP1-037",
+ "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1983-12-08",
+   "age": 42,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-037-BMI-2026-08-28",
+    "date": "2026-08-28",
+    "value": 34.9
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-037-BMI-2026-01-02",
+     "date": "2026-01-02",
+     "value": 36.0
+    },
+    {
+     "resource_id": "Observation/GLP1-037-BMI-2026-07-01",
+     "date": "2026-07-01",
+     "value": 35.2
+    },
+    {
+     "resource_id": "Observation/GLP1-037-BMI-2026-08-28",
+     "date": "2026-08-28",
+     "value": 34.9
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-037-WT-2026-08-28",
+    "date": "2026-08-28",
+    "value": 95.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-037-WT-2026-01-02",
+     "date": "2026-01-02",
+     "value": 98.0
+    },
+    {
+     "resource_id": "Observation/GLP1-037-WT-2026-07-01",
+     "date": "2026-07-01",
+     "value": 95.8
+    },
+    {
+     "resource_id": "Observation/GLP1-037-WT-2026-08-28",
+     "date": "2026-08-28",
+     "value": 95.0
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-037-HT-2026-01-02",
+   "date": "2026-01-02",
+   "value": 165.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-037-BP-2026-08-28",
+    "date": "2026-08-28",
+    "systolic": 117.0,
+    "diastolic": 80.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-037-BP-2026-01-02",
+     "date": "2026-01-02",
+     "systolic": 114.0,
+     "diastolic": 74.0
+    },
+    {
+     "resource_id": "Observation/GLP1-037-BP-2026-07-01",
+     "date": "2026-07-01",
+     "systolic": 111.0,
+     "diastolic": 73.0
+    },
+    {
+     "resource_id": "Observation/GLP1-037-BP-2026-08-28",
+     "date": "2026-08-28",
+     "systolic": 117.0,
+     "diastolic": 80.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-037-A1C-2026-01-02",
+    "date": "2026-01-02",
+    "value": 5.3
+   },
+   "ldl": null,
+   "hdl": null,
+   "tg": null
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-037-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2016-01-11",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-037-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2017-12-11",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-037-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-08-07",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-037-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2022-11-07",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-037-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2023-12-03",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-037-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-28",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "lifestyle_adjunct": [
+   {
+    "chunk_id": "DocumentReference/GLP1-037-ORTH-001#c0",
+    "resource_id": "DocumentReference/GLP1-037-ORTH-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-09-12",
+    "note_type": "Orthopedics consult",
+    "text": "ORTHOPEDICS — 09/12/2024\n40 y/o F, left shoulder pain with overhead reaching x 3 months. Positive impingement signs, cuff strength intact.\nDx: left shoulder impingement. Subacromial injection; home exercise program for rotator cuff 5x/week. Follow-up 6 weeks.",
+    "score": 6.1681,
+    "reason": "earliest_relevant"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-037-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-037-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-02",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 01/02/2026\nS: 42 y/o F wants to lose weight in the new year; ankle healed. Evening snacking and takeout. Employer offers a weight management program with coaching.\nO: Wt 98.0 kg, Ht 165 cm, BMI 36.0. BP 114/74.\nExam unremarkable.",
+    "score": 11.394108,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-037-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-037-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-02",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 36.0 — plan starting today:\n - Calorie tracking, ~1400 kcal/day; cut late-night snacking and takeout.\n - Gym sessions (treadmill + light weights) 3 days a week, ~150 min/week.\n - Enrolling in the employer-sponsored weight management program with monthly coaching.\n Follow-up visits planned.\n2. Anxiety — stable on sertraline.\n3. GERD — stable.",
+    "score": 22.301418,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-037-MSG-002#c0",
+    "resource_id": "DocumentReference/GLP1-037-MSG-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-31",
+    "note_type": "Patient portal message",
+    "text": "PATIENT PORTAL MESSAGE — 03/31/2026\nPt: \"Just letting you know I stopped going to the weight program and stopped the meal plan this month — my mom had surgery and I'm taking care of her. I'll try to get back to it later.\"\nReply (RN): Sorry to hear about your mom. Let us know when you're ready to restart; we can reconnect you with the program.",
+    "score": 11.123743,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-037-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-037-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-07-01",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 07/01/2026\nS: Follow-up. Mother recovering. Ready to get back on track — restarting the diet and walking plan today after a ~3-month break (walking instead of the gym for now, 30 min most days; calorie tracking again). Will rejoin program coaching.\nO: Wt 95.8 kg, BMI 35.2. BP 111/73.\nA/P:\n1. Obesity — restarting lifestyle plan; program re-referral sent.\n2. Anxiety — stable, some caregiver stress; counseling resources given.",
+    "score": 14.998075,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-037-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-037-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-28",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/28/2026\nS: Follow-up. Back on the diet and walking plan since July; tracking most days and back in program coaching. Weight 95.0 kg today vs 98.0 kg when she first started the lifestyle plan in January (-3.1%). Frustrated with slow progress. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 95.0 kg, BMI 34.9. BP 117/80.",
+    "score": 11.897738,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-037-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-037-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-06-16",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 06/16/2025\nPt asked about magnesium and melatonin for sleep. No interactions with sertraline or omeprazole (long-term omeprazole can lower magnesium — supplement reasonable). OK to use.",
+    "score": 2.851532,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-037-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-037-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-02",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 01/02/2026\nS: 42 y/o F wants to lose weight in the new year; ankle healed. Evening snacking and takeout. Employer offers a weight management program with coaching.\nO: Wt 98.0 kg, Ht 165 cm, BMI 36.0. BP 114/74.\nExam unremarkable.",
+    "score": 1.451046,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-037-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-037-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-07-01",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 07/01/2026\nS: Follow-up. Mother recovering. Ready to get back on track — restarting the diet and walking plan today after a ~3-month break (walking instead of the gym for now, 30 min most days; calorie tracking again). Will rejoin program coaching.\nO: Wt 95.8 kg, BMI 35.2. BP 111/73.\nA/P:\n1. Obesity — restarting lifestyle plan; program re-referral sent.\n2. Anxiety — stable, some caregiver stress; counseling resources given.",
+    "score": 1.149775,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-037-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-037-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-28",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/28/2026\nS: Follow-up. Back on the diet and walking plan since July; tracking most days and back in program coaching. Weight 95.0 kg today vs 98.0 kg when she first started the lifestyle plan in January (-3.1%). Frustrated with slow progress. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 95.0 kg, BMI 34.9. BP 117/80.",
+    "score": 1.204124,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 17,
+  "n_notes": 15,
+  "tokens": {
+   "raw_chart": {
+    "structured": 5894,
+    "notes": 1148,
+    "total": 7042
+   },
+   "retrieved_evidence": 633,
+   "structured_features": 1131,
+   "profile_total": 3056
+  }
+ }
+}

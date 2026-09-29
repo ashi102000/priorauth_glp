@@ -1,0 +1,15 @@
+{
+  "warning": "EVALUATION ONLY \u2014 never send to models or HAPI",
+  "final_states": [
+    "READY",
+    "NOT_READY",
+    "REVIEW_REQUIRED"
+  ],
+  "binary_mapping": {
+    "READY": true,
+    "NOT_READY": false,
+    "REVIEW_REQUIRED": false
+  },
+  "policy_evaluations": "Generate after exact policy JSONs are locked",
+  "evidence_annotations": "Generate alongside FHIR resources"
+}

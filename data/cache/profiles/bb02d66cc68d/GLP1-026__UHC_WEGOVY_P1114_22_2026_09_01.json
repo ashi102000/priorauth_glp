@@ -1,0 +1,368 @@
+{
+ "patient_id": "GLP1-026",
+ "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1991-03-23",
+   "age": 35,
+   "gender": "male"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-026-BMI-2026-08-13",
+    "date": "2026-08-13",
+    "value": 35.7
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-026-BMI-2025-01-10",
+     "date": "2025-01-10",
+     "value": 36.8
+    },
+    {
+     "resource_id": "Observation/GLP1-026-BMI-2026-05-15",
+     "date": "2026-05-15",
+     "value": 35.9
+    },
+    {
+     "resource_id": "Observation/GLP1-026-BMI-2026-08-13",
+     "date": "2026-08-13",
+     "value": 35.7
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-026-WT-2026-08-13",
+    "date": "2026-08-13",
+    "value": 105.6
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-026-WT-2025-01-10",
+     "date": "2025-01-10",
+     "value": 108.9
+    },
+    {
+     "resource_id": "Observation/GLP1-026-WT-2026-05-15",
+     "date": "2026-05-15",
+     "value": 106.3
+    },
+    {
+     "resource_id": "Observation/GLP1-026-WT-2026-08-13",
+     "date": "2026-08-13",
+     "value": 105.6
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-026-HT-2025-01-10",
+   "date": "2025-01-10",
+   "value": 172.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-026-BP-2026-08-13",
+    "date": "2026-08-13",
+    "systolic": 136.0,
+    "diastolic": 86.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-026-BP-2025-01-10",
+     "date": "2025-01-10",
+     "systolic": 140.0,
+     "diastolic": 90.0
+    },
+    {
+     "resource_id": "Observation/GLP1-026-BP-2026-05-15",
+     "date": "2026-05-15",
+     "systolic": 138.0,
+     "diastolic": 80.0
+    },
+    {
+     "resource_id": "Observation/GLP1-026-BP-2026-08-13",
+     "date": "2026-08-13",
+     "systolic": 136.0,
+     "diastolic": 86.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-026-A1C-2025-01-10",
+    "date": "2025-01-10",
+    "value": 5.2
+   },
+   "ldl": null,
+   "hdl": null,
+   "tg": null
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-026-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2024-01-13",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-026-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2017-04-24",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-026-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2019-02-07",
+    "abatement": null,
+    "weight_related": true
+   },
+   {
+    "resource_id": "Condition/GLP1-026-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2016-11-16",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-026-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2022-04-12",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-026-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-05-13",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-026-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2023-02-19",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [
+   {
+    "resource_id": "Condition/GLP1-026-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2019-02-07",
+    "abatement": null,
+    "weight_related": true
+   }
+  ],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-026-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2021-02-17",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-026-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2022-10-04",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-026-LISINOPRIL",
+    "resource_type": "MedicationRequest",
+    "text": "lisinopril 10 mg PO daily",
+    "status": "active",
+    "date": "2023-07-14",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-026-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-026-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-026-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-026-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-13",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "lifestyle_adjunct": [
+   {
+    "chunk_id": "DocumentReference/GLP1-026-OSR-001#c0",
+    "resource_id": "DocumentReference/GLP1-026-OSR-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-09-10",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 09/10/2024\nSource: Greenfield Dental\nClearance for deep cleaning under local anesthetic. HTN on lisinopril; no anticoagulants. Cleared, no restrictions.",
+    "score": 2.886134,
+    "reason": "earliest_relevant"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-026-ORTH-001#c0",
+    "resource_id": "DocumentReference/GLP1-026-ORTH-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-24",
+    "note_type": "Orthopedics consult",
+    "text": "ORTHOPEDICS — 04/24/2026\n35 y/o M, R-handed, 6 weeks of left shoulder pain with reaching overhead and at night. Painful arc, positive Neer/Hawkins, cuff strength intact.\nDx: left shoulder impingement.\nPlan: subacromial injection; home exercise program for rotator cuff and scapular stabilization 5x/week; activity modification. Follow-up 6 weeks.",
+    "score": 10.740398,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-026-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-026-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-15",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 05/15/2026\nS: 35 y/o M follow-up BP and weight. He has been working on eating less fast food and walking more; says it's \"going OK.\" Shoulder better after injection. Mood stable.\nO: Wt 106.3 kg, BMI 35.9. BP 138/80.",
+    "score": 7.406989,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-026-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-026-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-15",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity — continue efforts with food choices and walking; encouraged.\n2. HTN — BP 138/80 on lisinopril 10 mg daily; continue.\n3. Anxiety — stable on sertraline.",
+    "score": 3.405368,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-026-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-026-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-13",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/13/2026\nS: Follow-up. He has been working on diet and exercise for the past several months — cutting back on fast food, walking most evenings. Weight 105.6 kg today, little change. Discouraged. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 105.6 kg, BMI 35.7. BP 136/86.",
+    "score": 9.245076,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-026-PCP-002#c1",
+    "resource_id": "DocumentReference/GLP1-026-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-13",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 35.7 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue diet and walking. Recheck in 3 months.\n2. Hypertension: BP 136/86 on lisinopril 10 mg daily; continue.",
+    "score": 8.820937,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-026-OSR-001#c0",
+    "resource_id": "DocumentReference/GLP1-026-OSR-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-09-10",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 09/10/2024\nSource: Greenfield Dental\nClearance for deep cleaning under local anesthetic. HTN on lisinopril; no anticoagulants. Cleared, no restrictions.",
+    "score": 2.278859,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-026-UC-001#c0",
+    "resource_id": "DocumentReference/GLP1-026-UC-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-01",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 03/01/2026\n34 y/o M with coughing and wheeze a few minutes into jogging outside in the cold; resolves with rest. No symptoms at rest. SpO2 98%, lungs clear.\nDx: exercise-induced bronchospasm. Albuterol 2 puffs 15 min before exertion; warm up; mask/scarf in cold air.",
+    "score": 2.195304,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-026-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-026-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-15",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 05/15/2026\nS: 35 y/o M follow-up BP and weight. He has been working on eating less fast food and walking more; says it's \"going OK.\" Shoulder better after injection. Mood stable.\nO: Wt 106.3 kg, BMI 35.9. BP 138/80.",
+    "score": 1.447842,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-026-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-026-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-15",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity — continue efforts with food choices and walking; encouraged.\n2. HTN — BP 138/80 on lisinopril 10 mg daily; continue.\n3. Anxiety — stable on sertraline.",
+    "score": 3.564309,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-026-PCP-002#c1",
+    "resource_id": "DocumentReference/GLP1-026-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-13",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 35.7 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue diet and walking. Recheck in 3 months.\n2. Hypertension: BP 136/86 on lisinopril 10 mg daily; continue.",
+    "score": 3.420403,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 16,
+  "n_notes": 14,
+  "tokens": {
+   "raw_chart": {
+    "structured": 7448,
+    "notes": 1106,
+    "total": 8554
+   },
+   "retrieved_evidence": 544,
+   "structured_features": 1674,
+   "profile_total": 3536
+  }
+ }
+}

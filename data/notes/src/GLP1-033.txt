@@ -1,0 +1,105 @@
+=== GLP1-033-OSR-001
+OUTSIDE RECORDS — SCANNED — 09/09/2024
+Source: Maple Dental
+
+Clearance for crown #14. No anticoagulants. Cleared without restrictions.
+
+=== GLP1-033-MSG-001
+PATIENT PORTAL MESSAGE — 09/20/2024
+
+Pt: "Need to reschedule my October visit — also a work note for 9/18 when I left sick."
+MA reply: Rescheduled to 10/14. Work note uploaded.
+
+=== GLP1-033-MSG-002
+PATIENT PORTAL MESSAGE — 11/19/2024
+
+Pt: "The community center pool wants my immunization record for their membership. Can you send it?"
+MA reply: Uploaded to your documents.
+
+=== GLP1-033-LAB-001
+LAB RESULT NOTE — 06/11/2025
+
+CBC and CMP within normal limits. No action needed.
+
+=== GLP1-033-PHARM-001
+PHARMACIST MEDICATION REVIEW — 09/02/2025
+
+Pt asked about 5-HTP for mood/sleep. Advised AGAINST combining 5-HTP with sertraline (serotonin syndrome risk). Melatonin acceptable. Pt will not take 5-HTP.
+
+=== GLP1-033-LAB-002
+LAB RESULT NOTE — 09/21/2025
+
+TSH 1.52 mIU/L — within normal limits. No thyroid follow-up needed.
+
+=== GLP1-033-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 10/08/2025
+
+S: 48 y/o F wants to lose weight; knees and energy bothering her. Evening snacking, large portions. Has a stationary bike in the basement she hasn't used.
+
+O: Wt 113.1 kg, Ht 172 cm, BMI 38.2. BP 122/76.
+Exam unremarkable.
+
+A/P:
+1. Obesity, BMI 38.2 — plan starting today:
+ - Portion-controlled plate method with a daily food diary, ~1400 kcal/day.
+ - Stationary bike 30–40 minutes 5 days a week.
+ - Referred to a dietitian-led weight management program.
+ Follow-up visits planned.
+2. Anxiety — stable on sertraline.
+
+=== GLP1-033-TEL-001
+TELEPHONE ENCOUNTER — 01/09/2026
+
+Pt called to reschedule missed dietitian visit. States she "fell off" the meal plan over the holidays and hasn't been on the bike or walking since Thanksgiving. Will try to get back on track in the new year. Dietitian visit rescheduled for March (first available).
+
+=== GLP1-033-NUTR-001
+NUTRITION FOLLOW-UP
+Date: 03/13/2026
+
+Returning after a break. Restarting meal plan — portion-controlled plate method with a daily food diary, ~1400 kcal/day. Reviewed barriers (holiday travel, caregiving for mother).
+Resuming exercise: walking and stationary bike, starting 3x/week and building up.
+Follow-up in 6 weeks.
+
+=== GLP1-033-GI-001
+GASTROENTEROLOGY PROCEDURE NOTE — 03/23/2026
+
+Screening colonoscopy, age 49.
+Prep: clear liquid diet day before, split-dose; good prep.
+Findings: two small sessile polyps (4 mm) in descending colon, removed. Otherwise normal.
+Plan: resume regular diet; pathology pending.
+
+=== GLP1-033-LAB-003
+LAB RESULT NOTE — 04/20/2026
+
+25-OH vitamin D 29 ng/mL — low-normal. Suggest OTC vitamin D3 1000–2000 IU daily.
+
+=== GLP1-033-OSR-002
+OUTSIDE RECORDS — SCANNED — 05/11/2026
+Source: Parkview ED, visit 05/07/2026
+
+49 y/o F, right flank pain. CT: 4 mm right ureteral stone. Ketorolac, tamsulosin. Passed 05/09. Urology PRN.
+
+=== GLP1-033-UC-001
+URGENT CARE — 07/08/2026
+
+49 y/o F with cough and wheeze starting a few minutes into early-morning jogs, especially on humid, high-pollen days; resolves with rest. Vitals: Wt 110.4 kg, BMI 37.3, BP 123/80.
+Exam: lungs clear at rest, SpO2 98%.
+Dx: exercise-induced bronchospasm. Albuterol 2 puffs 15 min before exertion.
+
+=== GLP1-033-TEL-002
+TELEPHONE ENCOUNTER — 07/24/2026
+
+Refill: cetirizine 10 mg daily PRN — summer pollen. Sent to pharmacy.
+
+=== GLP1-033-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 08/17/2026
+
+S: Follow-up. Has been on and off with the meal plan and exercise since last fall — stopped over the holidays, restarted in March, and more consistent since spring (food diary most days, bike/walking/jogging 3–4x/week). Frustrated: weight 110.3 kg today vs 113.1 kg when the lifestyle plan began (-2.5%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis.
+
+O: Wt 110.3 kg, BMI 37.3. BP 118/79.
+
+A/P:
+1. Obesity, BMI 37.3 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue meal plan and exercise. Recheck in 3 months.
+2. Anxiety — stable.

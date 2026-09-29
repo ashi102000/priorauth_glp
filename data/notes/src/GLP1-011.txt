@@ -1,0 +1,86 @@
+=== GLP1-011-IMM-001
+IMMUNIZATION VISIT — 11/21/2024
+
+Seasonal influenza vaccine 0.5 mL IM, L deltoid. Screening questions negative (no egg allergy concerns, no GBS history, not ill today). VIS provided. Observed 15 minutes — no reaction. Next due fall 2025.
+
+=== GLP1-011-MSG-001
+PATIENT PORTAL MESSAGE — 03/20/2025
+
+Pt: "Can I move my 3/24 appt? I have a migraine flare this week and had to leave work early on Tuesday — can I get a note for that too?"
+MA reply: Moved to 04/02 at 3:40 PM. Work note for 03/18 uploaded to documents. If headaches are more frequent than usual, please let us know — Dr. can review preventive options at the visit.
+
+=== GLP1-011-LAB-001
+LAB RESULT NOTE — 08/28/2025
+
+25-OH vitamin D 31 ng/mL — low-normal range, improved from last year on supplement. Continue vitamin D3 2000 IU daily. No recheck needed for 1–2 years.
+
+=== GLP1-011-TEL-001
+TELEPHONE ENCOUNTER — 10/16/2025
+
+Pt called to confirm lab appointment time on 10/20 and ask whether to fast. Confirmed 8:00 AM. Fasting not required for the ordered tests (CBC, ferritin), but OK to fast if more convenient. Take usual meds. Pt understood.
+
+=== GLP1-011-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/11/2025
+
+S: 35 y/o F would like to lose weight. Gained ~6 kg over the last two years after changing to a remote job; feels her clothes don't fit and energy is lower. Eats well at meals but snacks through the day. Used to swim competitively in college.
+
+O: Wt 73.6 kg, Ht 170 cm, BMI 25.5. BP 112/75.
+Exam unremarkable.
+
+A/P:
+1. Weight gain / BMI 25.5 — wants a structured plan. Starting today:
+ - Reduced-calorie meal plan of about 1500 kcal/day, food logging in a phone app.
+ - Water aerobics / lap swimming at the Y, 4 times a week.
+ - Enrolled in the clinic's Healthy Weight lifestyle program; RD intake to follow.
+ Follow-up in ~3 months.
+2. Migraine — ~2/month, sumatriptan effective.
+3. Eczema — stable.
+
+=== GLP1-011-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 12/27/2025
+
+Healthy Weight program intake. 4-day food log: regular meals; frequent grazing on crackers/granola bars while working; wine 3–4 nights/week.
+Plan: ~1500 kcal/day logged in phone app; set snack times (10 AM, 3 PM); keep snacks out of the workspace; wine limited to 2 nights/week.
+Activity: lap swimming / water aerobics 4x/week.
+RD follow-up in ~6 weeks.
+
+=== GLP1-011-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 02/28/2026
+
+S: Follow-up. Continues the meal plan and swimming routine started in December; logging most days, pool 3–4 times a week. Good adherence most weeks.
+
+O: Wt 72.9 kg, BMI 25.2. BP 115/74.
+
+A/P:
+1. Weight management — continue current plan and program visits.
+2. GERD — stable on omeprazole.
+
+=== GLP1-011-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 05/17/2026
+
+Food log reviewed: adherent most days, averaging ~1500–1600 kcal. Snacking now scheduled.
+Adjustments: add protein to afternoon snack, lighter weekend brunches.
+Reports she keeps up with swimming 4x/week.
+Continue program; next visit ~2–3 months.
+
+=== GLP1-011-OSR-001
+OUTSIDE RECORDS — SCANNED — 06/25/2026
+Source: Lakeview Hospital Emergency Department, visit 06/21/2026
+
+35 y/o F with sudden right flank pain, nausea. UA: large blood. CT: 3 mm right distal ureteral stone, no hydronephrosis. Ketorolac, ondansetron; discharged with tamsulosin and strainer. Passed stone the next day per patient call. Urology follow-up as needed; increase fluids.
+
+=== GLP1-011-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/11/2026
+
+S: Weight follow-up. Continues the diet and exercise plan and program visits since December — logging meals, swimming regularly. Frustrated: weight 71.7 kg today vs 73.6 kg when the plan began (-2.6%), no change since spring despite reported adherence. Asks about medication; a friend is on Wegovy. No MTC/MEN2 history, no pancreatitis. On OCP.
+
+O: Wt 71.7 kg, BMI 24.8. BP 116/72.
+
+A/P:
+1. Weight management, BMI 24.8 — patient strongly prefers to try medication. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue diet and swimming. Recheck in 3 months.
+2. Migraine — stable.

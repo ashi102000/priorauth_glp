@@ -1,0 +1,104 @@
+=== GLP1-012-OSR-001
+OUTSIDE RECORDS — SCANNED — 02/24/2025
+Source: Summit Oral Surgery
+
+Medical clearance request for extraction of impacted #17 and #32 under IV sedation. Reviewed: HTN controlled on losartan, no anticoagulants, no cardiac history, no bleeding disorder. OK to proceed; continue losartan morning of procedure with sip of water. No restrictions.
+
+=== GLP1-012-OSR-002
+OUTSIDE RECORDS — SCANNED — 06/25/2025
+Source: Regional Medical Center ED, visit 06/21/2025
+
+40 y/o M, acute left flank pain, vomiting. UA: moderate blood, no infection. CT: 4 mm left mid-ureteral stone, mild hydronephrosis. IV fluids, ketorolac, ondansetron. Discharged with tamsulosin, strainer. ED callback 06/23: stone passed. Urology PRN.
+
+=== GLP1-012-LAB-001
+LAB RESULT NOTE — 08/02/2025
+
+CBC and CMP within normal limits (Cr 1.01, K 4.6 on losartan, glucose 91, LFTs normal). No action needed.
+
+=== GLP1-012-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 11/08/2025
+
+S: 41 y/o M here for BP and weight. Says his BP was high at a work health screening. Eats out most lunches, snacks at night, desk job. Would like to lose weight "before it gets worse."
+
+O: Wt 79.4 kg, Ht 172 cm, BMI 26.8. BP 141/81.
+Exam: CV/lungs normal.
+
+A/P:
+1. Overweight, BMI 26.8 — starting today:
+ - Reduced-calorie meal plan of about 1600 kcal/day with food logging in a phone app.
+ - Brisk walking with a coworker at lunch, 5 days a week.
+ - Enrolling in employer-sponsored weight management program with monthly coaching.
+ Follow-up in ~3 months.
+2. Hypertension: BP 141/81 on losartan 50 mg daily; continue, home BP log; reassess next visit.
+3. Anxiety — stable on sertraline.
+
+=== GLP1-012-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 11/21/2025
+
+Employer program RD intake. Food recall: restaurant lunches, chips/pretzels at night, 2–3 beers on weekends, low vegetable intake.
+Plan: ~1600 kcal/day logged in phone app; pack lunch 3x/week; evening snack pre-portioned; low-sodium choices given HTN.
+Activity: brisk walking with coworker at lunch 5 days/week.
+Monthly coaching calls; RD follow-up ~6 weeks.
+
+=== GLP1-012-TEL-001
+TELEPHONE ENCOUNTER — 12/25/2025
+
+Pt requesting refill of cetirizine 10 mg — indoor allergies worse with holiday decorations/dust. Refill sent. Advised it is also available OTC.
+
+=== GLP1-012-MSG-001
+PATIENT PORTAL MESSAGE — 01/18/2026
+
+Pt: "My new gym wants proof I'm up to date on tetanus for their climbing wall waiver. Can you send my immunization record?"
+MA reply: Immunization record printed to your documents (Tdap 2019, flu 10/2025). Let us know if the gym needs a signed form.
+
+=== GLP1-012-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 02/08/2026
+
+S: Follow-up. Continues the meal plan and lunchtime walks started in November; logging most days, monthly coaching calls. Good adherence most weeks, slipped over the holidays.
+
+O: Wt 79.6 kg, BMI 26.9. BP 138/82.
+
+A/P:
+1. Overweight — continue program.
+2. HTN — home readings 130s/80s; continue losartan.
+
+=== GLP1-012-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 05/15/2026
+
+Reviewed food log: adherent most days; lunches packed 3–4x/week. Weekend beer down to 1–2.
+Adjustments: swap evening chips for popcorn, measured portions of nuts.
+Reports keeping up with lunchtime walking.
+Continue coaching.
+
+=== GLP1-012-LAB-002
+LAB RESULT NOTE — 05/18/2026
+
+25-OH vitamin D 32 ng/mL — low-normal. Continue vitamin D3 2000 IU daily.
+
+=== GLP1-012-UC-001
+URGENT CARE — 07/04/2026
+
+42 y/o M with 2 days dysuria and frequency, no fever or flank pain. UA: + nitrite, + LE. Culture sent.
+Dx: acute cystitis. Nitrofurantoin 100 mg BID x 7 days. Hydrate. PCP follow-up given male UTI — consider further evaluation if recurrent.
+
+=== GLP1-012-MSG-002
+PATIENT PORTAL MESSAGE — 07/14/2026
+
+Pt: "Going to Mexico (Oaxaca) in October — anything I need?"
+RN reply: Hepatitis A and typhoid recommended; confirm routine vaccines. Food/water precautions. Book a travel visit 4 weeks before departure.
+
+=== GLP1-012-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/08/2026
+
+S: Weight and BP follow-up. Continues the diet and exercise plan and monthly program coaching since November. Walking at lunch most weekdays, packing lunch. Frustrated — weight 78.7 kg today vs 79.4 kg when he started (-0.9%) despite reported adherence. Asks about Wegovy. No MTC/MEN2 history, no pancreatitis. UTI resolved.
+
+O: Wt 78.7 kg, BMI 26.6. BP 134/83.
+
+A/P:
+1. Overweight, BMI 26.6, with hypertension — minimal response to lifestyle plan. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue diet/walking. Recheck in 3 months.
+2. Hypertension: BP 134/83 on losartan 50 mg daily; continue.

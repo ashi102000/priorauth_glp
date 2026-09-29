@@ -1,0 +1,106 @@
+=== GLP1-007-UC-001
+URGENT CARE — 09/21/2024
+
+40 y/o F, 4 days of congestion, sneezing, sore throat, and cough. No fever, no SOB. Kids had colds last week. Home COVID test negative.
+Exam: afebrile, clear rhinorrhea, pharynx mildly red without exudate, lungs clear.
+Dx: viral URI. Supportive care, saline rinse, honey, acetaminophen. Expected course 7–10 days; return if worsening or fever.
+
+=== GLP1-007-ORTH-001
+ORTHOPEDICS CONSULT — 11/13/2024
+
+40 y/o F, inverted R ankle on stairs 3 days ago; swelling and lateral pain, able to walk with limp.
+Exam: ATFL tenderness, mild swelling, no bony tenderness at malleoli or base of 5th MT; anterior drawer mildly lax vs L. Neurovascularly intact. X-rays (UC): no fracture.
+Dx: grade II R lateral ankle sprain.
+Plan: CAM boot 1–2 weeks, weight-bearing as tolerated in boot, ice/elevation, ibuprofen PRN with food. Begin ankle ROM and balance exercises at 2 weeks. Return 4 weeks or sooner if unable to bear weight.
+
+=== GLP1-007-OSR-001
+OUTSIDE RECORDS — SCANNED — 03/01/2025
+Source: Evergreen Family Dentistry
+
+Medical clearance form for two crown preparations under local anesthesia. Current meds listed: sertraline, omeprazole, sumatriptan PRN, vitamin D. No cardiac or bleeding history, no bisphosphonate use. Cleared for dental procedure, no restrictions. Signed and returned.
+
+=== GLP1-007-PHARM-001
+PHARMACIST MEDICATION REVIEW — 03/16/2025
+
+Pt asked whether she can take St. John's wort and a magnesium supplement for mood/headaches. Advised AGAINST St. John's wort with sertraline and sumatriptan (serotonin syndrome risk, and it reduces effectiveness of many meds). Magnesium oxide 400 mg daily is reasonable for migraine prevention; may cause loose stools. Pt will skip St. John's wort.
+
+=== GLP1-007-OSR-002
+OUTSIDE RECORDS — SCANNED — 05/03/2025
+Source: Riverside Emergency Department, visit 04/29/2025
+
+41 y/o F with left flank pain and hematuria. CT: 3 mm left distal ureteral stone, no obstruction. Pain controlled with ketorolac. Discharged with tamsulosin and strainer.
+Follow-up note 05/01: stone passed at home. Recommend fluids; urology follow-up PRN.
+
+=== GLP1-007-DERM-001
+DERMATOLOGY CONSULT — 12/06/2025
+
+41 y/o F referred for "growing mole" on mid back. Exam: 8 mm stuck-on, waxy, tan-brown papule with keratin cysts on dermoscopy, consistent with seborrheic keratosis; irritated from bra strap. Several smaller SKs on trunk. No atypical nevi.
+Plan: reassurance; cryotherapy to the irritated lesion today (LN2, 2 freeze-thaw cycles). Wound care reviewed. Skin check in 1–2 years.
+
+=== GLP1-007-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 01/24/2026
+
+S: 42 y/o F wants help with weight — gained ~9 kg over 3 years; back pain and energy worse. Eats reasonably at meals but grazes all afternoon at home office. Has a gym membership she rarely uses.
+
+O: Wt 85.3 kg, Ht 160 cm, BMI 33.3. BP 122/69.
+Exam unremarkable.
+
+A/P:
+1. Obesity, BMI 33.3 — plan starting today:
+ - Reduced-calorie meal plan of about 1600 kcal/day with food logging in a phone app.
+ - Gym sessions, treadmill + light weights, 4 days a week (~150 min/week).
+ - Referred to a dietitian-led weight management program.
+ Follow-up in ~3 months.
+2. Low back pain — mechanical; core strengthening at gym; ibuprofen PRN sparingly.
+3. Anxiety — stable on sertraline.
+
+=== GLP1-007-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 02/07/2026
+
+Dietitian-led weight management program intake. Food log: regular meals, but 500–700 kcal of afternoon grazing (crackers, cheese, trail mix) while working from home.
+Plan: ~1600 kcal/day, logged in phone app; scheduled 3 PM snack (≤200 kcal, pre-portioned); keep snack foods out of the office; high-fiber lunch.
+Activity: gym 4 days/week, treadmill + light weights, ~150 min/week.
+RD follow-up in 4–6 weeks.
+
+=== GLP1-007-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 05/03/2026
+
+S: Weight follow-up. Continues the meal plan and gym routine she started in January; logging in the app most days, gym 3–4 days/week. Good adherence most weeks. Back pain better with strengthening.
+
+O: Wt 84.5 kg, BMI 33.0. BP 119/69.
+
+A/P:
+1. Obesity — continue program and RD visits.
+2. Low back pain — improved.
+
+=== GLP1-007-DERM-002
+DERMATOLOGY — 05/11/2026
+
+Flare of facial redness and small papules on cheeks/nose x 1 month; worse with hot drinks and sun. No comedones.
+Dx: papulopustular rosacea, mild.
+Plan: metronidazole 0.75% gel daily, daily SPF 30+, gentle cleanser; avoid triggers. Follow-up 3 months.
+
+=== GLP1-007-IMM-001
+IMMUNIZATION VISIT — 07/29/2026
+
+Early-season influenza vaccine administered per pt request before travel (0.5 mL IM R deltoid). VIS reviewed. No reaction after 15 min observation.
+
+=== GLP1-007-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/08/2026
+
+S: Weight follow-up. Continues the diet and exercise plan and program follow-ups since January — logging meals, gym 4 days a week. Frustrated: weight 83.2 kg today vs 85.3 kg in January when she started (-2.5%), stuck for the last couple of months despite reported adherence. Wants to discuss medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease. Tubal ligation.
+
+O: Wt 83.2 kg, BMI 32.5. BP 116/69.
+
+A/P:
+1. Obesity, BMI 32.5 — plateau on lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects and hydration. Continue diet/gym plan. Recheck in 3 months.
+2. Migraine — note possible nausea overlap; continue sumatriptan PRN.
+
+=== GLP1-007-TEL-001
+TELEPHONE ENCOUNTER — 08/25/2026
+
+Pt called asking for an allergy prescription for late-summer symptoms (ragweed) — sneezing, itchy eyes. Advised OTC cetirizine 10 mg daily PRN and saline rinses; no prescription needed. Call back if not controlled — could add intranasal steroid.

@@ -1,0 +1,94 @@
+=== GLP1-050-ORTH-001
+ORTHOPEDICS — 12/27/2024
+
+27 y/o M, left shoulder pain lifting overhead at the gym. Vitals: Wt 93.5 kg, BMI 35.2, BP 128/84.
+Positive impingement signs, strength intact.
+Dx: left shoulder impingement. Subacromial injection; home exercise program for rotator cuff daily; avoid overhead pressing for 4 weeks.
+
+=== GLP1-050-TEL-001
+TELEPHONE ENCOUNTER — 01/09/2025
+
+Refill: cetirizine 10 mg daily PRN — dust allergy. Sent to pharmacy.
+
+=== GLP1-050-OSR-001
+OUTSIDE RECORDS — SCANNED — 01/29/2025
+Source: General Hospital ED, visit 01/25/2025
+
+27 y/o M, left flank pain radiating to groin. CT: 4 mm left UVJ stone. Ketorolac, tamsulosin; passed 01/27. Urology PRN.
+
+=== GLP1-050-PT-001
+PHYSICAL THERAPY — 03/14/2025
+
+Mechanical low back pain after moving furniture, 3 weeks; no radicular signs.
+Plan of care: 6 visits; core stabilization home exercise program daily; lifting mechanics.
+
+=== GLP1-050-PHARM-001
+PHARMACIST MEDICATION REVIEW — 06/04/2025
+
+Pt asked about creatine and a pre-workout powder. Pre-workout has high caffeine — may raise BP (on amlodipine) and worsen anxiety; suggested avoiding or using a caffeine-free version. Creatine OK with hydration.
+
+=== GLP1-050-ORTH-002
+ORTHOPEDICS — 07/19/2025
+
+27 y/o M rolled right ankle on stairs. ATFL tenderness, swelling; Ottawa negative.
+Dx: R lateral ankle sprain. CAM boot, weight-bearing as tolerated in boot, ice/elevation; rehab exercises at 2 weeks.
+
+=== GLP1-050-LAB-001
+LAB RESULT NOTE — 08/14/2025
+
+25-OH vitamin D 34 ng/mL — normal. No supplement needed.
+
+=== GLP1-050-TEL-002
+TELEPHONE ENCOUNTER — 09/30/2025
+
+Pt confirmed lab appointment 10/03 at 7:30 AM; fasting 10–12 hours, water OK; take amlodipine as usual. Understood.
+
+=== GLP1-050-MSG-001
+PATIENT PORTAL MESSAGE — 11/15/2025
+
+Pt: "My gym is asking for my immunization record for their paperwork. Can you send it?"
+MA reply: Uploaded.
+
+=== GLP1-050-LAB-002
+LAB RESULT NOTE — 11/27/2025
+
+CBC and CMP within normal limits. No action needed.
+
+=== GLP1-050-MSG-002
+PATIENT PORTAL MESSAGE — 03/12/2026
+
+Pt: "Can I move my appointment to April? And need a work note for 3/10."
+MA reply: Moved to 04/12. Note uploaded.
+
+=== GLP1-050-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 04/12/2026
+
+S: 28 y/o M, BP and weight follow-up. Says he is "trying to eat better and be more active." Works long hours; reflux controlled.
+
+O: Wt 93.0 kg, Ht 163 cm, BMI 35.0. BP 136/82.
+
+A/P:
+1. Obesity — encouraged; revisit at next visit.
+2. Hypertension: BP 136/82 on amlodipine 5 mg daily; continue, home log.
+3. GERD — stable on omeprazole.
+
+=== GLP1-050-DERM-001
+DERMATOLOGY — 05/15/2026
+
+28 y/o M, itchy red rash in the lower abdominal fold and groin, worse in heat. Satellite papules.
+Dx: intertrigo, candidal. Nystatin powder BID; keep dry; loose clothing.
+
+=== GLP1-050-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 08/07/2026
+
+S: 28 y/o M, weight and BP follow-up. Lifestyle: "doing what he can" with food choices; busy schedule; some walking. Weight 93.0 kg, not much change. Asks about Wegovy.
+Medications: states he was on "a weight-loss shot" through a telehealth service; not sure whether he is still taking it or what it was — will check and call back.
+No MTC/MEN2 history, no pancreatitis.
+
+O: Wt 93.0 kg, BMI 35.0. BP 126/84.
+
+A/P:
+1. Obesity, BMI 35.0 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Will confirm telehealth medication before starting. Recheck in 3 months.
+2. Hypertension: BP 126/84 on amlodipine 5 mg daily; continue.

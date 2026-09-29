@@ -1,0 +1,277 @@
+{
+  "cohort_id": "GLP1_PA_COHORT_V1",
+  "patients": 50,
+  "index_date": "2026-09-01",
+  "resource_counts": {
+    "Patient": {
+      "min": 1,
+      "median": 1.0,
+      "max": 1,
+      "total": 50
+    },
+    "Condition": {
+      "min": 3,
+      "median": 6.5,
+      "max": 8,
+      "total": 297
+    },
+    "Observation": {
+      "min": 11,
+      "median": 14.0,
+      "max": 18,
+      "total": 696
+    },
+    "MedicationRequest": {
+      "min": 1,
+      "median": 4.0,
+      "max": 6,
+      "total": 203
+    },
+    "MedicationStatement": {
+      "min": 0,
+      "median": 2.0,
+      "max": 3,
+      "total": 96
+    },
+    "MedicationDispense": {
+      "min": 0,
+      "median": 0.0,
+      "max": 1,
+      "total": 1
+    },
+    "Encounter": {
+      "min": 5,
+      "median": 6.5,
+      "max": 10,
+      "total": 345
+    },
+    "DocumentReference": {
+      "min": 10,
+      "median": 13.0,
+      "max": 20,
+      "total": 670
+    }
+  },
+  "notes": {
+    "total": 670,
+    "relevant": 209,
+    "distractor": 461,
+    "trap_distractors": 141,
+    "per_class": {
+      "easy_positive": {
+        "patients": 10,
+        "notes": 119,
+        "traps": 10
+      },
+      "easy_negative": {
+        "patients": 5,
+        "notes": 59,
+        "traps": 5
+      },
+      "missing_evidence": {
+        "patients": 10,
+        "notes": 114,
+        "traps": 19
+      },
+      "ambiguous": {
+        "patients": 10,
+        "notes": 136,
+        "traps": 32
+      },
+      "hard": {
+        "patients": 15,
+        "notes": 242,
+        "traps": 75
+      }
+    }
+  },
+  "tokens_cl100k": {
+    "structured_resources": {
+      "min": 5911,
+      "median": 7645.5,
+      "max": 9823,
+      "total": 385921
+    },
+    "note_text": {
+      "min": 920,
+      "median": 1153.0,
+      "max": 3394,
+      "total": 63037
+    },
+    "raw_bundle_json": {
+      "min": 18198,
+      "median": 22500.5,
+      "max": 34562,
+      "total": 1124307
+    }
+  },
+  "class_distribution": {
+    "easy_positive": 10,
+    "easy_negative": 5,
+    "missing_evidence": 10,
+    "ambiguous": 10,
+    "hard": 15
+  },
+  "challenge_tags": {
+    "medication_reconciliation": 4,
+    "basic_positive": 2,
+    "bmi_plus_comorbidity": 2,
+    "partial_program": 2,
+    "contradiction": 2,
+    "retrieval_stress": 2,
+    "temporality": 2,
+    "bmi_alone": 1,
+    "strong_evidence": 1,
+    "near_duration_threshold": 1,
+    "multiple_conditions": 1,
+    "near_bmi_threshold": 1,
+    "obvious_positive": 1,
+    "bmi_failure": 1,
+    "below_bmi_threshold": 1,
+    "no_qualifying_comorbidity": 1,
+    "near_bmi_30": 1,
+    "just_below_bmi_27": 1,
+    "missing_program": 1,
+    "counseling_not_program": 1,
+    "missing_temporality": 1,
+    "incomplete_longitudinal": 1,
+    "structured_data_omission": 1,
+    "missing_medication_evidence": 1,
+    "unknown_not_negative": 1,
+    "missing_response": 1,
+    "duration_ambiguity": 1,
+    "vague_temporality": 1,
+    "condition_ambiguity": 1,
+    "duration_boundary": 1,
+    "numeric_boundary": 1,
+    "infer_duration_from_dates": 1,
+    "evidence_aggregation": 1,
+    "continuity": 1,
+    "semantic_comorbidity": 1,
+    "response_semantics": 1,
+    "program_discontinuation": 1,
+    "noncontinuous_duration": 1,
+    "stale_medication": 1,
+    "structured_narrative_conflict": 1,
+    "longitudinal_bmi_conflict": 1,
+    "source_contradiction": 1,
+    "negation": 1,
+    "retrieval_trap": 1,
+    "later_evidence_reversal": 1,
+    "condition_status": 1,
+    "long_context": 1,
+    "irrelevant_context": 1,
+    "ambiguity": 1
+  },
+  "bmi": {
+    "bins": {
+      "27–29.99": 11,
+      "30–34.99": 20,
+      "35–39.99": 15,
+      "<27": 3,
+      "≥40": 1
+    },
+    "min": 24.8,
+    "median": 32.7,
+    "max": 42.3,
+    "boundary_cases_29.5_30.5": [
+      "GLP1-009",
+      "GLP1-014",
+      "GLP1-029",
+      "GLP1-030",
+      "GLP1-040",
+      "GLP1-041"
+    ],
+    "boundary_cases_26.5_27.5": [
+      "GLP1-012",
+      "GLP1-015",
+      "GLP1-046"
+    ]
+  },
+  "conditions": {
+    "hypertension (structured)": 17,
+    "dyslipidemia (structured)": 4,
+    "no weight-related comorbidity": 25,
+    "prediabetes (structured)": 1,
+    "hypertension (narrative only)": 1,
+    "hypertension (ambiguous)": 1,
+    "dyslipidemia (narrative only)": 1,
+    "hypertension (resolved)": 1
+  },
+  "medication_scenarios": {
+    "none": 40,
+    "prior_orlistat_stopped": 1,
+    "med_list_absent": 1,
+    "status_unknown": 1,
+    "ozempic_structured_active_note_stopped": 1,
+    "stale_wegovy_old_list": 1,
+    "note_bmi_30_4": 1,
+    "latest_bmi_29_8": 1,
+    "zepbound_discontinued_recent_fill": 1,
+    "old_glp1": 1,
+    "ambiguous_med_status": 1
+  },
+  "documentation_states": {
+    "complete_8_months": 15,
+    "complete_9_months": 3,
+    "complete_7_months": 2,
+    "complete_10_months": 2,
+    "complete_12_months": 2,
+    "complete_6_5_months": 1,
+    "complete_11_months": 1,
+    "complete_14_months": 1,
+    "absent": 1,
+    "counseling_only": 1,
+    "diet_only": 1,
+    "exercise_only": 1,
+    "program_no_duration": 1,
+    "start_no_followup": 1,
+    "complete_response_missing": 1,
+    "several_months": 1,
+    "long_standing_vague": 1,
+    "exact_6_months": 1,
+    "jan_start_july_followup": 1,
+    "fragmented_multi_note": 1,
+    "intermittent_program": 1,
+    "complete_limited_improvement": 1,
+    "jan_start_feb_stop": 1,
+    "jan_mar_restart_july": 1,
+    "pcp_8mo_dietitian_3mo": 1,
+    "negated_structured_program": 1,
+    "clear_then_stopped_6_weeks": 1,
+    "buried_across_many_notes": 1,
+    "one_relevant_many_distractors": 1,
+    "contradictory_program_dates": 1,
+    "ambiguous_lifestyle": 1
+  },
+  "evidence_annotations": {
+    "relevant": 1045,
+    "hard_negatives": 160,
+    "by_concept_stance": {
+      "age:NEUTRAL": 50,
+      "bmi:NEUTRAL": 52,
+      "comorbidity:AMBIGUOUS": 3,
+      "comorbidity:CONTRADICTS": 2,
+      "comorbidity:SUPPORTS": 125,
+      "concurrent_aom:AMBIGUOUS": 4,
+      "concurrent_aom:CONTRADICTS": 3,
+      "concurrent_aom:SUPPORTS": 8,
+      "diet:AMBIGUOUS": 1,
+      "diet:CONTRADICTS": 1,
+      "diet:SUPPORTS": 174,
+      "exercise:AMBIGUOUS": 1,
+      "exercise:CONTRADICTS": 1,
+      "exercise:SUPPORTS": 175,
+      "inadequate_response:AMBIGUOUS": 1,
+      "inadequate_response:SUPPORTS": 47,
+      "program_duration:AMBIGUOUS": 14,
+      "program_duration:CONTRADICTS": 6,
+      "program_duration:NEUTRAL": 7,
+      "program_duration:SUPPORTS": 169,
+      "weight_management_program:AMBIGUOUS": 4,
+      "weight_management_program:CONTRADICTS": 9,
+      "weight_management_program:NEUTRAL": 7,
+      "weight_management_program:SUPPORTS": 181
+    }
+  }
+}

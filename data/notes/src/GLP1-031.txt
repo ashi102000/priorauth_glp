@@ -1,0 +1,99 @@
+=== GLP1-031-UC-001
+URGENT CARE — 10/20/2024
+
+33 y/o F, 4 days of congestion, cough, sore throat. Afebrile, lungs clear, COVID negative.
+Dx: viral URI. Supportive care, saline, honey, acetaminophen PRN.
+
+=== GLP1-031-TEL-001
+TELEPHONE ENCOUNTER — 10/29/2024
+
+Pt confirmed lab draw 11/01 at 8:00 AM; fasting 10–12 hours with water only. Understood.
+
+=== GLP1-031-PHARM-001
+PHARMACIST MEDICATION REVIEW — 03/24/2025
+
+Pt asked about adding turmeric capsules and a collagen supplement for back pain. No significant interactions with cetirizine; turmeric may add minor bleeding risk with regular ibuprofen — use ibuprofen sparingly.
+
+=== GLP1-031-OSR-001
+OUTSIDE RECORDS — SCANNED — 04/22/2025
+Source: Brookside Dental
+
+Clearance for root canal #3 under local anesthesia. No anticoagulants. Cleared without restrictions.
+
+=== GLP1-031-IMM-001
+IMMUNIZATION VISIT — 05/12/2025
+
+Tdap 0.5 mL IM L deltoid (last 2014). No reaction after 15 min. COVID booster discussed; pt will get it in the fall.
+
+=== GLP1-031-APE-001
+ANNUAL PHYSICAL — 05/24/2025
+
+34 y/o F, annual exam, no complaints.
+Vitals: Wt 96.8 kg, BMI 34.3, BP 118/80.
+Exam normal. Pap/HPV done today. Vaccines reviewed — up to date. Labs: CBC, CMP, TSH ordered.
+Return 1 year.
+
+=== GLP1-031-DERM-001
+DERMATOLOGY — 10/30/2025
+
+34 y/o F with irritated stuck-on lesion on the back near bra strap. Dermoscopy: seborrheic keratosis. Cryotherapy performed. Reassurance about the others.
+
+=== GLP1-031-PT-001
+PHYSICAL THERAPY — INITIAL EVALUATION — 12/09/2025
+
+Mechanical low back pain x 2 months, desk job, no radicular symptoms, neuro intact.
+Findings: limited lumbar flexion, weak transverse abdominis/glutes.
+Plan of care: 6 visits over 6 weeks. Core stabilization home exercise program (dead bug, bird dog, bridges, side planks) daily; ergonomic workstation changes; walking breaks every hour at work.
+
+=== GLP1-031-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 01/20/2026
+
+S: 34 y/o F would like to lose weight; back pain better with PT. Drinks 2–3 sweetened coffee drinks and a soda daily; eats out for lunch. Her company just launched a weight management benefit.
+
+O: Wt 97.6 kg, Ht 168 cm, BMI 34.6. BP 114/78.
+Exam unremarkable.
+
+A/P:
+1. Obesity, BMI 34.6 — plan starting today:
+ - Mediterranean-style reduced-calorie diet, target ~1800 kcal/day; cut sugar-sweetened drinks.
+ - Gym sessions (treadmill + light weights) 4 days a week, ~150 min/week.
+ - Enrolling in the employer-sponsored weight management program with monthly coaching.
+ Follow-up visits planned.
+2. Low back pain — improving; continue home exercises.
+
+=== GLP1-031-GI-001
+GASTROENTEROLOGY PROCEDURE NOTE — 02/12/2026
+
+Diagnostic colonoscopy for intermittent bright red blood per rectum.
+Prep: clear liquid diet day before, split-dose; good prep.
+Findings: two 3 mm sessile polyps in rectosigmoid, removed. Small internal hemorrhoids — likely source of bleeding.
+Plan: resume regular diet; pathology pending; fiber and hemorrhoid care.
+
+=== GLP1-031-ORTH-001
+ORTHOPEDICS — 04/06/2026
+
+35 y/o F rolled right ankle on stairs at home. Swelling and tenderness over ATFL; Ottawa negative; X-ray no fracture.
+Dx: R lateral ankle sprain. CAM boot 1–2 weeks, weight-bearing as tolerated in the boot, ice/elevation, then ankle rehab exercises. Follow-up PRN.
+
+=== GLP1-031-LAB-001
+LAB RESULT NOTE — 05/06/2026
+
+TSH 1.13 mIU/L — within normal limits. No thyroid follow-up needed.
+
+=== GLP1-031-UC-002
+URGENT CARE — 07/06/2026
+
+35 y/o F, 2 days dysuria and urgency; no fever or flank pain. UA + nitrite, + LE.
+Dx: acute cystitis. Nitrofurantoin 100 mg BID x 5 days.
+
+=== GLP1-031-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 07/28/2026
+
+S: Follow-up. Continues the dietary modification and regular gym exercise she initiated earlier this year — no sugary drinks, Mediterranean-style meals, treadmill and weights most weeks (brief pause after the ankle sprain in April). Program coaching calls ongoing. Frustrated: weight 95.4 kg today vs 97.6 kg when the lifestyle plan began (-2.3%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. UTI resolved.
+
+O: Wt 95.4 kg, BMI 33.8. BP 112/69.
+
+A/P:
+1. Obesity, BMI 33.8 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue diet/exercise plan. Recheck in 3 months.

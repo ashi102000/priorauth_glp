@@ -1,0 +1,403 @@
+{
+ "patient_id": "GLP1-027",
+ "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1984-05-16",
+   "age": 42,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-027-BMI-2026-08-10",
+    "date": "2026-08-10",
+    "value": 31.9
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-027-BMI-2025-10-14",
+     "date": "2025-10-14",
+     "value": 32.1
+    },
+    {
+     "resource_id": "Observation/GLP1-027-BMI-2026-03-31",
+     "date": "2026-03-31",
+     "value": 31.9
+    },
+    {
+     "resource_id": "Observation/GLP1-027-BMI-2026-08-10",
+     "date": "2026-08-10",
+     "value": 31.9
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-027-WT-2026-08-10",
+    "date": "2026-08-10",
+    "value": 97.7
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-027-WT-2025-10-14",
+     "date": "2025-10-14",
+     "value": 98.3
+    },
+    {
+     "resource_id": "Observation/GLP1-027-WT-2026-03-31",
+     "date": "2026-03-31",
+     "value": 97.8
+    },
+    {
+     "resource_id": "Observation/GLP1-027-WT-2026-08-10",
+     "date": "2026-08-10",
+     "value": 97.7
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-027-HT-2025-10-14",
+   "date": "2025-10-14",
+   "value": 175.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-027-BP-2026-08-10",
+    "date": "2026-08-10",
+    "systolic": 110.0,
+    "diastolic": 71.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-027-BP-2025-10-14",
+     "date": "2025-10-14",
+     "systolic": 116.0,
+     "diastolic": 68.0
+    },
+    {
+     "resource_id": "Observation/GLP1-027-BP-2026-03-31",
+     "date": "2026-03-31",
+     "systolic": 122.0,
+     "diastolic": 75.0
+    },
+    {
+     "resource_id": "Observation/GLP1-027-BP-2026-08-10",
+     "date": "2026-08-10",
+     "systolic": 110.0,
+     "diastolic": 71.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-027-A1C-2025-10-14",
+    "date": "2025-10-14",
+    "value": 5.0
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-027-LDL-2025-10-14",
+    "date": "2025-10-14",
+    "value": 98.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-027-HDL-2025-10-14",
+    "date": "2025-10-14",
+    "value": 60.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-027-TG-2025-10-14",
+    "date": "2025-10-14",
+    "value": 84.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-027-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2024-08-15",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-027-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2017-01-04",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-027-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2018-04-10",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-027-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2018-09-14",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-027-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2022-08-21",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-027-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-10-04",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-027-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2024-11-28",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-027-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2021-07-14",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-027-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2023-04-06",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-027-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2023-07-21",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-027-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-027-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-027-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-027-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-10",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "adjunct_diet_and_activity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-027-GI-001#c0",
+    "resource_id": "DocumentReference/GLP1-027-GI-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-10-28",
+    "note_type": "Gastroenterology procedure note",
+    "text": "GASTROENTEROLOGY PROCEDURE NOTE — 10/28/2024\nScreening colonoscopy (family hx colon cancer in father at 58).\nPrep: clear liquid diet day before, split-dose prep; prep adequate.\nFindings: two 4 mm polyps in transverse colon, removed by cold snare; otherwise normal.\nPlan: resume regular diet; pathology pending; repeat per pathology (likely 5 years given family history).",
+    "score": 4.34761,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-027-LAB-001#c0",
+    "resource_id": "DocumentReference/GLP1-027-LAB-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-02-21",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 02/21/2025\n25-OH vitamin D 27 ng/mL — low-normal. Continue vitamin D3 2000 IU daily.",
+    "score": 2.933188,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-027-APE-001#c0",
+    "resource_id": "DocumentReference/GLP1-027-APE-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-14",
+    "note_type": "Annual physical exam",
+    "text": "ANNUAL PHYSICAL — 10/14/2025\n41 y/o F, annual exam. No acute complaints.\nVitals: Wt 98.3 kg, BMI 32.1, BP 116/68.\nSocial history: works as a school administrator; married, two kids. Has dieted on and off for years — \"tried everything.\" Walks the dog most days. Nonsmoker, 1–2 drinks per week.\nExam normal. Screening: mammogram ordered; Pap/HPV up to date; colonoscopy 2024. Flu vaccine today.\nReturn 1 year.",
+    "score": 7.336215,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-027-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-027-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-10",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/10/2026\nS: 42 y/o F here to discuss weight. Long-standing efforts at diet and exercise — has tried calorie counting, low-carb, and commercial plans at various times, and walks the dog daily. Weight has been stable for years around the same range despite this. Wants to try medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease. IUD in place.\nO: Wt 97.7 kg, Ht 175 cm, BMI 31.9. BP 110/71.",
+    "score": 10.117777,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-027-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-027-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-10",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 31.9 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Recheck in 3 months.\n2. Migraine — stable.",
+    "score": 6.833331,
+    "reason": "top_k"
+   }
+  ],
+  "program_6_months": [
+   {
+    "chunk_id": "DocumentReference/GLP1-027-GI-001#c0",
+    "resource_id": "DocumentReference/GLP1-027-GI-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-10-28",
+    "note_type": "Gastroenterology procedure note",
+    "text": "GASTROENTEROLOGY PROCEDURE NOTE — 10/28/2024\nScreening colonoscopy (family hx colon cancer in father at 58).\nPrep: clear liquid diet day before, split-dose prep; prep adequate.\nFindings: two 4 mm polyps in transverse colon, removed by cold snare; otherwise normal.\nPlan: resume regular diet; pathology pending; repeat per pathology (likely 5 years given family history).",
+    "score": 4.34761,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-027-APE-001#c0",
+    "resource_id": "DocumentReference/GLP1-027-APE-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-14",
+    "note_type": "Annual physical exam",
+    "text": "ANNUAL PHYSICAL — 10/14/2025\n41 y/o F, annual exam. No acute complaints.\nVitals: Wt 98.3 kg, BMI 32.1, BP 116/68.\nSocial history: works as a school administrator; married, two kids. Has dieted on and off for years — \"tried everything.\" Walks the dog most days. Nonsmoker, 1–2 drinks per week.\nExam normal. Screening: mammogram ordered; Pap/HPV up to date; colonoscopy 2024. Flu vaccine today.\nReturn 1 year.",
+    "score": 7.336215,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-027-LAB-003#c0",
+    "resource_id": "DocumentReference/GLP1-027-LAB-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-18",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 04/18/2026\nTSH 2.75 mIU/L — within normal limits. No thyroid follow-up needed.",
+    "score": 2.339418,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-027-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-027-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-10",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/10/2026\nS: 42 y/o F here to discuss weight. Long-standing efforts at diet and exercise — has tried calorie counting, low-carb, and commercial plans at various times, and walks the dog daily. Weight has been stable for years around the same range despite this. Wants to try medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease. IUD in place.\nO: Wt 97.7 kg, Ht 175 cm, BMI 31.9. BP 110/71.",
+    "score": 10.117777,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-027-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-027-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-10",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 31.9 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Recheck in 3 months.\n2. Migraine — stable.",
+    "score": 6.833331,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-027-APE-001#c0",
+    "resource_id": "DocumentReference/GLP1-027-APE-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-14",
+    "note_type": "Annual physical exam",
+    "text": "ANNUAL PHYSICAL — 10/14/2025\n41 y/o F, annual exam. No acute complaints.\nVitals: Wt 98.3 kg, BMI 32.1, BP 116/68.\nSocial history: works as a school administrator; married, two kids. Has dieted on and off for years — \"tried everything.\" Walks the dog most days. Nonsmoker, 1–2 drinks per week.\nExam normal. Screening: mammogram ordered; Pap/HPV up to date; colonoscopy 2024. Flu vaccine today.\nReturn 1 year.",
+    "score": 1.063367,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-027-DERM-001#c0",
+    "resource_id": "DocumentReference/GLP1-027-DERM-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-31",
+    "note_type": "Dermatology consult",
+    "text": "DERMATOLOGY — 03/31/2026\n41 y/o F with recurrent itchy rash under the breasts, worse in the heat and with sweating. Vitals: Wt 97.8 kg, BMI 31.9, BP 122/75.\nDx: intertrigo. Nystatin powder BID; keep area dry; moisture-wicking fabric barrier. Follow-up PRN.",
+    "score": 1.392953,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-027-UC-001#c0",
+    "resource_id": "DocumentReference/GLP1-027-UC-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-11",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 05/11/2026\n41 y/o F with chest tightness and cough while jogging in the early cold mornings on a trip; resolves with rest. Lungs clear, SpO2 99%.\nDx: exercise-induced bronchospasm. Albuterol before exertion.",
+    "score": 2.476559,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-027-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-027-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-10",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/10/2026\nS: 42 y/o F here to discuss weight. Long-standing efforts at diet and exercise — has tried calorie counting, low-carb, and commercial plans at various times, and walks the dog daily. Weight has been stable for years around the same range despite this. Wants to try medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease. IUD in place.\nO: Wt 97.7 kg, Ht 175 cm, BMI 31.9. BP 110/71.",
+    "score": 1.034008,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 15,
+  "n_notes": 14,
+  "tokens": {
+   "raw_chart": {
+    "structured": 8349,
+    "notes": 1008,
+    "total": 9357
+   },
+   "retrieved_evidence": 632,
+   "structured_features": 1747,
+   "profile_total": 4369
+  }
+ }
+}

@@ -1,0 +1,28 @@
+metric,gpt_only,jev_plus_gpt,difference_hybrid_minus_gpt,unit,note
+pa_accuracy,0.946667,0.966667,0.02,fraction,"95% CI gpt (0.9066666666666666, 0.98) hybrid (0.9266666666666666, 0.9933333333333333)"
+pa_macro_f1,0.861598,0.915648,0.05405,,"95% CI gpt (0.6414285714285715, 0.9581438163309507) hybrid (0.7587972750763449, 0.9952727924755896)"
+recall_READY,0.965116,0.988372,0.023256,fraction,per-state accuracy
+recall_NOT_READY,0.964286,0.964286,0.0,fraction,per-state accuracy
+recall_REVIEW_REQUIRED,0.625,0.75,0.125,fraction,per-state accuracy
+binary_auto_ready_f1,0.97076,0.982659,0.011899,,
+false_auto_submissions,2,2,0,count,"predicted READY, truth not READY"
+criterion_accuracy,0.972,0.984,0.012,fraction,
+criterion_macro_f1,0.811442,0.889617,0.078175,,
+semantic_criterion_accuracy,0.97,0.98,0.01,fraction,non-deterministic criteria
+total_cost_usd,2.332984,0.8664,-1.466584,USD,"150 PAs, end-to-end"
+cost_per_pa_usd,0.015553,0.005776,-0.009777,USD,
+decision_cost_per_pa_usd,0.015553,0.002457,-0.013096,USD,excludes hybrid READY-case narratives
+gpt_calls,150,114,-36,count,
+gpt_decision_calls,150,27,-123,count,
+jev_calls,0,150,150,count,
+gpt_input_tokens,633572,229398,-404174,tokens,
+gpt_output_tokens,106584,39680,-66904,tokens,includes reasoning tokens
+jev_input_tokens,0,909004,909004,tokens,
+p50_latency_ms,10582.3,5562.8,-5019.5,ms,end-to-end incl. hybrid narrative
+p95_latency_ms,16318.99,10307.425,-6011.565,ms,end-to-end incl. hybrid narrative
+p50_decision_latency_ms,10582.3,198.15,-10384.15,ms,
+p95_decision_latency_ms,16318.99,8655.555,-7663.435,ms,
+median_context_reduction_pct,52.977392,30.672819,-22.304573,%,1 - model input tokens / raw chart tokens
+median_frontier_context_reduction_pct,52.977392,100.0,47.022608,%,GPT input only
+criterion_confidence_brier,0.055835,0.020822,-0.035013,,same criterion scope; GPT self-reported vs Jev pre-routing
+criterion_confidence_ece,0.03526,0.038104,0.002844,,

@@ -1,0 +1,107 @@
+=== GLP1-045-MSG-001
+PATIENT PORTAL MESSAGE — 11/20/2024
+
+Pt: "Gym needs my immunization record for the membership paperwork, can you send?"
+MA reply: Uploaded.
+
+=== GLP1-045-PT-001
+PHYSICAL THERAPY — INITIAL EVALUATION — 12/18/2024
+
+Mechanical low back pain x 6 weeks after lifting boxes at work; no radicular signs.
+Plan of care: 6 visits; core stabilization home exercise program daily (dead bug, bird dog, glute bridges); lifting mechanics; heat PRN.
+Goals: pain-free work duties in 6 weeks.
+
+=== GLP1-045-MSG-002
+PATIENT PORTAL MESSAGE — 04/20/2025
+
+Pt: "Heading to Bali in July. Vaccines?"
+RN reply: Hepatitis A, typhoid; Japanese encephalitis if extended rural stays; rabies pre-exposure worth considering. Book a travel visit.
+
+=== GLP1-045-LAB-001
+LAB RESULT NOTE — 08/01/2025
+
+25-OH vitamin D 33 ng/mL — normal on supplement. Continue vitamin D3 2000 IU daily.
+
+=== GLP1-045-OSR-001
+OUTSIDE RECORDS — SCANNED — 08/10/2025
+Source: Seaside Hospital ED, visit 08/06/2025
+
+27 y/o F, right flank pain, hematuria. CT: 4 mm right UVJ stone. Ketorolac, tamsulosin; passed 08/08. Urology PRN.
+
+=== GLP1-045-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/06/2025
+
+S: 27 y/o F wants to lose weight; gained after starting a desk job. Eats fast food at lunch and snacks in the evening.
+
+O: Wt 89.8 kg, Ht 168 cm, BMI 31.8. BP 110/69.
+Exam unremarkable.
+
+A/P:
+1. Obesity, BMI 31.8 — plan starting today:
+ - Portion-controlled plate method with a daily food diary, ~1600 kcal/day.
+ - Brisk walking with a coworker at lunch 5 days a week.
+ - Referred to a dietitian-led weight management program.
+ Follow-up visits planned.
+2. Low back pain — resolved after PT.
+
+=== GLP1-045-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 12/19/2025
+
+Dietitian-led program intake. Food diary: fast food lunch 4x/week, candy in the afternoon, big dinners.
+Plan: plate method at ~1600 kcal/day with daily food diary; pack lunch 3x/week; afternoon fruit instead of candy.
+Activity: brisk lunchtime walks with coworker 5 days/week.
+RD follow-up 6 weeks.
+
+=== GLP1-045-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 02/25/2026
+
+S: Follow-up. Continues the plate-method diet and lunchtime walks started in December; diary most days. Good adherence most weeks.
+
+O: Wt 89.0 kg, BMI 31.5. BP 110/73.
+
+A/P:
+1. Obesity — continue program.
+
+=== GLP1-045-LAB-002
+LAB RESULT NOTE — 04/09/2026
+
+Lipid panel drawn nonfasting; TG uninterpretable. Repeat fasting (10–12 hours, water only). Order re-entered.
+
+=== GLP1-045-PHARM-001
+PHARMACIST MEDICATION REVIEW — 04/21/2026
+
+Pt asked about a probiotic and ginger capsules for nausea. No interactions with current OTC products. Ginger OK for mild nausea; call PCP if nausea persistent or with vomiting.
+
+=== GLP1-045-MSG-003
+PATIENT PORTAL MESSAGE — 05/03/2026
+
+Pt: "Can I move my appointment and get a work note for Friday?"
+MA reply: Moved to 05/18. Note uploaded.
+
+=== GLP1-045-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 05/20/2026
+
+Food diary reviewed: adherent most days; packing lunch 3–4x/week.
+Adjustments: smaller dinner portions; protein-rich breakfast.
+Reports keeping up with lunchtime walks.
+Continue program.
+
+=== GLP1-045-TEL-001
+TELEPHONE ENCOUNTER — 06/16/2026
+
+Pt called: she is discontinuing Zepbound this month due to cost (insurance stopped covering); will not refill. Asks about alternatives. Message routed to PCP.
+
+=== GLP1-045-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/06/2026
+
+S: Follow-up. Continues the diet and exercise plan and dietitian follow-ups since December. Frustrated — weight 87.8 kg today vs 89.8 kg when the lifestyle plan began (-2.2%) despite reported adherence. Asks about Wegovy. No MTC/MEN2 history, no pancreatitis. Uses IUD.
+
+O: Wt 87.8 kg, BMI 31.1. BP 110/79.
+
+A/P:
+1. Obesity, BMI 31.1 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.

@@ -1,0 +1,378 @@
+{
+ "patient_id": "GLP1-020",
+ "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1998-02-05",
+   "age": 28,
+   "gender": "male"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-020-BMI-2026-08-20",
+    "date": "2026-08-20",
+    "value": 38.7
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-020-BMI-2024-09-12",
+     "date": "2024-09-12",
+     "value": 39.9
+    },
+    {
+     "resource_id": "Observation/GLP1-020-BMI-2024-11-25",
+     "date": "2024-11-25",
+     "value": 39.8
+    },
+    {
+     "resource_id": "Observation/GLP1-020-BMI-2026-08-20",
+     "date": "2026-08-20",
+     "value": 38.7
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-020-WT-2026-08-20",
+    "date": "2026-08-20",
+    "value": 118.5
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-020-WT-2024-09-12",
+     "date": "2024-09-12",
+     "value": 122.2
+    },
+    {
+     "resource_id": "Observation/GLP1-020-WT-2024-11-25",
+     "date": "2024-11-25",
+     "value": 121.8
+    },
+    {
+     "resource_id": "Observation/GLP1-020-WT-2026-08-20",
+     "date": "2026-08-20",
+     "value": 118.5
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-020-HT-2024-09-12",
+   "date": "2024-09-12",
+   "value": 175.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-020-BP-2026-08-20",
+    "date": "2026-08-20",
+    "systolic": 132.0,
+    "diastolic": 84.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-020-BP-2024-09-12",
+     "date": "2024-09-12",
+     "systolic": 137.0,
+     "diastolic": 84.0
+    },
+    {
+     "resource_id": "Observation/GLP1-020-BP-2024-11-25",
+     "date": "2024-11-25",
+     "systolic": 137.0,
+     "diastolic": 85.0
+    },
+    {
+     "resource_id": "Observation/GLP1-020-BP-2026-08-20",
+     "date": "2026-08-20",
+     "systolic": 132.0,
+     "diastolic": 84.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-020-A1C-2024-09-12",
+    "date": "2024-09-12",
+    "value": 5.2
+   },
+   "ldl": null,
+   "hdl": null,
+   "tg": null
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-020-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2019-11-16",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-020-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2022-10-13",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-020-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2023-10-10",
+    "abatement": null,
+    "weight_related": true
+   },
+   {
+    "resource_id": "Condition/GLP1-020-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2019-02-17",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-020-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-03-12",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [
+   {
+    "resource_id": "Condition/GLP1-020-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2023-10-10",
+    "abatement": null,
+    "weight_related": true
+   }
+  ],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-020-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2021-02-22",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-020-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2021-09-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-020-AMLODIPINE",
+    "resource_type": "MedicationRequest",
+    "text": "amlodipine 5 mg PO daily",
+    "status": "active",
+    "date": "2022-10-28",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-020-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2024-07-11",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-020-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-20",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "adjunct_diet_and_activity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-020-DERM-001#c0",
+    "resource_id": "DocumentReference/GLP1-020-DERM-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-09-12",
+    "note_type": "Dermatology consult",
+    "text": "DERMATOLOGY — 09/12/2024\n26 y/o M with papules and redness on cheeks/forehead, flushes with heat. Vitals: Wt 122.2 kg, BMI 39.9, BP 137/84.\nDx: mild papulopustular rosacea (vs acne — no comedones). Metronidazole 0.75% gel daily; gentle skincare; SPF. Follow-up 3 months.",
+    "score": 2.758324,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-ORTH-002#c0",
+    "resource_id": "DocumentReference/GLP1-020-ORTH-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-04-29",
+    "note_type": "Orthopedics consult",
+    "text": "ORTHOPEDICS — 04/29/2025\n27 y/o M, 2 months of left shoulder pain with overhead reaching at work (stocking shelves). Painful arc, positive Hawkins and Neer, strength 5/5.\nDx: left shoulder subacromial impingement.\nPlan: subacromial corticosteroid injection today; home exercise program for rotator cuff and scapular stabilizers (band external rotation, rows, wall slides) daily x 6 weeks; modify overhead tasks. Return 6 weeks.",
+    "score": 4.093318,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-MSG-002#c0",
+    "resource_id": "DocumentReference/GLP1-020-MSG-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-06-15",
+    "note_type": "Patient portal message",
+    "text": "PATIENT PORTAL MESSAGE — 06/15/2026\nPt: \"Can my coaching session for the health system's 12-month lifestyle program be moved from Tuesday to Thursday evenings? My shift changed.\"\nReply (program coordinator): Yes — moved you to the Thursday 6 PM group starting next week. Your meal plan check-in stays with the same coach.",
+    "score": 9.202992,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-020-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-20",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/20/2026\nS: 28 y/o M for weight and BP. Participating in the health system's 12-month lifestyle modification program — follows the program meal plan, attends the exercise sessions and weekly coaching group. Weight 118.5 kg today, only slightly lower than his prior readings; he is discouraged. Asks about medication. No MTC/MEN2 history, no pancreatitis. Thyroid labs normal.\nO: Wt 118.5 kg, BMI 38.7. BP 132/84.",
+    "score": 10.85487,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-020-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-20",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 38.7 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue program. Recheck in 3 months.\n2. Hypertension: BP 132/84 on amlodipine 5 mg daily; continue.",
+    "score": 8.24182,
+    "reason": "top_k"
+   }
+  ],
+  "program_6_months": [
+   {
+    "chunk_id": "DocumentReference/GLP1-020-DERM-001#c0",
+    "resource_id": "DocumentReference/GLP1-020-DERM-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-09-12",
+    "note_type": "Dermatology consult",
+    "text": "DERMATOLOGY — 09/12/2024\n26 y/o M with papules and redness on cheeks/forehead, flushes with heat. Vitals: Wt 122.2 kg, BMI 39.9, BP 137/84.\nDx: mild papulopustular rosacea (vs acne — no comedones). Metronidazole 0.75% gel daily; gentle skincare; SPF. Follow-up 3 months.",
+    "score": 2.758324,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-ORTH-002#c0",
+    "resource_id": "DocumentReference/GLP1-020-ORTH-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-04-29",
+    "note_type": "Orthopedics consult",
+    "text": "ORTHOPEDICS — 04/29/2025\n27 y/o M, 2 months of left shoulder pain with overhead reaching at work (stocking shelves). Painful arc, positive Hawkins and Neer, strength 5/5.\nDx: left shoulder subacromial impingement.\nPlan: subacromial corticosteroid injection today; home exercise program for rotator cuff and scapular stabilizers (band external rotation, rows, wall slides) daily x 6 weeks; modify overhead tasks. Return 6 weeks.",
+    "score": 4.093318,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-MSG-002#c0",
+    "resource_id": "DocumentReference/GLP1-020-MSG-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-06-15",
+    "note_type": "Patient portal message",
+    "text": "PATIENT PORTAL MESSAGE — 06/15/2026\nPt: \"Can my coaching session for the health system's 12-month lifestyle program be moved from Tuesday to Thursday evenings? My shift changed.\"\nReply (program coordinator): Yes — moved you to the Thursday 6 PM group starting next week. Your meal plan check-in stays with the same coach.",
+    "score": 9.202992,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-020-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-20",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/20/2026\nS: 28 y/o M for weight and BP. Participating in the health system's 12-month lifestyle modification program — follows the program meal plan, attends the exercise sessions and weekly coaching group. Weight 118.5 kg today, only slightly lower than his prior readings; he is discouraged. Asks about medication. No MTC/MEN2 history, no pancreatitis. Thyroid labs normal.\nO: Wt 118.5 kg, BMI 38.7. BP 132/84.",
+    "score": 10.85487,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-020-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-20",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 38.7 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue program. Recheck in 3 months.\n2. Hypertension: BP 132/84 on amlodipine 5 mg daily; continue.",
+    "score": 5.116648,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-020-DERM-001#c0",
+    "resource_id": "DocumentReference/GLP1-020-DERM-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-09-12",
+    "note_type": "Dermatology consult",
+    "text": "DERMATOLOGY — 09/12/2024\n26 y/o M with papules and redness on cheeks/forehead, flushes with heat. Vitals: Wt 122.2 kg, BMI 39.9, BP 137/84.\nDx: mild papulopustular rosacea (vs acne — no comedones). Metronidazole 0.75% gel daily; gentle skincare; SPF. Follow-up 3 months.",
+    "score": 0.768338,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-UC-001#c0",
+    "resource_id": "DocumentReference/GLP1-020-UC-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-12",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 02/12/2026\n28 y/o M, 4 days of congestion, sore throat, and cough. Afebrile, COVID negative. Lungs clear.\nDx: viral URI. Supportive care; avoid pseudoephedrine given HTN.",
+    "score": 2.427182,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-020-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-02",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 04/02/2026\nPt asked about a pre-workout powder and ashwagandha. Pre-workout contains ~300 mg caffeine per scoop — may raise BP (on amlodipine); recommended avoiding or using half scoop. Ashwagandha: no major interaction with sertraline documented but limited data; advised to avoid combining with other sedating supplements. Pt will skip the pre-workout.",
+    "score": 0.752658,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-020-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-20",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/20/2026\nS: 28 y/o M for weight and BP. Participating in the health system's 12-month lifestyle modification program — follows the program meal plan, attends the exercise sessions and weekly coaching group. Weight 118.5 kg today, only slightly lower than his prior readings; he is discouraged. Asks about medication. No MTC/MEN2 history, no pancreatitis. Thyroid labs normal.\nO: Wt 118.5 kg, BMI 38.7. BP 132/84.",
+    "score": 0.923054,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-020-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-020-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-20",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 38.7 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue program. Recheck in 3 months.\n2. Hypertension: BP 132/84 on amlodipine 5 mg daily; continue.",
+    "score": 3.072298,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 11,
+  "n_notes": 10,
+  "tokens": {
+   "raw_chart": {
+    "structured": 6655,
+    "notes": 920,
+    "total": 7575
+   },
+   "retrieved_evidence": 646,
+   "structured_features": 1434,
+   "profile_total": 4270
+  }
+ }
+}

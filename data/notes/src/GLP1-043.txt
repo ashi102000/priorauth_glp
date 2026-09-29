@@ -1,0 +1,104 @@
+=== GLP1-043-MSG-001
+PATIENT PORTAL MESSAGE — 09/14/2024
+
+Pt: "Going to Morocco in November — shots needed?"
+RN reply: Hepatitis A and typhoid recommended; confirm tetanus. Book a nurse visit.
+
+=== GLP1-043-DERM-001
+DERMATOLOGY — 03/03/2025
+
+47 y/o F with itchy, red rash under the breasts and in the abdominal fold. Satellite lesions.
+Dx: intertrigo, candidal. Nystatin powder BID, keep dry, cotton barrier.
+
+=== GLP1-043-UC-001
+URGENT CARE — 04/08/2025
+
+47 y/o F with chest tightness and cough starting a few minutes into outdoor jogs on cold mornings; resolves with rest; no symptoms at rest. Lungs clear, SpO2 99%.
+Dx: exercise-induced bronchospasm. Albuterol 2 puffs 15 minutes before exertion; warm up gradually.
+
+=== GLP1-043-ORTH-001
+ORTHOPEDICS — 04/26/2025
+
+47 y/o F inverted right ankle stepping off stairs. ATFL tenderness, swelling; Ottawa negative.
+Dx: R ankle sprain. CAM boot, weight-bearing as tolerated in boot, ice/elevation.
+
+=== GLP1-043-TEL-001
+TELEPHONE ENCOUNTER — 08/05/2025
+
+Pt confirmed fasting lab draw 08/08 at 7:30 AM. Fast 10–12 hours, water only. Understood.
+
+=== GLP1-043-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/12/2025
+
+S: 48 y/o F here to discuss weight. Concerned about weight gain over the past few years; reflux and back pain.
+
+O: Wt 86.7 kg, Ht 163 cm, BMI 32.6. BP 124/76.
+
+A/P:
+1. Obesity, BMI 32.6 — long discussion about weight management options: structured weight-loss program through the clinic, dietitian referral, meal replacement approach, and an exercise prescription. Patient declined enrollment in the structured weight management program and declined the dietitian referral at this time; prefers to manage on her own. Referral placed anyway in case she changes her mind.
+2. GERD — stable on omeprazole.
+3. Low back pain — stable.
+
+=== GLP1-043-LAB-001
+LAB RESULT NOTE — 12/26/2025
+
+Lipid panel drawn nonfasting — TG uninterpretable. Please repeat after a 10–12 hour fast (water OK). Order re-entered.
+
+=== GLP1-043-GI-001
+GASTROENTEROLOGY PROCEDURE NOTE — 01/31/2026
+
+Screening colonoscopy.
+Prep: clear liquid diet the day before, split-dose; good prep.
+Findings: two small (3 mm) polyps in sigmoid colon removed. Otherwise normal.
+Plan: resume regular diet; pathology pending.
+
+=== GLP1-043-TEL-002
+TELEPHONE ENCOUNTER — 03/17/2026
+
+Nutrition referral closed — patient did not schedule after 3 outreach attempts. Not enrolled in the weight management program. PCP notified.
+
+=== GLP1-043-PHARM-001
+PHARMACIST MEDICATION REVIEW — 05/07/2026
+
+Pt asked about garcinia cambogia and a "metabolism booster" (green tea extract). Advised against — minimal evidence, rare liver injury reports; green tea extract may interact with multiple meds. Pt will avoid.
+
+=== GLP1-043-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 05/11/2026
+
+S: Follow-up reflux and weight. Weight management reviewed: no formal diet or exercise regimen at this time. Did not schedule with nutrition.
+
+O: Wt 87.3 kg, BMI 32.9. BP 112/79.
+
+A/P:
+1. Obesity — options reviewed again; she will consider.
+2. GERD — stable.
+
+=== GLP1-043-MSG-002
+PATIENT PORTAL MESSAGE — 07/01/2026
+
+Pt: "My gym (pool membership) needs my immunization record. Can you send?"
+MA reply: Uploaded.
+
+=== GLP1-043-DERM-002
+DERMATOLOGY — 07/24/2026
+
+49 y/o F with irritated stuck-on lesion on the back. Dermoscopy: seborrheic keratosis. Cryotherapy performed.
+
+=== GLP1-043-LAB-002
+LAB RESULT NOTE — 08/04/2026
+
+TSH 2.5 mIU/L — within normal limits. No thyroid follow-up needed.
+
+=== GLP1-043-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/08/2026
+
+S: 49 y/o F, follow-up weight. Weight 87.1 kg, unchanged since December. Weight-loss goals discussed again; still no structured diet or exercise program. Would like to try medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease.
+
+O: Wt 87.1 kg, BMI 32.8. BP 126/77.
+
+A/P:
+1. Obesity, BMI 32.8 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Recheck in 3 months.
+2. GERD — stable.

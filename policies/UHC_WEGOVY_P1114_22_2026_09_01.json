@@ -1,0 +1,172 @@
+{
+  "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+  "payer": "UnitedHealthcare (commercial)",
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "effective_date": "2026-09-01",
+  "applicability": "UHC Commercial plans that have elected weight-loss medication coverage (optional program). Section 2 (general). North Dakota fully insured EHB variant (Section 3, BMI >= 40) NOT modeled. Plans without weight-loss coverage fall to Non-Formulary Wegovy (P 1445-4; no weight-management pathway).",
+  "source": {
+    "title": "Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage",
+    "document_id": "2026 P 1114-22",
+    "urls": [
+      "https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/r-z/PA-Notification-Weight-Loss.pdf",
+      "https://www.uhcprovider.com/en/prior-auth-advance-notification/prior-auth-specialty-drugs/prior-auth-pharmacy-medical-necessity.html"
+    ],
+    "version_as_printed": "Program Number 2026 P 1114-22; Effective Date 9/1/2026; P&T approval 5/2026",
+    "retrieved_at": "2026-09-29",
+    "local_copies": [
+      "policies/sources/uhc/source_uhc_weight_loss_P1114-22.md",
+      "policies/sources/uhc/source_uhc_nonformulary_wegovy_P1445-4.md"
+    ],
+    "version_notes": "Effective on the cohort index date (2026-09-01). PDF SHA-256 a015c188e651100eced3a0012d9ccb975133ae0e2c46ed18848d2935cc6511cd."
+  },
+  "human_verification": {
+    "required": true,
+    "status": "verified",
+    "verified_by": "user (project owner)",
+    "verified_at": "2026-09-29",
+    "notes": "Criteria transcribed verbatim from the primary PDF and spot-checked against saved local copy. Interpretation of the 'adjunct' criterion needs user sign-off. Verified by user 2026-09-29: documents/versions approved as-is; interpretation choices approved (see reports/policy_verification.md and DECISIONS.md)."
+  },
+  "criteria": [
+    {
+      "criterion_id": "age",
+      "description": "Patient is >= 12 years of age (Wegovy injection). All cohort patients are adults.",
+      "source_quote": "(1) Patient is ≥ 12 years of age (for Qsymia, Saxenda, Wegovy injection and Xenical)",
+      "source_location": "p.2, Section 2.A.1.b",
+      "source_confidence": "verified_verbatim",
+      "type": "deterministic",
+      "evaluator": "code",
+      "evidence_concepts": [
+        "age"
+      ],
+      "retrieval": {
+        "resources": [
+          "Patient"
+        ],
+        "concepts": [],
+        "temporal": false
+      },
+      "params": {
+        "min_age": 12,
+        "as_of": "request_date"
+      },
+      "interpretation_notes": "Age from Patient.birthDate on the request date."
+    },
+    {
+      "criterion_id": "indication",
+      "description": "Treatment requested for appetite suppression or weight loss.",
+      "source_quote": "One of the following: (1) Treatment is being requested for appetite suppression or weight loss",
+      "source_location": "p.2, Section 2.A.1.a",
+      "source_confidence": "verified_verbatim",
+      "type": "deterministic",
+      "evaluator": "code",
+      "evidence_concepts": [],
+      "retrieval": {
+        "resources": [
+          "MedicationRequest"
+        ],
+        "concepts": [],
+        "temporal": false
+      },
+      "params": {
+        "required_indication": "chronic_weight_management"
+      },
+      "interpretation_notes": "From the PA request context."
+    },
+    {
+      "criterion_id": "lifestyle_adjunct",
+      "description": "Drug will be used as an adjunct to lifestyle modification (diet/caloric restriction, exercise, behavioral support, or community-based program). No minimum duration, no prior-completion requirement.",
+      "source_quote": "Used as an adjunct to lifestyle modification (e.g., dietary or caloric restriction, exercise, behavioral support, community-based program)",
+      "source_location": "p.2, Section 2.A.1.c",
+      "source_confidence": "verified_verbatim",
+      "type": "semantic",
+      "evaluator": "semantic",
+      "evidence_concepts": [
+        "weight_management_program",
+        "diet",
+        "exercise"
+      ],
+      "retrieval": {
+        "resources": [
+          "DocumentReference"
+        ],
+        "concepts": [
+          "diet",
+          "caloric restriction",
+          "exercise",
+          "lifestyle",
+          "program",
+          "behavioral"
+        ],
+        "temporal": true
+      },
+      "params": {
+        "min_duration_months": null,
+        "components_any_of": [
+          "diet",
+          "exercise",
+          "behavioral_support",
+          "program"
+        ],
+        "recency_window_days": 180
+      },
+      "interpretation_notes": "Any ONE form of ongoing/planned lifestyle modification suffices ('e.g.' list). Judged from the most recent documentation: explicitly not following any diet/exercise plan fails; no lifestyle documentation at all is insufficient; a single diet-only or exercise-only effort that is ongoing passes. USER-APPROVED (2026-09-29): must be documented — no lifestyle documentation near the request is INSUFFICIENT; explicit non-adherence is FAIL; any single ongoing modality passes. Operationalization (2026-09-29): 'near the request' = documentation dated within 180 days before the request date; older lifestyle documentation alone is INSUFFICIENT."
+    },
+    {
+      "criterion_id": "bmi_threshold",
+      "description": "BMI >= 30, OR BMI >= 27 AND a weight-related comorbidity.",
+      "source_quote": "One of the following: (1) Body Mass Index (BMI) ≥ 30 kg/m2 or for pediatric patients a BMI > 95th percentile -OR- (2) Both of the following: (a) BMI ≥ 27 kg/m2 -AND- (b) Patient has a weight-related comorbidity (e.g., dyslipidemia, hypertension, type 2 diabetes, sleep apnea)",
+      "source_location": "pp.2–3, Section 2.A.1.d",
+      "source_confidence": "verified_verbatim",
+      "type": "deterministic",
+      "evaluator": "code",
+      "evidence_concepts": [
+        "bmi",
+        "comorbidity"
+      ],
+      "retrieval": {
+        "resources": [
+          "Observation",
+          "Condition",
+          "DocumentReference"
+        ],
+        "concepts": [
+          "bmi",
+          "hypertension",
+          "dyslipidemia",
+          "type 2 diabetes",
+          "sleep apnea"
+        ],
+        "temporal": false
+      },
+      "params": {
+        "bmi_primary": 30.0,
+        "bmi_with_comorbidity": 27.0,
+        "bmi_source": "latest_structured_observation",
+        "qualifying_comorbidity_examples": [
+          "dyslipidemia",
+          "hypertension",
+          "type 2 diabetes",
+          "sleep apnea"
+        ],
+        "comorbidity_list_is_exhaustive": false
+      },
+      "interpretation_notes": "Same BMI and comorbidity logic as other policies. USER-APPROVED (2026-09-29): latest recorded structured BMI governs; elevated BP without diagnosis is CONFLICT."
+    }
+  ],
+  "decision_logic": {
+    "all_of": [
+      "age",
+      "indication",
+      "lifestyle_adjunct",
+      "bmi_threshold"
+    ]
+  },
+  "out_of_scope": [
+    "North Dakota fully insured EHB variant (Section 3: BMI >= 40, no BMI 27 pathway)",
+    "Plans without weight-loss coverage (Non-Formulary Wegovy P 1445-4)",
+    "Concurrent GLP-1 / weight-loss drug restriction — not present in current document (removed 11/2013)",
+    "Supply limits; approval duration (5 months) — administrative"
+  ]
+}

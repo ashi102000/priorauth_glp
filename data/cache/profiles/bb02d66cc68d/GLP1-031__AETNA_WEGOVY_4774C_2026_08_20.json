@@ -1,0 +1,327 @@
+{
+ "patient_id": "GLP1-031",
+ "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1991-03-10",
+   "age": 35,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-031-BMI-2026-07-28",
+    "date": "2026-07-28",
+    "value": 33.8
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-031-BMI-2025-05-24",
+     "date": "2025-05-24",
+     "value": 34.3
+    },
+    {
+     "resource_id": "Observation/GLP1-031-BMI-2026-01-20",
+     "date": "2026-01-20",
+     "value": 34.6
+    },
+    {
+     "resource_id": "Observation/GLP1-031-BMI-2026-07-28",
+     "date": "2026-07-28",
+     "value": 33.8
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-031-WT-2026-07-28",
+    "date": "2026-07-28",
+    "value": 95.4
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-031-WT-2025-05-24",
+     "date": "2025-05-24",
+     "value": 96.8
+    },
+    {
+     "resource_id": "Observation/GLP1-031-WT-2026-01-20",
+     "date": "2026-01-20",
+     "value": 97.6
+    },
+    {
+     "resource_id": "Observation/GLP1-031-WT-2026-07-28",
+     "date": "2026-07-28",
+     "value": 95.4
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-031-HT-2025-05-24",
+   "date": "2025-05-24",
+   "value": 168.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-031-BP-2026-07-28",
+    "date": "2026-07-28",
+    "systolic": 112.0,
+    "diastolic": 69.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-031-BP-2025-05-24",
+     "date": "2025-05-24",
+     "systolic": 118.0,
+     "diastolic": 80.0
+    },
+    {
+     "resource_id": "Observation/GLP1-031-BP-2026-01-20",
+     "date": "2026-01-20",
+     "systolic": 114.0,
+     "diastolic": 78.0
+    },
+    {
+     "resource_id": "Observation/GLP1-031-BP-2026-07-28",
+     "date": "2026-07-28",
+     "systolic": 112.0,
+     "diastolic": 69.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-031-A1C-2025-05-24",
+    "date": "2025-05-24",
+    "value": 5.0
+   },
+   "ldl": null,
+   "hdl": null,
+   "tg": null
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-031-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2015-05-10",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-031-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2020-11-28",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-031-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-10-24",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationStatement/GLP1-031-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-031-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-031-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-07-28",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "adjunct_diet_and_activity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PT-001#c0",
+    "resource_id": "DocumentReference/GLP1-031-PT-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-09",
+    "note_type": "Physical therapy note",
+    "text": "PHYSICAL THERAPY — INITIAL EVALUATION — 12/09/2025\nMechanical low back pain x 2 months, desk job, no radicular symptoms, neuro intact.\nFindings: limited lumbar flexion, weak transverse abdominis/glutes.\nPlan of care: 6 visits over 6 weeks. Core stabilization home exercise program (dead bug, bird dog, bridges, side planks) daily; ergonomic workstation changes; walking breaks every hour at work.",
+    "score": 10.581819,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-031-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-20",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 01/20/2026\nS: 34 y/o F would like to lose weight; back pain better with PT. Drinks 2–3 sweetened coffee drinks and a soda daily; eats out for lunch. Her company just launched a weight management benefit.\nO: Wt 97.6 kg, Ht 168 cm, BMI 34.6. BP 114/78.\nExam unremarkable.",
+    "score": 5.535446,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-031-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-20",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 34.6 — plan starting today:\n - Mediterranean-style reduced-calorie diet, target ~1800 kcal/day; cut sugar-sweetened drinks.\n - Gym sessions (treadmill + light weights) 4 days a week, ~150 min/week.\n - Enrolling in the employer-sponsored weight management program with monthly coaching.\n Follow-up visits planned.\n2. Low back pain — improving; continue home exercises.",
+    "score": 25.813225,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-031-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-07-28",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 07/28/2026\nS: Follow-up. Continues the dietary modification and regular gym exercise she initiated earlier this year — no sugary drinks, Mediterranean-style meals, treadmill and weights most weeks (brief pause after the ankle sprain in April). Program coaching calls ongoing. Frustrated: weight 95.4 kg today vs 97.6 kg when the lifestyle plan began (-2.3%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. UTI resolved.\nO: Wt 95.4 kg, BMI 33.8. BP 112/69.",
+    "score": 21.617422,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PCP-002#c1",
+    "resource_id": "DocumentReference/GLP1-031-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-07-28",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 33.8 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue diet/exercise plan. Recheck in 3 months.",
+    "score": 11.633816,
+    "reason": "top_k"
+   }
+  ],
+  "program_6_months": [
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PT-001#c0",
+    "resource_id": "DocumentReference/GLP1-031-PT-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-09",
+    "note_type": "Physical therapy note",
+    "text": "PHYSICAL THERAPY — INITIAL EVALUATION — 12/09/2025\nMechanical low back pain x 2 months, desk job, no radicular symptoms, neuro intact.\nFindings: limited lumbar flexion, weak transverse abdominis/glutes.\nPlan of care: 6 visits over 6 weeks. Core stabilization home exercise program (dead bug, bird dog, bridges, side planks) daily; ergonomic workstation changes; walking breaks every hour at work.",
+    "score": 10.581819,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-031-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-20",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 01/20/2026\nS: 34 y/o F would like to lose weight; back pain better with PT. Drinks 2–3 sweetened coffee drinks and a soda daily; eats out for lunch. Her company just launched a weight management benefit.\nO: Wt 97.6 kg, Ht 168 cm, BMI 34.6. BP 114/78.\nExam unremarkable.",
+    "score": 5.535446,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-031-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-20",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 34.6 — plan starting today:\n - Mediterranean-style reduced-calorie diet, target ~1800 kcal/day; cut sugar-sweetened drinks.\n - Gym sessions (treadmill + light weights) 4 days a week, ~150 min/week.\n - Enrolling in the employer-sponsored weight management program with monthly coaching.\n Follow-up visits planned.\n2. Low back pain — improving; continue home exercises.",
+    "score": 24.116632,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-031-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-07-28",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 07/28/2026\nS: Follow-up. Continues the dietary modification and regular gym exercise she initiated earlier this year — no sugary drinks, Mediterranean-style meals, treadmill and weights most weeks (brief pause after the ankle sprain in April). Program coaching calls ongoing. Frustrated: weight 95.4 kg today vs 97.6 kg when the lifestyle plan began (-2.3%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. UTI resolved.\nO: Wt 95.4 kg, BMI 33.8. BP 112/69.",
+    "score": 21.617422,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PCP-002#c1",
+    "resource_id": "DocumentReference/GLP1-031-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-07-28",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 33.8 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue diet/exercise plan. Recheck in 3 months.",
+    "score": 9.504696,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-031-APE-001#c0",
+    "resource_id": "DocumentReference/GLP1-031-APE-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-05-24",
+    "note_type": "Annual physical exam",
+    "text": "ANNUAL PHYSICAL — 05/24/2025\n34 y/o F, annual exam, no complaints.\nVitals: Wt 96.8 kg, BMI 34.3, BP 118/80.\nExam normal. Pap/HPV done today. Vaccines reviewed — up to date. Labs: CBC, CMP, TSH ordered.\nReturn 1 year.",
+    "score": 1.494682,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-031-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-20",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 01/20/2026\nS: 34 y/o F would like to lose weight; back pain better with PT. Drinks 2–3 sweetened coffee drinks and a soda daily; eats out for lunch. Her company just launched a weight management benefit.\nO: Wt 97.6 kg, Ht 168 cm, BMI 34.6. BP 114/78.\nExam unremarkable.",
+    "score": 1.301393,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-031-GI-001#c0",
+    "resource_id": "DocumentReference/GLP1-031-GI-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-12",
+    "note_type": "Gastroenterology procedure note",
+    "text": "GASTROENTEROLOGY PROCEDURE NOTE — 02/12/2026\nDiagnostic colonoscopy for intermittent bright red blood per rectum.\nPrep: clear liquid diet day before, split-dose; good prep.\nFindings: two 3 mm sessile polyps in rectosigmoid, removed. Small internal hemorrhoids — likely source of bleeding.\nPlan: resume regular diet; pathology pending; fiber and hemorrhoid care.",
+    "score": 2.219911,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-031-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-031-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-07-28",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 07/28/2026\nS: Follow-up. Continues the dietary modification and regular gym exercise she initiated earlier this year — no sugary drinks, Mediterranean-style meals, treadmill and weights most weeks (brief pause after the ankle sprain in April). Program coaching calls ongoing. Frustrated: weight 95.4 kg today vs 97.6 kg when the lifestyle plan began (-2.3%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. UTI resolved.\nO: Wt 95.4 kg, BMI 33.8. BP 112/69.",
+    "score": 2.643158,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 16,
+  "n_notes": 14,
+  "tokens": {
+   "raw_chart": {
+    "structured": 6477,
+    "notes": 1151,
+    "total": 7628
+   },
+   "retrieved_evidence": 663,
+   "structured_features": 1134,
+   "profile_total": 3860
+  }
+ }
+}

@@ -1,0 +1,107 @@
+=== GLP1-028-GI-001
+GASTROENTEROLOGY PROCEDURE NOTE — 09/15/2024
+
+Screening colonoscopy, average risk, age 47.
+Prep: clear liquid diet the day before, split-dose PEG; prep excellent.
+Findings: two small (3 mm, 5 mm) sessile polyps in ascending colon removed by cold snare; mild sigmoid diverticulosis.
+Plan: resume regular diet today; pathology pending; high-fiber intake for diverticulosis; repeat interval per pathology.
+
+=== GLP1-028-UC-001
+URGENT CARE — 10/24/2024
+
+47 y/o M, wheeze and cough starting a few minutes into morning runs in the cold; resolves with rest; no symptoms at rest.
+Exam: lungs clear, SpO2 98%.
+Dx: exercise-induced bronchospasm. Albuterol 2 puffs before exertion.
+
+=== GLP1-028-LAB-001
+LAB RESULT NOTE — 12/07/2024
+
+25-OH vitamin D 24 ng/mL — low. Start/continue vitamin D3 2000 IU daily; recheck in 6–12 months.
+
+=== GLP1-028-MSG-001
+PATIENT PORTAL MESSAGE — 06/14/2025
+
+Pt: "Going to Peru (Lima, Cusco, Machu Picchu) in September. Vaccines?"
+RN reply: Hepatitis A and typhoid; yellow fever not needed for that itinerary. Altitude medication can be discussed at a travel visit.
+
+=== GLP1-028-OSR-001
+OUTSIDE RECORDS — SCANNED — 07/30/2025
+Source: Westview ED, visit 07/27/2025
+
+48 y/o M, acute left flank pain. CT: 4 mm left distal ureteral stone. Ketorolac, tamsulosin. Stone passed 07/29. Urology PRN; hydrate.
+
+=== GLP1-028-UC-002
+URGENT CARE — 11/25/2025
+
+48 y/o M, 4 days of congestion, cough, sore throat; afebrile; COVID negative; lungs clear.
+Dx: viral URI. Supportive care.
+
+=== GLP1-028-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/16/2025
+
+S: 48 y/o M wants to lose weight; gained after a knee injury limited activity last year (now healed). Late-night snacking and takeout. Enjoys swimming.
+
+O: Wt 75.7 kg, Ht 160 cm, BMI 29.6. BP 132/87.
+Exam: CV RRR, no edema.
+
+A/P:
+1. Overweight, BMI 29.6 — plan starting today:
+ - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout.
+ - Water aerobics / lap swimming 4 times a week.
+ - Referred to a dietitian-led weight management program.
+ Follow-up in ~3 months.
+2. Elevated BP — 132/87 today, above goal; no prior diagnosis of hypertension. Recheck at next visit; home readings requested.
+3. Anxiety — stable on sertraline.
+
+=== GLP1-028-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 12/31/2025
+
+Dietitian-led program intake. Food log: skips breakfast, heavy dinner, takeout 3–4 nights, snacks 10 PM–midnight.
+Plan: calorie tracking at ~1800 kcal/day; breakfast daily; takeout 1x/week; no eating after 9 PM; lower sodium given BP readings.
+Activity: water aerobics / lap swimming 4x/week.
+RD follow-up 6 weeks.
+
+=== GLP1-028-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 03/05/2026
+
+S: Follow-up. Continues the calorie tracking and swimming started in December; good adherence most weeks. Home BP readings "mostly 130s over 80s" but he hasn't checked often.
+
+O: Wt 74.9 kg, BMI 29.3. BP 137/88.
+
+A/P:
+1. Overweight — continue program.
+2. BP 137/88 today, above goal; no prior diagnosis of hypertension. Recheck at next visit with home log.
+
+=== GLP1-028-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 05/25/2026
+
+Food log reviewed: adherent most days, ~1800 kcal. Takeout 1x/week.
+Adjustments: add protein at lunch; swap evening chips for fruit.
+Reports keeping up with swimming 4x/week.
+Continue program.
+
+=== GLP1-028-TEL-001
+TELEPHONE ENCOUNTER — 06/15/2026
+
+Pt confirmed lab appointment 06/18, 8:00 AM. Fasting 10–12 hours, water only. Understood.
+
+=== GLP1-028-TEL-002
+TELEPHONE ENCOUNTER — 07/20/2026
+
+Refill: cetirizine 10 mg daily PRN. Sent to pharmacy.
+
+=== GLP1-028-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/16/2026
+
+S: Follow-up. Continues the diet and exercise plan and program visits since December. Frustrated: weight 73.7 kg today vs 75.7 kg when the plan began (-2.6%) despite reported adherence. Didn't bring a home BP log. Asks about medication. No MTC/MEN2 history, no pancreatitis.
+
+O: Wt 73.7 kg, BMI 28.8. BP 135/86.
+
+A/P:
+1. Overweight, BMI 28.8 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue lifestyle plan. Recheck in 3 months.
+2. BP 135/86 today, above goal; no prior diagnosis of hypertension. Recheck at next visit; consider ambulatory monitoring.

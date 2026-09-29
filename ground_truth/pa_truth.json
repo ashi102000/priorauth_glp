@@ -1,0 +1,4979 @@
+{
+  "warning": "EVALUATION ONLY — never send to models",
+  "cohort_id": "GLP1_PA_COHORT_V1",
+  "request_date": "2026-09-01",
+  "policies": [
+    "AETNA_WEGOVY_4774C_2026_08_20",
+    "BCBS_FEP_WEGOVY_2026_07_01",
+    "UHC_WEGOVY_P1114_22_2026_09_01"
+  ],
+  "evaluations": [
+    {
+      "evaluation_id": "GLP1-001__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-001",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "basic_positive"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-001__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-001",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "basic_positive"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-001__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-001",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "basic_positive"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-002__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-002",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "basic_positive"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-002__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-002",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "basic_positive"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-002__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-002",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "basic_positive"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-003__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-003",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "bmi_alone"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-003__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-003",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "bmi_alone"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-003__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-003",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "bmi_alone"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-004__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-004",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "bmi_plus_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-004__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-004",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "bmi_plus_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-004__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-004",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "bmi_plus_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-005__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-005",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "bmi_plus_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-005__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-005",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "bmi_plus_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-005__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-005",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "bmi_plus_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-006__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-006",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "strong_evidence"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-006__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-006",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "strong_evidence"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-006__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-006",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "strong_evidence"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-007__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-007",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "near_duration_threshold"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-007__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-007",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "near_duration_threshold"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-007__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-007",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "near_duration_threshold"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-008__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-008",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "multiple_conditions"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-008__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-008",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "multiple_conditions"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-008__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-008",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "multiple_conditions"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-009__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-009",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "near_bmi_threshold"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-009__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-009",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "near_bmi_threshold"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-009__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-009",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "near_bmi_threshold"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-010__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-010",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "obvious_positive"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-010__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-010",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "obvious_positive"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-010__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-010",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "easy_positive",
+      "challenge_tags": [
+        "obvious_positive"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-011__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-011",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "bmi_failure"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-011__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-011",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "bmi_failure"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-011__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-011",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "bmi_failure"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-012__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-012",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "below_bmi_threshold"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-012__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-012",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "below_bmi_threshold"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-012__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-012",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "below_bmi_threshold"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-013__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-013",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "no_qualifying_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-013__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-013",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "no_qualifying_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-013__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-013",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "no_qualifying_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-014__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-014",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "near_bmi_30"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-014__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-014",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "near_bmi_30"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-014__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-014",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "near_bmi_30"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-015__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-015",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "just_below_bmi_27"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-015__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-015",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "just_below_bmi_27"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-015__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-015",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "easy_negative",
+      "challenge_tags": [
+        "just_below_bmi_27"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-016__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-016",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "INSUFFICIENT"
+          },
+          "program_6_months": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "adjunct_diet_and_activity",
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-016__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-016",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "INSUFFICIENT"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "weight_management_program"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-016__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-016",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "lifestyle_adjunct"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-017__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-017",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "INSUFFICIENT"
+          },
+          "program_6_months": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "adjunct_diet_and_activity",
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "counseling_not_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-017__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-017",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "INSUFFICIENT"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "weight_management_program"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "counseling_not_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-017__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-017",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "lifestyle_adjunct"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "counseling_not_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-018__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-018",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "INSUFFICIENT"
+          },
+          "program_6_months": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "adjunct_diet_and_activity",
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "partial_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-018__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-018",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "INSUFFICIENT"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "weight_management_program"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "partial_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-018__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-018",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "partial_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-019__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-019",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "INSUFFICIENT"
+          },
+          "program_6_months": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "adjunct_diet_and_activity",
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "partial_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-019__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-019",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "INSUFFICIENT"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "weight_management_program"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "partial_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-019__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-019",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "partial_program"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-020__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-020",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_temporality"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-020__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-020",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_temporality"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-020__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-020",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_temporality"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-021__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-021",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "INSUFFICIENT"
+          },
+          "program_6_months": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "adjunct_diet_and_activity",
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "incomplete_longitudinal"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-021__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-021",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "incomplete_longitudinal"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-021__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-021",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "lifestyle_adjunct"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "incomplete_longitudinal"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-022__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-022",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "structured_data_omission"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-022__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-022",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "structured_data_omission"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-022__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-022",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "structured_data_omission"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-023__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-023",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_medication_evidence"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-023__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-023",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "INSUFFICIENT"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "INSUFFICIENT"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "no_concurrent_glp1",
+          "no_concurrent_pa_weight_loss_med"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_medication_evidence"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-023__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-023",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_medication_evidence"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-024__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-024",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "unknown_not_negative"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-024__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-024",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "INSUFFICIENT"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "INSUFFICIENT"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "no_concurrent_glp1",
+          "no_concurrent_pa_weight_loss_med"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "unknown_not_negative"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-024__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-024",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "unknown_not_negative"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-025__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-025",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_response"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-025__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-025",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_response"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-025__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-025",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "missing_evidence",
+      "challenge_tags": [
+        "missing_response"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-026__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-026",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "duration_ambiguity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-026__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-026",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "INSUFFICIENT"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "weight_management_program"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "duration_ambiguity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-026__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-026",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "duration_ambiguity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-027__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-027",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "vague_temporality"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-027__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-027",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "INSUFFICIENT"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "weight_management_program"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "vague_temporality"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-027__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-027",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "vague_temporality"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-028__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-028",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "CONFLICT"
+          }
+        },
+        "pa_state": "REVIEW_REQUIRED",
+        "binary_auto_ready": false,
+        "missing_requirements": [],
+        "review_reasons": [
+          "bmi_threshold"
+        ]
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "condition_ambiguity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-028__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-028",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "CONFLICT"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "REVIEW_REQUIRED",
+        "binary_auto_ready": false,
+        "missing_requirements": [],
+        "review_reasons": [
+          "bmi_threshold"
+        ]
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "condition_ambiguity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-028__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-028",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "CONFLICT"
+          }
+        },
+        "pa_state": "REVIEW_REQUIRED",
+        "binary_auto_ready": false,
+        "missing_requirements": [],
+        "review_reasons": [
+          "bmi_threshold"
+        ]
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "condition_ambiguity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-029__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-029",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "duration_boundary"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-029__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-029",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "duration_boundary"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-029__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-029",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "duration_boundary"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-030__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-030",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "numeric_boundary"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-030__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-030",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "numeric_boundary"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-030__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-030",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "numeric_boundary"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-031__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-031",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "infer_duration_from_dates"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-031__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-031",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "infer_duration_from_dates"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-031__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-031",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "infer_duration_from_dates"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-032__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-032",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "evidence_aggregation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-032__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-032",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "evidence_aggregation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-032__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-032",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "evidence_aggregation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-033__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-033",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "CONFLICT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "REVIEW_REQUIRED",
+        "binary_auto_ready": false,
+        "missing_requirements": [],
+        "review_reasons": [
+          "program_6_months"
+        ]
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "continuity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-033__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-033",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "continuity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-033__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-033",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "continuity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-034__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-034",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "semantic_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-034__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-034",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "semantic_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-034__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-034",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "semantic_comorbidity"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-035__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-035",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "response_semantics"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-035__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-035",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "response_semantics"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-035__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-035",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "ambiguous",
+      "challenge_tags": [
+        "response_semantics"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-036__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-036",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "INSUFFICIENT"
+          },
+          "program_6_months": {
+            "status": "FAIL"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "adjunct_diet_and_activity",
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "program_discontinuation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-036__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-036",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "program_discontinuation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-036__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-036",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "lifestyle_adjunct"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "program_discontinuation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-037__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-037",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "FAIL"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "noncontinuous_duration"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-037__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-037",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "noncontinuous_duration"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-037__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-037",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "noncontinuous_duration"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-038__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-038",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "contradiction",
+        "medication_reconciliation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-038__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-038",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "contradiction",
+        "medication_reconciliation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-038__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-038",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "contradiction",
+        "medication_reconciliation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-039__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-039",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "stale_medication"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-039__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-039",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "stale_medication"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-039__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-039",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "stale_medication"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-040__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-040",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "structured_narrative_conflict"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-040__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-040",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "structured_narrative_conflict"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-040__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-040",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "structured_narrative_conflict"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-041__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-041",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "longitudinal_bmi_conflict"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-041__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-041",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "longitudinal_bmi_conflict"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-041__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-041",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "longitudinal_bmi_conflict"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-042__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-042",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "CONFLICT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "REVIEW_REQUIRED",
+        "binary_auto_ready": false,
+        "missing_requirements": [],
+        "review_reasons": [
+          "program_6_months"
+        ]
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "source_contradiction"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-042__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-042",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "source_contradiction"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-042__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-042",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "source_contradiction"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-043__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-043",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "FAIL"
+          },
+          "program_6_months": {
+            "status": "FAIL"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "adjunct_diet_and_activity",
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "negation",
+        "retrieval_trap"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-043__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-043",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "FAIL"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "weight_management_program"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "negation",
+        "retrieval_trap"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-043__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-043",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "FAIL"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "lifestyle_adjunct"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "negation",
+        "retrieval_trap"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-044__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-044",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "FAIL"
+          },
+          "program_6_months": {
+            "status": "FAIL"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "adjunct_diet_and_activity",
+          "program_6_months"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "later_evidence_reversal"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-044__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-044",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "later_evidence_reversal"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-044__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-044",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "FAIL"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "lifestyle_adjunct"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "later_evidence_reversal"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-045__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-045",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "medication_reconciliation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-045__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-045",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "CONFLICT"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "CONFLICT"
+          }
+        },
+        "pa_state": "REVIEW_REQUIRED",
+        "binary_auto_ready": false,
+        "missing_requirements": [],
+        "review_reasons": [
+          "no_concurrent_glp1",
+          "no_concurrent_pa_weight_loss_med"
+        ]
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "medication_reconciliation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-045__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-045",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "medication_reconciliation"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-046__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-046",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "condition_status"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-046__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-046",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "condition_status"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-046__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-046",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "FAIL"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "bmi_threshold"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "condition_status"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-047__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-047",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "retrieval_stress",
+        "long_context"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-047__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-047",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "retrieval_stress",
+        "long_context"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-047__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-047",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "retrieval_stress",
+        "long_context"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-048__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-048",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "retrieval_stress",
+        "irrelevant_context"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-048__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-048",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "retrieval_stress",
+        "irrelevant_context"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-048__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-048",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "retrieval_stress",
+        "irrelevant_context"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-049__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-049",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "PASS"
+          },
+          "program_6_months": {
+            "status": "CONFLICT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "REVIEW_REQUIRED",
+        "binary_auto_ready": false,
+        "missing_requirements": [],
+        "review_reasons": [
+          "program_6_months"
+        ]
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "contradiction",
+        "medication_reconciliation",
+        "temporality"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-049__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-049",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "PASS"
+          },
+          "no_concurrent_glp1": {
+            "status": "PASS"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "contradiction",
+        "medication_reconciliation",
+        "temporality"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-049__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-049",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "READY",
+        "binary_auto_ready": true,
+        "missing_requirements": [],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "contradiction",
+        "medication_reconciliation",
+        "temporality"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-050__AETNA_WEGOVY_4774C_2026_08_20",
+      "patient_id": "GLP1-050",
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "adjunct_diet_and_activity": {
+            "status": "CONFLICT"
+          },
+          "program_6_months": {
+            "status": "INSUFFICIENT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "program_6_months"
+        ],
+        "review_reasons": [
+          "adjunct_diet_and_activity"
+        ]
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "ambiguity",
+        "medication_reconciliation",
+        "temporality"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-050__BCBS_FEP_WEGOVY_2026_07_01",
+      "patient_id": "GLP1-050",
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          },
+          "weight_management_program": {
+            "status": "INSUFFICIENT"
+          },
+          "no_concurrent_glp1": {
+            "status": "INSUFFICIENT"
+          },
+          "no_concurrent_pa_weight_loss_med": {
+            "status": "INSUFFICIENT"
+          }
+        },
+        "pa_state": "NOT_READY",
+        "binary_auto_ready": false,
+        "missing_requirements": [
+          "no_concurrent_glp1",
+          "no_concurrent_pa_weight_loss_med",
+          "weight_management_program"
+        ],
+        "review_reasons": []
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "ambiguity",
+        "medication_reconciliation",
+        "temporality"
+      ]
+    },
+    {
+      "evaluation_id": "GLP1-050__UHC_WEGOVY_P1114_22_2026_09_01",
+      "patient_id": "GLP1-050",
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "ground_truth": {
+        "criteria": {
+          "age": {
+            "status": "PASS"
+          },
+          "indication": {
+            "status": "PASS"
+          },
+          "lifestyle_adjunct": {
+            "status": "CONFLICT"
+          },
+          "bmi_threshold": {
+            "status": "PASS"
+          }
+        },
+        "pa_state": "REVIEW_REQUIRED",
+        "binary_auto_ready": false,
+        "missing_requirements": [],
+        "review_reasons": [
+          "lifestyle_adjunct"
+        ]
+      },
+      "difficulty": "hard",
+      "challenge_tags": [
+        "ambiguity",
+        "medication_reconciliation",
+        "temporality"
+      ]
+    }
+  ]
+}

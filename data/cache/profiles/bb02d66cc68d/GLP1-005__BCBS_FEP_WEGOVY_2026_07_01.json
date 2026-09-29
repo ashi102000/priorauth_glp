@@ -1,0 +1,474 @@
+{
+ "patient_id": "GLP1-005",
+ "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1997-12-04",
+   "age": 28,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-005-BMI-2026-08-14",
+    "date": "2026-08-14",
+    "value": 28.1
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-005-BMI-2025-10-14",
+     "date": "2025-10-14",
+     "value": 29.0
+    },
+    {
+     "resource_id": "Observation/GLP1-005-BMI-2026-01-22",
+     "date": "2026-01-22",
+     "value": 28.7
+    },
+    {
+     "resource_id": "Observation/GLP1-005-BMI-2026-08-14",
+     "date": "2026-08-14",
+     "value": 28.1
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-005-WT-2026-08-14",
+    "date": "2026-08-14",
+    "value": 83.1
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-005-WT-2025-10-14",
+     "date": "2025-10-14",
+     "value": 85.9
+    },
+    {
+     "resource_id": "Observation/GLP1-005-WT-2026-01-22",
+     "date": "2026-01-22",
+     "value": 85.0
+    },
+    {
+     "resource_id": "Observation/GLP1-005-WT-2026-08-14",
+     "date": "2026-08-14",
+     "value": 83.1
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-005-HT-2025-10-14",
+   "date": "2025-10-14",
+   "value": 172.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-005-BP-2026-08-14",
+    "date": "2026-08-14",
+    "systolic": 125.0,
+    "diastolic": 72.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-005-BP-2025-10-14",
+     "date": "2025-10-14",
+     "systolic": 111.0,
+     "diastolic": 79.0
+    },
+    {
+     "resource_id": "Observation/GLP1-005-BP-2026-01-22",
+     "date": "2026-01-22",
+     "systolic": 112.0,
+     "diastolic": 78.0
+    },
+    {
+     "resource_id": "Observation/GLP1-005-BP-2026-08-14",
+     "date": "2026-08-14",
+     "systolic": 125.0,
+     "diastolic": 72.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-005-A1C-2025-10-14",
+    "date": "2025-10-14",
+    "value": 5.3
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-005-LDL-2025-05-29",
+    "date": "2025-05-29",
+    "value": 153.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-005-HDL-2025-05-29",
+    "date": "2025-05-29",
+    "value": 45.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-005-TG-2025-05-29",
+    "date": "2025-05-29",
+    "value": 182.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-005-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2021-11-19",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-005-DYSLIP",
+    "display": "Dyslipidemia",
+    "clinical_status": "active",
+    "onset": "2023-10-15",
+    "abatement": null,
+    "weight_related": true
+   },
+   {
+    "resource_id": "Condition/GLP1-005-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2023-10-20",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-005-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2023-11-16",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-005-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2018-06-04",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-005-OVERWT",
+    "display": "Overweight",
+    "clinical_status": "active",
+    "onset": "2024-12-12",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-005-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2017-05-15",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [
+   {
+    "resource_id": "Condition/GLP1-005-DYSLIP",
+    "display": "Dyslipidemia",
+    "clinical_status": "active",
+    "onset": "2023-10-15",
+    "abatement": null,
+    "weight_related": true
+   }
+  ],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-005-ATORVASTATIN",
+    "resource_type": "MedicationRequest",
+    "text": "atorvastatin 20 mg PO daily",
+    "status": "active",
+    "date": "2021-04-12",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-005-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2023-06-09",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-005-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2024-01-13",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-005-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2024-12-08",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-005-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-005-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-005-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-14",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "weight_management_program": [
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-005-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-14",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight, BMI 29.0, with hyperlipidemia — start today:\n - Calorie tracking app, target ~1800 kcal/day; no eating after 9 PM; takeout limited to weekends.\n - Walking about 30 minutes 4 days a week (campus loop).\n - Referred to a dietitian-led weight management program; RD intake scheduled.\n Follow-up in ~3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 153. Continue; recheck after lifestyle changes.\n3. Migraine — stable, sumatriptan PRN.",
+    "score": 15.247427,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-005-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-27",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 10/27/2025\nDietitian-led weight management program intake. Food log: skips breakfast, large late dinner/takeout, snacks while studying 10 PM–1 AM (chips, candy, energy drinks).\nPlan: calorie tracking at ~1800 kcal/day; breakfast within 2 h of waking; pre-portioned study snacks (fruit, popcorn); cut energy drinks; takeout on weekends only.\nActivity: walking ~30 min 4 days/week, as set with PCP.\nRD follow-up monthly x3, then every 2–3 months.",
+    "score": 18.028458,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-005-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-29",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 04/29/2026\nReviewed food log: adherent most days, averaging ~1800 kcal. Late-night snacking mostly replaced with planned snacks.\nAdjustments: more protein at breakfast; portion down pasta at dinner; plan for conference travel next month.\nReports keeping up with walking 4 days/week.\nNext RD visit in ~2 months.",
+    "score": 14.148421,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-005-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-14",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/14/2026\nS: Follow-up weight and lipids. Continues the diet and exercise plan and RD follow-ups since October. Tracking, walking 4 days/week. Frustrated — weight 83.1 kg today vs 85.9 kg when she started in October (-3.3%), no further change the last few months despite adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Using condoms + OCP; not planning pregnancy — counseled to stop medication 2 months before trying to conceive.\nO: Wt 83.1 kg, BMI 28.1. BP 125/72.",
+    "score": 6.879164,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-005-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-14",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight (BMI 28.1) with hyperlipidemia — plateau despite lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counsel on GI side effects, hydration, and smaller meals. Continue lifestyle plan. Recheck in 3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 153. Repeat fasting lipids.",
+    "score": 7.019041,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_glp1": [
+   {
+    "chunk_id": "DocumentReference/GLP1-005-LAB-003#c0",
+    "resource_id": "DocumentReference/GLP1-005-LAB-003",
+    "resource_type": "DocumentReference",
+    "date": "2025-05-29",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 05/29/2025\nFasting lipid panel reviewed: LDL 153, HDL 45, TG 182 mg/dL. Total cholesterol 234. Patient reports she fasted ~8 h rather than 10–12 h; TG may be mildly overstated. For future draws, fast 10–12 h (water OK).\nLDL remains elevated on atorvastatin; adherence confirmed. Will discuss at next PCP visit.",
+    "score": 1.375727,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-005-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-29",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 04/29/2026\nReviewed food log: adherent most days, averaging ~1800 kcal. Late-night snacking mostly replaced with planned snacks.\nAdjustments: more protein at breakfast; portion down pasta at dinner; plan for conference travel next month.\nReports keeping up with walking 4 days/week.\nNext RD visit in ~2 months.",
+    "score": 1.486184,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-005-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-06-30",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 06/30/2026\nReviewed OTC supplements pt wants to bring on trip: melatonin, probiotic, ginger chews, and a \"hair, skin, nails\" biotin supplement. No interactions with atorvastatin, sertraline, omeprazole, sumatriptan. Advised that high-dose biotin can interfere with some lab tests — stop 3 days before bloodwork. Pt understood.",
+    "score": 4.017691,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-005-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-14",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/14/2026\nS: Follow-up weight and lipids. Continues the diet and exercise plan and RD follow-ups since October. Tracking, walking 4 days/week. Frustrated — weight 83.1 kg today vs 85.9 kg when she started in October (-3.3%), no further change the last few months despite adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Using condoms + OCP; not planning pregnancy — counseled to stop medication 2 months before trying to conceive.\nO: Wt 83.1 kg, BMI 28.1. BP 125/72.",
+    "score": 2.100061,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-005-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-14",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight (BMI 28.1) with hyperlipidemia — plateau despite lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counsel on GI side effects, hydration, and smaller meals. Continue lifestyle plan. Recheck in 3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 153. Repeat fasting lipids.",
+    "score": 4.789067,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_pa_weight_loss_med": [
+   {
+    "chunk_id": "DocumentReference/GLP1-005-LAB-003#c0",
+    "resource_id": "DocumentReference/GLP1-005-LAB-003",
+    "resource_type": "DocumentReference",
+    "date": "2025-05-29",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 05/29/2025\nFasting lipid panel reviewed: LDL 153, HDL 45, TG 182 mg/dL. Total cholesterol 234. Patient reports she fasted ~8 h rather than 10–12 h; TG may be mildly overstated. For future draws, fast 10–12 h (water OK).\nLDL remains elevated on atorvastatin; adherence confirmed. Will discuss at next PCP visit.",
+    "score": 1.375727,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-005-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-29",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 04/29/2026\nReviewed food log: adherent most days, averaging ~1800 kcal. Late-night snacking mostly replaced with planned snacks.\nAdjustments: more protein at breakfast; portion down pasta at dinner; plan for conference travel next month.\nReports keeping up with walking 4 days/week.\nNext RD visit in ~2 months.",
+    "score": 1.486184,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-005-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-06-30",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 06/30/2026\nReviewed OTC supplements pt wants to bring on trip: melatonin, probiotic, ginger chews, and a \"hair, skin, nails\" biotin supplement. No interactions with atorvastatin, sertraline, omeprazole, sumatriptan. Advised that high-dose biotin can interfere with some lab tests — stop 3 days before bloodwork. Pt understood.",
+    "score": 4.017691,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-005-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-14",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/14/2026\nS: Follow-up weight and lipids. Continues the diet and exercise plan and RD follow-ups since October. Tracking, walking 4 days/week. Frustrated — weight 83.1 kg today vs 85.9 kg when she started in October (-3.3%), no further change the last few months despite adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Using condoms + OCP; not planning pregnancy — counseled to stop medication 2 months before trying to conceive.\nO: Wt 83.1 kg, BMI 28.1. BP 125/72.",
+    "score": 2.100061,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-005-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-14",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight (BMI 28.1) with hyperlipidemia — plateau despite lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counsel on GI side effects, hydration, and smaller meals. Continue lifestyle plan. Recheck in 3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 153. Repeat fasting lipids.",
+    "score": 4.789067,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-005-LAB-003#c0",
+    "resource_id": "DocumentReference/GLP1-005-LAB-003",
+    "resource_type": "DocumentReference",
+    "date": "2025-05-29",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 05/29/2025\nFasting lipid panel reviewed: LDL 153, HDL 45, TG 182 mg/dL. Total cholesterol 234. Patient reports she fasted ~8 h rather than 10–12 h; TG may be mildly overstated. For future draws, fast 10–12 h (water OK).\nLDL remains elevated on atorvastatin; adherence confirmed. Will discuss at next PCP visit.",
+    "score": 3.322187,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-005-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-14",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 10/14/2025\nS: 27 y/o F here to talk about her weight and cholesterol. Grad student, irregular schedule, lots of late-night snacking and takeout. Not exercising regularly. Taking atorvastatin daily.\nO: Wt 85.9 kg, Ht 172 cm, BMI 29.0. BP 111/79.\nExam unremarkable.",
+    "score": 3.246205,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-005-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-14",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight, BMI 29.0, with hyperlipidemia — start today:\n - Calorie tracking app, target ~1800 kcal/day; no eating after 9 PM; takeout limited to weekends.\n - Walking about 30 minutes 4 days a week (campus loop).\n - Referred to a dietitian-led weight management program; RD intake scheduled.\n Follow-up in ~3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 153. Continue; recheck after lifestyle changes.\n3. Migraine — stable, sumatriptan PRN.",
+    "score": 2.937203,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-005-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-22",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 01/22/2026\nS: Follow-up. Continues the diet and activity plan started in October — tracking most days, walking 4 days a week even through winter (indoor track). Seeing RD monthly. Reports good adherence most weeks; finals week was hard.\nO: Wt 85.0 kg, BMI 28.7. BP 112/78.\nA/P:\n1. Overweight — continue program.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 153. Continue.",
+    "score": 3.58198,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-005-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-005-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-14",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight (BMI 28.1) with hyperlipidemia — plateau despite lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counsel on GI side effects, hydration, and smaller meals. Continue lifestyle plan. Recheck in 3 months.\n2. Hyperlipidemia on atorvastatin 20 mg daily; last LDL 153. Repeat fasting lipids.",
+    "score": 3.297053,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 13,
+  "n_notes": 11,
+  "tokens": {
+   "raw_chart": {
+    "structured": 8189,
+    "notes": 1357,
+    "total": 9546
+   },
+   "retrieved_evidence": 1009,
+   "structured_features": 1792,
+   "profile_total": 5883
+  }
+ }
+}

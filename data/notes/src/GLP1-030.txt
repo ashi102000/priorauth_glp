@@ -1,0 +1,96 @@
+=== GLP1-030-LAB-001
+LAB RESULT NOTE — 09/16/2024
+
+TSH 2.09 mIU/L — within normal limits (checked for fatigue). No thyroid follow-up needed.
+
+=== GLP1-030-OSR-001
+OUTSIDE RECORDS — SCANNED — 11/22/2024
+Source: University Hospital ED, visit 11/19/2024
+
+26 y/o M, acute right flank pain and hematuria. CT: 3 mm right UVJ stone. Ketorolac, tamsulosin. Passed 11/20. Urology PRN.
+
+=== GLP1-030-MSG-001
+PATIENT PORTAL MESSAGE — 12/07/2024
+
+Pt: "Backpacking in Southeast Asia (Vietnam, Cambodia, Laos) for 6 weeks starting February. What do I need?"
+RN reply: Hepatitis A, typhoid, Japanese encephalitis (long rural stay), rabies pre-exposure worth considering; malaria prophylaxis for parts of Cambodia/Laos. Please book a travel medicine visit ASAP.
+
+=== GLP1-030-MSG-002
+PATIENT PORTAL MESSAGE — 05/06/2025
+
+Pt: "New gym needs my vaccine record for their membership paperwork. Can you send?"
+MA reply: Immunization record uploaded.
+
+=== GLP1-030-PT-001
+PHYSICAL THERAPY — 05/28/2025
+
+Mechanical low back pain after deadlifting, 3 weeks. No radicular signs.
+Plan of care: 6 visits; core stabilization home exercise program daily; hip hinge re-education; return to lifting progression.
+
+=== GLP1-030-LAB-002
+LAB RESULT NOTE — 08/03/2025
+
+CBC and CMP within normal limits. No action needed.
+
+=== GLP1-030-TEL-001
+TELEPHONE ENCOUNTER — 11/02/2025
+
+Refill: cetirizine 10 mg daily PRN for dust allergy. Sent to pharmacy.
+
+=== GLP1-030-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/05/2025
+
+S: 27 y/o M wants to lose weight; gained after stopping lifting because of back pain. Eats large portions, takeout several nights.
+
+O: Wt 81.3 kg, Ht 165 cm, BMI 29.9. BP 111/66.
+Exam unremarkable.
+
+A/P:
+1. Overweight, BMI 29.9 — plan starting today:
+ - Portion-controlled plate method with a daily food diary, ~1500 kcal/day.
+ - Brisk walking with a coworker at lunch 5 days a week.
+ - Referred to a dietitian-led weight management program.
+ Follow-up in ~3 months.
+2. Migraine — stable.
+
+=== GLP1-030-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 12/17/2025
+
+Dietitian-led program intake. Food diary: big dinner portions, takeout 3 nights, sweet coffee drinks.
+Plan: plate method at ~1500 kcal/day with daily diary; takeout 1x/week; unsweetened coffee.
+Activity: brisk lunchtime walking with coworker 5 days/week.
+RD follow-up 6 weeks.
+
+=== GLP1-030-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 02/22/2026
+
+S: Follow-up. Continues the plate-method diet and lunch walks started in December; diary most days. Good adherence most weeks.
+
+O: Wt 81.3 kg, BMI 29.9. BP 113/68.
+
+A/P:
+1. Overweight — continue program.
+
+=== GLP1-030-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 05/13/2026
+
+Food diary reviewed: adherent most days; takeout once a week.
+Adjustments: smaller portions at weekend meals, protein at breakfast.
+Reports keeping up with walking.
+Continue program.
+
+=== GLP1-030-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/05/2026
+
+S: Follow-up. Continues the diet and exercise plan and program visits since December. Frustrated — weight 81.5 kg today vs 81.3 kg when he started (+0.2%), no change despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis.
+
+O: Wt 81.5 kg, Ht 165 cm, BMI 29.95. BP 123/78.
+
+A/P:
+1. Overweight, BMI 29.95 — no response to lifestyle program. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.
+2. Migraine — stable.

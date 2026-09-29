@@ -1,0 +1,455 @@
+{
+ "patient_id": "GLP1-041",
+ "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1991-08-27",
+   "age": 35,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-041-BMI-2026-08-19",
+    "date": "2026-08-19",
+    "value": 29.8
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-041-BMI-2025-12-19",
+     "date": "2025-12-19",
+     "value": 30.4
+    },
+    {
+     "resource_id": "Observation/GLP1-041-BMI-2026-03-04",
+     "date": "2026-03-04",
+     "value": 30.3
+    },
+    {
+     "resource_id": "Observation/GLP1-041-BMI-2026-08-19",
+     "date": "2026-08-19",
+     "value": 29.8
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-041-WT-2026-08-19",
+    "date": "2026-08-19",
+    "value": 91.3
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-041-WT-2025-12-19",
+     "date": "2025-12-19",
+     "value": 93.1
+    },
+    {
+     "resource_id": "Observation/GLP1-041-WT-2026-03-04",
+     "date": "2026-03-04",
+     "value": 92.8
+    },
+    {
+     "resource_id": "Observation/GLP1-041-WT-2026-08-19",
+     "date": "2026-08-19",
+     "value": 91.3
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-041-HT-2025-12-19",
+   "date": "2025-12-19",
+   "value": 175.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-041-BP-2026-08-19",
+    "date": "2026-08-19",
+    "systolic": 117.0,
+    "diastolic": 68.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-041-BP-2025-12-19",
+     "date": "2025-12-19",
+     "systolic": 122.0,
+     "diastolic": 68.0
+    },
+    {
+     "resource_id": "Observation/GLP1-041-BP-2026-03-04",
+     "date": "2026-03-04",
+     "systolic": 123.0,
+     "diastolic": 73.0
+    },
+    {
+     "resource_id": "Observation/GLP1-041-BP-2026-08-19",
+     "date": "2026-08-19",
+     "systolic": 117.0,
+     "diastolic": 68.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-041-A1C-2025-12-19",
+    "date": "2025-12-19",
+    "value": 5.1
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-041-LDL-2026-03-24",
+    "date": "2026-03-24",
+    "value": 104.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-041-HDL-2026-03-24",
+    "date": "2026-03-24",
+    "value": 64.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-041-TG-2026-03-24",
+    "date": "2026-03-24",
+    "value": 91.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-041-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2017-05-19",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-041-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2020-04-23",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-041-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2022-06-09",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-041-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2017-08-01",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-041-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2019-06-20",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-041-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-08-27",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-041-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2019-01-26",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-041-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2021-09-13",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-041-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2023-06-02",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-041-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2025-03-12",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-041-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-041-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-041-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-041-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-19",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "weight_management_program": [
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-041-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-19",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 30.4 — plan starting today:\n - Portion-controlled plate method with a daily food diary, ~1600 kcal/day.\n - Stationary bike 30–40 minutes 4 days a week.\n - Referred to a dietitian-led weight management program.\n Follow-up visits planned.\n2. GERD — continue omeprazole.",
+    "score": 18.651798,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-041-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-08",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 01/08/2026\nDietitian-led program intake. Food diary: large dinners, office snacks, sweetened lattes.\nPlan: plate method at ~1600 kcal/day, daily food diary; bring snacks from home; unsweetened coffee.\nActivity: stationary bike 30–40 min 4 days/week.\nRD follow-up 6–8 weeks.",
+    "score": 19.492807,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-041-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-04",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 03/04/2026\nS: Follow-up. Continues the plate-method diet and bike routine started in December; diary most days. Good adherence most weeks.\nO: Wt 92.8 kg, BMI 30.3. BP 123/73.\nA/P:\n1. Obesity — continue program.",
+    "score": 6.699653,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-041-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-30",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/30/2026\nFood diary reviewed: adherent most days.\nAdjustments: add vegetables at lunch; plan for summer barbecues.\nReports keeping up with the bike 4 days/week.\nContinue program.",
+    "score": 10.982504,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-041-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-19",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/19/2026\nS: Follow-up. Continues the diet and exercise plan and dietitian follow-ups since December. Frustrated — weight 91.3 kg today vs 93.1 kg when the lifestyle plan began (-1.9%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Uses IUD.\nO: Wt 91.3 kg, Ht 175 cm, BMI 29.8. BP 117/68.",
+    "score": 10.303824,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_glp1": [
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-041-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-05",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 01/05/2026\nPt asked about apple cider vinegar capsules and a fiber supplement. No interactions; take fiber 2 hours apart from other medications. ACV may worsen reflux.",
+    "score": 4.753154,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-LAB-003#c0",
+    "resource_id": "DocumentReference/GLP1-041-LAB-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-24",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 03/24/2026\nFasting lipid panel reviewed: LDL 104, HDL 64, TG 91 mg/dL — acceptable. Pt had black coffee only — fine. For future draws continue to fast 10–12 hours. No action needed.",
+    "score": 1.596083,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-041-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-30",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/30/2026\nFood diary reviewed: adherent most days.\nAdjustments: add vegetables at lunch; plan for summer barbecues.\nReports keeping up with the bike 4 days/week.\nContinue program.",
+    "score": 1.766,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-041-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-19",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/19/2026\nS: Follow-up. Continues the diet and exercise plan and dietitian follow-ups since December. Frustrated — weight 91.3 kg today vs 93.1 kg when the lifestyle plan began (-1.9%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Uses IUD.\nO: Wt 91.3 kg, Ht 175 cm, BMI 29.8. BP 117/68.",
+    "score": 1.395607,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-041-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-19",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Weight management, BMI 29.8 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.\n2. Low back pain — stable.",
+    "score": 4.926433,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_pa_weight_loss_med": [
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-041-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-05",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 01/05/2026\nPt asked about apple cider vinegar capsules and a fiber supplement. No interactions; take fiber 2 hours apart from other medications. ACV may worsen reflux.",
+    "score": 4.753154,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-LAB-003#c0",
+    "resource_id": "DocumentReference/GLP1-041-LAB-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-24",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 03/24/2026\nFasting lipid panel reviewed: LDL 104, HDL 64, TG 91 mg/dL — acceptable. Pt had black coffee only — fine. For future draws continue to fast 10–12 hours. No action needed.",
+    "score": 1.596083,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-041-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-30",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/30/2026\nFood diary reviewed: adherent most days.\nAdjustments: add vegetables at lunch; plan for summer barbecues.\nReports keeping up with the bike 4 days/week.\nContinue program.",
+    "score": 1.766,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-041-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-19",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/19/2026\nS: Follow-up. Continues the diet and exercise plan and dietitian follow-ups since December. Frustrated — weight 91.3 kg today vs 93.1 kg when the lifestyle plan began (-1.9%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Uses IUD.\nO: Wt 91.3 kg, Ht 175 cm, BMI 29.8. BP 117/68.",
+    "score": 1.395607,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-041-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-19",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Weight management, BMI 29.8 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.\n2. Low back pain — stable.",
+    "score": 4.926433,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-041-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-19",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 12/19/2025\nS: 34 y/o F wants to lose weight; back pain and reflux worse with weight gain. Large portions at dinner, snacks at work.\nO: Wt 93.1 kg, Ht 175 cm, BMI 30.4. BP 122/68.\nExam unremarkable.",
+    "score": 1.437963,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-041-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-04",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 03/04/2026\nS: Follow-up. Continues the plate-method diet and bike routine started in December; diary most days. Good adherence most weeks.\nO: Wt 92.8 kg, BMI 30.3. BP 123/73.\nA/P:\n1. Obesity — continue program.",
+    "score": 1.493445,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-LAB-003#c0",
+    "resource_id": "DocumentReference/GLP1-041-LAB-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-24",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 03/24/2026\nFasting lipid panel reviewed: LDL 104, HDL 64, TG 91 mg/dL — acceptable. Pt had black coffee only — fine. For future draws continue to fast 10–12 hours. No action needed.",
+    "score": 2.395502,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-041-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-041-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-19",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/19/2026\nS: Follow-up. Continues the diet and exercise plan and dietitian follow-ups since December. Frustrated — weight 91.3 kg today vs 93.1 kg when the lifestyle plan began (-1.9%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Uses IUD.\nO: Wt 91.3 kg, Ht 175 cm, BMI 29.8. BP 117/68.",
+    "score": 1.164074,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 18,
+  "n_notes": 16,
+  "tokens": {
+   "raw_chart": {
+    "structured": 8014,
+    "notes": 1089,
+    "total": 9103
+   },
+   "retrieved_evidence": 670,
+   "structured_features": 1739,
+   "profile_total": 4977
+  }
+ }
+}

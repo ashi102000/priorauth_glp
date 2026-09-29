@@ -1,0 +1,64 @@
+{
+  "run_id": "main_hybrid_t0.90",
+  "timestamp": "2026-09-29T08:33:33+00:00",
+  "git_commit": null,
+  "git_dirty": true,
+  "source_tree_sha256": "4e6eca5c1ec89c80918eaa61e7e37db4b1a481c0e964922552141c43af167fa3",
+  "cohort_version": "GLP1_PA_COHORT_V1",
+  "request_date": "2026-09-01",
+  "pipeline": "hybrid",
+  "n_evaluations": 150,
+  "policy_versions": [
+    {
+      "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+      "effective_date": "2026-08-20",
+      "version_as_printed": "4774-C P08-2025 v5; page date 'August 20, 2026' (printed after copyright; not labeled effective/revision date)",
+      "verification": "verified"
+    },
+    {
+      "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+      "effective_date": "2026-07-01",
+      "version_as_printed": "Effective Date: July 1, 2026; Last Review Date: June 11, 2026; Original Policy Date: September 9, 2022",
+      "verification": "verified"
+    },
+    {
+      "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+      "effective_date": "2026-09-01",
+      "version_as_printed": "Program Number 2026 P 1114-22; Effective Date 9/1/2026; P&T approval 5/2026",
+      "verification": "verified"
+    }
+  ],
+  "models": {
+    "gpt": "gpt-6-sol",
+    "gpt_reasoning_effort": "medium",
+    "jev": "jev-1.13.0"
+  },
+  "jev_threshold": 0.9,
+  "hybrid_narrative": "ready_only",
+  "retrieval_config": {
+    "version": "RETRIEVAL_V1",
+    "chunking": {
+      "max_words": 120,
+      "min_words": 25
+    },
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75
+    },
+    "top_k": 5,
+    "min_relative_score": 0.2,
+    "temporal_extras": true,
+    "notes": "Defaults fixed a priori (not tuned on the evidence map). K sweeps are reported as sensitivity analysis only."
+  },
+  "retrieval_config_hash": "bb02d66cc68d",
+  "pricing_version": "PRICING_2026_09_29",
+  "execution": {
+    "concurrency": 4,
+    "force": false,
+    "sweep_of": null,
+    "python": "3.11.1",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "openai_sdk": "3.20.0"
+  },
+  "notes": "Latency = application-side wall-clock per case under the stated concurrency (same for both arms)."
+}

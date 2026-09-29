@@ -1,0 +1,404 @@
+{
+ "patient_id": "GLP1-023",
+ "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1976-12-28",
+   "age": 49,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-023-BMI-2026-08-18",
+    "date": "2026-08-18",
+    "value": 35.1
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-023-BMI-2025-12-18",
+     "date": "2025-12-18",
+     "value": 35.8
+    },
+    {
+     "resource_id": "Observation/GLP1-023-BMI-2026-03-11",
+     "date": "2026-03-11",
+     "value": 35.6
+    },
+    {
+     "resource_id": "Observation/GLP1-023-BMI-2026-08-18",
+     "date": "2026-08-18",
+     "value": 35.1
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-023-WT-2026-08-18",
+    "date": "2026-08-18",
+    "value": 95.6
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-023-WT-2025-12-18",
+     "date": "2025-12-18",
+     "value": 97.5
+    },
+    {
+     "resource_id": "Observation/GLP1-023-WT-2026-03-11",
+     "date": "2026-03-11",
+     "value": 97.0
+    },
+    {
+     "resource_id": "Observation/GLP1-023-WT-2026-08-18",
+     "date": "2026-08-18",
+     "value": 95.6
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-023-HT-2025-12-18",
+   "date": "2025-12-18",
+   "value": 165.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-023-BP-2026-08-18",
+    "date": "2026-08-18",
+    "systolic": 114.0,
+    "diastolic": 78.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-023-BP-2025-12-18",
+     "date": "2025-12-18",
+     "systolic": 109.0,
+     "diastolic": 74.0
+    },
+    {
+     "resource_id": "Observation/GLP1-023-BP-2026-03-11",
+     "date": "2026-03-11",
+     "systolic": 124.0,
+     "diastolic": 66.0
+    },
+    {
+     "resource_id": "Observation/GLP1-023-BP-2026-08-18",
+     "date": "2026-08-18",
+     "systolic": 114.0,
+     "diastolic": 78.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-023-A1C-2025-12-18",
+    "date": "2025-12-18",
+    "value": 5.3
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-023-LDL-2025-12-18",
+    "date": "2025-12-18",
+    "value": 99.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-023-HDL-2025-12-18",
+    "date": "2025-12-18",
+    "value": 52.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-023-TG-2025-12-18",
+    "date": "2025-12-18",
+    "value": 109.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-023-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2015-10-24",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-023-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2023-02-10",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-023-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2023-06-18",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-023-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2023-02-01",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-023-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2019-11-20",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-023-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2020-02-09",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-023-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-07-15",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-023-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2023-05-25",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-023-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-18",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "weight_management_program": [
+   {
+    "chunk_id": "DocumentReference/GLP1-023-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-023-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-18",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 35.8 — plan starting today:\n - Reduced-calorie meal plan of about 1500 kcal/day with food logging in a phone app.\n - Brisk walking with a coworker at lunch 3 days a week.\n - Enrolled in the health system's 12-month lifestyle modification program.\n Follow-up in ~3 months.\n2. Low back pain — stable.",
+    "score": 15.265947,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-023-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-03",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 01/03/2026\nLifestyle program intake. Food log: cafeteria lunches (fried entrees), chips/cookies in the evening, large weekend brunches.\nPlan: ~1500 kcal/day logged in phone app; bring lunch 3x/week, cafeteria choices with grilled protein + vegetables; planned evening snack ≤150 kcal.\nActivity: brisk walking with coworker at lunch 3 days/week.\nRD follow-up 6 weeks.",
+    "score": 13.159255,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-023-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 03/11/2026\nS: Follow-up. Continues the meal plan and lunchtime walks started in December; logs most days. Good adherence most weeks.\nO: Wt 97.0 kg, BMI 35.6. BP 124/66.\nA/P:\n1. Obesity — continue program.",
+    "score": 4.823003,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-023-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-26",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/26/2026\nFood log reviewed: adherent most days, ~1500 kcal. Lunches packed most days.\nAdjustments: protein at breakfast to reduce mid-morning hunger; lighter weekend brunch choices.\nReports keeping up with lunchtime walks 3 days/week.\nContinue program.",
+    "score": 8.822464,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-023-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-18",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/18/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since December — logging meals, lunchtime walks. Frustrated: weight 95.6 kg today vs 97.5 kg when the plan began (-1.9%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Medication list not reconciled today — patient did not bring her list and pharmacy records were not available.\nO: Wt 95.6 kg, BMI 35.1. BP 114/78.",
+    "score": 8.189536,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_glp1": [
+   {
+    "chunk_id": "DocumentReference/GLP1-023-MSG-001#c0",
+    "resource_id": "DocumentReference/GLP1-023-MSG-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-03-01",
+    "note_type": "Patient portal message",
+    "text": "PATIENT PORTAL MESSAGE — 03/01/2025\nPt: \"Going to Italy and Greece in May — do I need anything?\"\nRN reply: No special vaccines needed beyond routine ones; make sure your tetanus and flu shots are current. Safe travels.",
+    "score": 2.374954,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-OSR-001#c0",
+    "resource_id": "DocumentReference/GLP1-023-OSR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-30",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 08/30/2025\nSource: Bayview Dental\nMedical clearance request for implant placement. Dental office notes patient could not provide a medication list. Cleared by covering provider: no known bleeding disorder or anticoagulant use per patient report; no restrictions.",
+    "score": 2.786149,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-023-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-26",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/26/2026\nFood log reviewed: adherent most days, ~1500 kcal. Lunches packed most days.\nAdjustments: protein at breakfast to reduce mid-morning hunger; lighter weekend brunch choices.\nReports keeping up with lunchtime walks 3 days/week.\nContinue program.",
+    "score": 2.240804,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-023-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-18",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/18/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since December — logging meals, lunchtime walks. Frustrated: weight 95.6 kg today vs 97.5 kg when the plan began (-1.9%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Medication list not reconciled today — patient did not bring her list and pharmacy records were not available.\nO: Wt 95.6 kg, BMI 35.1. BP 114/78.",
+    "score": 2.971214,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-023-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-18",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 35.1 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue lifestyle plan. Recheck in 3 months.\n2. Medication reconciliation — ask patient to bring all bottles/list to next visit.",
+    "score": 7.124322,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_pa_weight_loss_med": [
+   {
+    "chunk_id": "DocumentReference/GLP1-023-MSG-001#c0",
+    "resource_id": "DocumentReference/GLP1-023-MSG-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-03-01",
+    "note_type": "Patient portal message",
+    "text": "PATIENT PORTAL MESSAGE — 03/01/2025\nPt: \"Going to Italy and Greece in May — do I need anything?\"\nRN reply: No special vaccines needed beyond routine ones; make sure your tetanus and flu shots are current. Safe travels.",
+    "score": 2.374954,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-OSR-001#c0",
+    "resource_id": "DocumentReference/GLP1-023-OSR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-30",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 08/30/2025\nSource: Bayview Dental\nMedical clearance request for implant placement. Dental office notes patient could not provide a medication list. Cleared by covering provider: no known bleeding disorder or anticoagulant use per patient report; no restrictions.",
+    "score": 2.786149,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-023-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-26",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/26/2026\nFood log reviewed: adherent most days, ~1500 kcal. Lunches packed most days.\nAdjustments: protein at breakfast to reduce mid-morning hunger; lighter weekend brunch choices.\nReports keeping up with lunchtime walks 3 days/week.\nContinue program.",
+    "score": 2.240804,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-023-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-18",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/18/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since December — logging meals, lunchtime walks. Frustrated: weight 95.6 kg today vs 97.5 kg when the plan began (-1.9%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Medication list not reconciled today — patient did not bring her list and pharmacy records were not available.\nO: Wt 95.6 kg, BMI 35.1. BP 114/78.",
+    "score": 2.971214,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-023-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-18",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 35.1 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue lifestyle plan. Recheck in 3 months.\n2. Medication reconciliation — ask patient to bring all bottles/list to next visit.",
+    "score": 7.124322,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-023-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-023-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-18",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 12/18/2025\nS: 48 y/o F would like help losing weight. Gained ~10 kg over 4 years, knees and back hurt more. Busy job; lunches from the cafeteria, evening snacking.\nO: Wt 97.5 kg, Ht 165 cm, BMI 35.8. BP 109/74.\nExam unremarkable.",
+    "score": 1.19905,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-023-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 03/11/2026\nS: Follow-up. Continues the meal plan and lunchtime walks started in December; logs most days. Good adherence most weeks.\nO: Wt 97.0 kg, BMI 35.6. BP 124/66.\nA/P:\n1. Obesity — continue program.",
+    "score": 1.331515,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-023-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-023-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-18",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/18/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since December — logging meals, lunchtime walks. Frustrated: weight 95.6 kg today vs 97.5 kg when the plan began (-1.9%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Medication list not reconciled today — patient did not bring her list and pharmacy records were not available.\nO: Wt 95.6 kg, BMI 35.1. BP 114/78.",
+    "score": 0.960231,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 12,
+  "n_notes": 10,
+  "tokens": {
+   "raw_chart": {
+    "structured": 7210,
+    "notes": 925,
+    "total": 8135
+   },
+   "retrieved_evidence": 750,
+   "structured_features": 1391,
+   "profile_total": 4662
+  }
+ }
+}

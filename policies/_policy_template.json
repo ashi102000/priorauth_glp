@@ -1,0 +1,25 @@
+{
+  "policy_id": "REPLACE_WITH_EXACT_VERSION",
+  "payer": "REPLACE",
+  "product": "Wegovy",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "effective_date": "YYYY-MM-DD",
+  "source_url": "REPLACE",
+  "criteria": [
+    {
+      "criterion_id": "example",
+      "description": "Exact normalized criterion",
+      "logic_type": "deterministic|semantic|temporal|medication_reconciliation",
+      "required_sources": [
+        "Patient",
+        "Observation",
+        "Condition",
+        "MedicationRequest",
+        "DocumentReference"
+      ],
+      "evaluator": "code|jev|frontier|human",
+      "source_location": "page/section"
+    }
+  ]
+}

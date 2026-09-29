@@ -1,0 +1,21 @@
+{
+  "patient_id": "GLP1-040",
+  "notes": {
+    "GLP1-040-LAB-001": "LAB RESULT NOTE — 09/17/2024\n\nCBC and CMP within normal limits. No action needed.\n",
+    "GLP1-040-MSG-001": "PATIENT PORTAL MESSAGE — 10/11/2024\n\nPt: \"Gym membership form needs my vaccine record — can you send?\"\nMA reply: Uploaded to documents.\n",
+    "GLP1-040-OSR-001": "OUTSIDE RECORDS — SCANNED — 10/18/2024\nSource: Campus Dental Clinic\n\nClearance for wisdom tooth extraction under IV sedation. No anticoagulants, no cardiac history. Cleared without restrictions.\n",
+    "GLP1-040-PHARM-001": "PHARMACIST MEDICATION REVIEW — 10/22/2024\n\nPt asked about creatine and a whey protein supplement. No interactions with sertraline, sumatriptan, cetirizine. Hydrate well with creatine.\n",
+    "GLP1-040-LAB-002": "LAB RESULT NOTE — 01/23/2025\n\nTSH 2.88 mIU/L — within normal limits. No thyroid follow-up needed.\n",
+    "GLP1-040-MSG-002": "PATIENT PORTAL MESSAGE — 06/14/2025\n\nPt: \"Need to move my appointment and get a note for work for Monday.\"\nMA reply: Moved to 06/30. Note uploaded.\n",
+    "GLP1-040-TEL-001": "TELEPHONE ENCOUNTER — 07/24/2025\n\nPt confirmed fasting lab draw 07/28, 8:00 AM; fast 10–12 hours. Understood.\n",
+    "GLP1-040-OSR-002": "OUTSIDE RECORDS — SCANNED — 08/29/2025\nSource: Valley ED, visit 08/25/2025\n\n27 y/o M, right flank pain, hematuria. CT: 3 mm right UVJ stone. Ketorolac, tamsulosin. Passed 08/27. Urology PRN.\n",
+    "GLP1-040-PCP-001": "PRIMARY CARE PROGRESS NOTE\nDate: 12/11/2025\n\nS: 27 y/o M wants to lose weight; gained after a job change to remote work. Eats large portions, snacks during gaming at night.\n\nO: Wt 88.3 kg, Ht 172 cm, BMI 29.8. BP 126/74.\nExam unremarkable.\n\nA/P:\n1. Overweight, BMI 29.8 — plan starting today:\n - Portion-controlled plate method with a daily food diary, ~1600 kcal/day.\n - Gym sessions (treadmill + light weights) 3 days a week, ~150 min/week.\n - Enrolling in the employer-sponsored weight management program with monthly coaching.\n Follow-up visits planned.\n2. Anxiety — stable on sertraline.\n",
+    "GLP1-040-NUTR-001": "NUTRITION CONSULT — INITIAL\nDate: 12/26/2025\n\nEmployer program RD intake. Food diary: big dinners, late-night snacks (chips, candy), energy drinks.\nPlan: plate method at ~1600 kcal/day; daily food diary; pre-portioned night snack; energy drinks to zero.\nActivity: gym 3 days/week, treadmill + weights, ~150 min/week.\nMonthly coaching; RD follow-up 6 weeks.\n",
+    "GLP1-040-TEL-002": "TELEPHONE ENCOUNTER — 01/06/2026\n\nRefill: cetirizine 10 mg daily PRN — dust mite allergy. Sent to pharmacy.\n",
+    "GLP1-040-PCP-002": "PRIMARY CARE PROGRESS NOTE\nDate: 03/07/2026\n\nS: Follow-up. Continues the plate method and gym plan started in December; diary most days. Good adherence most weeks.\n\nO: Wt 88.3 kg, BMI 29.8. BP 121/76.\n\nA/P:\n1. Overweight — continue program.\n",
+    "GLP1-040-LAB-003": "LAB RESULT NOTE — 04/02/2026\n\n25-OH vitamin D 33 ng/mL — normal. No supplement needed.\n",
+    "GLP1-040-NUTR-002": "NUTRITION FOLLOW-UP\nDate: 05/21/2026\n\nFood diary reviewed: adherent most days; energy drinks stopped.\nAdjustments: protein-forward snacks, smaller dinner starch portions.\nReports keeping up with the gym routine.\nContinue program.\n",
+    "GLP1-040-OSR-003": "OUTSIDE RECORDS — SCANNED — 07/22/2026\nSource: Metro Medical Weight Loss (outside clinic, self-referred consultation)\n\nNew patient intake form: height 172 cm, weight 89.9 kg (clothed, shoes on), BMI 30.4. Consultation only; no medications prescribed; patient chose to follow up with his PCP.\n",
+    "GLP1-040-PCP-003": "PRIMARY CARE PROGRESS NOTE\nDate: 08/11/2026\n\nS: Follow-up. Continues the diet and exercise plan and program coaching since December. Frustrated — weight 87.9 kg today vs 88.3 kg when the lifestyle plan began (-0.5%) despite reported adherence. Had a consultation at an outside weight-loss clinic in July. Asks about medication. No MTC/MEN2 history, no pancreatitis.\n\nO: Wt 87.9 kg, Ht 172 cm, BMI 29.7. BP 116/78.\n\nA/P:\n1. Overweight, BMI 29.7 — plateau on lifestyle program. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.\n2. Anxiety — stable.\n"
+  }
+}

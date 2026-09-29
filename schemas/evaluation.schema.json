@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PA Evaluation Ground Truth",
+  "type": "object",
+  "properties": {
+    "ground_truth": {
+      "properties": {
+        "pa_state": {
+          "enum": [
+            "READY",
+            "NOT_READY",
+            "REVIEW_REQUIRED"
+          ]
+        }
+      }
+    }
+  }
+}

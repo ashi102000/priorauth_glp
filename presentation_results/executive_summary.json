@@ -1,0 +1,141 @@
+{
+  "note": "Measurements only; interpretation intentionally omitted.",
+  "experiment": {
+    "patients": 50,
+    "policies": 3,
+    "evaluations_per_pipeline": 150,
+    "request_date": "2026-09-01",
+    "policy_ids": [
+      "AETNA_WEGOVY_4774C_2026_08_20",
+      "BCBS_FEP_WEGOVY_2026_07_01",
+      "UHC_WEGOVY_P1114_22_2026_09_01"
+    ],
+    "runs": {
+      "gpt": "main_gpt",
+      "hybrid": "main_hybrid_t0.90"
+    }
+  },
+  "gpt_only": {
+    "pa_accuracy": 0.9466666666666667,
+    "pa_accuracy_ci95": [
+      0.9066666666666666,
+      0.98
+    ],
+    "pa_macro_f1": 0.8615984405458089,
+    "criterion_accuracy": 0.972,
+    "total_cost_usd": 2.3329840000000006,
+    "cost_per_pa_usd": 0.015553226666666671,
+    "gpt_calls": 150,
+    "gpt_input_tokens": 633572,
+    "gpt_output_tokens": 106584,
+    "p50_latency_ms": 10582.3,
+    "p95_latency_ms": 16318.989999999998,
+    "median_context_reduction_pct": 52.977392282564004
+  },
+  "jev_plus_gpt": {
+    "pa_accuracy": 0.9666666666666667,
+    "pa_accuracy_ci95": [
+      0.9266666666666666,
+      0.9933333333333333
+    ],
+    "pa_macro_f1": 0.9156482246077622,
+    "criterion_accuracy": 0.984,
+    "total_cost_usd": 0.8663997700000001,
+    "cost_per_pa_usd": 0.005775998466666667,
+    "decision_cost_per_pa_usd": 0.002457074466666666,
+    "gpt_calls": 114,
+    "gpt_decision_calls": 27,
+    "jev_calls": 150,
+    "gpt_input_tokens": 229398,
+    "gpt_output_tokens": 39680,
+    "jev_input_tokens": 909004,
+    "p50_latency_ms": 5562.8,
+    "p95_latency_ms": 10307.42499999999,
+    "p50_decision_latency_ms": 198.14999999999998,
+    "p95_decision_latency_ms": 8655.554999999982,
+    "gpt_calls_avoided_pct": 24.0,
+    "gpt_decision_calls_avoided_pct": 82.0,
+    "gpt_tokens_avoided_pct": 63.645771972395,
+    "cost_reduction_pct": 62.86302134948204,
+    "cases_escalated": 27,
+    "criteria_escalated": 32,
+    "median_context_reduction_pct": 30.67281922741647
+  },
+  "threshold": 0.9,
+  "jev_calibration": {
+    "model": "jev-1.13.0",
+    "brier_score": 0.020822018348623843,
+    "ece": 0.03810397553516852,
+    "n": 327,
+    "scope": "criterion-level confidence for criteria evaluated by Jev before routing",
+    "gpt_same_scope_brier": 0.05583455657492355,
+    "gpt_same_scope_ece": 0.03525993883792224
+  },
+  "paired_comparison": {
+    "pa_state": {
+      "a_only_correct": 0,
+      "b_only_correct": 3,
+      "p_value": 0.25,
+      "accuracy_difference_hybrid_minus_gpt": 0.02,
+      "accuracy_difference_ci95": [
+        0.0,
+        0.04666666666666667
+      ],
+      "note": "a = GPT-only, b = hybrid; exact two-sided McNemar on PA-state correctness; CI = patient-cluster bootstrap"
+    },
+    "criterion_status": {
+      "a_only_correct": 1,
+      "b_only_correct": 10,
+      "p_value": 0.01171875,
+      "note": "a = GPT-only, b = hybrid"
+    }
+  },
+  "escalation_effect": {
+    "both_correct": 16,
+    "escalation_fixed": 5,
+    "escalation_broke": 9,
+    "both_wrong": 2
+  },
+  "retrieval": {
+    "queries": 450,
+    "mean_recall": 0.917131242740999,
+    "mean_recall_contradicts": 1.0,
+    "critical_misses": 0,
+    "report": "reports/retrieval_eval.md"
+  },
+  "failure_categories": {
+    "gpt": {
+      "all_criterion_errors": {
+        "MISSING_NOT_NEGATIVE": 10,
+        "TEMPORAL_REASONING": 7,
+        "SEMANTIC_INTERPRETATION": 1,
+        "CONTRADICTION": 3
+      },
+      "errors_in_pa_state_wrong_cases": {
+        "TEMPORAL_REASONING": 4,
+        "SEMANTIC_INTERPRETATION": 1,
+        "CONTRADICTION": 3
+      }
+    },
+    "hybrid": {
+      "all_criterion_errors": {
+        "TEMPORAL_REASONING": 5,
+        "MISSING_NOT_NEGATIVE": 4,
+        "CONTRADICTION": 3
+      },
+      "errors_in_pa_state_wrong_cases": {
+        "TEMPORAL_REASONING": 2,
+        "CONTRADICTION": 3
+      }
+    }
+  },
+  "limitations": [
+    "n = 150 evaluations (50 synthetic patients x 3 policies); cases are challenge-stratified, not epidemiologically representative.",
+    "Evaluations of the same patient are correlated; CIs use a patient-cluster bootstrap.",
+    "Hybrid questions/rules were revised once after a 5-patient smoke test on this cohort (no separate dev set); GPT baseline received one provenance formatting fix.",
+    "Ground truth derives from user-approved policy interpretations; some labels (REVIEW_REQUIRED cases) encode judgment calls.",
+    "Headline threshold 0.90 was fixed before the runs; the sweep is sensitivity analysis, not selection.",
+    "Latency measured application-side with concurrency 4; GPT latency depends on provider load at run time.",
+    "Clinical notes were authored by an LLM (Claude) from structured plans; distribution differs from real EHR text."
+  ]
+}

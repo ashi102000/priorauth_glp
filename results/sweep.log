@@ -1,0 +1,85 @@
+[sweep_t0.60] 150 evaluations; 0 already complete; running 150
+  10/150  last=GLP1-004__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.0576
+  20/150  last=GLP1-007__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.1206
+  30/150  last=GLP1-010__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.1849
+  40/150  last=GLP1-014__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.1876
+  50/150  last=GLP1-017__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $0.1901
+  60/150  last=GLP1-020__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.2163
+  70/150  last=GLP1-024__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.2670
+  80/150  last=GLP1-027__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.3091
+  90/150  last=GLP1-031__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.3276
+  100/150  last=GLP1-034__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.3854
+  110/150  last=GLP1-038__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.4283
+  120/150  last=GLP1-041__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $0.4565
+  130/150  last=GLP1-045__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.4765
+  140/150  last=GLP1-048__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.5084
+  150/150  last=GLP1-047__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.5635
+[sweep_t0.60] done: ok=150 errors=0 new-run cost $0.5635 -> results/runs/sweep_t0.60
+[sweep_t0.70] 150 evaluations; 0 already complete; running 150
+  10/150  last=GLP1-004__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.0576
+  20/150  last=GLP1-007__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.1223
+  30/150  last=GLP1-011__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.1794
+  40/150  last=GLP1-014__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.1876
+  50/150  last=GLP1-017__UHC_WEGOVY_P1114_22_2026_09_01 state=NOT_READY err=-  run cost so far $0.1900
+  60/150  last=GLP1-020__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.2230
+  70/150  last=GLP1-024__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $0.2616
+  80/150  last=GLP1-027__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.3080
+  90/150  last=GLP1-030__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $0.3730
+  100/150  last=GLP1-034__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.4278
+  110/150  last=GLP1-037__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.4753
+  120/150  last=GLP1-040__UHC_WEGOVY_P1114_22_2026_09_01 state=NOT_READY err=-  run cost so far $0.5123
+  130/150  last=GLP1-044__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.5258
+  140/150  last=GLP1-047__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.5684
+  150/150  last=GLP1-050__UHC_WEGOVY_P1114_22_2026_09_01 state=NOT_READY err=-  run cost so far $0.6009
+[sweep_t0.70] done: ok=150 errors=0 new-run cost $0.6009 -> results/runs/sweep_t0.70
+[sweep_t0.80] 150 evaluations; 0 already complete; running 150
+  10/150  last=GLP1-004__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.0589
+  20/150  last=GLP1-007__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.1223
+  30/150  last=GLP1-011__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.1794
+  40/150  last=GLP1-014__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.1876
+  50/150  last=GLP1-017__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.1900
+  60/150  last=GLP1-020__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.2334
+  70/150  last=GLP1-024__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.2773
+  80/150  last=GLP1-027__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $0.3183
+  90/150  last=GLP1-031__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.3763
+  100/150  last=GLP1-034__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.4462
+  110/150  last=GLP1-037__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.5056
+  120/150  last=GLP1-040__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $0.5425
+  130/150  last=GLP1-044__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.5560
+  140/150  last=GLP1-047__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.6158
+  150/150  last=GLP1-050__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.6891
+[sweep_t0.80] done: ok=150 errors=0 new-run cost $0.6891 -> results/runs/sweep_t0.80
+[sweep_t0.90] 150 evaluations; 0 already complete; running 150
+  10/150  last=GLP1-004__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.0589
+  20/150  last=GLP1-007__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.1223
+  30/150  last=GLP1-010__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.1849
+  40/150  last=GLP1-014__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.1876
+  50/150  last=GLP1-017__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $0.1933
+  60/150  last=GLP1-021__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.2671
+  70/150  last=GLP1-024__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $0.3102
+  80/150  last=GLP1-027__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $0.3734
+  90/150  last=GLP1-031__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.4295
+  100/150  last=GLP1-034__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.5013
+  110/150  last=GLP1-037__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.5706
+  120/150  last=GLP1-040__UHC_WEGOVY_P1114_22_2026_09_01 state=NOT_READY err=-  run cost so far $0.6188
+  130/150  last=GLP1-044__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.7106
+  140/150  last=GLP1-047__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $0.7782
+  150/150  last=GLP1-050__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.8664
+[sweep_t0.90] done: ok=150 errors=0 new-run cost $0.8664 -> results/runs/sweep_t0.90
+[sweep_t0.95] 150 evaluations; 0 already complete; running 150
+  10/150  last=GLP1-003__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.1138
+  20/150  last=GLP1-008__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.2196
+  30/150  last=GLP1-011__UHC_WEGOVY_P1114_22_2026_09_01 state=NOT_READY err=-  run cost so far $0.2968
+  40/150  last=GLP1-014__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.4385
+  50/150  last=GLP1-018__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.5358
+  60/150  last=GLP1-021__UHC_WEGOVY_P1114_22_2026_09_01 state=NOT_READY err=-  run cost so far $0.5996
+  70/150  last=GLP1-020__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.6947
+  80/150  last=GLP1-028__BCBS_FEP_WEGOVY_2026_07_01 state=REVIEW_REQUIRED err=-  run cost so far $0.7811
+  90/150  last=GLP1-030__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.8919
+  100/150  last=GLP1-033__AETNA_WEGOVY_4774C_2026_08_20 state=REVIEW_REQUIRED err=-  run cost so far $0.9891
+  110/150  last=GLP1-036__UHC_WEGOVY_P1114_22_2026_09_01 state=NOT_READY err=-  run cost so far $1.1179
+  120/150  last=GLP1-040__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $1.2569
+  130/150  last=GLP1-041__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $1.3338
+  140/150  last=GLP1-048__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $1.4661
+  150/150  last=GLP1-049__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $1.5927
+[sweep_t0.95] done: ok=150 errors=0 new-run cost $1.5927 -> results/runs/sweep_t0.95

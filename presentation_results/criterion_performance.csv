@@ -1,0 +1,31 @@
+pipeline,policy_id,criterion_id,criterion_type,n,accuracy,macro_f1,pass_precision,pass_recall,pass_f1,errors,engine_counts,escalated
+gpt,AETNA_WEGOVY_4774C_2026_08_20,adjunct_diet_and_activity,semantic,50,0.94,0.925,1.0,0.95122,0.975,3,"{""gpt"": 50}",0
+gpt,AETNA_WEGOVY_4774C_2026_08_20,age,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""gpt"": 50}",0
+gpt,AETNA_WEGOVY_4774C_2026_08_20,bmi_threshold,deterministic,50,0.94,0.933333,1.0,1.0,1.0,3,"{""gpt"": 50}",0
+gpt,AETNA_WEGOVY_4774C_2026_08_20,indication,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""gpt"": 50}",0
+gpt,AETNA_WEGOVY_4774C_2026_08_20,program_6_months,semantic_temporal,50,0.92,0.779266,1.0,0.941176,0.969697,4,"{""gpt"": 50}",0
+gpt,BCBS_FEP_WEGOVY_2026_07_01,age,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""gpt"": 50}",0
+gpt,BCBS_FEP_WEGOVY_2026_07_01,bmi_threshold,deterministic,50,0.9,0.86768,0.97561,1.0,0.987654,5,"{""gpt"": 50}",0
+gpt,BCBS_FEP_WEGOVY_2026_07_01,indication,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""gpt"": 50}",0
+gpt,BCBS_FEP_WEGOVY_2026_07_01,no_concurrent_glp1,medication_reconciliation,50,1.0,1.0,1.0,1.0,1.0,0,"{""gpt"": 50}",0
+gpt,BCBS_FEP_WEGOVY_2026_07_01,no_concurrent_pa_weight_loss_med,medication_reconciliation,50,1.0,1.0,1.0,1.0,1.0,0,"{""gpt"": 50}",0
+gpt,BCBS_FEP_WEGOVY_2026_07_01,weight_management_program,semantic,50,0.98,0.973762,1.0,0.97619,0.987952,1,"{""gpt"": 50}",0
+gpt,UHC_WEGOVY_P1114_22_2026_09_01,age,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""gpt"": 50}",0
+gpt,UHC_WEGOVY_P1114_22_2026_09_01,bmi_threshold,deterministic,50,0.92,0.793651,1.0,1.0,1.0,4,"{""gpt"": 50}",0
+gpt,UHC_WEGOVY_P1114_22_2026_09_01,indication,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""gpt"": 50}",0
+gpt,UHC_WEGOVY_P1114_22_2026_09_01,lifestyle_adjunct,semantic,50,0.98,0.996169,0.977273,1.0,0.988506,1,"{""gpt"": 50}",0
+hybrid,AETNA_WEGOVY_4774C_2026_08_20,adjunct_diet_and_activity,semantic,50,0.94,0.925,1.0,0.95122,0.975,3,"{""jev"": 44, ""gpt_escalation"": 6}",6
+hybrid,AETNA_WEGOVY_4774C_2026_08_20,age,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""code"": 50}",0
+hybrid,AETNA_WEGOVY_4774C_2026_08_20,bmi_threshold,deterministic,50,0.96,0.958333,1.0,1.0,1.0,2,"{""code"": 41, ""jev"": 6, ""gpt_escalation"": 3}",3
+hybrid,AETNA_WEGOVY_4774C_2026_08_20,indication,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""code"": 50}",0
+hybrid,AETNA_WEGOVY_4774C_2026_08_20,program_6_months,semantic_temporal,50,0.96,0.905333,1.0,0.970588,0.985075,2,"{""jev"": 42, ""gpt_escalation"": 8}",8
+hybrid,BCBS_FEP_WEGOVY_2026_07_01,age,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""code"": 50}",0
+hybrid,BCBS_FEP_WEGOVY_2026_07_01,bmi_threshold,deterministic,50,0.96,0.954218,0.97561,1.0,0.987654,2,"{""code"": 41, ""jev"": 7, ""gpt_escalation"": 2}",2
+hybrid,BCBS_FEP_WEGOVY_2026_07_01,indication,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""code"": 50}",0
+hybrid,BCBS_FEP_WEGOVY_2026_07_01,no_concurrent_glp1,medication_reconciliation,50,1.0,1.0,1.0,1.0,1.0,0,"{""jev"": 49, ""gpt_escalation"": 1}",1
+hybrid,BCBS_FEP_WEGOVY_2026_07_01,no_concurrent_pa_weight_loss_med,medication_reconciliation,50,1.0,1.0,1.0,1.0,1.0,0,"{""jev"": 49, ""gpt_escalation"": 1}",1
+hybrid,BCBS_FEP_WEGOVY_2026_07_01,weight_management_program,semantic,50,1.0,1.0,1.0,1.0,1.0,0,"{""jev"": 47, ""gpt_escalation"": 3}",3
+hybrid,UHC_WEGOVY_P1114_22_2026_09_01,age,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""code"": 50}",0
+hybrid,UHC_WEGOVY_P1114_22_2026_09_01,bmi_threshold,deterministic,50,0.96,0.847222,1.0,1.0,1.0,2,"{""code"": 41, ""jev"": 7, ""gpt_escalation"": 2}",2
+hybrid,UHC_WEGOVY_P1114_22_2026_09_01,indication,deterministic,50,1.0,1.0,1.0,1.0,1.0,0,"{""code"": 50}",0
+hybrid,UHC_WEGOVY_P1114_22_2026_09_01,lifestyle_adjunct,semantic,50,0.98,0.996169,0.977273,1.0,0.988506,1,"{""jev"": 44, ""gpt_escalation"": 6}",6

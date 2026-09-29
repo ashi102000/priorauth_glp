@@ -1,0 +1,153 @@
+=== GLP1-048-OSR-001
+OUTSIDE RECORDS — SCANNED — 09/03/2024
+Source: St. Vincent Emergency Department, visit 08/30/2024
+
+HPI (ED physician): 47 y/o M with sudden-onset severe left flank pain radiating to the groin beginning 2 hours prior to arrival, with nausea and one episode of emesis. No fever, no dysuria. History of hypertension on amlodipine.
+Vitals on arrival: T 98.6, HR 104, BP 158/94 (pain), SpO2 98%.
+Labs: WBC 10.9, Cr 1.12, UA with >50 RBC/hpf, no nitrite or leukocyte esterase.
+Imaging: CT abdomen/pelvis without contrast — 5 mm obstructing left ureterovesical junction calculus with mild hydroureteronephrosis. No other stones.
+ED course: IV ketorolac 15 mg, ondansetron 4 mg, 1 L normal saline. Pain improved from 9/10 to 2/10.
+Disposition: discharged with tamsulosin 0.4 mg daily x 14 days, oxycodone 5 mg #6, ondansetron ODT, urine strainer. Return precautions: fever, uncontrolled pain, vomiting.
+Follow-up call 09/01/2024: patient reports passing the stone at home; pain resolved. Urology follow-up as needed; stone analysis kit provided.
+
+=== GLP1-048-ORTH-001
+ORTHOPEDICS CONSULT — 10/25/2024
+
+CC: left shoulder pain.
+HPI: 47 y/o right-hand-dominant M with 3 months of left shoulder pain with overhead reaching (stocking shelves at his hardware store) and lying on the left side at night. No trauma, no numbness/tingling, no neck pain.
+Vitals: Wt 115.4 kg, BMI 37.7, BP 131/78.
+Exam: no atrophy. AROM full with painful arc 70–120°. Positive Neer and Hawkins-Kennedy. Empty can mildly painful, strength 5/5. External rotation strength 5/5. Negative drop-arm, negative lift-off. Cervical spine exam benign.
+Imaging: shoulder X-rays — type II acromion, no calcific tendinitis, AC joint mild degenerative change.
+Assessment: left shoulder subacromial impingement / rotator cuff tendinopathy.
+Plan: subacromial corticosteroid injection (triamcinolone 40 mg + lidocaine) performed under sterile technique — good immediate relief. Home exercise program for rotator cuff and scapular stabilizers (band external rotation, rows, scapular retraction, sleeper stretch) daily x 6 weeks. Avoid repetitive overhead work where possible. Follow-up 6 weeks; MRI if not improving.
+
+=== GLP1-048-DERM-001
+DERMATOLOGY — 01/19/2025
+
+CC: itchy rash in skin folds.
+HPI: 47 y/o M with 2 months of itchy, sore red rash in the lower abdominal fold and groin creases, worse at work (warm store) and with sweating. Tried OTC antifungal cream briefly.
+Vitals: Wt 115.1 kg, BMI 37.6, BP 127/90.
+Exam: bright erythematous macerated plaques in the lower abdominal pannus fold and inguinal creases with satellite papules; scrotum spared. KOH positive for pseudohyphae.
+Assessment: intertrigo with cutaneous candidiasis.
+Plan: nystatin powder BID x 2–3 weeks; keep folds dry — cotton or moisture-wicking fabric barrier, cool-air drying after showering; loose clothing. Hand eczema stable on triamcinolone PRN. BP elevated today — PCP follow-up.
+
+=== GLP1-048-IMM-001
+IMMUNIZATION VISIT — 01/30/2025
+
+Influenza vaccine requested (missed fall dose; household member recently had influenza A).
+Screening: no fever today, no prior vaccine reactions, no GBS history, no severe egg allergy.
+Administered: influenza vaccine 0.5 mL IM, left deltoid, lot recorded. VIS provided and reviewed.
+Observed 15 minutes — no reaction.
+Also reviewed: Tdap last 2018 (up to date); COVID vaccine last 2023 — updated dose recommended; patient will schedule at pharmacy. Shingles vaccine discussed for age 50.
+
+=== GLP1-048-MSG-001
+PATIENT PORTAL MESSAGE — 02/04/2025
+
+Pt: "Need to reschedule my Feb 10 appointment — inventory week at the store. Also a note for my employee file for the 30th."
+MA reply: Moved to 02/24 at 7:40 AM. Note uploaded.
+
+=== GLP1-048-LAB-001
+LAB RESULT NOTE — 02/26/2025
+
+TSH 0.95 mIU/L — within normal limits. No thyroid follow-up needed.
+
+=== GLP1-048-TEL-001
+TELEPHONE ENCOUNTER — 04/04/2025
+
+Pt called to confirm his lab appointment and ask about fasting. Confirmed 04/08 at 6:45 AM (before store opening). Instructions: fast 10–12 hours before draw for lipid panel and glucose; water and black coffee without sugar or creamer acceptable; take amlodipine and sertraline as usual with water. If he forgets and eats, call to reschedule rather than drawing nonfasting. Pt verbalized understanding and asked whether he could still take cetirizine — yes.
+
+=== GLP1-048-PHARM-001
+PHARMACIST MEDICATION REVIEW — 05/21/2025
+
+Pt brought in a bag of OTC products for review: magnesium citrate, turmeric/curcumin, a "prostate health" saw palmetto blend, melatonin 10 mg, and a multivitamin.
+Current meds: amlodipine 5 mg daily, sertraline 50 mg daily, cetirizine 10 mg PRN, triamcinolone 0.1% cream PRN.
+Review: no clinically significant interactions. Recommended melatonin at a lower dose (1–3 mg); saw palmetto evidence limited — discuss urinary symptoms with PCP; magnesium citrate may loosen stools. Curcumin fine at label doses. Updated OTC list in chart. Pt understood.
+
+=== GLP1-048-LAB-002
+LAB RESULT NOTE — 06/18/2025
+
+Fasting lipid panel reviewed: LDL 108, HDL 50, TG 96 mg/dL; total cholesterol 177. 10-year ASCVD risk ~6% (borderline) — shared decision: no statin now, recheck in 1 year.
+Patient noted he drank coffee with cream before the draw; TG still normal. Reminder: fast 10–12 hours (water/black coffee only) for future lipid panels.
+
+=== GLP1-048-ORTH-002
+ORTHOPEDICS — 08/03/2025
+
+48 y/o M missed the bottom step at home and inverted his right ankle 2 days ago. Swelling and lateral pain, able to bear weight with a limp.
+Exam: ATFL tenderness, moderate swelling, no bony tenderness at malleoli or 5th metatarsal base; Ottawa negative. Anterior drawer mildly lax.
+Dx: grade II right lateral ankle sprain.
+Plan: CAM boot 2 weeks, weight-bearing as tolerated in the boot, ice/elevation, ibuprofen avoided (BP) — acetaminophen PRN; ankle ROM and balance exercises at 2 weeks. Follow-up PRN.
+
+=== GLP1-048-OSR-002
+OUTSIDE RECORDS — SCANNED — 08/25/2025
+Source: Downtown Family Dentistry
+
+Medical clearance for two extractions (#30, #31) and bone graft under local anesthesia. HTN controlled on amlodipine; no anticoagulants or antiplatelets; no bisphosphonates. Cleared for procedure without restrictions; take amlodipine the morning of the procedure.
+
+=== GLP1-048-TEL-002
+TELEPHONE ENCOUNTER — 09/09/2025
+
+Refill request: cetirizine 10 mg daily PRN — fall allergies at the store (dust, ragweed). Sent to pharmacy, 90-day supply. Advised saline rinses; call if needing an intranasal steroid.
+
+=== GLP1-048-LAB-003
+LAB RESULT NOTE — 10/15/2025
+
+25-OH vitamin D 24 ng/mL — low. Recommend vitamin D3 2000 IU daily OTC; recheck in 6–12 months. Low vitamin D is common in winter months and with limited sun exposure (works indoors).
+Other labs from the same draw (CBC, CMP) reviewed separately — normal. Released to portal with explanation; patient replied he will start the supplement.
+
+=== GLP1-048-PT-001
+PHYSICAL THERAPY — 02/08/2026
+
+Mechanical low back pain after lifting stock at work, 4 weeks, no radicular signs.
+Plan of care: 6 visits; core stabilization home exercise program daily (dead bug, bird dog, bridges); hip hinge and lifting mechanics training.
+
+=== GLP1-048-UC-001
+URGENT CARE — 02/13/2026
+
+48 y/o M with chest tightness, wheeze, and cough starting about 5 minutes into jogging on cold mornings over the past 2 weeks; resolves within 20–30 minutes of rest. No exertional chest pain radiating to arm/jaw, no syncope, no symptoms at rest. ECG: NSR, no ischemic changes.
+Exam: lungs clear, SpO2 98%, BP 128/80.
+Assessment: exercise-induced bronchospasm; cardiac etiology considered less likely given pattern and normal ECG.
+Plan: albuterol 2 puffs 15 minutes before exertion; warm up gradually; scarf over mouth in cold air. PCP follow-up — consider stress test given age/HTN if any atypical symptoms.
+
+=== GLP1-048-LAB-004
+LAB RESULT NOTE — 05/09/2026
+
+CBC and CMP within normal limits (Cr 1.0, K 4.2, glucose 95, ALT 27). No action needed.
+
+=== GLP1-048-MSG-002
+PATIENT PORTAL MESSAGE — 05/17/2026
+
+Pt: "Taking my wife to Tanzania (Kilimanjaro trek + safari) in October. What vaccines and meds do we need?"
+RN reply: Hepatitis A and typhoid recommended; yellow fever vaccine is generally not required for travel directly from the US but may be required if transiting through certain countries — confirm itinerary. Malaria prophylaxis recommended for safari areas. Acetazolamide can be considered for the Kilimanjaro climb. Given your blood pressure and inhaler use, please schedule a pre-travel visit at least 6 weeks before departure.
+
+=== GLP1-048-GI-001
+GASTROENTEROLOGY PROCEDURE NOTE — 05/22/2026
+
+Screening colonoscopy, age 49 (average risk).
+Prep: clear liquid diet the day before, split-dose PEG; good prep.
+Findings: two sessile polyps (4 mm, 6 mm) in the transverse colon removed by cold snare; small internal hemorrhoids.
+Plan: resume regular diet today; pathology pending; repeat interval per pathology.
+
+=== GLP1-048-MSG-003
+PATIENT PORTAL MESSAGE — 05/29/2026
+
+Pt: "The gym I just joined wants my immunization record for their membership paperwork (and the trek company wants it too). Can you send it?"
+MA reply: Immunization record uploaded to your documents. For the trek company, we can also complete their medical form at your pre-travel visit.
+
+=== GLP1-048-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 08/19/2026
+
+S: 49 y/o M, visit for weight, BP, and pre-travel planning.
+Weight: weight history — 113.4 kg in mid-December 2025 when he started a dietitian-led weight management program; today 112.7 kg. Since mid-December he has followed a portion-controlled plate method with a daily food diary (~1800 kcal/day) and walking about 30 minutes 3 days a week, with monthly program check-ins with the dietitian. Minimal weight change despite consistent adherence, confirmed by his food diary and program attendance record. Asks about Wegovy. No MTC/MEN2 history, no pancreatitis, no gallbladder disease.
+BP: home readings 120s–130s/70s–80s on amlodipine; no side effects.
+Travel: Tanzania in October (Kilimanjaro + safari); vaccines partially done at pharmacy.
+Other: low back pain resolved after PT; albuterol rarely needed; mood stable on sertraline; allergies controlled.
+
+O: Wt 112.7 kg, Ht 175 cm, BMI 36.8. BP 127/81, HR 72, SpO2 98%.
+Gen: well. CV: RRR, no murmur. Lungs: clear. Abdomen: soft, non-tender. Ext: no edema. Skin: no intertrigo currently.
+
+A/P:
+1. Obesity, BMI 36.8 — minimal response to a structured program. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects, hydration at altitude, and holding dose escalation around the trek. Continue plate method and walking. Recheck in 3 months.
+2. Hypertension: BP 127/81 on amlodipine 5 mg daily; continue.
+3. Pre-travel — typhoid and hepatitis A given at pharmacy per patient; malaria prophylaxis (atovaquone-proguanil) and acetazolamide to be prescribed at travel visit next month.
+4. Exercise-induced bronchospasm — albuterol PRN before exertion; bring inhaler on trek.

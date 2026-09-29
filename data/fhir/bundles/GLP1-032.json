@@ -1,0 +1,2903 @@
+{
+  "resourceType": "Bundle",
+  "id": "GLP1-032-BUNDLE",
+  "meta": {
+    "tag": [
+      {
+        "system": "urn:jev-pa-benchmark",
+        "code": "GLP1_PA_COHORT_V1",
+        "display": "GLP-1 PA benchmark cohort v1"
+      }
+    ]
+  },
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:490a20b5-42f3-5ab2-aa2e-45cdab416b82",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "GLP1-032",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:jev-pa-benchmark:mrn",
+            "value": "GLP1-032"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Alvarez",
+            "given": [
+              "Andre"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1984-08-30"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/GLP1-032"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9408b84c-4213-5b3c-93ab-97d93aa1624c",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "GLP1-032-ENC-2024-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "text": "Orthopedics consult"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "period": {
+          "start": "2024-12-14",
+          "end": "2024-12-14"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/GLP1-032-ENC-2024-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8018223d-b3ea-5461-aa13-1c92d22b605f",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "GLP1-032-ENC-2025-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "text": "Primary care progress note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "period": {
+          "start": "2025-12-14",
+          "end": "2025-12-14"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/GLP1-032-ENC-2025-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:07a5a0bd-4dbc-5450-a652-9621deb0a047",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "GLP1-032-ENC-2026-01-02",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "text": "Nutrition / dietitian note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "period": {
+          "start": "2026-01-02",
+          "end": "2026-01-02"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/GLP1-032-ENC-2026-01-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5206f8db-7abf-593a-80c1-f9939fb200fe",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "GLP1-032-ENC-2026-05-06",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "text": "Dermatology consult"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "period": {
+          "start": "2026-05-06",
+          "end": "2026-05-06"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/GLP1-032-ENC-2026-05-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:24f0a106-f025-578e-ba77-93d2b3fef0b0",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "GLP1-032-ENC-2026-05-27",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "text": "Urgent care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "period": {
+          "start": "2026-05-27",
+          "end": "2026-05-27"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/GLP1-032-ENC-2026-05-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:324a7a50-7a63-5075-b8ee-8a1a63e87291",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "GLP1-032-ENC-2026-08-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "text": "Primary care progress note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "period": {
+          "start": "2026-08-14",
+          "end": "2026-08-14"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/GLP1-032-ENC-2026-08-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:77ce6c5b-f04e-5197-b900-3ccf2ffd3654",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "GLP1-032-HTN",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertensive disorder"
+            }
+          ],
+          "text": "Hypertensive disorder"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "onsetDateTime": "2022-02-01",
+        "recordedDate": "2022-02-01"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/GLP1-032-HTN"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e13a8209-4296-538a-a6ba-3ced23502fc9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "GLP1-032-OBESITY",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "414916001",
+              "display": "Obesity"
+            }
+          ],
+          "text": "Obesity"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "onsetDateTime": "2024-08-25",
+        "recordedDate": "2024-08-25"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/GLP1-032-OBESITY"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db1f4683-59ad-5d7b-8d13-55abc7ae97b6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "GLP1-032-ALLERGY",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "367498001",
+              "display": "Seasonal allergic rhinitis"
+            }
+          ],
+          "text": "Seasonal allergic rhinitis"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "onsetDateTime": "2021-09-28",
+        "recordedDate": "2021-09-28"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/GLP1-032-ALLERGY"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3b91c617-1037-5ca1-8962-1085b2c6929c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "GLP1-032-ECZEMA",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "43116000",
+              "display": "Eczema"
+            }
+          ],
+          "text": "Eczema"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "onsetDateTime": "2016-07-25",
+        "recordedDate": "2016-07-25"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/GLP1-032-ECZEMA"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:42742dd6-ff76-5fa1-bec1-829bd1cbbd35",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "GLP1-032-VITD",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34713006",
+              "display": "Vitamin D deficiency"
+            }
+          ],
+          "text": "Vitamin D deficiency"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "onsetDateTime": "2024-11-10",
+        "recordedDate": "2024-11-10"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/GLP1-032-VITD"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:110cf362-97ca-5773-8d1c-d956b705d30a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "GLP1-032-MIGRAINE",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "37796009",
+              "display": "Migraine"
+            }
+          ],
+          "text": "Migraine"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "onsetDateTime": "2024-02-08",
+        "recordedDate": "2024-02-08"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/GLP1-032-MIGRAINE"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:411f30a2-8d98-5d39-94f8-8a7d9ec767fd",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "GLP1-032-GERD",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "235595009",
+              "display": "Gastroesophageal reflux disease"
+            }
+          ],
+          "text": "Gastroesophageal reflux disease"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "onsetDateTime": "2016-05-14",
+        "recordedDate": "2016-05-14"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/GLP1-032-GERD"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f41cac71-38d4-5928-b09f-c8cee6451920",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "GLP1-032-LBP",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "279039007",
+              "display": "Low back pain"
+            }
+          ],
+          "text": "Low back pain"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "onsetDateTime": "2018-02-04",
+        "recordedDate": "2018-02-04"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/GLP1-032-LBP"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4be90a23-350f-5b79-9ffe-00edf8e59a7a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-HT-2024-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body height"
+            }
+          ],
+          "text": "Body height"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2024-12-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2024-12-14"
+        },
+        "valueQuantity": {
+          "value": 170,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-HT-2024-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4c3054a7-e820-582f-83c3-f042d82e9ac9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-WT-2024-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2024-12-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2024-12-14"
+        },
+        "valueQuantity": {
+          "value": 103.0,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-WT-2024-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2bfb87c-ff81-5830-875a-6ca45e3475c1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-BMI-2024-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ],
+          "text": "Body mass index (BMI) [Ratio]"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2024-12-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2024-12-14"
+        },
+        "valueQuantity": {
+          "value": 35.6,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-BMI-2024-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a08380a1-a073-5fab-bb06-8f4ba152ff88",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-BP-2024-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel with all children optional"
+            }
+          ],
+          "text": "Blood pressure panel with all children optional"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2024-12-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2024-12-14"
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 132,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 80,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-BP-2024-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4223b65f-1a18-5e87-9478-ca3d001f459d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-WT-2025-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2025-12-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2025-12-14"
+        },
+        "valueQuantity": {
+          "value": 102.2,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-WT-2025-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8167158d-65de-5075-aa1c-4848be286c48",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-BMI-2025-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ],
+          "text": "Body mass index (BMI) [Ratio]"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2025-12-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2025-12-14"
+        },
+        "valueQuantity": {
+          "value": 35.4,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-BMI-2025-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:10fc39a6-df1f-5f8e-851e-345cb9d8743a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-BP-2025-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel with all children optional"
+            }
+          ],
+          "text": "Blood pressure panel with all children optional"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2025-12-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2025-12-14"
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 127,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 88,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-BP-2025-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce6f36b1-4d34-516c-ba26-f939f10cde30",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-WT-2026-08-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2026-08-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2026-08-14"
+        },
+        "valueQuantity": {
+          "value": 100.0,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-WT-2026-08-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:62214a89-40ad-564c-b592-c96b5791d31a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-BMI-2026-08-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ],
+          "text": "Body mass index (BMI) [Ratio]"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2026-08-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2026-08-14"
+        },
+        "valueQuantity": {
+          "value": 34.6,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-BMI-2026-08-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4353bd98-c539-5f68-8855-04925ec7003a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-BP-2026-08-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel with all children optional"
+            }
+          ],
+          "text": "Blood pressure panel with all children optional"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2026-08-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2026-08-14"
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 129,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 79,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-BP-2026-08-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7d0d3631-1e45-53fc-b2b3-71d3be8a1842",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-A1C-2024-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2024-12-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2024-12-14"
+        },
+        "valueQuantity": {
+          "value": 5.4,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-A1C-2024-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d9cbf94b-50ff-53c1-9ac0-c6de2e8644d7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-LDL-2024-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "13457-7",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2024-12-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2024-12-14"
+        },
+        "valueQuantity": {
+          "value": 123,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-LDL-2024-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:da6e3945-607d-562b-9bac-72abb0eaee8c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-HDL-2024-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2085-9",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2024-12-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2024-12-14"
+        },
+        "valueQuantity": {
+          "value": 65,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-HDL-2024-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2d33a223-0fb9-55bf-800a-56d7bb90d159",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-TG-2024-12-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2571-8",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2024-12-14",
+        "encounter": {
+          "reference": "Encounter/GLP1-032-ENC-2024-12-14"
+        },
+        "valueQuantity": {
+          "value": 136,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-TG-2024-12-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0473e983-daec-5007-8a6b-b7b7bf7b3275",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-VITD-2025-02-21",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1989-3",
+              "display": "25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2025-02-21",
+        "valueQuantity": {
+          "value": 24,
+          "unit": "ng/mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "ng/mL"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-VITD-2025-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd294ac7-6f01-571d-a856-af9a1c739dd0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "GLP1-032-TSH-2025-10-18",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3016-3",
+              "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Thyrotropin [Units/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectiveDateTime": "2025-10-18",
+        "valueQuantity": {
+          "value": 1.02,
+          "unit": "m[IU]/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "m[IU]/L"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/GLP1-032-TSH-2025-10-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3449c51b-0d10-52fe-9b12-675fd124d079",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "GLP1-032-AMLODIPINE",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "text": "amlodipine 5 mg PO daily"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "intent": "order",
+        "authoredOn": "2023-07-15",
+        "dosageInstruction": [
+          {
+            "text": "amlodipine 5 mg PO daily"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicationRequest/GLP1-032-AMLODIPINE"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a98dc74b-b331-5e45-912f-02874b13c4c1",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "GLP1-032-CETIRIZINE",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "text": "cetirizine 10 mg PO daily PRN"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectivePeriod": {
+          "start": "2024-01-01"
+        },
+        "dateAsserted": "2026-01-15"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicationStatement/GLP1-032-CETIRIZINE"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:84c77a93-cb38-5d17-baf4-4622a415556d",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "GLP1-032-TRIAMCINOLON",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "text": "triamcinolone 0.1% cream BID PRN"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "intent": "order",
+        "authoredOn": "2025-09-17",
+        "dosageInstruction": [
+          {
+            "text": "triamcinolone 0.1% cream BID PRN"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicationRequest/GLP1-032-TRIAMCINOLON"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:80f2c6b1-2111-5b17-a771-56e2d068b626",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "GLP1-032-VITAMIN",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "text": "vitamin D3 2000 IU PO daily"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectivePeriod": {
+          "start": "2022-09-01"
+        },
+        "dateAsserted": "2026-01-15"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicationStatement/GLP1-032-VITAMIN"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:97271a7c-b0fb-52d0-a590-7596ecc96928",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "GLP1-032-SUMATRIPTAN",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "text": "sumatriptan 50 mg PO PRN migraine"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "intent": "order",
+        "authoredOn": "2022-04-03",
+        "dosageInstruction": [
+          {
+            "text": "sumatriptan 50 mg PO PRN migraine"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicationRequest/GLP1-032-SUMATRIPTAN"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:16b4ec1c-0d2a-5a22-b92b-a046b2b1a57d",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "GLP1-032-OMEPRAZOLE",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "text": "omeprazole 20 mg PO daily"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "intent": "order",
+        "authoredOn": "2025-05-21",
+        "dosageInstruction": [
+          {
+            "text": "omeprazole 20 mg PO daily"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicationRequest/GLP1-032-OMEPRAZOLE"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:286d1127-798f-5fc1-b3a5-ea122b626da4",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "GLP1-032-IBUPROFEN",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "text": "ibuprofen 400 mg PO PRN pain"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "effectivePeriod": {
+          "start": "2020-05-01"
+        },
+        "dateAsserted": "2026-01-15"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicationStatement/GLP1-032-IBUPROFEN"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3cad786b-e3e8-5675-b69d-27778d7264d2",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "GLP1-032-WEGOVY-REQ",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "draft",
+        "medicationCodeableConcept": {
+          "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly"
+        },
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "intent": "order",
+        "authoredOn": "2026-08-14",
+        "dosageInstruction": [
+          {
+            "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicationRequest/GLP1-032-WEGOVY-REQ"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fe040dfe-6e0d-566f-add3-72f41a811129",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-ORTH-001",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11488-4",
+              "display": "Consult note"
+            }
+          ],
+          "text": "Orthopedics consult"
+        },
+        "category": [
+          {
+            "text": "Orthopedics consult"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2024-12-14T16:30:00-05:00",
+        "description": "Orthopedics consult — Orthopedic surgeon",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "T1JUSE9QRURJQ1Mg4oCUIDEyLzE0LzIwMjQKCjQwIHkvbyBNLCBsZWZ0IHNob3VsZGVyIHBhaW4gd2l0aCBvdmVyaGVhZCBsaWZ0aW5nIGF0IHdvcmsgeCAyIG1vbnRocy4gVml0YWxzOiBXdCAxMDMuMCBrZywgQk1JIDM1LjYsIEJQIDEzMi84MC4KRXhhbTogcGFpbmZ1bCBhcmMsIHBvc2l0aXZlIE5lZXIvSGF3a2lucywgc3RyZW5ndGggaW50YWN0LgpEeDogbGVmdCBzaG91bGRlciBpbXBpbmdlbWVudC4gU3ViYWNyb21pYWwgY29ydGljb3N0ZXJvaWQgaW5qZWN0aW9uOyBob21lIGV4ZXJjaXNlIHByb2dyYW0gZm9yIHJvdGF0b3IgY3VmZi9zY2FwdWxhciBtdXNjbGVzIGRhaWx5LiBGb2xsb3ctdXAgNiB3ZWVrcy4K",
+              "title": "Orthopedics consult 2024-12-14",
+              "creation": "2024-12-14"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2024-12-14",
+            "end": "2024-12-14"
+          },
+          "encounter": [
+            {
+              "reference": "Encounter/GLP1-032-ENC-2024-12-14"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-ORTH-001"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:92854e9a-601e-5767-a635-63ccffd2ef3d",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-TEL-001",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34109-9",
+              "display": "Note"
+            }
+          ],
+          "text": "Telephone encounter"
+        },
+        "category": [
+          {
+            "text": "Telephone encounter"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2025-01-12T11:30:00-05:00",
+        "description": "Telephone encounter — RN, primary care",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "VEVMRVBIT05FIEVOQ09VTlRFUiDigJQgMDEvMTIvMjAyNQoKUmVmaWxsOiBjZXRpcml6aW5lIDEwIG1nIGRhaWx5IFBSTiDigJQgd2ludGVyIGluZG9vciBhbGxlcmdpZXMuIFNlbnQgdG8gcGhhcm1hY3kuCg==",
+              "title": "Telephone encounter 2025-01-12",
+              "creation": "2025-01-12"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2025-01-12",
+            "end": "2025-01-12"
+          }
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-TEL-001"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8369f400-a9a5-5743-b4f6-cef0015d5c7b",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-LAB-001",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34109-9",
+              "display": "Note"
+            }
+          ],
+          "text": "Lab result follow-up"
+        },
+        "category": [
+          {
+            "text": "Lab result follow-up"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2025-02-21T13:30:00-05:00",
+        "description": "Lab result follow-up — Primary care physician",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "TEFCIFJFU1VMVCBOT1RFIOKAlCAwMi8yMS8yMDI1CgoyNS1PSCB2aXRhbWluIEQgMjQgbmcvbUwg4oCUIGxvdy4gQ29udGludWUgdml0YW1pbiBEMyAyMDAwIElVIGRhaWx5OyByZWNoZWNrIGluIDbigJMxMiBtb250aHMuCg==",
+              "title": "Lab result follow-up 2025-02-21",
+              "creation": "2025-02-21"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2025-02-21",
+            "end": "2025-02-21"
+          }
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-LAB-001"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ed4c15f0-61bf-5768-9aa9-5c8fe1ed7f8b",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-TEL-002",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34109-9",
+              "display": "Note"
+            }
+          ],
+          "text": "Telephone encounter"
+        },
+        "category": [
+          {
+            "text": "Telephone encounter"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2025-04-28T10:45:00-05:00",
+        "description": "Telephone encounter — RN, primary care",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "VEVMRVBIT05FIEVOQ09VTlRFUiDigJQgMDQvMjgvMjAyNQoKUHQgYXNrZWQgYWJvdXQgbGFiIGFwcG9pbnRtZW50IHRpbWUgYW5kIGZhc3RpbmcuIENvbmZpcm1lZCAwNS8wMSBhdCA3OjIwIEFNOyBmYXN0aW5nIDEw4oCTMTIgaG91cnMsIHdhdGVyIE9LOyB0YWtlIGFtbG9kaXBpbmUgYXMgdXN1YWwuIFVuZGVyc3Rvb2QuCg==",
+              "title": "Telephone encounter 2025-04-28",
+              "creation": "2025-04-28"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2025-04-28",
+            "end": "2025-04-28"
+          }
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-TEL-002"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2cecfbca-92bd-5ee6-847f-68ded1c51d38",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-LAB-002",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34109-9",
+              "display": "Note"
+            }
+          ],
+          "text": "Lab result follow-up"
+        },
+        "category": [
+          {
+            "text": "Lab result follow-up"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2025-10-18T08:30:00-05:00",
+        "description": "Lab result follow-up — Primary care physician",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "TEFCIFJFU1VMVCBOT1RFIOKAlCAxMC8xOC8yMDI1CgpUU0ggMS4wMiBtSVUvTCDigJQgd2l0aGluIG5vcm1hbCBsaW1pdHMuIE5vIHRoeXJvaWQgZm9sbG93LXVwIG5lZWRlZC4K",
+              "title": "Lab result follow-up 2025-10-18",
+              "creation": "2025-10-18"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2025-10-18",
+            "end": "2025-10-18"
+          }
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-LAB-002"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:622ea14d-f5d3-5839-83df-375d5845aa5a",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-PCP-001",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11506-3",
+              "display": "Progress note"
+            }
+          ],
+          "text": "Primary care progress note"
+        },
+        "category": [
+          {
+            "text": "Primary care progress note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2025-12-14T16:15:00-05:00",
+        "description": "Primary care progress note — Primary care physician",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "UFJJTUFSWSBDQVJFIFBST0dSRVNTIE5PVEUKRGF0ZTogMTIvMTQvMjAyNQoKUzogNDEgeS9vIE0sIEJQIGZvbGxvdy11cDsgcmFpc2VzIGNvbmNlcm4gYWJvdXQgaGlzIHdlaWdodCBhbmQgcmVmbHV4LiBXb3VsZCBsaWtlIGhlbHAgbG9zaW5nIHdlaWdodC4KCk86IFd0IDEwMi4yIGtnLCBIdCAxNzAgY20sIEJNSSAzNS40LiBCUCAxMjcvODguCgpBL1A6CjEuIE9iZXNpdHksIEJNSSAzNS40IOKAlCByZWZlcnJlZCB0byBkaWV0aXRpYW4gZm9yIHdlaWdodCBtYW5hZ2VtZW50OyBwYXRpZW50IGFncmVlYWJsZS4KMi4gSHlwZXJ0ZW5zaW9uOiBCUCAxMjcvODggb24gYW1sb2RpcGluZSA1IG1nIGRhaWx5OyBjb250aW51ZS4KMy4gR0VSRCDigJQgY29udGludWUgb21lcHJhem9sZS4K",
+              "title": "Primary care progress note 2025-12-14",
+              "creation": "2025-12-14"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2025-12-14",
+            "end": "2025-12-14"
+          },
+          "encounter": [
+            {
+              "reference": "Encounter/GLP1-032-ENC-2025-12-14"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-PCP-001"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:44ea887a-f565-5e6a-9a3a-ddb10b3741b9",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-NUTR-001",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11488-4",
+              "display": "Consult note"
+            }
+          ],
+          "text": "Nutrition / dietitian note"
+        },
+        "category": [
+          {
+            "text": "Nutrition / dietitian note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2026-01-02T15:00:00-05:00",
+        "description": "Nutrition / dietitian note — Registered dietitian",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "TlVUUklUSU9OIENPTlNVTFQg4oCUIElOSVRJQUwKRGF0ZTogMDEvMDIvMjAyNgoKUmVmZXJyZWQgYnkgUENQIGZvciB3ZWlnaHQgbWFuYWdlbWVudC4gRm9vZCBkaWFyeTogbGFyZ2UgZGlubmVycywgZmFzdCBmb29kIGx1bmNoZXMsIGZyZXF1ZW50IGxhdGUgc25hY2tzOyByZWZsdXggd29yc2UgYXQgbmlnaHQuClBsYW46IHBvcnRpb24tY29udHJvbGxlZCBwbGF0ZSBtZXRob2Qgd2l0aCBhIGRhaWx5IGZvb2QgZGlhcnksIGFib3V0IDE4MDAga2NhbC9kYXk7IG5vIGVhdGluZyB3aXRoaW4gMyBob3VycyBvZiBiZWR0aW1lIChhbHNvIGZvciByZWZsdXgpOyBmYXN0IGZvb2QgbWF4IDF4L3dlZWsuClJEIGZvbGxvdy11cCBpbiB+NiB3ZWVrcy4K",
+              "title": "Nutrition / dietitian note 2026-01-02",
+              "creation": "2026-01-02"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2026-01-02",
+            "end": "2026-01-02"
+          },
+          "encounter": [
+            {
+              "reference": "Encounter/GLP1-032-ENC-2026-01-02"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-NUTR-001"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:462ee548-3f85-5290-8140-dcdcd00d171f",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-OSR-001",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34109-9",
+              "display": "Note"
+            }
+          ],
+          "text": "Outside records (scanned)"
+        },
+        "category": [
+          {
+            "text": "Outside records (scanned)"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2026-01-15T13:30:00-05:00",
+        "description": "Outside records (scanned) — Outside clinic",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "T1VUU0lERSBSRUNPUkRTIOKAlCBTQ0FOTkVEIOKAlCAwMS8xNS8yMDI2ClNvdXJjZTogRWFzdHNpZGUgRUQsIHZpc2l0IDAxLzExLzIwMjYKCjQxIHkvbyBNLCBsZWZ0IGZsYW5rIHBhaW4sIGhlbWF0dXJpYS4gQ1Q6IDMgbW0gbGVmdCBVVkogc3RvbmUuIEtldG9yb2xhYywgdGFtc3Vsb3Npbi4gUGFzc2VkIHN0b25lIDAxLzEzLiBVcm9sb2d5IFBSTi4K",
+              "title": "Outside records (scanned) 2026-01-15",
+              "creation": "2026-01-15"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2026-01-15",
+            "end": "2026-01-15"
+          }
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-OSR-001"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1ea698e5-6260-5dd7-8d2e-4dfaf560861e",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-MSG-001",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34109-9",
+              "display": "Note"
+            }
+          ],
+          "text": "Patient portal message"
+        },
+        "category": [
+          {
+            "text": "Patient portal message"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2026-04-14T11:30:00-05:00",
+        "description": "Patient portal message — Patient / MA reply",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "UEFUSUVOVCBQT1JUQUwgTUVTU0FHRSDigJQgMDQvMTQvMjAyNgoKRnJvbSBwYXRpZW50OiAiUXVpY2sgdXBkYXRlIOKAlCBJJ3ZlIGJlZW4gZG9pbmcgbGFwIHN3aW1taW5nIGFuZCB3YXRlciBhZXJvYmljcyBhdCB0aGUgWSBhYm91dCA0IHRpbWVzIGEgd2VlayBhbmQgSSBmZWVsIGEgbG90IGJldHRlciwgYmFjayBhbmQgc2hvdWxkZXIgdG9vLiBRdWVzdGlvbiBmb3IgdGhlIGRpZXRpdGlhbjogaG93IG11Y2ggcHJvdGVpbiBzaG91bGQgSSBiZSBlYXRpbmcgb24gc3dpbSBkYXlzPyIKUmVwbHkgKFJEKTogR3JlYXQgdG8gaGVhci4gQWltIGZvciB+MjXigJMzMCBnIHByb3RlaW4gcGVyIG1lYWw7IGEgcHJvdGVpbiBzbmFjayBhZnRlciBzd2ltbWluZyBpcyBoZWxwZnVsLiBXZSBjYW4gcmV2aWV3IGF0IHlvdXIgbmV4dCB2aXNpdC4K",
+              "title": "Patient portal message 2026-04-14",
+              "creation": "2026-04-14"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2026-04-14",
+            "end": "2026-04-14"
+          }
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-MSG-001"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7ce03ed5-b885-5636-82ac-e229fa7b034c",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-DERM-001",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11488-4",
+              "display": "Consult note"
+            }
+          ],
+          "text": "Dermatology consult"
+        },
+        "category": [
+          {
+            "text": "Dermatology consult"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2026-05-06T09:45:00-05:00",
+        "description": "Dermatology consult — Dermatologist",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "REVSTUFUT0xPR1kg4oCUIDA1LzA2LzIwMjYKCjQxIHkvbyBNIHdpdGggcmVkLCBpdGNoeSByYXNoIGluIHRoZSBsb3dlciBhYmRvbWluYWwgZm9sZCBhbmQgZ3JvaW4gY3JlYXNlczsgd29yc2Ugd2l0aCBzd2VhdGluZy4gU2F0ZWxsaXRlIGxlc2lvbnMuCkR4OiBpbnRlcnRyaWdvLCBjYW5kaWRhbC4gTnlzdGF0aW4gcG93ZGVyIEJJRDsgZHJ5IHRob3JvdWdobHkgYWZ0ZXIgc3dpbW1pbmc7IGxvb3NlIGJyZWF0aGFibGUgY2xvdGhpbmcuCg==",
+              "title": "Dermatology consult 2026-05-06",
+              "creation": "2026-05-06"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2026-05-06",
+            "end": "2026-05-06"
+          },
+          "encounter": [
+            {
+              "reference": "Encounter/GLP1-032-ENC-2026-05-06"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-DERM-001"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:12defe6f-0ce0-5af5-879e-c54d5688d8ad",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-UC-001",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11506-3",
+              "display": "Progress note"
+            }
+          ],
+          "text": "Urgent care visit"
+        },
+        "category": [
+          {
+            "text": "Urgent care visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2026-05-27T15:00:00-05:00",
+        "description": "Urgent care visit — Urgent care NP",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "VVJHRU5UIENBUkUg4oCUIDA1LzI3LzIwMjYKCjQxIHkvbyBNLCAxMCBkYXlzIG9mIGNvbmdlc3Rpb24sIHNpbnVzIHBhaW4sIHB1cnVsZW50IGRyYWluYWdlLCB3b3JzZW5pbmcuIE1heGlsbGFyeSB0ZW5kZXJuZXNzOyBsdW5ncyBjbGVhci4KRHg6IGFjdXRlIGJhY3RlcmlhbCBzaW51c2l0aXMuIEFtb3hpY2lsbGluLWNsYXZ1bGFuYXRlIEJJRCB4IDcgZGF5czsgc2FsaW5lIGlycmlnYXRpb24uCg==",
+              "title": "Urgent care visit 2026-05-27",
+              "creation": "2026-05-27"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2026-05-27",
+            "end": "2026-05-27"
+          },
+          "encounter": [
+            {
+              "reference": "Encounter/GLP1-032-ENC-2026-05-27"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-UC-001"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4d794db0-53d7-5576-908b-e4763af3438a",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-OSR-002",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34109-9",
+              "display": "Note"
+            }
+          ],
+          "text": "Outside records (scanned)"
+        },
+        "category": [
+          {
+            "text": "Outside records (scanned)"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2026-06-11T14:00:00-05:00",
+        "description": "Outside records (scanned) — Outside clinic",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "T1VUU0lERSBSRUNPUkRTIOKAlCBTQ0FOTkVEIOKAlCAwNi8xMS8yMDI2ClNvdXJjZTogQ3Jlc3R2aWV3IERlbnRhbAoKQ2xlYXJhbmNlIGZvciBleHRyYWN0aW9uICMzMS4gTm8gYW50aWNvYWd1bGFudHMuIEhUTiBvbiBhbWxvZGlwaW5lLiBDbGVhcmVkIHdpdGhvdXQgcmVzdHJpY3Rpb25zLgo=",
+              "title": "Outside records (scanned) 2026-06-11",
+              "creation": "2026-06-11"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2026-06-11",
+            "end": "2026-06-11"
+          }
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-OSR-002"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2ba02505-411a-5e5c-a100-b9d045c33267",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-TEL-003",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34109-9",
+              "display": "Note"
+            }
+          ],
+          "text": "Telephone encounter"
+        },
+        "category": [
+          {
+            "text": "Telephone encounter"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2026-06-14T08:15:00-05:00",
+        "description": "Telephone encounter — RN, primary care",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "VEVMRVBIT05FIEVOQ09VTlRFUiDigJQgMDYvMTQvMjAyNgoKUk4gdGVsZXBob25lIGNoZWNrLWluIG9uIHdlaWdodCBwbGFuOiBzdGlsbCBmb2xsb3dpbmcgdGhlIGRpZXRpdGlhbidzIG1lYWwgcGxhbiAocGxhdGUgbWV0aG9kLCBmb29kIGRpYXJ5KSBhbmQgZXhlcmNpc2luZyDigJQgc3dpbW1pbmcgbW9zdCB3ZWVrcy4gTm8gYmFycmllcnMgaWRlbnRpZmllZC4gTmV4dCBQQ1AgdmlzaXQgaW4gQXVndXN0Lgo=",
+              "title": "Telephone encounter 2026-06-14",
+              "creation": "2026-06-14"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2026-06-14",
+            "end": "2026-06-14"
+          }
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-TEL-003"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6f757312-8f6c-5792-9767-d0daaa706ada",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-MSG-002",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34109-9",
+              "display": "Note"
+            }
+          ],
+          "text": "Patient portal message"
+        },
+        "category": [
+          {
+            "text": "Patient portal message"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2026-08-05T14:00:00-05:00",
+        "description": "Patient portal message — Patient / MA reply",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "UEFUSUVOVCBQT1JUQUwgTUVTU0FHRSDigJQgMDgvMDUvMjAyNgoKUHQ6ICJNeSBneW0gd2FudHMgcHJvb2Ygb2YgdmFjY2luZXMgKHRldGFudXMpIGZvciB0aGVpciBwYXBlcndvcmsg4oCUIGNhbiB5b3Ugc2VuZCBteSByZWNvcmQ/IgpNQSByZXBseTogSW1tdW5pemF0aW9uIHJlY29yZCB1cGxvYWRlZC4K",
+              "title": "Patient portal message 2026-08-05",
+              "creation": "2026-08-05"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2026-08-05",
+            "end": "2026-08-05"
+          }
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-MSG-002"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fcf6e30b-372a-50d1-af66-f05067dad20d",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GLP1-032-PCP-002",
+        "meta": {
+          "tag": [
+            {
+              "system": "urn:jev-pa-benchmark",
+              "code": "GLP1_PA_COHORT_V1",
+              "display": "GLP-1 PA benchmark cohort v1"
+            }
+          ]
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11506-3",
+              "display": "Progress note"
+            }
+          ],
+          "text": "Primary care progress note"
+        },
+        "category": [
+          {
+            "text": "Primary care progress note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/GLP1-032"
+        },
+        "date": "2026-08-14T15:00:00-05:00",
+        "description": "Primary care progress note — Primary care physician",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "language": "en-US",
+              "data": "UFJJTUFSWSBDQVJFIFBST0dSRVNTIE5PVEUKRGF0ZTogMDgvMTQvMjAyNgoKUzogNDIgeS9vIE0sIGZvbGxvdy11cCB3ZWlnaHQgYW5kIEJQLiBXZWlnaHQgMTAwLjAga2cgdG9kYXkgdnMgMTAyLjIga2cgYXQgdGhlIHRpbWUgb2YgZGlldGl0aWFuIHJlZmVycmFsIGluIERlY2VtYmVyICgtMi4yJSkuIERpc2NvdXJhZ2VkLiBBc2tzIGFib3V0IG1lZGljYXRpb24uIE5vIE1UQy9NRU4yIGhpc3RvcnksIG5vIHBhbmNyZWF0aXRpcy4gUmVmbHV4IGltcHJvdmVkLgoKTzogV3QgMTAwLjAga2csIEJNSSAzNC42LiBCUCAxMjkvNzkuCgpBL1A6CjEuIE9iZXNpdHksIEJNSSAzNC42IOKAlCBQbGFuOiBzdGFydCBzZW1hZ2x1dGlkZSAyLjQgbWcgd2Vla2x5IChXZWdvdnkpIHdpdGggc3RhbmRhcmQgZG9zZSB0aXRyYXRpb247IGNvdW5zZWxlZCBvbiBHSSBzaWRlIGVmZmVjdHM7IG1heSB3b3JzZW4gcmVmbHV4IGluaXRpYWxseSDigJQgY29udGludWUgb21lcHJhem9sZS4gUmVjaGVjayBpbiAzIG1vbnRocy4KMi4gSHlwZXJ0ZW5zaW9uOiBCUCAxMjkvNzkgb24gYW1sb2RpcGluZSA1IG1nIGRhaWx5OyBjb250aW51ZS4K",
+              "title": "Primary care progress note 2026-08-14",
+              "creation": "2026-08-14"
+            }
+          }
+        ],
+        "context": {
+          "period": {
+            "start": "2026-08-14",
+            "end": "2026-08-14"
+          },
+          "encounter": [
+            {
+              "reference": "Encounter/GLP1-032-ENC-2026-08-14"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/GLP1-032-PCP-002"
+      }
+    }
+  ]
+}

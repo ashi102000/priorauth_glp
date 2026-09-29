@@ -1,0 +1,11 @@
+pipeline,component,total_usd,per_pa_usd,calls,input_tokens,output_tokens,pricing_version
+gpt,gpt_decision,2.332984,0.015553,150,633572,106584,PRICING_2026_09_29
+gpt,gpt_narrative,0.0,0.0,0,0,0,PRICING_2026_09_29
+gpt,jev,0,0.0,0,0,0,PRICING_2026_09_29
+gpt,total,2.332984,0.015553,,,,PRICING_2026_09_29
+gpt,decision_only_total,2.332984,0.015553,,,,PRICING_2026_09_29
+hybrid,gpt_decision,0.330383,0.002203,27,110363,11674,PRICING_2026_09_29
+hybrid,gpt_narrative,0.497839,0.003319,87,119035,28006,PRICING_2026_09_29
+hybrid,jev,0.038178,0.000255,150,909004,209967,PRICING_2026_09_29
+hybrid,total,0.8664,0.005776,,,,PRICING_2026_09_29
+hybrid,decision_only_total,0.368561,0.002457,,,,PRICING_2026_09_29

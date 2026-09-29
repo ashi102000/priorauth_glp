@@ -1,0 +1,96 @@
+=== GLP1-021-UC-001
+URGENT CARE — 09/29/2024
+
+33 y/o F, 10 days of congestion, sinus pressure, and yellow-green drainage; getting worse after a brief improvement. Vitals: Wt 90.2 kg, BMI 35.2, BP 114/80, T 99.9.
+Exam: maxillary tenderness, purulent drainage, TMs clear, lungs clear.
+Dx: acute bacterial sinusitis. Amoxicillin-clavulanate 875/125 mg BID x 7 days, saline irrigation. Return if not improved in 72 h.
+
+=== GLP1-021-DERM-001
+DERMATOLOGY — 11/02/2024
+
+Itchy stuck-on lesion on mid back. Dermoscopy: seborrheic keratosis. Reassurance, cryotherapy to the irritated lesion. Eczema on hands — continue triamcinolone PRN.
+
+=== GLP1-021-TEL-001
+TELEPHONE ENCOUNTER — 12/05/2024
+
+Pt asked what time her lab appointment is and whether to fast. Confirmed 12/09, 7:45 AM. Fasting 10–12 h (water OK) for glucose and lipids. Understood.
+
+=== GLP1-021-PHARM-001
+PHARMACIST MEDICATION REVIEW — 02/20/2025
+
+Pt asked about taking elderberry syrup and zinc lozenges during cold season along with cetirizine. No interactions. Limit zinc lozenges to recommended duration (can cause nausea/taste changes).
+
+=== GLP1-021-IMM-001
+IMMUNIZATION VISIT — 03/11/2025
+
+Tdap 0.5 mL IM L deltoid (last 2013). VIS given, no reaction. COVID booster discussed; pt will schedule at pharmacy.
+
+=== GLP1-021-IMM-002
+IMMUNIZATION VISIT — 03/28/2025
+
+Influenza vaccine given (missed during fall; still circulating). 0.5 mL IM R deltoid. No reaction after 15 min.
+
+=== GLP1-021-MSG-001
+PATIENT PORTAL MESSAGE — 04/02/2025
+
+Pt: "My gym wants proof of tetanus shot for their membership waiver. Can you send it?"
+MA reply: Immunization record with Tdap dated 03/11/2025 uploaded to your documents.
+
+=== GLP1-021-LAB-001
+LAB RESULT NOTE — 05/02/2025
+
+CBC and CMP within normal limits (Hgb 12.6, Cr 0.7, glucose 91, LFTs normal). No action needed.
+
+=== GLP1-021-LAB-002
+LAB RESULT NOTE — 11/10/2025
+
+25-OH vitamin D 32 ng/mL — low-normal. Suggest OTC vitamin D3 1000 IU daily over winter; no recheck needed.
+
+=== GLP1-021-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/17/2025
+
+S: 34 y/o F wants to lose weight. Prior attempts at dieting on her own over the years without sustained weight loss — loses a few kilos and regains them within months. Drinks sweet tea and soda daily. Her employer now offers a weight management benefit.
+
+O: Wt 89.6 kg, Ht 160 cm, BMI 35.0. BP 108/72.
+Exam unremarkable.
+
+A/P:
+1. Obesity, BMI 35.0 — plan starting today:
+ - Mediterranean-style reduced-calorie diet, target ~1600 kcal/day; cut sugar-sweetened drinks.
+ - Stationary bike 30–40 minutes 4 days a week (has one at home).
+ - Enrolling in the employer-sponsored weight management program with monthly coaching.
+ Follow-up planned in ~3 months.
+2. Eczema — stable.
+
+=== GLP1-021-OSR-001
+OUTSIDE RECORDS — SCANNED — 01/14/2026
+Source: Hillcrest Dental
+
+Clearance for wisdom tooth extraction (#1, #16) under local anesthesia. No bleeding history, no anticoagulants. Cleared without restrictions.
+
+=== GLP1-021-GI-001
+GASTROENTEROLOGY PROCEDURE NOTE — 03/10/2026
+
+Indication: rectal bleeding (intermittent, bright red) — diagnostic colonoscopy.
+Prep: clear liquid diet day before + split-dose PEG; prep good (BBPS 8).
+Findings: small internal hemorrhoids; two 3–4 mm sessile polyps in sigmoid removed with cold snare. Otherwise normal to cecum.
+Plan: resume regular diet today; pathology pending; fiber supplement and hemorrhoid care. Repeat interval per pathology.
+
+=== GLP1-021-MSG-002
+PATIENT PORTAL MESSAGE — 07/24/2026
+
+Pt: "I'm going to Kenya on safari in October. What vaccines and meds do I need?"
+RN reply: Recommend hepatitis A, typhoid, and yellow fever evaluation (depends on itinerary); malaria prophylaxis is recommended — please book a travel medicine visit at least 6 weeks before departure.
+
+=== GLP1-021-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 08/17/2026
+
+S: 35 y/o F here about weight; interested in medication, specifically Wegovy. No personal/family hx MTC/MEN2, no pancreatitis, no gallbladder disease. Colonoscopy pathology: tubular adenomas, repeat in 7 years. Travel planned in October.
+
+O: Wt 89.1 kg, BMI 34.8. BP 120/69.
+
+A/P:
+1. Obesity, BMI 34.8 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects and on holding dose escalation during travel if GI symptoms. Recheck in 3 months.
+2. Travel — travel medicine referral placed.

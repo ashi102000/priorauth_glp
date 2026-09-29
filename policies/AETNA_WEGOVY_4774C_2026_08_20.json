@@ -1,0 +1,203 @@
+{
+  "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+  "payer": "Aetna (commercial, Non-Medicare Prescription Drug Plan)",
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "effective_date": "2026-08-20",
+  "applicability": "Aetna Non-Medicare Prescription Drug Plan, Specialty Pharmacy Clinical Policy Bulletin 4774-C (standard Wegovy PA). Formulary/plan applicability not stated on the page. Variant policies 6450-C (BMI >= 35) and 7046-C (state-specific morbid obesity) exist and are NOT modeled.",
+  "source": {
+    "title": "Wegovy PA with Limit 4774-C P08-2025 v5",
+    "document_id": "4774-C P08-2025 v5",
+    "urls": [
+      "https://www.aetna.com/products/rxnonmedicare/data/2026/Wegovy_PA_with_Limit_4774-C_P08-2025_v5.html"
+    ],
+    "version_as_printed": "4774-C P08-2025 v5; page date 'August 20, 2026' (printed after copyright; not labeled effective/revision date)",
+    "retrieved_at": "2026-09-29",
+    "local_copies": [
+      "policies/sources/aetna/source_aetna_wegovy_4774C_v5.md",
+      "policies/sources/aetna/source_aetna_wegovy_variant_policies_6450C_7046C.md"
+    ],
+    "version_notes": "effective_date uses the only printed date (August 20, 2026), which is unlabeled. Adult criteria wording identical to v3 (January 01, 2026); v5 changed initial approval duration 7 -> 8 months."
+  },
+  "human_verification": {
+    "required": true,
+    "status": "verified",
+    "verified_by": "user (project owner)",
+    "verified_at": "2026-09-29",
+    "notes": "Criteria transcribed verbatim from aetna.com HTML policy page and spot-checked against saved local copy. Unlabeled date and variant-policy choice need user sign-off. Verified by user 2026-09-29: documents/versions approved as-is; interpretation choices approved (see reports/policy_verification.md and DECISIONS.md)."
+  },
+  "criteria": [
+    {
+      "criterion_id": "age",
+      "description": "Patient is 18 years of age or older.",
+      "source_quote": "The patient is 18 years of age or older.",
+      "source_location": "Coverage Criteria > Reduction in Excess Body Weight, Maintenance of Weight Reduction Long Term (Adult)",
+      "source_confidence": "verified_verbatim",
+      "type": "deterministic",
+      "evaluator": "code",
+      "evidence_concepts": [
+        "age"
+      ],
+      "retrieval": {
+        "resources": [
+          "Patient"
+        ],
+        "concepts": [],
+        "temporal": false
+      },
+      "params": {
+        "min_age": 18,
+        "as_of": "request_date"
+      },
+      "interpretation_notes": "Age computed from Patient.birthDate on the request date."
+    },
+    {
+      "criterion_id": "indication",
+      "description": "Requested to reduce excess body weight / maintain weight reduction long term (chronic weight management).",
+      "source_quote": "Authorization may be granted when the requested drug will be used with a reduced-calorie diet AND increased physical activity to reduce excess body weight or maintain weight reduction long term when ALL of the following criteria are met:",
+      "source_location": "Coverage Criteria > ... (Adult), lead-in",
+      "source_confidence": "verified_verbatim",
+      "type": "deterministic",
+      "evaluator": "code",
+      "evidence_concepts": [],
+      "retrieval": {
+        "resources": [
+          "MedicationRequest"
+        ],
+        "concepts": [],
+        "temporal": false
+      },
+      "params": {
+        "required_indication": "chronic_weight_management"
+      },
+      "interpretation_notes": "From the PA request context."
+    },
+    {
+      "criterion_id": "adjunct_diet_and_activity",
+      "description": "Drug will be used with a reduced-calorie diet AND increased physical activity (going forward).",
+      "source_quote": "the requested drug will be used with a reduced-calorie diet AND increased physical activity",
+      "source_location": "Coverage Criteria > ... (Adult), lead-in",
+      "source_confidence": "verified_verbatim",
+      "type": "semantic",
+      "evaluator": "semantic",
+      "evidence_concepts": [
+        "diet",
+        "exercise",
+        "weight_management_program"
+      ],
+      "retrieval": {
+        "resources": [
+          "DocumentReference"
+        ],
+        "concepts": [
+          "diet",
+          "reduced calorie",
+          "exercise",
+          "physical activity",
+          "continue lifestyle plan"
+        ],
+        "temporal": true
+      },
+      "params": {
+        "recency_window_days": 180
+      },
+      "interpretation_notes": "Judged from the most recent documentation around the request: is the patient currently following (or planned to continue) BOTH a reduced-calorie diet and increased physical activity alongside the drug? Explicit 'not currently following a diet or exercise plan' fails; silence is insufficient. USER-APPROVED (2026-09-29): must be documented — no lifestyle documentation near the request is INSUFFICIENT; explicit non-adherence is FAIL; requires BOTH diet and activity. Operationalization (2026-09-29): 'near the request' = documentation dated within 180 days before the request date; older lifestyle documentation alone is INSUFFICIENT."
+    },
+    {
+      "criterion_id": "program_6_months",
+      "description": "Participated in a comprehensive weight management program (behavioral modification + reduced-calorie diet + increased physical activity, with continuing follow-up) for at least 6 months prior to drug therapy.",
+      "source_quote": "The patient has participated in a comprehensive weight management program that encourages behavioral modification, reduced-calorie diet, AND increased physical activity with continuing follow-up for at least 6 months prior to using drug therapy.",
+      "source_location": "Coverage Criteria > ... (Adult), bullet 2",
+      "source_confidence": "verified_verbatim",
+      "type": "semantic_temporal",
+      "evaluator": "semantic",
+      "evidence_concepts": [
+        "weight_management_program",
+        "program_duration",
+        "diet",
+        "exercise"
+      ],
+      "retrieval": {
+        "resources": [
+          "DocumentReference",
+          "Encounter"
+        ],
+        "concepts": [
+          "weight management program",
+          "dietitian",
+          "nutrition",
+          "diet",
+          "exercise",
+          "behavior modification",
+          "follow-up"
+        ],
+        "temporal": true
+      },
+      "params": {
+        "min_duration_months": 6,
+        "duration_rule": "whole_calendar_months(first_program_evidence_date, last_documented_participation_date) >= 6, over a continuous period",
+        "required_components": [
+          "diet",
+          "physical_activity",
+          "continuing_follow_up"
+        ]
+      },
+      "interpretation_notes": "Hybrid design: models identify program START / CONTINUATION / STOP events and their dates; code computes duration with calendar whole months (2026-02-18 -> 2026-08-18 = 6). Interruptions (stop, lapse) break continuity. Undated or vague durations ('several months', 'for years') cannot establish >= 6 months. Behavioral modification component is taken as satisfied by a structured program with follow-up (not separately required in text — see open question)."
+    },
+    {
+      "criterion_id": "bmi_threshold",
+      "description": "Baseline BMI >= 30, OR baseline BMI >= 27 AND at least one weight-related comorbid condition (documented).",
+      "source_quote": "The patient has a baseline body mass index (BMI) greater than or equal to 30 kg/m2. ... [ACTION REQUIRED: Documentation is required for approval.] / The patient has a baseline BMI greater than or equal to 27 kg/m2. ... In addition, the following criteria is met: ... The patient has at least ONE weight-related comorbid condition (e.g., hypertension, type 2 diabetes mellitus, dyslipidemia). ... [ACTION REQUIRED: Documentation is required for approval.]",
+      "source_location": "Coverage Criteria > ... (Adult), bullet 3 (ONE of)",
+      "source_confidence": "verified_verbatim",
+      "type": "deterministic",
+      "evaluator": "code",
+      "evidence_concepts": [
+        "bmi",
+        "comorbidity"
+      ],
+      "retrieval": {
+        "resources": [
+          "Observation",
+          "Condition",
+          "DocumentReference"
+        ],
+        "concepts": [
+          "bmi",
+          "hypertension",
+          "dyslipidemia",
+          "type 2 diabetes"
+        ],
+        "temporal": false
+      },
+      "params": {
+        "bmi_primary": 30.0,
+        "bmi_with_comorbidity": 27.0,
+        "bmi_source": "latest_structured_observation",
+        "qualifying_comorbidity_examples": [
+          "hypertension",
+          "type 2 diabetes mellitus",
+          "dyslipidemia"
+        ],
+        "comorbidity_list_is_exhaustive": false
+      },
+      "interpretation_notes": "'Baseline' = BMI at the start of drug therapy = latest recorded structured BMI before the request (no patient is transitioning from another weight-loss drug at request time). Same comorbidity logic as other policies. USER-APPROVED (2026-09-29): latest recorded structured BMI governs; elevated BP without diagnosis is CONFLICT."
+    }
+  ],
+  "decision_logic": {
+    "all_of": [
+      "age",
+      "indication",
+      "adjunct_diet_and_activity",
+      "program_6_months",
+      "bmi_threshold"
+    ]
+  },
+  "out_of_scope": [
+    "Variant policies 6450-C (BMI >= 35) and 7046-C (state-specific) — benefit-design dependent",
+    "FDA-label limitation on concomitant GLP-1 use — stated in 'Limitations of Use', not a coverage criterion in 4774-C",
+    "Pediatric, MASH, CV risk reduction sections; Wegovy tablets",
+    "Quantity limits and approval duration (8 months) — administrative"
+  ]
+}

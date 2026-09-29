@@ -1,0 +1,452 @@
+{
+ "patient_id": "GLP1-048",
+ "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1977-02-15",
+   "age": 49,
+   "gender": "male"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-048-BMI-2026-08-19",
+    "date": "2026-08-19",
+    "value": 36.8
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-048-BMI-2024-10-25",
+     "date": "2024-10-25",
+     "value": 37.7
+    },
+    {
+     "resource_id": "Observation/GLP1-048-BMI-2025-01-19",
+     "date": "2025-01-19",
+     "value": 37.6
+    },
+    {
+     "resource_id": "Observation/GLP1-048-BMI-2025-12-19",
+     "date": "2025-12-19",
+     "value": 37.0
+    },
+    {
+     "resource_id": "Observation/GLP1-048-BMI-2026-08-19",
+     "date": "2026-08-19",
+     "value": 36.8
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-048-WT-2026-08-19",
+    "date": "2026-08-19",
+    "value": 112.7
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-048-WT-2024-10-25",
+     "date": "2024-10-25",
+     "value": 115.4
+    },
+    {
+     "resource_id": "Observation/GLP1-048-WT-2025-01-19",
+     "date": "2025-01-19",
+     "value": 115.1
+    },
+    {
+     "resource_id": "Observation/GLP1-048-WT-2025-12-19",
+     "date": "2025-12-19",
+     "value": 113.4
+    },
+    {
+     "resource_id": "Observation/GLP1-048-WT-2026-08-19",
+     "date": "2026-08-19",
+     "value": 112.7
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-048-HT-2024-10-25",
+   "date": "2024-10-25",
+   "value": 175.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-048-BP-2026-08-19",
+    "date": "2026-08-19",
+    "systolic": 127.0,
+    "diastolic": 81.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-048-BP-2024-10-25",
+     "date": "2024-10-25",
+     "systolic": 131.0,
+     "diastolic": 78.0
+    },
+    {
+     "resource_id": "Observation/GLP1-048-BP-2025-01-19",
+     "date": "2025-01-19",
+     "systolic": 127.0,
+     "diastolic": 90.0
+    },
+    {
+     "resource_id": "Observation/GLP1-048-BP-2026-08-19",
+     "date": "2026-08-19",
+     "systolic": 127.0,
+     "diastolic": 81.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-048-A1C-2024-10-25",
+    "date": "2024-10-25",
+    "value": 5.0
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-048-LDL-2025-06-18",
+    "date": "2025-06-18",
+    "value": 108.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-048-HDL-2025-06-18",
+    "date": "2025-06-18",
+    "value": 50.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-048-TG-2025-06-18",
+    "date": "2025-06-18",
+    "value": 96.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-048-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2023-08-20",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-048-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2022-08-12",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-048-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2016-06-17",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-048-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2018-06-28",
+    "abatement": null,
+    "weight_related": true
+   },
+   {
+    "resource_id": "Condition/GLP1-048-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-10-28",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [
+   {
+    "resource_id": "Condition/GLP1-048-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2018-06-28",
+    "abatement": null,
+    "weight_related": true
+   }
+  ],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-048-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2022-01-25",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-048-AMLODIPINE",
+    "resource_type": "MedicationRequest",
+    "text": "amlodipine 5 mg PO daily",
+    "status": "active",
+    "date": "2023-05-18",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-048-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2024-10-20",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-048-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-048-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-19",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "weight_management_program": [
+   {
+    "chunk_id": "DocumentReference/GLP1-048-ORTH-001#c2",
+    "resource_id": "DocumentReference/GLP1-048-ORTH-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-10-25",
+    "note_type": "Orthopedics consult",
+    "text": "Home exercise program for rotator cuff and scapular stabilizers (band external rotation, rows, scapular retraction, sleeper stretch) daily x 6 weeks. Avoid repetitive overhead work where possible. Follow-up 6 weeks; MRI if not improving.",
+    "score": 7.078559,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-PT-001#c0",
+    "resource_id": "DocumentReference/GLP1-048-PT-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-08",
+    "note_type": "Physical therapy note",
+    "text": "PHYSICAL THERAPY — 02/08/2026\nMechanical low back pain after lifting stock at work, 4 weeks, no radicular signs.\nPlan of care: 6 visits; core stabilization home exercise program daily (dead bug, bird dog, bridges); hip hinge and lifting mechanics training.",
+    "score": 9.828094,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-GI-001#c0",
+    "resource_id": "DocumentReference/GLP1-048-GI-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-22",
+    "note_type": "Gastroenterology procedure note",
+    "text": "GASTROENTEROLOGY PROCEDURE NOTE — 05/22/2026\nScreening colonoscopy, age 49 (average risk).\nPrep: clear liquid diet the day before, split-dose PEG; good prep.\nFindings: two sessile polyps (4 mm, 6 mm) in the transverse colon removed by cold snare; small internal hemorrhoids.\nPlan: resume regular diet today; pathology pending; repeat interval per pathology.",
+    "score": 5.740372,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-048-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-19",
+    "note_type": "Primary care progress note",
+    "text": "S: 49 y/o M, visit for weight, BP, and pre-travel planning. Weight: weight history — 113.4 kg in mid-December 2025 when he started a dietitian-led weight management program; today 112.7 kg. Since mid-December he has followed a portion-controlled plate method with a daily food diary (~1800 kcal/day) and walking about 30 minutes 3 days a week, with monthly program check-ins with the dietitian. Minimal weight change despite consistent adherence, confirmed by his food diary and program attendance record. Asks about Wegovy. No MTC/MEN2 history, no pancreatitis, no gallbladder disease. BP: home readings 120s–130s/70s–80s on amlodipine; no side effects. Travel: Tanzania in October (Kilimanjaro + safari); vaccines partially done at pharmacy. Other: low back pain resolved after PT; albuterol rarely needed;",
+    "score": 23.783973,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-PCP-001#c3",
+    "resource_id": "DocumentReference/GLP1-048-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-19",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 36.8 — minimal response to a structured program. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects, hydration at altitude, and holding dose escalation around the trek. Continue plate method and walking. Recheck in 3 months.\n2. Hypertension: BP 127/81 on amlodipine 5 mg daily; continue.\n3. Pre-travel — typhoid and hepatitis A given at pharmacy per patient; malaria prophylaxis (atovaquone-proguanil) and acetazolamide to be prescribed at travel visit next month.\n4. Exercise-induced bronchospasm — albuterol PRN before exertion; bring inhaler on trek.",
+    "score": 11.393734,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_glp1": [
+   {
+    "chunk_id": "DocumentReference/GLP1-048-ORTH-001#c1",
+    "resource_id": "DocumentReference/GLP1-048-ORTH-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-10-25",
+    "note_type": "Orthopedics consult",
+    "text": "CC: left shoulder pain. HPI: 47 y/o right-hand-dominant M with 3 months of left shoulder pain with overhead reaching (stocking shelves at his hardware store) and lying on the left side at night. No trauma, no numbness/tingling, no neck pain. Vitals: Wt 115.4 kg, BMI 37.7, BP 131/78. Exam: no atrophy. AROM full with painful arc 70–120°. Positive Neer and Hawkins-Kennedy. Empty can mildly painful, strength 5/5. External rotation strength 5/5. Negative drop-arm, negative lift-off. Cervical spine exam benign. Imaging: shoulder X-rays — type II acromion, no calcific tendinitis, AC joint mild degenerative change. Assessment: left shoulder subacromial impingement / rotator cuff tendinopathy. Plan: subacromial corticosteroid injection (triamcinolone 40 mg + lidocaine) performed under sterile technique — good immediate relief.",
+    "score": 1.952176,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-IMM-001#c0",
+    "resource_id": "DocumentReference/GLP1-048-IMM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-01-30",
+    "note_type": "Immunization visit",
+    "text": "IMMUNIZATION VISIT — 01/30/2025\nInfluenza vaccine requested (missed fall dose; household member recently had influenza A).\nScreening: no fever today, no prior vaccine reactions, no GBS history, no severe egg allergy.\nAdministered: influenza vaccine 0.5 mL IM, left deltoid, lot recorded. VIS provided and reviewed.\nObserved 15 minutes — no reaction.\nAlso reviewed: Tdap last 2018 (up to date); COVID vaccine last 2023 — updated dose recommended; patient will schedule at pharmacy. Shingles vaccine discussed for age 50.",
+    "score": 2.355003,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-048-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-05-21",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 05/21/2025\nPt brought in a bag of OTC products for review: magnesium citrate, turmeric/curcumin, a \"prostate health\" saw palmetto blend, melatonin 10 mg, and a multivitamin.\nCurrent meds: amlodipine 5 mg daily, sertraline 50 mg daily, cetirizine 10 mg PRN, triamcinolone 0.1% cream PRN.\nReview: no clinically significant interactions. Recommended melatonin at a lower dose (1–3 mg); saw palmetto evidence limited — discuss urinary symptoms with PCP; magnesium citrate may loosen stools. Curcumin fine at label doses. Updated OTC list in chart. Pt understood.",
+    "score": 7.608844,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-LAB-003#c0",
+    "resource_id": "DocumentReference/GLP1-048-LAB-003",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-15",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 10/15/2025\n25-OH vitamin D 24 ng/mL — low. Recommend vitamin D3 2000 IU daily OTC; recheck in 6–12 months. Low vitamin D is common in winter months and with limited sun exposure (works indoors).\nOther labs from the same draw (CBC, CMP) reviewed separately — normal. Released to portal with explanation; patient replied he will start the supplement.",
+    "score": 1.851332,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-PCP-001#c3",
+    "resource_id": "DocumentReference/GLP1-048-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-19",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 36.8 — minimal response to a structured program. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects, hydration at altitude, and holding dose escalation around the trek. Continue plate method and walking. Recheck in 3 months.\n2. Hypertension: BP 127/81 on amlodipine 5 mg daily; continue.\n3. Pre-travel — typhoid and hepatitis A given at pharmacy per patient; malaria prophylaxis (atovaquone-proguanil) and acetazolamide to be prescribed at travel visit next month.\n4. Exercise-induced bronchospasm — albuterol PRN before exertion; bring inhaler on trek.",
+    "score": 4.570059,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_pa_weight_loss_med": [
+   {
+    "chunk_id": "DocumentReference/GLP1-048-ORTH-001#c1",
+    "resource_id": "DocumentReference/GLP1-048-ORTH-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-10-25",
+    "note_type": "Orthopedics consult",
+    "text": "CC: left shoulder pain. HPI: 47 y/o right-hand-dominant M with 3 months of left shoulder pain with overhead reaching (stocking shelves at his hardware store) and lying on the left side at night. No trauma, no numbness/tingling, no neck pain. Vitals: Wt 115.4 kg, BMI 37.7, BP 131/78. Exam: no atrophy. AROM full with painful arc 70–120°. Positive Neer and Hawkins-Kennedy. Empty can mildly painful, strength 5/5. External rotation strength 5/5. Negative drop-arm, negative lift-off. Cervical spine exam benign. Imaging: shoulder X-rays — type II acromion, no calcific tendinitis, AC joint mild degenerative change. Assessment: left shoulder subacromial impingement / rotator cuff tendinopathy. Plan: subacromial corticosteroid injection (triamcinolone 40 mg + lidocaine) performed under sterile technique — good immediate relief.",
+    "score": 1.952176,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-IMM-001#c0",
+    "resource_id": "DocumentReference/GLP1-048-IMM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-01-30",
+    "note_type": "Immunization visit",
+    "text": "IMMUNIZATION VISIT — 01/30/2025\nInfluenza vaccine requested (missed fall dose; household member recently had influenza A).\nScreening: no fever today, no prior vaccine reactions, no GBS history, no severe egg allergy.\nAdministered: influenza vaccine 0.5 mL IM, left deltoid, lot recorded. VIS provided and reviewed.\nObserved 15 minutes — no reaction.\nAlso reviewed: Tdap last 2018 (up to date); COVID vaccine last 2023 — updated dose recommended; patient will schedule at pharmacy. Shingles vaccine discussed for age 50.",
+    "score": 2.355003,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-048-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-05-21",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 05/21/2025\nPt brought in a bag of OTC products for review: magnesium citrate, turmeric/curcumin, a \"prostate health\" saw palmetto blend, melatonin 10 mg, and a multivitamin.\nCurrent meds: amlodipine 5 mg daily, sertraline 50 mg daily, cetirizine 10 mg PRN, triamcinolone 0.1% cream PRN.\nReview: no clinically significant interactions. Recommended melatonin at a lower dose (1–3 mg); saw palmetto evidence limited — discuss urinary symptoms with PCP; magnesium citrate may loosen stools. Curcumin fine at label doses. Updated OTC list in chart. Pt understood.",
+    "score": 7.608844,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-LAB-003#c0",
+    "resource_id": "DocumentReference/GLP1-048-LAB-003",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-15",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 10/15/2025\n25-OH vitamin D 24 ng/mL — low. Recommend vitamin D3 2000 IU daily OTC; recheck in 6–12 months. Low vitamin D is common in winter months and with limited sun exposure (works indoors).\nOther labs from the same draw (CBC, CMP) reviewed separately — normal. Released to portal with explanation; patient replied he will start the supplement.",
+    "score": 1.851332,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-PCP-001#c3",
+    "resource_id": "DocumentReference/GLP1-048-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-19",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 36.8 — minimal response to a structured program. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects, hydration at altitude, and holding dose escalation around the trek. Continue plate method and walking. Recheck in 3 months.\n2. Hypertension: BP 127/81 on amlodipine 5 mg daily; continue.\n3. Pre-travel — typhoid and hepatitis A given at pharmacy per patient; malaria prophylaxis (atovaquone-proguanil) and acetazolamide to be prescribed at travel visit next month.\n4. Exercise-induced bronchospasm — albuterol PRN before exertion; bring inhaler on trek.",
+    "score": 4.570059,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-048-LAB-002#c0",
+    "resource_id": "DocumentReference/GLP1-048-LAB-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-06-18",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 06/18/2025\nFasting lipid panel reviewed: LDL 108, HDL 50, TG 96 mg/dL; total cholesterol 177. 10-year ASCVD risk ~6% (borderline) — shared decision: no statin now, recheck in 1 year.\nPatient noted he drank coffee with cream before the draw; TG still normal. Reminder: fast 10–12 hours (water/black coffee only) for future lipid panels.",
+    "score": 8.603988,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-OSR-002#c0",
+    "resource_id": "DocumentReference/GLP1-048-OSR-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-25",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 08/25/2025\nSource: Downtown Family Dentistry\nMedical clearance for two extractions (#30, #31) and bone graft under local anesthesia. HTN controlled on amlodipine; no anticoagulants or antiplatelets; no bisphosphonates. Cleared for procedure without restrictions; take amlodipine the morning of the procedure.",
+    "score": 2.824306,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-UC-001#c0",
+    "resource_id": "DocumentReference/GLP1-048-UC-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-13",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 02/13/2026\n48 y/o M with chest tightness, wheeze, and cough starting about 5 minutes into jogging on cold mornings over the past 2 weeks; resolves within 20–30 minutes of rest. No exertional chest pain radiating to arm/jaw, no syncope, no symptoms at rest. ECG: NSR, no ischemic changes.\nExam: lungs clear, SpO2 98%, BP 128/80.\nAssessment: exercise-induced bronchospasm; cardiac etiology considered less likely given pattern and normal ECG.\nPlan: albuterol 2 puffs 15 minutes before exertion; warm up gradually; scarf over mouth in cold air. PCP follow-up — consider stress test given age/HTN if any atypical symptoms.",
+    "score": 4.236837,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-MSG-002#c0",
+    "resource_id": "DocumentReference/GLP1-048-MSG-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-17",
+    "note_type": "Patient portal message",
+    "text": "PATIENT PORTAL MESSAGE — 05/17/2026\nPt: \"Taking my wife to Tanzania (Kilimanjaro trek + safari) in October. What vaccines and meds do we need?\"\nRN reply: Hepatitis A and typhoid recommended; yellow fever vaccine is generally not required for travel directly from the US but may be required if transiting through certain countries — confirm itinerary. Malaria prophylaxis recommended for safari areas. Acetazolamide can be considered for the Kilimanjaro climb. Given your blood pressure and inhaler use, please schedule a pre-travel visit at least 6 weeks before departure.",
+    "score": 5.190242,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-048-PCP-001#c3",
+    "resource_id": "DocumentReference/GLP1-048-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-19",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 36.8 — minimal response to a structured program. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects, hydration at altitude, and holding dose escalation around the trek. Continue plate method and walking. Recheck in 3 months.\n2. Hypertension: BP 127/81 on amlodipine 5 mg daily; continue.\n3. Pre-travel — typhoid and hepatitis A given at pharmacy per patient; malaria prophylaxis (atovaquone-proguanil) and acetazolamide to be prescribed at travel visit next month.\n4. Exercise-induced bronchospasm — albuterol PRN before exertion; bring inhaler on trek.",
+    "score": 3.086296,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 27,
+  "n_notes": 20,
+  "tokens": {
+   "raw_chart": {
+    "structured": 8635,
+    "notes": 2911,
+    "total": 11546
+   },
+   "retrieved_evidence": 1705,
+   "structured_features": 1636,
+   "profile_total": 6342
+  }
+ }
+}

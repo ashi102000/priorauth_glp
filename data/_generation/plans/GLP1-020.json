@@ -1,0 +1,549 @@
+{
+  "patient_id": "GLP1-020",
+  "index_date": "2026-09-01",
+  "patient": {
+    "id": "GLP1-020",
+    "given": "Thomas",
+    "family": "Ibrahim",
+    "gender": "male",
+    "birthDate": "1998-02-05"
+  },
+  "conditions": [
+    {
+      "id": "GLP1-020-HTN",
+      "code": "38341003",
+      "display": "Hypertensive disorder",
+      "clinical_status": "active",
+      "onset": "2023-10-10"
+    },
+    {
+      "id": "GLP1-020-OBESITY",
+      "code": "414916001",
+      "display": "Obesity",
+      "clinical_status": "active",
+      "onset": "2024-03-12"
+    },
+    {
+      "id": "GLP1-020-ANX",
+      "code": "197480006",
+      "display": "Anxiety disorder",
+      "clinical_status": "active",
+      "onset": "2019-11-16"
+    },
+    {
+      "id": "GLP1-020-ECZEMA",
+      "code": "43116000",
+      "display": "Eczema",
+      "clinical_status": "active",
+      "onset": "2022-10-13"
+    },
+    {
+      "id": "GLP1-020-MIGRAINE",
+      "code": "37796009",
+      "display": "Migraine",
+      "clinical_status": "active",
+      "onset": "2019-02-17"
+    }
+  ],
+  "observations": [
+    {
+      "id": "GLP1-020-HT-2024-09-12",
+      "key": "HT",
+      "date": "2024-09-12",
+      "value": 175,
+      "encounter_id": "GLP1-020-ENC-2024-09-12"
+    },
+    {
+      "id": "GLP1-020-WT-2024-09-12",
+      "key": "WT",
+      "date": "2024-09-12",
+      "value": 122.2,
+      "encounter_id": "GLP1-020-ENC-2024-09-12"
+    },
+    {
+      "id": "GLP1-020-BMI-2024-09-12",
+      "key": "BMI",
+      "date": "2024-09-12",
+      "value": 39.9,
+      "encounter_id": "GLP1-020-ENC-2024-09-12"
+    },
+    {
+      "id": "GLP1-020-BP-2024-09-12",
+      "key": "BP",
+      "date": "2024-09-12",
+      "systolic": 137,
+      "diastolic": 84,
+      "encounter_id": "GLP1-020-ENC-2024-09-12"
+    },
+    {
+      "id": "GLP1-020-WT-2024-11-25",
+      "key": "WT",
+      "date": "2024-11-25",
+      "value": 121.8,
+      "encounter_id": "GLP1-020-ENC-2024-11-25"
+    },
+    {
+      "id": "GLP1-020-BMI-2024-11-25",
+      "key": "BMI",
+      "date": "2024-11-25",
+      "value": 39.8,
+      "encounter_id": "GLP1-020-ENC-2024-11-25"
+    },
+    {
+      "id": "GLP1-020-BP-2024-11-25",
+      "key": "BP",
+      "date": "2024-11-25",
+      "systolic": 137,
+      "diastolic": 85,
+      "encounter_id": "GLP1-020-ENC-2024-11-25"
+    },
+    {
+      "id": "GLP1-020-WT-2026-08-20",
+      "key": "WT",
+      "date": "2026-08-20",
+      "value": 118.5,
+      "encounter_id": "GLP1-020-ENC-2026-08-20"
+    },
+    {
+      "id": "GLP1-020-BMI-2026-08-20",
+      "key": "BMI",
+      "date": "2026-08-20",
+      "value": 38.7,
+      "encounter_id": "GLP1-020-ENC-2026-08-20"
+    },
+    {
+      "id": "GLP1-020-BP-2026-08-20",
+      "key": "BP",
+      "date": "2026-08-20",
+      "systolic": 132,
+      "diastolic": 84,
+      "encounter_id": "GLP1-020-ENC-2026-08-20"
+    },
+    {
+      "id": "GLP1-020-A1C-2024-09-12",
+      "key": "A1C",
+      "date": "2024-09-12",
+      "value": 5.2,
+      "encounter_id": "GLP1-020-ENC-2024-09-12"
+    },
+    {
+      "id": "GLP1-020-TSH-2026-08-10",
+      "key": "TSH",
+      "date": "2026-08-10",
+      "value": 2.96,
+      "encounter_id": null
+    }
+  ],
+  "medications": [
+    {
+      "id": "GLP1-020-AMLODIPINE",
+      "resourceType": "MedicationRequest",
+      "text": "amlodipine 5 mg PO daily",
+      "status": "active",
+      "intent": "order",
+      "authoredOn": "2022-10-28"
+    },
+    {
+      "id": "GLP1-020-SERTRALINE",
+      "resourceType": "MedicationRequest",
+      "text": "sertraline 50 mg PO daily",
+      "status": "active",
+      "intent": "order",
+      "authoredOn": "2024-07-11"
+    },
+    {
+      "id": "GLP1-020-TRIAMCINOLON",
+      "resourceType": "MedicationRequest",
+      "text": "triamcinolone 0.1% cream BID PRN",
+      "status": "active",
+      "intent": "order",
+      "authoredOn": "2021-09-15"
+    },
+    {
+      "id": "GLP1-020-SUMATRIPTAN",
+      "resourceType": "MedicationRequest",
+      "text": "sumatriptan 50 mg PO PRN migraine",
+      "status": "active",
+      "intent": "order",
+      "authoredOn": "2021-02-22"
+    },
+    {
+      "id": "GLP1-020-WEGOVY-REQ",
+      "resourceType": "MedicationRequest",
+      "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+      "status": "draft",
+      "intent": "order",
+      "authoredOn": "2026-08-20",
+      "requested_drug": true
+    }
+  ],
+  "encounters": [
+    {
+      "id": "GLP1-020-ENC-2024-09-12",
+      "date": "2024-09-12",
+      "type": "Dermatology consult",
+      "setting": "DERM"
+    },
+    {
+      "id": "GLP1-020-ENC-2024-11-25",
+      "date": "2024-11-25",
+      "type": "Orthopedics consult",
+      "setting": "ORTH"
+    },
+    {
+      "id": "GLP1-020-ENC-2025-02-28",
+      "date": "2025-02-28",
+      "type": "Ophthalmology visit",
+      "setting": "OPH"
+    },
+    {
+      "id": "GLP1-020-ENC-2025-04-29",
+      "date": "2025-04-29",
+      "type": "Orthopedics consult",
+      "setting": "ORTH"
+    },
+    {
+      "id": "GLP1-020-ENC-2026-02-12",
+      "date": "2026-02-12",
+      "type": "Urgent care visit",
+      "setting": "UC"
+    },
+    {
+      "id": "GLP1-020-ENC-2026-08-20",
+      "date": "2026-08-20",
+      "type": "Primary care progress note",
+      "setting": "PCP"
+    }
+  ],
+  "notes": [
+    {
+      "doc_id": "GLP1-020-DERM-001",
+      "date": "2024-09-12",
+      "setting": "DERM",
+      "note_type": "Dermatology consult",
+      "doc_type_loinc": "11488-4",
+      "doc_type_display": "Consult note",
+      "author_role": "Dermatologist",
+      "encounter_id": "GLP1-020-ENC-2024-09-12",
+      "role": "distractor",
+      "trap": false,
+      "length": "short",
+      "vitals": {
+        "weight_kg": 122.2,
+        "bmi": 39.9,
+        "bp": "137/84",
+        "height_cm": 175
+      },
+      "facts_to_express": [
+        "Mild acne/rosacea flare; topical metronidazole.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-020-ORTH-001",
+      "date": "2024-11-25",
+      "setting": "ORTH",
+      "note_type": "Orthopedics consult",
+      "doc_type_loinc": "11488-4",
+      "doc_type_display": "Consult note",
+      "author_role": "Orthopedic surgeon",
+      "encounter_id": "GLP1-020-ENC-2024-11-25",
+      "role": "distractor",
+      "trap": true,
+      "length": "short",
+      "vitals": {
+        "weight_kg": 121.8,
+        "bmi": 39.8,
+        "bp": "137/85",
+        "height_cm": 175
+      },
+      "facts_to_express": [
+        "Right ankle sprain after misstep on stairs; weight-bearing as tolerated in boot, ice/elevation.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-020-MSG-001",
+      "date": "2025-01-06",
+      "setting": "MSG",
+      "note_type": "Patient portal message",
+      "doc_type_loinc": "34109-9",
+      "doc_type_display": "Note",
+      "author_role": "Patient / MA reply",
+      "encounter_id": null,
+      "role": "distractor",
+      "trap": false,
+      "length": "short",
+      "vitals": null,
+      "facts_to_express": [
+        "Portal question about travel vaccines for an upcoming trip.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-020-OPH-001",
+      "date": "2025-02-28",
+      "setting": "OPH",
+      "note_type": "Ophthalmology visit",
+      "doc_type_loinc": "11488-4",
+      "doc_type_display": "Consult note",
+      "author_role": "Ophthalmologist",
+      "encounter_id": "GLP1-020-ENC-2025-02-28",
+      "role": "distractor",
+      "trap": false,
+      "length": "medium",
+      "vitals": null,
+      "facts_to_express": [
+        "Routine dilated eye exam, mild myopia, new glasses prescription.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-020-ORTH-002",
+      "date": "2025-04-29",
+      "setting": "ORTH",
+      "note_type": "Orthopedics consult",
+      "doc_type_loinc": "11488-4",
+      "doc_type_display": "Consult note",
+      "author_role": "Orthopedic surgeon",
+      "encounter_id": "GLP1-020-ENC-2025-04-29",
+      "role": "distractor",
+      "trap": true,
+      "length": "short",
+      "vitals": null,
+      "facts_to_express": [
+        "Left shoulder impingement; subacromial injection; home exercise program for rotator cuff.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-020-UC-001",
+      "date": "2026-02-12",
+      "setting": "UC",
+      "note_type": "Urgent care visit",
+      "doc_type_loinc": "11506-3",
+      "doc_type_display": "Progress note",
+      "author_role": "Urgent care NP",
+      "encounter_id": "GLP1-020-ENC-2026-02-12",
+      "role": "distractor",
+      "trap": false,
+      "length": "short",
+      "vitals": null,
+      "facts_to_express": [
+        "Viral upper respiratory infection, 4 days of congestion/cough; supportive care.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-020-PHARM-001",
+      "date": "2026-04-02",
+      "setting": "PHARM",
+      "note_type": "Pharmacist medication review",
+      "doc_type_loinc": "34109-9",
+      "doc_type_display": "Note",
+      "author_role": "Clinical pharmacist",
+      "encounter_id": null,
+      "role": "distractor",
+      "trap": false,
+      "length": "medium",
+      "vitals": null,
+      "facts_to_express": [
+        "Pharmacist review of OTC supplements, no interactions.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-020-MSG-002",
+      "date": "2026-06-15",
+      "setting": "MSG",
+      "note_type": "Patient portal message",
+      "doc_type_loinc": "34109-9",
+      "doc_type_display": "Note",
+      "author_role": "Patient / MA reply",
+      "encounter_id": null,
+      "role": "program_mention_undated",
+      "trap": false,
+      "length": "short",
+      "vitals": null,
+      "facts_to_express": [
+        "Portal message: patient asks whether the coaching session for the health system's 12-month lifestyle modification program can be moved to a different weekday.",
+        "No dates of enrollment mentioned."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-020-LAB-001",
+      "date": "2026-08-10",
+      "setting": "LAB",
+      "note_type": "Lab result follow-up",
+      "doc_type_loinc": "34109-9",
+      "doc_type_display": "Note",
+      "author_role": "Primary care physician",
+      "encounter_id": null,
+      "role": "distractor",
+      "trap": false,
+      "length": "short",
+      "vitals": null,
+      "facts_to_express": [
+        "TSH within normal limits; no thyroid follow-up needed.",
+        "Unrelated to weight management; do NOT mention weight-loss plans.",
+        "TSH 2.96 mIU/L."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-020-PCP-001",
+      "date": "2026-08-20",
+      "setting": "PCP",
+      "note_type": "Primary care progress note",
+      "doc_type_loinc": "11506-3",
+      "doc_type_display": "Progress note",
+      "author_role": "Primary care physician",
+      "encounter_id": "GLP1-020-ENC-2026-08-20",
+      "role": "final_request",
+      "trap": false,
+      "length": "medium",
+      "vitals": {
+        "weight_kg": 118.5,
+        "bmi": 38.7,
+        "bp": "132/84",
+        "height_cm": 175
+      },
+      "facts_to_express": [
+        "Participating in the health system's 12-month lifestyle modification program; follows the program meal plan and exercise sessions (do NOT give any start date or duration).",
+        "Weight 118.5 kg, essentially unchanged from prior.",
+        "Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counsel on GI side effects; recheck in 3 months.",
+        "Hypertension: BP 132/84 on amlodipine 5 mg PO daily; continue."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    }
+  ],
+  "generator_notes": []
+}

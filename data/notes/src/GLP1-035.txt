@@ -1,0 +1,101 @@
+=== GLP1-035-MSG-001
+PATIENT PORTAL MESSAGE — 11/12/2024
+
+Pt: "Can I move my appointment to the afternoon? And I need a note for work for yesterday."
+MA reply: Moved to 11/19 at 3:00 PM. Note uploaded.
+
+=== GLP1-035-LAB-001
+LAB RESULT NOTE — 11/20/2024
+
+25-OH vitamin D 27 ng/mL — low-normal. Continue vitamin D3 2000 IU daily.
+
+=== GLP1-035-OPH-001
+OPHTHALMOLOGY — 01/20/2025
+
+Routine exam; headaches after screen use. VA sc 20/40 OU → 20/20 with −1.00 OU. IOP normal. Dilated exam normal. Glasses Rx; screen breaks (20-20-20 rule). Return 2 years.
+
+=== GLP1-035-ORTH-001
+ORTHOPEDICS — 02/20/2025
+
+26 y/o F, left shoulder pain with overhead reaching (barista job). Painful arc, positive impingement signs.
+Dx: left shoulder impingement. Subacromial injection; home exercise program for rotator cuff 5x/week. Follow-up 6 weeks.
+
+=== GLP1-035-LAB-002
+LAB RESULT NOTE — 04/30/2025
+
+Fasting lipid panel reviewed: LDL 94, HDL 51, TG 128 mg/dL — normal. Remember to fast 10–12 hours before future lipid draws (pt had coffee with milk). No action needed.
+
+=== GLP1-035-OSR-001
+OUTSIDE RECORDS — SCANNED — 05/23/2025
+Source: Harborview ED, visit 05/19/2025
+
+26 y/o F, left flank pain, hematuria. CT: 3 mm left distal ureteral stone. Ketorolac, tamsulosin; passed 05/21. Urology PRN.
+
+=== GLP1-035-DERM-001
+DERMATOLOGY — 06/09/2025
+
+27 y/o F with red, itchy rash under the breasts in hot weather. Dx: intertrigo. Nystatin powder BID; keep dry.
+
+=== GLP1-035-OSR-002
+OUTSIDE RECORDS — SCANNED — 11/27/2025
+Source: Sunrise Dental
+
+Clearance for wisdom tooth extraction. No anticoagulants. Cleared, no restrictions.
+
+=== GLP1-035-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/10/2025
+
+S: 27 y/o F wants to lose weight; reflux and energy worse. Works evenings; eats takeout after shifts and snacks late.
+
+O: Wt 96.2 kg, Ht 160 cm, BMI 37.6. BP 109/72.
+Exam unremarkable.
+
+A/P:
+1. Obesity, BMI 37.6 — plan starting today:
+ - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout.
+ - Gym sessions (treadmill + light weights) 5 days a week, ~150 min/week.
+ - Enrolled in the health system's 12-month lifestyle modification program.
+ Follow-up visits planned.
+2. GERD — continue omeprazole; avoid late meals.
+
+=== GLP1-035-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 12/23/2025
+
+Lifestyle program intake. Food log: takeout after evening shifts, pastries at work, soda.
+Plan: calorie tracking at ~1800 kcal/day; pre-shift meal and packed snack; no takeout after shifts; soda to zero-calorie.
+Activity: gym 5 days/week (treadmill + weights), ~150 min/week.
+RD follow-up 6 weeks.
+
+=== GLP1-035-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 02/24/2026
+
+S: Follow-up. Continues the calorie tracking and gym plan started in December; good adherence most weeks.
+
+O: Wt 94.7 kg, BMI 37.0. BP 110/67.
+
+A/P:
+1. Obesity — continue program.
+
+=== GLP1-035-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 05/20/2026
+
+Food log reviewed: adherent most days; no post-shift takeout; soda switched.
+Adjustments: more protein at breakfast; plan for weekend social meals.
+Reports keeping up with gym routine.
+Continue program.
+
+=== GLP1-035-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/10/2026
+
+S: Follow-up. Continues the diet and exercise plan and program follow-ups since December. Weight 91.9 kg today, down from 96.2 kg (-4.5%). Some improvement, though modest — she feels she has hit a wall and would like more weight loss. Asks about medication. No MTC/MEN2 history, no pancreatitis. Uses IUD.
+
+O: Wt 91.9 kg, BMI 35.9. BP 124/72.
+
+A/P:
+1. Obesity, BMI 35.9 — modest progress with lifestyle program. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.
+2. GERD — stable.

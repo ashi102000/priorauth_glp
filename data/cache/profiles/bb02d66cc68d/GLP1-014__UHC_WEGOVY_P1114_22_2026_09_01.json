@@ -1,0 +1,361 @@
+{
+ "patient_id": "GLP1-014",
+ "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1970-03-28",
+   "age": 56,
+   "gender": "male"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-014-BMI-2026-08-13",
+    "date": "2026-08-13",
+    "value": 29.8
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-014-BMI-2025-08-13",
+     "date": "2025-08-13",
+     "value": 29.8
+    },
+    {
+     "resource_id": "Observation/GLP1-014-BMI-2025-11-08",
+     "date": "2025-11-08",
+     "value": 29.8
+    },
+    {
+     "resource_id": "Observation/GLP1-014-BMI-2026-08-13",
+     "date": "2026-08-13",
+     "value": 29.8
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-014-WT-2026-08-13",
+    "date": "2026-08-13",
+    "value": 76.3
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-014-WT-2025-08-13",
+     "date": "2025-08-13",
+     "value": 76.4
+    },
+    {
+     "resource_id": "Observation/GLP1-014-WT-2025-11-08",
+     "date": "2025-11-08",
+     "value": 76.4
+    },
+    {
+     "resource_id": "Observation/GLP1-014-WT-2026-08-13",
+     "date": "2026-08-13",
+     "value": 76.3
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-014-HT-2025-08-13",
+   "date": "2025-08-13",
+   "value": 160.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-014-BP-2026-08-13",
+    "date": "2026-08-13",
+    "systolic": 115.0,
+    "diastolic": 73.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-014-BP-2025-08-13",
+     "date": "2025-08-13",
+     "systolic": 126.0,
+     "diastolic": 76.0
+    },
+    {
+     "resource_id": "Observation/GLP1-014-BP-2025-11-08",
+     "date": "2025-11-08",
+     "systolic": 125.0,
+     "diastolic": 66.0
+    },
+    {
+     "resource_id": "Observation/GLP1-014-BP-2026-08-13",
+     "date": "2026-08-13",
+     "systolic": 115.0,
+     "diastolic": 73.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-014-A1C-2025-08-13",
+    "date": "2025-08-13",
+    "value": 5.2
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-014-LDL-2025-08-13",
+    "date": "2025-08-13",
+    "value": 88.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-014-HDL-2025-08-13",
+    "date": "2025-08-13",
+    "value": 52.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-014-TG-2025-08-13",
+    "date": "2025-08-13",
+    "value": 84.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-014-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2018-04-08",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-014-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2019-03-05",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-014-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2024-07-27",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-014-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2018-12-28",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-014-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2017-02-02",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-014-OVERWT",
+    "display": "Overweight",
+    "clinical_status": "active",
+    "onset": "2024-12-07",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-014-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2021-12-25",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-014-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2021-12-10",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-014-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2021-12-23",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-014-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2022-09-19",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-014-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2023-12-16",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-014-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-014-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-014-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-13",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "lifestyle_adjunct": [
+   {
+    "chunk_id": "DocumentReference/GLP1-014-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-014-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-13",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight, BMI 29.8 — plan starting today:\n - Reduced-calorie meal plan of about 1400 kcal/day with food logging in a phone app.\n - Brisk walking with a coworker at lunch 4 days a week.\n - Enrolled in the health system's 12-month lifestyle modification program.\n Follow-up in ~3 months.\n2. Anxiety — stable on sertraline.\n3. Migraine — rare.",
+    "score": 16.832588,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-014-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-014-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-26",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 08/26/2025\nLifestyle modification program intake. Food log: skips breakfast, desk lunch from cafeteria, 2 bowls of cereal at 10 PM.\nPlan: ~1400 kcal/day logged in phone app; breakfast daily; bring lunch; replace late cereal with a small protein snack.\nActivity: brisk lunchtime walking with coworker, 4 days/week.\nRD follow-up in 6 weeks.",
+    "score": 14.678187,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-014-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-014-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-12",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 02/12/2026\nFood log reviewed: adherent most days, ~1400–1500 kcal. Late-night cereal habit stopped.\nAdjustments: weekend meals out — choose grilled options; smaller portions of rice.\nReports keeping up with lunchtime walks, moves to the building's indoor track when icy.\nContinue program.",
+    "score": 13.39805,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-014-TEL-001#c0",
+    "resource_id": "DocumentReference/GLP1-014-TEL-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-15",
+    "note_type": "Telephone encounter",
+    "text": "TELEPHONE ENCOUNTER — 05/15/2026\nRN program check-in. Pt continues the diet and walking plan started last August; logging most days. Reports good adherence most weeks. No concerns.",
+    "score": 7.4512,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-014-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-014-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-13",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/13/2026\nS: Weight follow-up. Continues the diet and exercise plan and program visits for a year. Walking at lunch, logging meals. Frustrated — weight 76.3 kg today vs 76.4 kg when he started (-0.1%), essentially no change despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 76.3 kg, BMI 29.8. BP 115/73.",
+    "score": 12.409194,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-014-UC-001#c0",
+    "resource_id": "DocumentReference/GLP1-014-UC-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-12-05",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 12/05/2024\n54 y/o M, 10–12 days of congestion, facial pressure, purulent drainage, worse over the last 3 days after initial improvement. Low-grade fever.\nExam: bilateral maxillary tenderness, purulent drainage, lungs clear.\nDx: acute bacterial rhinosinusitis. Amoxicillin-clavulanate 875/125 mg BID x 7 days; saline rinses; follow up if not better in 72 h.",
+    "score": 1.556725,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-014-UC-002#c0",
+    "resource_id": "DocumentReference/GLP1-014-UC-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-02-03",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 02/03/2025\n54 y/o M with chest tightness and cough during his outdoor morning jogs in the cold for the past 2 weeks; clears with rest. No chest pain at rest, no exertional pressure radiating to arm/jaw. ECG NSR.\nExam: lungs clear, SpO2 98%.\nAssessment: exercise-induced bronchospasm.\nPlan: albuterol before exertion; indoor treadmill on very cold days; PCP follow-up if any atypical symptoms.",
+    "score": 1.515154,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-014-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-014-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-13",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/13/2025\nS: 55 y/o M here to work on weight; noticed gradual gain after stopping jogging over the winter. Lots of evening snacking; eats lunch at his desk.\nO: Wt 76.4 kg, Ht 160 cm, BMI 29.8. BP 126/76.\nExam unremarkable.",
+    "score": 1.35157,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-014-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-014-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-11-08",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 11/08/2025\nS: Follow-up. Continues the meal plan and lunchtime walks started in August; logs most days. Good adherence most weeks.\nO: Wt 76.4 kg, BMI 29.8. BP 125/66.\nA/P:\n1. Overweight — continue program; RD follow-up scheduled.",
+    "score": 1.407109,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-014-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-014-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-13",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/13/2026\nS: Weight follow-up. Continues the diet and exercise plan and program visits for a year. Walking at lunch, logging meals. Frustrated — weight 76.3 kg today vs 76.4 kg when he started (-0.1%), essentially no change despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 76.3 kg, BMI 29.8. BP 115/73.",
+    "score": 1.167278,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 13,
+  "n_notes": 11,
+  "tokens": {
+   "raw_chart": {
+    "structured": 8193,
+    "notes": 1112,
+    "total": 9305
+   },
+   "retrieved_evidence": 814,
+   "structured_features": 1740,
+   "profile_total": 3642
+  }
+ }
+}

@@ -1,0 +1,110 @@
+=== GLP1-034-UC-001
+URGENT CARE — 12/21/2024
+
+54 y/o M, chest tightness and cough starting a few minutes into outdoor jogs in the cold; resolves with rest. No exertional chest pressure radiating, no syncope. ECG NSR.
+Exam: lungs clear, SpO2 98%.
+Assessment: exercise-induced bronchospasm (cardiac cause less likely). Albuterol before exertion; PCP follow-up.
+
+=== GLP1-034-PHARM-001
+PHARMACIST MEDICATION REVIEW — 05/02/2025
+
+Pt asked about red yeast rice for cholesterol. Advised NOT to combine with rosuvastatin (contains a naturally occurring statin — duplicate therapy, myopathy risk). Fish oil acceptable. Pt will not start red yeast rice.
+
+=== GLP1-034-IMM-001
+IMMUNIZATION VISIT — 06/10/2025
+
+Tdap 0.5 mL IM L deltoid (last 2013). No reaction. COVID booster discussed — pt will schedule in fall.
+
+=== GLP1-034-GI-001
+GASTROENTEROLOGY PROCEDURE NOTE — 06/25/2025
+
+Screening colonoscopy.
+Prep: clear liquid diet day before, split-dose; good prep.
+Findings: two 4–5 mm polyps in sigmoid removed. Mild diverticulosis.
+Plan: resume regular diet; pathology pending.
+
+=== GLP1-034-LAB-001
+LAB RESULT NOTE — 09/30/2025
+
+CBC and CMP within normal limits (ALT 29, CK not checked). No action needed.
+
+=== GLP1-034-LAB-002
+LAB RESULT NOTE — 11/23/2025
+
+25-OH vitamin D 26 ng/mL — low-normal. Continue vitamin D3 2000 IU daily.
+
+=== GLP1-034-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/20/2025
+
+S: 55 y/o M wants to lose weight; family history of heart disease makes him "want to get ahead of it." Eats late, takeout 3–4 nights, sedentary office job.
+
+O: Wt 88.1 kg, Ht 175 cm, BMI 28.8. BP 114/74.
+Exam unremarkable.
+
+A/P:
+1. Overweight, BMI 28.8 — plan starting today:
+ - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout.
+ - Gym sessions (treadmill + light weights) 3 days a week, ~150 min/week.
+ - Enrolled in the health system's 12-month lifestyle modification program.
+ Follow-up visits planned.
+2. Anxiety — stable on sertraline.
+3. Migraine — infrequent.
+
+=== GLP1-034-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 01/08/2026
+
+Lifestyle program intake. Food log: late dinners, takeout, cheese/crackers in the evening, red meat most days.
+Plan: calorie tracking at ~1800 kcal/day; takeout 1x/week; no eating after 9 PM; heart-healthy swaps (fish 2x/week, oats, beans, olive oil instead of butter) for cholesterol.
+Activity: gym 3 days/week, treadmill + weights, ~150 min/week.
+RD follow-up 6 weeks.
+
+=== GLP1-034-MSG-001
+PATIENT PORTAL MESSAGE — 01/14/2026
+
+Pt: "Trip to South Africa and Botswana in May — what do I need?"
+RN reply: Hepatitis A, typhoid; malaria prophylaxis for Botswana safari areas; rabies pre-exposure optional. Please book a travel visit 6 weeks prior.
+
+=== GLP1-034-TEL-001
+TELEPHONE ENCOUNTER — 03/14/2026
+
+Refill request: cetirizine 10 mg daily PRN for spring allergies. Sent to pharmacy.
+
+=== GLP1-034-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 03/17/2026
+
+S: Follow-up. Continues the calorie tracking and gym plan started in December; good adherence most weeks. No muscle aches on rosuvastatin.
+
+O: Wt 87.6 kg, BMI 28.6. BP 117/70.
+
+A/P:
+1. Overweight — continue program.
+2. High cholesterol — LDL 178 on last panel; on rosuvastatin 10 mg daily. Recheck fasting lipids next month; may increase dose.
+
+=== GLP1-034-TEL-002
+TELEPHONE ENCOUNTER — 04/07/2026
+
+Pt confirmed fasting lab appointment 04/10 at 7:00 AM; fast 10–12 hours, water OK. Understood.
+
+=== GLP1-034-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 05/28/2026
+
+Food log reviewed: adherent most days, ~1800 kcal; takeout once weekly; fish twice a week.
+Adjustments: smaller portions at restaurant meals during travel; swap cheese snack for nuts.
+Reports keeping up with the gym routine.
+Continue program.
+
+=== GLP1-034-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/20/2026
+
+S: Follow-up. Continues the diet and exercise plan and program visits since December. Frustrated — weight 85.8 kg today vs 88.1 kg when the lifestyle plan began (-2.6%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis.
+
+O: Wt 85.8 kg, BMI 28.0. BP 125/78.
+
+A/P:
+1. Overweight, BMI 28.0 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.
+2. High cholesterol — LDL 178 on last panel; on rosuvastatin 10 mg daily; continue, repeat lipids.

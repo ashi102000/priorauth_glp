@@ -1,0 +1,17 @@
+[main_gpt] 150 evaluations; 0 already complete; running 150
+  10/150  last=GLP1-003__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.1503
+  20/150  last=GLP1-007__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $0.3009
+  30/150  last=GLP1-010__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $0.4600
+  40/150  last=GLP1-013__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $0.6307
+  50/150  last=GLP1-017__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $0.7900
+  60/150  last=GLP1-020__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $0.9369
+  70/150  last=GLP1-024__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $1.0795
+  80/150  last=GLP1-027__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $1.2255
+  90/150  last=GLP1-030__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $1.3894
+  100/150  last=GLP1-034__AETNA_WEGOVY_4774C_2026_08_20 state=READY err=-  run cost so far $1.5387
+  110/150  last=GLP1-037__UHC_WEGOVY_P1114_22_2026_09_01 state=READY err=-  run cost so far $1.6916
+  120/150  last=GLP1-040__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $1.8493
+  130/150  last=GLP1-044__AETNA_WEGOVY_4774C_2026_08_20 state=NOT_READY err=-  run cost so far $2.0211
+  140/150  last=GLP1-047__BCBS_FEP_WEGOVY_2026_07_01 state=READY err=-  run cost so far $2.1765
+  150/150  last=GLP1-050__BCBS_FEP_WEGOVY_2026_07_01 state=NOT_READY err=-  run cost so far $2.3330
+[main_gpt] done: ok=150 errors=0 new-run cost $2.3330 -> results/runs/main_gpt

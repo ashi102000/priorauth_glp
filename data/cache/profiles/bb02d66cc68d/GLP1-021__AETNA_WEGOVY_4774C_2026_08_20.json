@@ -1,0 +1,257 @@
+{
+ "patient_id": "GLP1-021",
+ "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1991-01-29",
+   "age": 35,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-021-BMI-2026-08-17",
+    "date": "2026-08-17",
+    "value": 34.8
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-021-BMI-2024-09-29",
+     "date": "2024-09-29",
+     "value": 35.2
+    },
+    {
+     "resource_id": "Observation/GLP1-021-BMI-2025-12-17",
+     "date": "2025-12-17",
+     "value": 35.0
+    },
+    {
+     "resource_id": "Observation/GLP1-021-BMI-2026-08-17",
+     "date": "2026-08-17",
+     "value": 34.8
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-021-WT-2026-08-17",
+    "date": "2026-08-17",
+    "value": 89.1
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-021-WT-2024-09-29",
+     "date": "2024-09-29",
+     "value": 90.2
+    },
+    {
+     "resource_id": "Observation/GLP1-021-WT-2025-12-17",
+     "date": "2025-12-17",
+     "value": 89.6
+    },
+    {
+     "resource_id": "Observation/GLP1-021-WT-2026-08-17",
+     "date": "2026-08-17",
+     "value": 89.1
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-021-HT-2024-09-29",
+   "date": "2024-09-29",
+   "value": 160.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-021-BP-2026-08-17",
+    "date": "2026-08-17",
+    "systolic": 120.0,
+    "diastolic": 69.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-021-BP-2024-09-29",
+     "date": "2024-09-29",
+     "systolic": 114.0,
+     "diastolic": 80.0
+    },
+    {
+     "resource_id": "Observation/GLP1-021-BP-2025-12-17",
+     "date": "2025-12-17",
+     "systolic": 108.0,
+     "diastolic": 72.0
+    },
+    {
+     "resource_id": "Observation/GLP1-021-BP-2026-08-17",
+     "date": "2026-08-17",
+     "systolic": 120.0,
+     "diastolic": 69.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-021-A1C-2024-09-29",
+    "date": "2024-09-29",
+    "value": 5.4
+   },
+   "ldl": null,
+   "hdl": null,
+   "tg": null
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-021-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2016-06-18",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-021-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2020-10-12",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-021-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-11-25",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-021-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2024-03-18",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-021-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-021-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-17",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "adjunct_diet_and_activity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-021-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-021-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-17",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 12/17/2025\nS: 34 y/o F wants to lose weight. Prior attempts at dieting on her own over the years without sustained weight loss — loses a few kilos and regains them within months. Drinks sweet tea and soda daily. Her employer now offers a weight management benefit.\nO: Wt 89.6 kg, Ht 160 cm, BMI 35.0. BP 108/72.\nExam unremarkable.",
+    "score": 11.361118,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-021-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-021-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-17",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 35.0 — plan starting today:\n - Mediterranean-style reduced-calorie diet, target ~1600 kcal/day; cut sugar-sweetened drinks.\n - Stationary bike 30–40 minutes 4 days a week (has one at home).\n - Enrolling in the employer-sponsored weight management program with monthly coaching.\n Follow-up planned in ~3 months.\n2. Eczema — stable.",
+    "score": 27.30243,
+    "reason": "top_k"
+   }
+  ],
+  "program_6_months": [
+   {
+    "chunk_id": "DocumentReference/GLP1-021-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-021-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-17",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 12/17/2025\nS: 34 y/o F wants to lose weight. Prior attempts at dieting on her own over the years without sustained weight loss — loses a few kilos and regains them within months. Drinks sweet tea and soda daily. Her employer now offers a weight management benefit.\nO: Wt 89.6 kg, Ht 160 cm, BMI 35.0. BP 108/72.\nExam unremarkable.",
+    "score": 11.361118,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-021-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-021-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-17",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 35.0 — plan starting today:\n - Mediterranean-style reduced-calorie diet, target ~1600 kcal/day; cut sugar-sweetened drinks.\n - Stationary bike 30–40 minutes 4 days a week (has one at home).\n - Enrolling in the employer-sponsored weight management program with monthly coaching.\n Follow-up planned in ~3 months.\n2. Eczema — stable.",
+    "score": 27.30243,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-021-UC-001#c0",
+    "resource_id": "DocumentReference/GLP1-021-UC-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-09-29",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 09/29/2024\n33 y/o F, 10 days of congestion, sinus pressure, and yellow-green drainage; getting worse after a brief improvement. Vitals: Wt 90.2 kg, BMI 35.2, BP 114/80, T 99.9.\nExam: maxillary tenderness, purulent drainage, TMs clear, lungs clear.\nDx: acute bacterial sinusitis. Amoxicillin-clavulanate 875/125 mg BID x 7 days, saline irrigation. Return if not improved in 72 h.",
+    "score": 3.051224,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-021-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-021-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-17",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 12/17/2025\nS: 34 y/o F wants to lose weight. Prior attempts at dieting on her own over the years without sustained weight loss — loses a few kilos and regains them within months. Drinks sweet tea and soda daily. Her employer now offers a weight management benefit.\nO: Wt 89.6 kg, Ht 160 cm, BMI 35.0. BP 108/72.\nExam unremarkable.",
+    "score": 1.214316,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-021-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-021-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-17",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/17/2026\nS: 35 y/o F here about weight; interested in medication, specifically Wegovy. No personal/family hx MTC/MEN2, no pancreatitis, no gallbladder disease. Colonoscopy pathology: tubular adenomas, repeat in 7 years. Travel planned in October.\nO: Wt 89.1 kg, BMI 34.8. BP 120/69.",
+    "score": 1.339021,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 16,
+  "n_notes": 14,
+  "tokens": {
+   "raw_chart": {
+    "structured": 5995,
+    "notes": 1158,
+    "total": 7153
+   },
+   "retrieved_evidence": 418,
+   "structured_features": 1141,
+   "profile_total": 2572
+  }
+ }
+}

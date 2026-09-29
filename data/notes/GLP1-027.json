@@ -1,0 +1,19 @@
+{
+  "patient_id": "GLP1-027",
+  "notes": {
+    "GLP1-027-TEL-001": "TELEPHONE ENCOUNTER — 09/22/2024\n\nRefill request: cetirizine 10 mg for fall allergies. Sent to pharmacy, 90-day supply.\n",
+    "GLP1-027-OSR-001": "OUTSIDE RECORDS — SCANNED — 10/12/2024\nSource: Meadow Dental Group\n\nClearance for crown #19. No anticoagulants, no cardiac history. Cleared without restrictions.\n",
+    "GLP1-027-GI-001": "GASTROENTEROLOGY PROCEDURE NOTE — 10/28/2024\n\nScreening colonoscopy (family hx colon cancer in father at 58).\nPrep: clear liquid diet day before, split-dose prep; prep adequate.\nFindings: two 4 mm polyps in transverse colon, removed by cold snare; otherwise normal.\nPlan: resume regular diet; pathology pending; repeat per pathology (likely 5 years given family history).\n",
+    "GLP1-027-LAB-001": "LAB RESULT NOTE — 02/21/2025\n\n25-OH vitamin D 27 ng/mL — low-normal. Continue vitamin D3 2000 IU daily.\n",
+    "GLP1-027-LAB-002": "LAB RESULT NOTE — 03/21/2025\n\nCBC and CMP within normal limits. No action needed.\n",
+    "GLP1-027-PHARM-001": "PHARMACIST MEDICATION REVIEW — 07/07/2025\n\nPt asked about feverfew and riboflavin for migraine prevention. Riboflavin 400 mg daily reasonable; feverfew generally safe but may increase bleeding with ibuprofen — use ibuprofen sparingly. No interactions with sumatriptan at usual doses.\n",
+    "GLP1-027-OSR-002": "OUTSIDE RECORDS — SCANNED — 09/07/2025\nSource: Lakeshore Hospital ED, visit 09/03/2025\n\n41 y/o F, acute right flank pain and vomiting. CT: 4 mm right proximal ureteral stone, mild hydronephrosis. IV fluids, ketorolac, ondansetron; discharged with tamsulosin. Passed stone 09/05. Urology PRN.\n",
+    "GLP1-027-APE-001": "ANNUAL PHYSICAL — 10/14/2025\n\n41 y/o F, annual exam. No acute complaints.\nVitals: Wt 98.3 kg, BMI 32.1, BP 116/68.\nSocial history: works as a school administrator; married, two kids. Has dieted on and off for years — \"tried everything.\" Walks the dog most days. Nonsmoker, 1–2 drinks per week.\nExam normal. Screening: mammogram ordered; Pap/HPV up to date; colonoscopy 2024. Flu vaccine today.\nReturn 1 year.\n",
+    "GLP1-027-MSG-001": "PATIENT PORTAL MESSAGE — 12/10/2025\n\nPt: \"Can I move my January appointment? And my school needs a note for the migraine day last week.\"\nMA reply: Moved to 01/22. Work note uploaded.\n",
+    "GLP1-027-DERM-001": "DERMATOLOGY — 03/31/2026\n\n41 y/o F with recurrent itchy rash under the breasts, worse in the heat and with sweating. Vitals: Wt 97.8 kg, BMI 31.9, BP 122/75.\nDx: intertrigo. Nystatin powder BID; keep area dry; moisture-wicking fabric barrier. Follow-up PRN.\n",
+    "GLP1-027-MSG-002": "PATIENT PORTAL MESSAGE — 04/12/2026\n\nPt: \"Family trip to Costa Rica in July — anything needed?\"\nRN reply: Hepatitis A and typhoid recommended; mosquito precautions. Book a nurse visit.\n",
+    "GLP1-027-LAB-003": "LAB RESULT NOTE — 04/18/2026\n\nTSH 2.75 mIU/L — within normal limits. No thyroid follow-up needed.\n",
+    "GLP1-027-UC-001": "URGENT CARE — 05/11/2026\n\n41 y/o F with chest tightness and cough while jogging in the early cold mornings on a trip; resolves with rest. Lungs clear, SpO2 99%.\nDx: exercise-induced bronchospasm. Albuterol before exertion.\n",
+    "GLP1-027-PCP-001": "PRIMARY CARE PROGRESS NOTE\nDate: 08/10/2026\n\nS: 42 y/o F here to discuss weight. Long-standing efforts at diet and exercise — has tried calorie counting, low-carb, and commercial plans at various times, and walks the dog daily. Weight has been stable for years around the same range despite this. Wants to try medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease. IUD in place.\n\nO: Wt 97.7 kg, Ht 175 cm, BMI 31.9. BP 110/71.\n\nA/P:\n1. Obesity, BMI 31.9 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Recheck in 3 months.\n2. Migraine — stable.\n"
+  }
+}

@@ -1,0 +1,449 @@
+{
+ "patient_id": "GLP1-028",
+ "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1977-02-17",
+   "age": 49,
+   "gender": "male"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-028-BMI-2026-08-16",
+    "date": "2026-08-16",
+    "value": 28.8
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-028-BMI-2025-12-16",
+     "date": "2025-12-16",
+     "value": 29.6
+    },
+    {
+     "resource_id": "Observation/GLP1-028-BMI-2026-03-05",
+     "date": "2026-03-05",
+     "value": 29.3
+    },
+    {
+     "resource_id": "Observation/GLP1-028-BMI-2026-08-16",
+     "date": "2026-08-16",
+     "value": 28.8
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-028-WT-2026-08-16",
+    "date": "2026-08-16",
+    "value": 73.7
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-028-WT-2025-12-16",
+     "date": "2025-12-16",
+     "value": 75.7
+    },
+    {
+     "resource_id": "Observation/GLP1-028-WT-2026-03-05",
+     "date": "2026-03-05",
+     "value": 74.9
+    },
+    {
+     "resource_id": "Observation/GLP1-028-WT-2026-08-16",
+     "date": "2026-08-16",
+     "value": 73.7
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-028-HT-2025-12-16",
+   "date": "2025-12-16",
+   "value": 160.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-028-BP-2026-08-16",
+    "date": "2026-08-16",
+    "systolic": 135.0,
+    "diastolic": 86.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-028-BP-2025-12-16",
+     "date": "2025-12-16",
+     "systolic": 132.0,
+     "diastolic": 87.0
+    },
+    {
+     "resource_id": "Observation/GLP1-028-BP-2026-03-05",
+     "date": "2026-03-05",
+     "systolic": 137.0,
+     "diastolic": 88.0
+    },
+    {
+     "resource_id": "Observation/GLP1-028-BP-2026-08-16",
+     "date": "2026-08-16",
+     "systolic": 135.0,
+     "diastolic": 86.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-028-A1C-2025-12-16",
+    "date": "2025-12-16",
+    "value": 4.9
+   },
+   "ldl": null,
+   "hdl": null,
+   "tg": null
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-028-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2019-04-11",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-028-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2022-11-14",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-028-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2019-09-07",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-028-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2019-07-05",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-028-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2015-03-24",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-028-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2023-10-05",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-028-OVERWT",
+    "display": "Overweight",
+    "clinical_status": "active",
+    "onset": "2024-08-01",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-028-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2022-09-09",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-028-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2021-01-21",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-028-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2022-02-18",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-028-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2022-04-26",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-028-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2024-12-22",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-028-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-028-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-028-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-028-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-16",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "weight_management_program": [
+   {
+    "chunk_id": "DocumentReference/GLP1-028-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-028-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-16",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 12/16/2025\nS: 48 y/o M wants to lose weight; gained after a knee injury limited activity last year (now healed). Late-night snacking and takeout. Enjoys swimming.\nO: Wt 75.7 kg, Ht 160 cm, BMI 29.6. BP 132/87.\nExam: CV RRR, no edema.",
+    "score": 6.522786,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-028-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-16",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight, BMI 29.6 — plan starting today:\n - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout.\n - Water aerobics / lap swimming 4 times a week.\n - Referred to a dietitian-led weight management program.\n Follow-up in ~3 months.\n2. Elevated BP — 132/87 today, above goal; no prior diagnosis of hypertension. Recheck at next visit; home readings requested.\n3. Anxiety — stable on sertraline.",
+    "score": 16.94029,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-028-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-31",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 12/31/2025\nDietitian-led program intake. Food log: skips breakfast, heavy dinner, takeout 3–4 nights, snacks 10 PM–midnight.\nPlan: calorie tracking at ~1800 kcal/day; breakfast daily; takeout 1x/week; no eating after 9 PM; lower sodium given BP readings.\nActivity: water aerobics / lap swimming 4x/week.\nRD follow-up 6 weeks.",
+    "score": 19.819679,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-028-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-25",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/25/2026\nFood log reviewed: adherent most days, ~1800 kcal. Takeout 1x/week.\nAdjustments: add protein at lunch; swap evening chips for fruit.\nReports keeping up with swimming 4x/week.\nContinue program.",
+    "score": 11.942827,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-028-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-16",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/16/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since December. Frustrated: weight 73.7 kg today vs 75.7 kg when the plan began (-2.6%) despite reported adherence. Didn't bring a home BP log. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 73.7 kg, BMI 28.8. BP 135/86.",
+    "score": 8.65983,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_glp1": [
+   {
+    "chunk_id": "DocumentReference/GLP1-028-MSG-001#c0",
+    "resource_id": "DocumentReference/GLP1-028-MSG-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-06-14",
+    "note_type": "Patient portal message",
+    "text": "PATIENT PORTAL MESSAGE — 06/14/2025\nPt: \"Going to Peru (Lima, Cusco, Machu Picchu) in September. Vaccines?\"\nRN reply: Hepatitis A and typhoid; yellow fever not needed for that itinerary. Altitude medication can be discussed at a travel visit.",
+    "score": 2.096884,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-028-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-25",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/25/2026\nFood log reviewed: adherent most days, ~1800 kcal. Takeout 1x/week.\nAdjustments: add protein at lunch; swap evening chips for fruit.\nReports keeping up with swimming 4x/week.\nContinue program.",
+    "score": 2.576345,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-028-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-16",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/16/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since December. Frustrated: weight 73.7 kg today vs 75.7 kg when the plan began (-2.6%) despite reported adherence. Didn't bring a home BP log. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 73.7 kg, BMI 28.8. BP 135/86.",
+    "score": 1.493545,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-028-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-16",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight, BMI 28.8 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue lifestyle plan. Recheck in 3 months.\n2. BP 135/86 today, above goal; no prior diagnosis of hypertension. Recheck at next visit; consider ambulatory monitoring.",
+    "score": 4.4964,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_pa_weight_loss_med": [
+   {
+    "chunk_id": "DocumentReference/GLP1-028-MSG-001#c0",
+    "resource_id": "DocumentReference/GLP1-028-MSG-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-06-14",
+    "note_type": "Patient portal message",
+    "text": "PATIENT PORTAL MESSAGE — 06/14/2025\nPt: \"Going to Peru (Lima, Cusco, Machu Picchu) in September. Vaccines?\"\nRN reply: Hepatitis A and typhoid; yellow fever not needed for that itinerary. Altitude medication can be discussed at a travel visit.",
+    "score": 2.096884,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-028-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-25",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/25/2026\nFood log reviewed: adherent most days, ~1800 kcal. Takeout 1x/week.\nAdjustments: add protein at lunch; swap evening chips for fruit.\nReports keeping up with swimming 4x/week.\nContinue program.",
+    "score": 2.576345,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-028-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-16",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/16/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since December. Frustrated: weight 73.7 kg today vs 75.7 kg when the plan began (-2.6%) despite reported adherence. Didn't bring a home BP log. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 73.7 kg, BMI 28.8. BP 135/86.",
+    "score": 1.493545,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-028-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-16",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight, BMI 28.8 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue lifestyle plan. Recheck in 3 months.\n2. BP 135/86 today, above goal; no prior diagnosis of hypertension. Recheck at next visit; consider ambulatory monitoring.",
+    "score": 4.4964,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-028-UC-001#c0",
+    "resource_id": "DocumentReference/GLP1-028-UC-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-10-24",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 10/24/2024\n47 y/o M, wheeze and cough starting a few minutes into morning runs in the cold; resolves with rest; no symptoms at rest.\nExam: lungs clear, SpO2 98%.\nDx: exercise-induced bronchospasm. Albuterol 2 puffs before exertion.",
+    "score": 2.485644,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-028-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-16",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight, BMI 29.6 — plan starting today:\n - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout.\n - Water aerobics / lap swimming 4 times a week.\n - Referred to a dietitian-led weight management program.\n Follow-up in ~3 months.\n2. Elevated BP — 132/87 today, above goal; no prior diagnosis of hypertension. Recheck at next visit; home readings requested.\n3. Anxiety — stable on sertraline.",
+    "score": 2.078399,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-028-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-05",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 03/05/2026\nS: Follow-up. Continues the calorie tracking and swimming started in December; good adherence most weeks. Home BP readings \"mostly 130s over 80s\" but he hasn't checked often.\nO: Wt 74.9 kg, BMI 29.3. BP 137/88.\nA/P:\n1. Overweight — continue program.\n2. BP 137/88 today, above goal; no prior diagnosis of hypertension. Recheck at next visit with home log.",
+    "score": 2.492165,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-028-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-16",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/16/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since December. Frustrated: weight 73.7 kg today vs 75.7 kg when the plan began (-2.6%) despite reported adherence. Didn't bring a home BP log. Asks about medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 73.7 kg, BMI 28.8. BP 135/86.",
+    "score": 1.096594,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-028-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-028-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-16",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight, BMI 28.8 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue lifestyle plan. Recheck in 3 months.\n2. BP 135/86 today, above goal; no prior diagnosis of hypertension. Recheck at next visit; consider ambulatory monitoring.",
+    "score": 2.299001,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 15,
+  "n_notes": 13,
+  "tokens": {
+   "raw_chart": {
+    "structured": 8219,
+    "notes": 1202,
+    "total": 9421
+   },
+   "retrieved_evidence": 843,
+   "structured_features": 1749,
+   "profile_total": 5140
+  }
+ }
+}

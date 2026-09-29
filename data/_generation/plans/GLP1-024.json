@@ -1,0 +1,559 @@
+{
+  "patient_id": "GLP1-024",
+  "index_date": "2026-09-01",
+  "patient": {
+    "id": "GLP1-024",
+    "given": "Thomas",
+    "family": "Fernandez",
+    "gender": "male",
+    "birthDate": "1970-06-25"
+  },
+  "conditions": [
+    {
+      "id": "GLP1-024-HTN",
+      "code": "38341003",
+      "display": "Hypertensive disorder",
+      "clinical_status": "active",
+      "onset": "2019-03-24"
+    },
+    {
+      "id": "GLP1-024-OBESITY",
+      "code": "414916001",
+      "display": "Obesity",
+      "clinical_status": "active",
+      "onset": "2024-11-01"
+    },
+    {
+      "id": "GLP1-024-ALLERGY",
+      "code": "367498001",
+      "display": "Seasonal allergic rhinitis",
+      "clinical_status": "active",
+      "onset": "2020-01-15"
+    },
+    {
+      "id": "GLP1-024-ANX",
+      "code": "197480006",
+      "display": "Anxiety disorder",
+      "clinical_status": "active",
+      "onset": "2017-07-16"
+    },
+    {
+      "id": "GLP1-024-GERD",
+      "code": "235595009",
+      "display": "Gastroesophageal reflux disease",
+      "clinical_status": "active",
+      "onset": "2017-11-12"
+    }
+  ],
+  "observations": [
+    {
+      "id": "GLP1-024-HT-2025-12-15",
+      "key": "HT",
+      "date": "2025-12-15",
+      "value": 168,
+      "encounter_id": "GLP1-024-ENC-2025-12-15"
+    },
+    {
+      "id": "GLP1-024-WT-2025-12-15",
+      "key": "WT",
+      "date": "2025-12-15",
+      "value": 106.5,
+      "encounter_id": "GLP1-024-ENC-2025-12-15"
+    },
+    {
+      "id": "GLP1-024-BMI-2025-12-15",
+      "key": "BMI",
+      "date": "2025-12-15",
+      "value": 37.7,
+      "encounter_id": "GLP1-024-ENC-2025-12-15"
+    },
+    {
+      "id": "GLP1-024-BP-2025-12-15",
+      "key": "BP",
+      "date": "2025-12-15",
+      "systolic": 127,
+      "diastolic": 78,
+      "encounter_id": "GLP1-024-ENC-2025-12-15"
+    },
+    {
+      "id": "GLP1-024-WT-2026-03-01",
+      "key": "WT",
+      "date": "2026-03-01",
+      "value": 106.1,
+      "encounter_id": "GLP1-024-ENC-2026-03-01"
+    },
+    {
+      "id": "GLP1-024-BMI-2026-03-01",
+      "key": "BMI",
+      "date": "2026-03-01",
+      "value": 37.6,
+      "encounter_id": "GLP1-024-ENC-2026-03-01"
+    },
+    {
+      "id": "GLP1-024-BP-2026-03-01",
+      "key": "BP",
+      "date": "2026-03-01",
+      "systolic": 135,
+      "diastolic": 89,
+      "encounter_id": "GLP1-024-ENC-2026-03-01"
+    },
+    {
+      "id": "GLP1-024-WT-2026-08-15",
+      "key": "WT",
+      "date": "2026-08-15",
+      "value": 104.4,
+      "encounter_id": "GLP1-024-ENC-2026-08-15"
+    },
+    {
+      "id": "GLP1-024-BMI-2026-08-15",
+      "key": "BMI",
+      "date": "2026-08-15",
+      "value": 37.0,
+      "encounter_id": "GLP1-024-ENC-2026-08-15"
+    },
+    {
+      "id": "GLP1-024-BP-2026-08-15",
+      "key": "BP",
+      "date": "2026-08-15",
+      "systolic": 126,
+      "diastolic": 90,
+      "encounter_id": "GLP1-024-ENC-2026-08-15"
+    },
+    {
+      "id": "GLP1-024-A1C-2025-12-15",
+      "key": "A1C",
+      "date": "2025-12-15",
+      "value": 5.6,
+      "encounter_id": "GLP1-024-ENC-2025-12-15"
+    }
+  ],
+  "medications": [
+    {
+      "id": "GLP1-024-LISINOPRIL",
+      "resourceType": "MedicationRequest",
+      "text": "lisinopril 10 mg PO daily",
+      "status": "active",
+      "intent": "order",
+      "authoredOn": "2021-06-25"
+    },
+    {
+      "id": "GLP1-024-CETIRIZINE",
+      "resourceType": "MedicationStatement",
+      "text": "cetirizine 10 mg PO daily PRN",
+      "status": "active",
+      "effective_start": "2024-06-01",
+      "dateAsserted": "2026-01-15"
+    },
+    {
+      "id": "GLP1-024-SERTRALINE",
+      "resourceType": "MedicationRequest",
+      "text": "sertraline 50 mg PO daily",
+      "status": "active",
+      "intent": "order",
+      "authoredOn": "2023-02-08"
+    },
+    {
+      "id": "GLP1-024-OMEPRAZOLE",
+      "resourceType": "MedicationRequest",
+      "text": "omeprazole 20 mg PO daily",
+      "status": "active",
+      "intent": "order",
+      "authoredOn": "2024-03-16"
+    },
+    {
+      "id": "GLP1-024-OUTSIDE-GLP1",
+      "resourceType": "MedicationStatement",
+      "text": "semaglutide weekly injection (outside prescriber) \u2014 dose unknown",
+      "status": "unknown",
+      "effective_start": "2025-05-01",
+      "dateAsserted": "2025-11-18",
+      "note": "Patient-reported; outside clinic prescription."
+    },
+    {
+      "id": "GLP1-024-WEGOVY-REQ",
+      "resourceType": "MedicationRequest",
+      "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+      "status": "draft",
+      "intent": "order",
+      "authoredOn": "2026-08-15",
+      "requested_drug": true
+    }
+  ],
+  "encounters": [
+    {
+      "id": "GLP1-024-ENC-2025-11-10",
+      "date": "2025-11-10",
+      "type": "Urgent care visit",
+      "setting": "UC"
+    },
+    {
+      "id": "GLP1-024-ENC-2025-12-15",
+      "date": "2025-12-15",
+      "type": "Primary care progress note",
+      "setting": "PCP"
+    },
+    {
+      "id": "GLP1-024-ENC-2026-01-02",
+      "date": "2026-01-02",
+      "type": "Nutrition / dietitian note",
+      "setting": "NUTR"
+    },
+    {
+      "id": "GLP1-024-ENC-2026-03-01",
+      "date": "2026-03-01",
+      "type": "Primary care progress note",
+      "setting": "PCP"
+    },
+    {
+      "id": "GLP1-024-ENC-2026-05-20",
+      "date": "2026-05-20",
+      "type": "Nutrition / dietitian note",
+      "setting": "NUTR"
+    },
+    {
+      "id": "GLP1-024-ENC-2026-08-11",
+      "date": "2026-08-11",
+      "type": "Dermatology consult",
+      "setting": "DERM"
+    },
+    {
+      "id": "GLP1-024-ENC-2026-08-15",
+      "date": "2026-08-15",
+      "type": "Primary care progress note",
+      "setting": "PCP"
+    }
+  ],
+  "notes": [
+    {
+      "doc_id": "GLP1-024-OSR-001",
+      "date": "2025-11-04",
+      "setting": "OSR",
+      "note_type": "Outside records (scanned)",
+      "doc_type_loinc": "34109-9",
+      "doc_type_display": "Note",
+      "author_role": "Outside clinic",
+      "encounter_id": null,
+      "role": "distractor",
+      "trap": false,
+      "length": "medium",
+      "vitals": null,
+      "facts_to_express": [
+        "Outside dental office medical clearance form, no restrictions.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-024-UC-001",
+      "date": "2025-11-10",
+      "setting": "UC",
+      "note_type": "Urgent care visit",
+      "doc_type_loinc": "11506-3",
+      "doc_type_display": "Progress note",
+      "author_role": "Urgent care NP",
+      "encounter_id": "GLP1-024-ENC-2025-11-10",
+      "role": "distractor",
+      "trap": false,
+      "length": "short",
+      "vitals": null,
+      "facts_to_express": [
+        "Acute sinusitis symptoms 10 days; amoxicillin-clavulanate.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-024-PCP-001",
+      "date": "2025-12-15",
+      "setting": "PCP",
+      "note_type": "Primary care progress note",
+      "doc_type_loinc": "11506-3",
+      "doc_type_display": "Progress note",
+      "author_role": "Primary care physician",
+      "encounter_id": "GLP1-024-ENC-2025-12-15",
+      "role": "program_start",
+      "trap": false,
+      "length": "medium",
+      "vitals": {
+        "weight_kg": 106.5,
+        "bmi": 37.7,
+        "bp": "127/78",
+        "height_cm": 168
+      },
+      "facts_to_express": [
+        "Weight 106.5 kg today; patient wants to work on weight.",
+        "Starting today: portion-controlled plate method with a daily food diary, ~1800 kcal/day.",
+        "Activity plan: stationary bike 30\u201340 minutes 4 days a week.",
+        "Enrolled in / referred to an employer-sponsored weight management program with monthly coaching; follow-up visits planned."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-024-NUTR-001",
+      "date": "2026-01-02",
+      "setting": "NUTR",
+      "note_type": "Nutrition / dietitian note",
+      "doc_type_loinc": "11488-4",
+      "doc_type_display": "Consult note",
+      "author_role": "Registered dietitian",
+      "encounter_id": "GLP1-024-ENC-2026-01-02",
+      "role": "program_nutrition",
+      "trap": false,
+      "length": "medium",
+      "vitals": null,
+      "facts_to_express": [
+        "Initial dietitian visit: reviewed food log, set plan \u2014 portion-controlled plate method with a daily food diary, ~1800 kcal/day.",
+        "Reinforced activity goal: stationary bike 30\u201340 minutes 4 days a week."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-024-PCP-002",
+      "date": "2026-03-01",
+      "setting": "PCP",
+      "note_type": "Primary care progress note",
+      "doc_type_loinc": "11506-3",
+      "doc_type_display": "Progress note",
+      "author_role": "Primary care physician",
+      "encounter_id": "GLP1-024-ENC-2026-03-01",
+      "role": "program_followup",
+      "trap": false,
+      "length": "medium",
+      "vitals": {
+        "weight_kg": 106.1,
+        "bmi": 37.6,
+        "bp": "135/89",
+        "height_cm": 168
+      },
+      "facts_to_express": [
+        "Weight 106.1 kg.",
+        "Continues the diet and activity plan started earlier; reports good adherence most weeks."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-024-OSR-002",
+      "date": "2026-04-14",
+      "setting": "OSR",
+      "note_type": "Outside records (scanned)",
+      "doc_type_loinc": "34109-9",
+      "doc_type_display": "Note",
+      "author_role": "Outside clinic",
+      "encounter_id": null,
+      "role": "distractor",
+      "trap": false,
+      "length": "medium",
+      "vitals": null,
+      "facts_to_express": [
+        "Outside emergency department records: kidney stone, passed spontaneously; urology follow-up PRN.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-024-NUTR-002",
+      "date": "2026-05-20",
+      "setting": "NUTR",
+      "note_type": "Nutrition / dietitian note",
+      "doc_type_loinc": "11488-4",
+      "doc_type_display": "Consult note",
+      "author_role": "Registered dietitian",
+      "encounter_id": "GLP1-024-ENC-2026-05-20",
+      "role": "program_nutrition",
+      "trap": false,
+      "length": "medium",
+      "vitals": null,
+      "facts_to_express": [
+        "Dietitian follow-up: food log reviewed, adherent most days; small adjustments to snacks/portions.",
+        "Reports keeping up with activity plan."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-024-DERM-001",
+      "date": "2026-08-11",
+      "setting": "DERM",
+      "note_type": "Dermatology consult",
+      "doc_type_loinc": "11488-4",
+      "doc_type_display": "Consult note",
+      "author_role": "Dermatologist",
+      "encounter_id": "GLP1-024-ENC-2026-08-11",
+      "role": "distractor",
+      "trap": true,
+      "length": "short",
+      "vitals": null,
+      "facts_to_express": [
+        "Intertrigo in inframammary/abdominal skin folds; topical antifungal, keep area dry.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-024-PCP-003",
+      "date": "2026-08-15",
+      "setting": "PCP",
+      "note_type": "Primary care progress note",
+      "doc_type_loinc": "11506-3",
+      "doc_type_display": "Progress note",
+      "author_role": "Primary care physician",
+      "encounter_id": "GLP1-024-ENC-2026-08-15",
+      "role": "final_request",
+      "trap": false,
+      "length": "medium",
+      "vitals": {
+        "weight_kg": 104.4,
+        "bmi": 37.0,
+        "bp": "126/90",
+        "height_cm": 168
+      },
+      "facts_to_express": [
+        "Continues the diet and exercise plan; attends program follow-ups.",
+        "Weight 104.4 kg vs 106.5 kg when the lifestyle plan began (-2.0% change) despite reported adherence; frustrated with plateau.",
+        "Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counsel on GI side effects; recheck in 3 months.",
+        "Reports being prescribed a weekly weight-loss injection by an outside clinic last year; unsure of the name and whether still filling it. Will request outside records.",
+        "Hypertension: BP 126/90 on lisinopril 10 mg PO daily; continue."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-024-MSG-001",
+      "date": "2026-08-19",
+      "setting": "MSG",
+      "note_type": "Patient portal message",
+      "doc_type_loinc": "34109-9",
+      "doc_type_display": "Note",
+      "author_role": "Patient / MA reply",
+      "encounter_id": null,
+      "role": "distractor",
+      "trap": false,
+      "length": "medium",
+      "vitals": null,
+      "facts_to_express": [
+        "Portal message asking to reschedule appointment and for a work note.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    }
+  ],
+  "generator_notes": []
+}

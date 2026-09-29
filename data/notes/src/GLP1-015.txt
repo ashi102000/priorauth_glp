@@ -1,0 +1,101 @@
+=== GLP1-015-MSG-001
+PATIENT PORTAL MESSAGE — 09/05/2024
+
+Pt: "Can I reschedule my 9/10 appointment? Starting a new job that week. And I need a note for missing my shift on 9/3."
+MA reply: Moved to 09/23 at 4:20 PM. Work note for 09/03 uploaded.
+
+=== GLP1-015-MSG-002
+PATIENT PORTAL MESSAGE — 09/24/2024
+
+Pt: "Going to Thailand in December. Do I need any vaccines?"
+RN reply: Hepatitis A and typhoid recommended; Japanese encephalitis if spending time in rural areas; malaria prophylaxis only for certain border regions. Please book a travel visit 4–6 weeks before departure.
+
+=== GLP1-015-DERM-001
+DERMATOLOGY — 10/01/2024
+
+26 y/o F with facial redness and small bumps on cheeks and chin for 2 months, flushes with hot drinks. No comedones.
+Dx: mild papulopustular rosacea.
+Plan: metronidazole 0.75% gel daily, gentle cleanser, SPF 30. Follow-up 3 months.
+
+=== GLP1-015-LAB-001
+LAB RESULT NOTE — 10/12/2024
+
+CBC and CMP within normal limits (Hgb 12.8, Cr 0.66, glucose 86, LFTs normal). No action needed.
+
+=== GLP1-015-IMM-001
+IMMUNIZATION VISIT — 11/12/2024
+
+Tdap 0.5 mL IM L deltoid (pre-travel, last tetanus unknown). VIS given, no reaction. COVID booster discussed; pt will get it at pharmacy before travel.
+
+=== GLP1-015-PT-001
+PHYSICAL THERAPY — INITIAL EVALUATION — 05/03/2025
+
+Dx: mechanical low back pain, 6 weeks, after moving apartments. No radicular symptoms, neuro intact.
+Findings: reduced lumbar flexion, weak core/glute activation, pain 4/10.
+Plan of care: 6 visits over 6 weeks; core stabilization home exercise program (dead bug, bird dog, glute bridge, side plank progressions) daily; posture/lifting education; heat PRN.
+Goals: pain ≤1/10, return to full activity.
+
+=== GLP1-015-IMM-002
+IMMUNIZATION VISIT — 11/30/2025
+
+Seasonal influenza vaccine 0.5 mL IM R deltoid. No reactions to prior vaccines. Observed 15 min, no reaction.
+
+=== GLP1-015-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/20/2025
+
+S: 27 y/o F here about weight and cholesterol. Family history of early heart disease (father MI at 48). Eats takeout late after work, snacks in the evening. Enjoys swimming.
+
+O: Wt 71.3 kg, Ht 163 cm, BMI 26.8. BP 114/71.
+Exam unremarkable.
+
+A/P:
+1. Overweight, BMI 26.8 — plan today:
+ - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout.
+ - Water aerobics / lap swimming 3 times a week.
+ - Enrolled in the health system's 12-month lifestyle modification program.
+ Follow-up in ~3 months.
+2. Hyperlipidemia on rosuvastatin 10 mg daily; last LDL 186. Family history noted; continue statin, recheck lipids.
+3. Anxiety — stable.
+
+=== GLP1-015-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 01/04/2026
+
+Lifestyle program intake. Food log: coffee only until noon, takeout dinner at 9 PM most nights, snacking after.
+Plan: calorie tracking at ~1800 kcal/day; breakfast daily; meal-prep dinners on Sundays; no eating after 9:30 PM; heart-healthy fats, more soluble fiber (oats, beans) given LDL.
+Activity: swimming / water aerobics 3x/week.
+RD follow-up in 6 weeks.
+
+=== GLP1-015-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 03/11/2026
+
+S: Follow-up. Continues the calorie tracking and swimming routine started in December; meal-prepping most weeks. Good adherence most weeks.
+
+O: Wt 71.3 kg, BMI 26.8. BP 118/66.
+
+A/P:
+1. Overweight — continue program.
+2. Hyperlipidemia on rosuvastatin 10 mg daily; last LDL 186. Repeat lipids in 3 months.
+
+=== GLP1-015-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 05/28/2026
+
+Food log reviewed: adherent most days, ~1800 kcal; takeout down to once a week.
+Adjustments: smaller portions of pasta, add a vegetable at lunch; plan for summer barbecues.
+Reports she keeps up with swimming 3x/week.
+Continue program.
+
+=== GLP1-015-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/20/2026
+
+S: Follow-up. Continues the diet and exercise plan and program visits since December — tracking, meal prep, swimming. Frustrated: weight 71.5 kg today vs 71.3 kg when she started (+0.3%), no change despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Uses IUD.
+
+O: Wt 71.5 kg, BMI 26.9. BP 118/69.
+
+A/P:
+1. Overweight, BMI 26.9, with hyperlipidemia — no response to lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.
+2. Hyperlipidemia on rosuvastatin 10 mg daily; last LDL 186. Lipid panel ordered.

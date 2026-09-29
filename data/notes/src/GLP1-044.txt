@@ -1,0 +1,120 @@
+=== GLP1-044-MSG-001
+PATIENT PORTAL MESSAGE — 10/06/2024
+
+Pt: "Need to reschedule my visit and get a work note for last Thursday."
+MA reply: Rescheduled to 10/21. Note uploaded.
+
+=== GLP1-044-UC-001
+URGENT CARE — 10/26/2024
+
+54 y/o M, cough and chest tightness a few minutes into jogging in cold air; resolves with rest. No chest pain at rest; ECG NSR.
+Dx: exercise-induced bronchospasm. Albuterol before exertion; PCP follow-up.
+
+=== GLP1-044-GI-001
+GASTROENTEROLOGY PROCEDURE NOTE — 01/10/2025
+
+Screening colonoscopy.
+Prep: clear liquid diet day before, split-dose; adequate prep.
+Findings: two 5 mm polyps in descending colon removed; small internal hemorrhoids.
+Plan: resume regular diet; pathology pending.
+
+=== GLP1-044-TEL-001
+TELEPHONE ENCOUNTER — 03/21/2025
+
+Pt confirmed fasting labs 03/25 at 7:00 AM; fast 10–12 hours. Understood.
+
+=== GLP1-044-LAB-001
+LAB RESULT NOTE — 07/30/2025
+
+TSH 1.52 mIU/L — within normal limits. No thyroid follow-up needed.
+
+=== GLP1-044-UC-002
+URGENT CARE — 09/14/2025
+
+55 y/o M, dysuria and frequency x 2 days. UA + nitrite. Culture sent.
+Dx: acute cystitis. Nitrofurantoin 100 mg BID x 7 days; PCP follow-up.
+
+=== GLP1-044-TEL-002
+TELEPHONE ENCOUNTER — 12/14/2025
+
+Pt asked for allergy medicine refill — none on file. Advised OTC cetirizine 10 mg daily PRN.
+
+=== GLP1-044-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 02/09/2026
+
+S: 55 y/o M wants to lose weight; BP and back pain worse. Large portions, beer on weekends, sedentary.
+
+O: Wt 101.2 kg, Ht 165 cm, BMI 37.2. BP 134/79.
+Exam: CV RRR, no edema.
+
+A/P:
+1. Obesity, BMI 37.2 — plan starting today:
+ - Portion-controlled plate method with a daily food diary, ~1600 kcal/day.
+ - Walking about 30 minutes 5 days a week.
+ - Referred to a dietitian-led weight management program.
+ Follow-up visits planned.
+2. Hypertension: BP 134/79 on losartan 50 mg daily; continue.
+
+=== GLP1-044-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 02/23/2026
+
+Dietitian-led program intake. Patient engaged and motivated; already logging food for 2 weeks. Food diary: large dinners, fried foods, 6–8 beers on weekends.
+Plan: plate method at ~1600 kcal/day with daily food diary; bake/grill instead of fry; beer limited to 2 per weekend day.
+Activity: walking ~30 min 5 days/week — reports he has been doing it daily since the PCP visit.
+RD follow-up in 4 weeks.
+
+=== GLP1-044-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 04/06/2026
+
+S: 56 y/o M. Twisted his right ankle on stairs about 2 weeks ago; still painful with walking. Stopped the diet and exercise program about 6 weeks in after the ankle injury and has not resumed — not logging food, not walking, missed dietitian follow-up.
+
+O: Wt 102.0 kg, BMI 37.5. BP 140/83. R ankle: lateral swelling, tender ATFL.
+
+A/P:
+1. R ankle sprain — orthopedics referral.
+2. Obesity — encouraged to restart food diary even while ankle heals.
+3. Hypertension: BP above goal today (pain); recheck.
+
+=== GLP1-044-ORTH-001
+ORTHOPEDICS — 04/11/2026
+
+56 y/o M, right ankle sprain ~3 weeks ago (misstep on stairs), persistent lateral pain. Ottawa negative; X-ray no fracture.
+Dx: R lateral ankle sprain, grade II. CAM boot, weight-bearing as tolerated in boot, ice/elevation; PT referral for ankle rehab.
+
+=== GLP1-044-DERM-001
+DERMATOLOGY — 05/23/2026
+
+56 y/o M, itchy red rash in lower abdominal fold, worse in heat. Satellite papules.
+Dx: intertrigo, candidal. Nystatin powder BID; keep dry.
+
+=== GLP1-044-MSG-002
+PATIENT PORTAL MESSAGE — 05/27/2026
+
+Pt: "Gym membership (for the pool while my ankle heals) needs my immunization record."
+MA reply: Uploaded.
+
+=== GLP1-044-OSR-001
+OUTSIDE RECORDS — SCANNED — 07/19/2026
+Source: Main Street Dental
+
+Clearance for extraction #19. HTN on losartan; no anticoagulants. Cleared without restrictions.
+
+=== GLP1-044-LAB-002
+LAB RESULT NOTE — 08/07/2026
+
+Lipid panel drawn after breakfast — TG uninterpretable. Repeat after a 10–12 hour fast (water OK). Order re-entered.
+
+=== GLP1-044-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/17/2026
+
+S: 56 y/o M, follow-up weight and BP. Ankle healed. Weight 104.0 kg, up since spring. Not currently following a diet or exercise plan. Asks about medication. No MTC/MEN2 history, no pancreatitis.
+
+O: Wt 104.0 kg, BMI 38.2. BP 131/79.
+
+A/P:
+1. Obesity, BMI 38.2 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Recheck in 3 months.
+2. Hypertension: BP 131/79 on losartan 50 mg daily; continue.

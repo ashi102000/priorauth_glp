@@ -1,0 +1,117 @@
+=== GLP1-004-UC-001
+URGENT CARE — 09/14/2024
+
+54 y/o M, 4 days of runny nose, congestion, scratchy throat and mild cough. Wife sick with same last week. No fever, no dyspnea. Home COVID test negative.
+Exam: T 98.9, SpO2 98%. Nasal mucosa boggy, clear drainage; oropharynx mildly erythematous; lungs clear.
+Dx: viral upper respiratory infection. Supportive care; avoid decongestants with pseudoephedrine given HTN — use saline and intranasal steroid instead. Return if fever or symptoms > 10 days.
+
+=== GLP1-004-UC-002
+URGENT CARE — 12/27/2024
+
+55 y/o M with 2 days of dysuria, frequency, urgency. No fever, flank pain, penile discharge. No new sexual partners.
+UA: + leuk esterase, + nitrite, 10–20 WBC. Urine culture sent.
+Exam: afebrile, no CVA tenderness, abdomen soft.
+Dx: acute cystitis (male — culture sent).
+Rx: nitrofurantoin 100 mg BID x 7 days. Hydration. Follow up with PCP if recurrent — consider prostate evaluation.
+
+=== GLP1-004-TEL-001
+TELEPHONE ENCOUNTER — 06/24/2025
+
+Pt requests refill of cetirizine 10 mg for seasonal allergies (grass pollen season). Last filled >1 year ago. Refill sent to pharmacy, 90-day supply. Reminded that fluticasone nasal spray can be added if symptoms not controlled.
+
+=== GLP1-004-OSR-001
+OUTSIDE RECORDS — SCANNED — 08/20/2025
+Source: County General Emergency Department, visit 08/17/2025
+
+55 y/o M with acute right flank pain, vomiting x1. UA: 50+ RBC. CT KUB: 5 mm right proximal ureteral stone, mild hydronephrosis. Creatinine 1.0. Treated with IV ketorolac, ondansetron, fluids. Discharged on tamsulosin, strainer.
+ED callback 08/19: stone passed, pain resolved. Urology follow-up PRN; recommended increased water intake.
+
+=== GLP1-004-LAB-001
+LAB RESULT NOTE — 12/11/2025
+
+CBC: WNL. CMP: Na 140, K 4.4 (on losartan), Cr 1.02, eGFR 82, glucose 97, LFTs normal. No action needed.
+
+=== GLP1-004-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/19/2025
+
+S: 56 y/o M wants to work on weight; his employer just launched a weight management benefit and his wife is joining too. Eats large portions, drinks sweet tea daily, mostly sedentary outside of work. Blood pressure has been creeping up per his home cuff.
+
+O: Wt 86.3 kg, Ht 170 cm, BMI 29.9. BP 126/79.
+CV RRR, lungs clear, no edema.
+
+A/P:
+1. Overweight, BMI 29.9, with hypertension — start plan today:
+ - Mediterranean-style reduced-calorie diet, target around 1600 kcal/day; replace sweet tea with unsweetened.
+ - Walking about 30 minutes 5 days a week (neighborhood loop with wife).
+ - Enrolling in the employer-sponsored weight management program with monthly coaching; RD visit through program.
+ Follow-up in ~3 months.
+2. HTN — BP 126/79 today on losartan 50 mg daily; continue.
+3. GERD — stable on omeprazole.
+
+=== GLP1-004-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 01/03/2026
+Employer weight management program — RD intake.
+
+Diet recall: large dinner plates, second helpings, sweet tea 2–3 glasses/day, fried foods several times a week. Enjoys cooking.
+Plan: Mediterranean-style reduced-calorie approach at about 1600 kcal/day; 9-inch plate, half vegetables; bake/grill instead of frying; unsweetened tea; olive oil measured with a spoon. Monthly coaching call through program.
+Activity: walking ~30 min, 5 days/week, as agreed with PCP.
+Follow-up with RD in 6–8 weeks.
+
+=== GLP1-004-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 03/13/2026
+
+S: Weight and BP follow-up. Continues the diet and walking plan started in December; attending monthly coaching calls. Stopped sweet tea. Walks most days with his wife. Adherence good most weeks.
+
+O: Wt 86.0 kg, BMI 29.8. BP 131/83.
+
+A/P:
+1. Overweight — continue program.
+2. Hypertension — BP 131/83 on losartan 50 mg daily; continue; home BP log.
+
+=== GLP1-004-APE-001
+ANNUAL PHYSICAL — 03/26/2026
+
+56 y/o M, annual exam. No acute complaints.
+Vitals: Wt 86.2 kg, BMI 29.8, BP 134/84.
+Exam: normal; prostate exam deferred per patient preference after discussion.
+Screening: colonoscopy 2021 normal (next 2031). PSA discussed — shared decision, will check. Shingrix #2 today. Lipid panel and A1c ordered.
+Hypertension: BP 134/84 on losartan 50 mg daily; continue.
+Return 1 year.
+
+=== GLP1-004-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 06/04/2026
+
+Food log reviewed: logging 5 days/week, adherent most days; weekend barbecues are the main challenge.
+Adjustments: smaller portions of sides at barbecues, fill half plate with grilled vegetables; snack swap from chips to nuts (measured portion).
+Reports he keeps up with the walking plan, ~5 days/week.
+Continue program coaching.
+
+=== GLP1-004-PHARM-001
+PHARMACIST MEDICATION REVIEW — 06/10/2026
+
+Pt asked about turmeric and fish-oil supplements he started. Reviewed with current meds (losartan, omeprazole, sertraline, cetirizine, vitamin D, ibuprofen PRN, triamcinolone cream). No significant interactions; noted that combining fish oil with ibuprofen and sertraline may slightly increase bruising — use ibuprofen sparingly. Pt understood.
+
+=== GLP1-004-UC-003
+URGENT CARE — 06/24/2026
+
+56 y/o M with chest tightness and wheezing that come on a few minutes into jogging outdoors (recently started jogging intervals on cool mornings), resolving with rest. No chest pain at rest, no exertional chest pressure radiating, no syncope. ECG today NSR, no ischemic changes.
+Exam: lungs clear at rest, SpO2 98%.
+Assessment: probable exercise-induced bronchospasm; cardiac etiology considered less likely given pattern and normal ECG.
+Plan: albuterol 2 puffs 15 min before exertion; PCP follow-up to consider stress testing given age/HTN if any atypical symptoms.
+
+=== GLP1-004-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/19/2026
+
+S: Weight and BP follow-up. Continues the diet and exercise plan and monthly program coaching since December. Walking 5 days a week, eating Mediterranean-style most days. Frustrated — weight 84.4 kg today vs 86.3 kg when the plan began in December (-2.2%), little change since spring despite reported adherence. Wants to discuss medication. No MTC/MEN2 history, no pancreatitis.
+Follow-up from urgent care: breathing fine with pre-exercise albuterol; no exertional chest pain.
+
+O: Wt 84.4 kg, BMI 29.2. BP 135/88.
+
+A/P:
+1. Overweight (BMI 29.2) with hypertension — plateau on lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard titration; counsel on GI side effects. Continue diet/activity. Recheck in 3 months.
+2. Hypertension — BP 135/88 on losartan 50 mg daily; continue for now, recheck at next visit.

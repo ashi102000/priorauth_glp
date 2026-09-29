@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Normalized payer PA policy (policy-as-code)",
+  "type": "object",
+  "required": ["policy_id", "payer", "drug", "indication", "request_type", "effective_date", "source",
+               "human_verification", "criteria", "decision_logic"],
+  "properties": {
+    "policy_id": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
+    "payer": {"type": "string"},
+    "drug": {"type": "string"},
+    "indication": {"const": "chronic_weight_management"},
+    "request_type": {"const": "initial"},
+    "effective_date": {"type": "string", "format": "date"},
+    "applicability": {"type": "string", "description": "Plans / formularies / benefits the criteria apply to"},
+    "source": {
+      "type": "object",
+      "required": ["title", "urls", "retrieved_at", "version_as_printed"],
+      "properties": {
+        "title": {"type": "string"},
+        "document_id": {"type": "string"},
+        "urls": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "version_as_printed": {"type": "string"},
+        "retrieved_at": {"type": "string", "format": "date"},
+        "local_copies": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "human_verification": {
+      "type": "object",
+      "required": ["required", "status"],
+      "properties": {
+        "required": {"type": "boolean"},
+        "status": {"enum": ["unverified", "verified", "verified_with_changes", "rejected"]},
+        "verified_by": {"type": ["string", "null"]},
+        "verified_at": {"type": ["string", "null"]},
+        "notes": {"type": "string"}
+      }
+    },
+    "criteria": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["criterion_id", "description", "source_quote", "source_location", "type", "evaluator",
+                     "evidence_concepts", "params", "source_confidence"],
+        "properties": {
+          "criterion_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+          "description": {"type": "string", "description": "Normalized interpretation (ours)"},
+          "source_quote": {"type": "string", "description": "Verbatim payer text"},
+          "source_location": {"type": "string"},
+          "source_confidence": {"enum": ["verified_verbatim", "partially_verified", "unverified"]},
+          "type": {"enum": ["deterministic", "semantic", "semantic_temporal", "medication_reconciliation"]},
+          "evaluator": {"enum": ["code", "semantic"], "description": "code = deterministic rules; semantic = Jev/GPT per pipeline"},
+          "evidence_concepts": {"type": "array", "items": {"type": "string"},
+                                "description": "Concept-level evidence ids (evidence_map) this criterion consumes"},
+          "retrieval": {
+            "type": "object",
+            "properties": {
+              "resources": {"type": "array", "items": {"type": "string"}},
+              "concepts": {"type": "array", "items": {"type": "string"}},
+              "temporal": {"type": "boolean"}
+            }
+          },
+          "params": {"type": "object", "description": "Machine-readable thresholds/lists, e.g. {min_age: 18}"},
+          "interpretation_notes": {"type": "string"}
+        }
+      }
+    },
+    "decision_logic": {
+      "type": "object",
+      "description": "Boolean tree over criterion_ids: {all_of:[...]}, {any_of:[...]}, or a criterion_id string"
+    },
+    "out_of_scope": {"type": "array", "items": {"type": "string"},
+                     "description": "Requirements in the source that are not modeled (with reason)"}
+  }
+}

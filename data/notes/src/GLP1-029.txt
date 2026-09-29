@@ -1,0 +1,87 @@
+=== GLP1-029-OPH-001
+OPHTHALMOLOGY — 09/04/2024
+
+Routine exam; trouble reading menus. VA cc 20/25 OU distance; near blur. Refraction: mild myopia with presbyopia — progressive lenses Rx. IOP 14/15. Dilated exam normal. Return 2 years.
+
+=== GLP1-029-DERM-001
+DERMATOLOGY — 12/22/2024
+
+Flushing and small papules on cheeks for 2 months. Dx: mild rosacea. Metronidazole gel daily; SPF; avoid triggers.
+
+=== GLP1-029-PHARM-001
+PHARMACIST MEDICATION REVIEW — 03/17/2025
+
+Pt asked about black cohosh for hot flashes and a sleep aid (diphenhydramine). Black cohosh — limited evidence, rare liver effects; diphenhydramine not advised long term at her age; with sertraline — no major interaction but additive drowsiness. Suggested discussing hot flashes with PCP.
+
+=== GLP1-029-MSG-001
+PATIENT PORTAL MESSAGE — 05/31/2025
+
+Pt: "Cruise to Alaska in August. Any shots?"
+RN reply: No special vaccines; make sure flu and COVID are current. Consider motion-sickness plan.
+
+=== GLP1-029-DERM-002
+DERMATOLOGY — 10/09/2025
+
+55 y/o F with red, itchy rash under breasts, worse in summer heat and humidity. Satellite papules.
+Dx: intertrigo, candidal. Nystatin powder BID; keep area dry. Follow-up PRN.
+
+=== GLP1-029-TEL-001
+TELEPHONE ENCOUNTER — 12/19/2025
+
+Pt confirmed fasting lab appointment 12/22 at 7:30 AM; fast 10–12 hours, water OK. Understood.
+
+=== GLP1-029-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 02/18/2026
+
+S: 56 y/o F wants to lose weight; weight up since menopause; back pain and energy worse. Snacks in the evening; eats out often.
+
+O: Wt 82.4 kg, Ht 163 cm, BMI 31.0. BP 113/70.
+Exam unremarkable.
+
+A/P:
+1. Obesity, BMI 31.0 — plan starting today:
+ - Reduced-calorie meal plan of about 1400 kcal/day with food logging in a phone app.
+ - Stationary bike 30–40 minutes 4 days a week.
+ - Enrolled in the clinic's Healthy Weight lifestyle program.
+ Follow-up in ~3 months.
+2. Low back pain — stable.
+
+=== GLP1-029-LAB-001
+LAB RESULT NOTE — 05/01/2026
+
+25-OH vitamin D 25 ng/mL — low-normal. Recommend OTC vitamin D3 1000–2000 IU daily.
+
+=== GLP1-029-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 05/12/2026
+
+S: Follow-up. Continues the meal plan and bike routine started in February; logs most days, bikes 3–4x/week. Good adherence most weeks.
+
+O: Wt 81.4 kg, BMI 30.6. BP 109/73.
+
+A/P:
+1. Obesity — continue program.
+
+=== GLP1-029-MSG-002
+PATIENT PORTAL MESSAGE — 06/21/2026
+
+Pt: "The community pool wants proof of vaccinations for their fitness class paperwork. Can you send my record?"
+MA reply: Immunization record uploaded to your documents.
+
+=== GLP1-029-UC-001
+URGENT CARE — 07/31/2026
+
+56 y/o F, 10 days of sinus congestion, facial pressure, discolored drainage, worsening. Maxillary tenderness; lungs clear.
+Dx: acute bacterial sinusitis. Amoxicillin-clavulanate BID x 7 days.
+
+=== GLP1-029-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/18/2026
+
+S: Follow-up. Continues the diet and activity plan started in February — logging, bike most weeks. Frustrated: weight 79.7 kg today vs 82.4 kg when the lifestyle plan began (-3.3%), and it has stalled despite reported adherence. Sinusitis resolved. Asks about medication. No MTC/MEN2 history, no pancreatitis. Postmenopausal.
+
+O: Wt 79.7 kg, Ht 163 cm, BMI 30.0. BP 112/66.
+
+A/P:
+1. Obesity, BMI 30.0 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.

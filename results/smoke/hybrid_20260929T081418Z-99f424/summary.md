@@ -1,0 +1,21 @@
+# Hybrid smoke test 20260929T081418Z-99f424 (threshold 0.9)
+
+| evaluation | truth | predicted | ok | criteria ok | escalated | jev q | gpt calls | latency ms (decision/total) | cost $ |
+|---|---|---|---|---|---|---|---|---|---|
+| GLP1-001__AETNA_WEGOVY_4774C_2026_08_20 | READY | READY | ✅ | 5/5 | — | 49 | 1 | 398.8/6024.4 | 0.0039 |
+| GLP1-001__BCBS_FEP_WEGOVY_2026_07_01 | READY | READY | ✅ | 6/6 | — | 25 | 1 | 270.8/7707.1 | 0.0053 |
+| GLP1-001__UHC_WEGOVY_P1114_22_2026_09_01 | READY | READY | ✅ | 4/4 | — | 24 | 1 | 277.1/4458.1 | 0.0033 |
+| GLP1-016__AETNA_WEGOVY_4774C_2026_08_20 | NOT_READY | NOT_READY | ✅ | 5/5 | — | 35 | 0 | 195.6/195.6 | 0.0003 |
+| GLP1-016__BCBS_FEP_WEGOVY_2026_07_01 | NOT_READY | NOT_READY | ✅ | 6/6 | — | 23 | 0 | 145.4/145.4 | 0.0002 |
+| GLP1-016__UHC_WEGOVY_P1114_22_2026_09_01 | NOT_READY | NOT_READY | ✅ | 4/4 | — | 20 | 0 | 141.6/141.6 | 0.0002 |
+| GLP1-029__AETNA_WEGOVY_4774C_2026_08_20 | READY | READY | ✅ | 5/5 | — | 35 | 1 | 161.9/5569.2 | 0.0035 |
+| GLP1-029__BCBS_FEP_WEGOVY_2026_07_01 | READY | READY | ✅ | 6/6 | — | 16 | 1 | 225.2/5967.3 | 0.0042 |
+| GLP1-029__UHC_WEGOVY_P1114_22_2026_09_01 | READY | READY | ✅ | 4/4 | — | 16 | 1 | 227.6/4652.9 | 0.0049 |
+| GLP1-038__AETNA_WEGOVY_4774C_2026_08_20 | READY | READY | ✅ | 5/5 | — | 42 | 1 | 261.7/4724.9 | 0.0033 |
+| GLP1-038__BCBS_FEP_WEGOVY_2026_07_01 | READY | READY | ✅ | 6/6 | — | 25 | 1 | 184.5/6681.2 | 0.0042 |
+| GLP1-038__UHC_WEGOVY_P1114_22_2026_09_01 | READY | READY | ✅ | 4/4 | — | 24 | 1 | 255.0/5158.7 | 0.0036 |
+| GLP1-043__AETNA_WEGOVY_4774C_2026_08_20 | NOT_READY | NOT_READY | ✅ | 5/5 | — | 35 | 0 | 262.3/262.3 | 0.0003 |
+| GLP1-043__BCBS_FEP_WEGOVY_2026_07_01 | NOT_READY | NOT_READY | ✅ | 6/6 | — | 25 | 0 | 186.5/186.5 | 0.0003 |
+| GLP1-043__UHC_WEGOVY_P1114_22_2026_09_01 | NOT_READY | NOT_READY | ✅ | 4/4 | — | 20 | 0 | 150.3/150.3 | 0.0002 |
+
+Total cost: $0.0377

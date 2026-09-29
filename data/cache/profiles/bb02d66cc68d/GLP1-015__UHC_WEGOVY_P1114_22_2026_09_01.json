@@ -1,0 +1,372 @@
+{
+ "patient_id": "GLP1-015",
+ "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1998-06-25",
+   "age": 28,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-015-BMI-2026-08-20",
+    "date": "2026-08-20",
+    "value": 26.9
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-015-BMI-2025-12-20",
+     "date": "2025-12-20",
+     "value": 26.8
+    },
+    {
+     "resource_id": "Observation/GLP1-015-BMI-2026-03-11",
+     "date": "2026-03-11",
+     "value": 26.8
+    },
+    {
+     "resource_id": "Observation/GLP1-015-BMI-2026-08-20",
+     "date": "2026-08-20",
+     "value": 26.9
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-015-WT-2026-08-20",
+    "date": "2026-08-20",
+    "value": 71.5
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-015-WT-2025-12-20",
+     "date": "2025-12-20",
+     "value": 71.3
+    },
+    {
+     "resource_id": "Observation/GLP1-015-WT-2026-03-11",
+     "date": "2026-03-11",
+     "value": 71.3
+    },
+    {
+     "resource_id": "Observation/GLP1-015-WT-2026-08-20",
+     "date": "2026-08-20",
+     "value": 71.5
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-015-HT-2025-12-20",
+   "date": "2025-12-20",
+   "value": 163.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-015-BP-2026-08-20",
+    "date": "2026-08-20",
+    "systolic": 118.0,
+    "diastolic": 69.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-015-BP-2025-12-20",
+     "date": "2025-12-20",
+     "systolic": 114.0,
+     "diastolic": 71.0
+    },
+    {
+     "resource_id": "Observation/GLP1-015-BP-2026-03-11",
+     "date": "2026-03-11",
+     "systolic": 118.0,
+     "diastolic": 66.0
+    },
+    {
+     "resource_id": "Observation/GLP1-015-BP-2026-08-20",
+     "date": "2026-08-20",
+     "systolic": 118.0,
+     "diastolic": 69.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-015-A1C-2025-12-20",
+    "date": "2025-12-20",
+    "value": 5.1
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-015-LDL-2025-12-20",
+    "date": "2025-12-20",
+    "value": 186.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-015-HDL-2025-12-20",
+    "date": "2025-12-20",
+    "value": 44.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-015-TG-2025-12-20",
+    "date": "2025-12-20",
+    "value": 179.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-015-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2024-12-28",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-015-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2015-11-15",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-015-DYSLIP",
+    "display": "Dyslipidemia",
+    "clinical_status": "active",
+    "onset": "2023-09-20",
+    "abatement": null,
+    "weight_related": true
+   },
+   {
+    "resource_id": "Condition/GLP1-015-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2023-03-04",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-015-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2018-12-11",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-015-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2022-05-18",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [
+   {
+    "resource_id": "Condition/GLP1-015-DYSLIP",
+    "display": "Dyslipidemia",
+    "clinical_status": "active",
+    "onset": "2023-09-20",
+    "abatement": null,
+    "weight_related": true
+   }
+  ],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-015-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2021-01-26",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-015-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2021-07-13",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-015-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2021-11-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-015-ROSUVASTATIN",
+    "resource_type": "MedicationRequest",
+    "text": "rosuvastatin 10 mg PO daily",
+    "status": "active",
+    "date": "2025-11-01",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-015-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-015-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-015-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-20",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "lifestyle_adjunct": [
+   {
+    "chunk_id": "DocumentReference/GLP1-015-PT-001#c0",
+    "resource_id": "DocumentReference/GLP1-015-PT-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-05-03",
+    "note_type": "Physical therapy note",
+    "text": "PHYSICAL THERAPY — INITIAL EVALUATION — 05/03/2025\nDx: mechanical low back pain, 6 weeks, after moving apartments. No radicular symptoms, neuro intact.\nFindings: reduced lumbar flexion, weak core/glute activation, pain 4/10.\nPlan of care: 6 visits over 6 weeks; core stabilization home exercise program (dead bug, bird dog, glute bridge, side plank progressions) daily; posture/lifting education; heat PRN.\nGoals: pain ≤1/10, return to full activity.",
+    "score": 5.919173,
+    "reason": "earliest_relevant"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-015-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-015-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-20",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight, BMI 26.8 — plan today:\n - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout.\n - Water aerobics / lap swimming 3 times a week.\n - Enrolled in the health system's 12-month lifestyle modification program.\n Follow-up in ~3 months.\n2. Hyperlipidemia on rosuvastatin 10 mg daily; last LDL 186. Family history noted; continue statin, recheck lipids.\n3. Anxiety — stable.",
+    "score": 17.755282,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-015-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-015-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-04",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 01/04/2026\nLifestyle program intake. Food log: coffee only until noon, takeout dinner at 9 PM most nights, snacking after.\nPlan: calorie tracking at ~1800 kcal/day; breakfast daily; meal-prep dinners on Sundays; no eating after 9:30 PM; heart-healthy fats, more soluble fiber (oats, beans) given LDL.\nActivity: swimming / water aerobics 3x/week.\nRD follow-up in 6 weeks.",
+    "score": 19.985068,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-015-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-015-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 03/11/2026\nS: Follow-up. Continues the calorie tracking and swimming routine started in December; meal-prepping most weeks. Good adherence most weeks.\nO: Wt 71.3 kg, BMI 26.8. BP 118/66.\nA/P:\n1. Overweight — continue program.\n2. Hyperlipidemia on rosuvastatin 10 mg daily; last LDL 186. Repeat lipids in 3 months.",
+    "score": 7.379934,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-015-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-015-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-28",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/28/2026\nFood log reviewed: adherent most days, ~1800 kcal; takeout down to once a week.\nAdjustments: smaller portions of pasta, add a vegetable at lunch; plan for summer barbecues.\nReports she keeps up with swimming 3x/week.\nContinue program.",
+    "score": 14.485846,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-015-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-015-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-20",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/20/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since December — tracking, meal prep, swimming. Frustrated: weight 71.5 kg today vs 71.3 kg when she started (+0.3%), no change despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Uses IUD.\nO: Wt 71.5 kg, BMI 26.9. BP 118/69.",
+    "score": 13.808514,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-015-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-015-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-20",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 12/20/2025\nS: 27 y/o F here about weight and cholesterol. Family history of early heart disease (father MI at 48). Eats takeout late after work, snacks in the evening. Enjoys swimming.\nO: Wt 71.3 kg, Ht 163 cm, BMI 26.8. BP 114/71.\nExam unremarkable.",
+    "score": 3.55714,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-015-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-015-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-20",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight, BMI 26.8 — plan today:\n - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout.\n - Water aerobics / lap swimming 3 times a week.\n - Enrolled in the health system's 12-month lifestyle modification program.\n Follow-up in ~3 months.\n2. Hyperlipidemia on rosuvastatin 10 mg daily; last LDL 186. Family history noted; continue statin, recheck lipids.\n3. Anxiety — stable.",
+    "score": 4.523329,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-015-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-015-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 03/11/2026\nS: Follow-up. Continues the calorie tracking and swimming routine started in December; meal-prepping most weeks. Good adherence most weeks.\nO: Wt 71.3 kg, BMI 26.8. BP 118/66.\nA/P:\n1. Overweight — continue program.\n2. Hyperlipidemia on rosuvastatin 10 mg daily; last LDL 186. Repeat lipids in 3 months.",
+    "score": 3.78587,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-015-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-015-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-20",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/20/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since December — tracking, meal prep, swimming. Frustrated: weight 71.5 kg today vs 71.3 kg when she started (+0.3%), no change despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Uses IUD.\nO: Wt 71.5 kg, BMI 26.9. BP 118/69.",
+    "score": 1.214529,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-015-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-015-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-20",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Overweight, BMI 26.9, with hyperlipidemia — no response to lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.\n2. Hyperlipidemia on rosuvastatin 10 mg daily; last LDL 186. Lipid panel ordered.",
+    "score": 3.350498,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 14,
+  "n_notes": 12,
+  "tokens": {
+   "raw_chart": {
+    "structured": 8278,
+    "notes": 1212,
+    "total": 9490
+   },
+   "retrieved_evidence": 834,
+   "structured_features": 1749,
+   "profile_total": 3996
+  }
+ }
+}

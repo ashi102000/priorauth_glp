@@ -1,0 +1,85 @@
+=== GLP1-018-MSG-001
+PATIENT PORTAL MESSAGE — 01/12/2025
+
+Pt: "Signing up at a new gym and they want my immunization record for their pool/sauna form. Can you send it?"
+MA reply: Immunization history uploaded to your documents (Tdap 2015, flu 10/2024, COVID 2023). Tdap booster is due — can be given at a nurse visit.
+
+=== GLP1-018-LAB-001
+LAB RESULT NOTE — 02/08/2025
+
+25-OH vitamin D 32 ng/mL — low-normal. Continue OTC vitamin D if taking; no recheck needed.
+
+=== GLP1-018-IMM-001
+IMMUNIZATION VISIT — 04/03/2025
+
+Tdap booster 0.5 mL IM L deltoid (last 2015). VIS given, no reaction after 15 min. COVID booster discussed — pt declines today, will consider in fall.
+
+=== GLP1-018-DERM-001
+DERMATOLOGY — 04/17/2025
+
+47 y/o M with rough, stuck-on lesion on back, itching. Dermoscopy: seborrheic keratosis. Reassurance; cryotherapy of the irritated lesion.
+
+=== GLP1-018-LAB-002
+LAB RESULT NOTE — 11/07/2025
+
+Fasting lipid panel reviewed: LDL 90, HDL 57, TG 133 mg/dL — at goal, no statin indicated (10-yr ASCVD risk low). For future lipid draws continue to fast 10–12 hours. Released to portal.
+
+=== GLP1-018-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/11/2025
+
+S: 48 y/o M wants to lose weight. Drinks 3–4 regular sodas a day, large portions at dinner, frequent fast food with his teenage kids. Mood stable on sertraline.
+
+O: Wt 99.2 kg, Ht 170 cm, BMI 34.3. BP 116/66.
+Exam unremarkable.
+
+A/P:
+1. Obesity, BMI 34.3 — will start a portion-controlled plate method with a daily food diary, about 1800 kcal/day. Goal: stop regular soda. Recheck in ~4 months.
+2. Anxiety — stable.
+3. Allergic rhinitis — cetirizine PRN.
+
+=== GLP1-018-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 04/10/2026
+
+S: Follow-up. Still tracking food intake in his diary most days, using plate method at dinner. Cut out soda completely since January. Fast food down to once a week.
+
+O: Wt 97.7 kg, BMI 33.8. BP 110/71.
+
+A/P:
+1. Obesity — continue dietary changes.
+2. Anxiety — stable.
+
+=== GLP1-018-LAB-003
+LAB RESULT NOTE — 04/19/2026
+
+CBC and CMP within normal limits (Cr 0.93, glucose 97, ALT 26). No action needed.
+
+=== GLP1-018-DERM-002
+DERMATOLOGY — 04/23/2026
+
+Facial flushing with small papules on cheeks/nose, worse with hot showers and alcohol. Dx: mild rosacea. Metronidazole 0.75% gel daily; SPF; trigger avoidance.
+
+=== GLP1-018-OSR-001
+OUTSIDE RECORDS — SCANNED — 05/16/2026
+Source: St. Luke's ED, visit 05/13/2026
+
+48 y/o M, acute left flank pain and hematuria. CT: 4 mm left UVJ stone, mild hydronephrosis. Ketorolac, tamsulosin; stone passed 05/15 per callback. Urology follow-up PRN.
+
+=== GLP1-018-UC-001
+URGENT CARE — 06/11/2026
+
+49 y/o M with 4 days of congestion, sore throat, cough. Afebrile, COVID negative. Lungs clear.
+Dx: viral URI. Supportive care, fluids, saline, honey. Return if > 10 days or worsening.
+
+=== GLP1-018-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/06/2026
+
+S: Weight follow-up. Continues dietary changes since December — food diary most days, plate method, no soda. Weight 96.8 kg today vs 99.2 kg in December — little change for the effort. Asks about medication. No MTC/MEN2 history, no pancreatitis.
+
+O: Wt 96.8 kg, BMI 33.5. BP 112/66.
+
+A/P:
+1. Obesity, BMI 33.5 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue food diary. Recheck in 3 months.
+2. Anxiety — stable on sertraline.

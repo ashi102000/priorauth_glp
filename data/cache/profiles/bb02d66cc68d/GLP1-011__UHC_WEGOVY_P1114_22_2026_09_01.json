@@ -1,0 +1,327 @@
+{
+ "patient_id": "GLP1-011",
+ "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1990-09-20",
+   "age": 35,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-011-BMI-2026-08-11",
+    "date": "2026-08-11",
+    "value": 24.8
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-011-BMI-2025-12-11",
+     "date": "2025-12-11",
+     "value": 25.5
+    },
+    {
+     "resource_id": "Observation/GLP1-011-BMI-2026-02-28",
+     "date": "2026-02-28",
+     "value": 25.2
+    },
+    {
+     "resource_id": "Observation/GLP1-011-BMI-2026-08-11",
+     "date": "2026-08-11",
+     "value": 24.8
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-011-WT-2026-08-11",
+    "date": "2026-08-11",
+    "value": 71.7
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-011-WT-2025-12-11",
+     "date": "2025-12-11",
+     "value": 73.6
+    },
+    {
+     "resource_id": "Observation/GLP1-011-WT-2026-02-28",
+     "date": "2026-02-28",
+     "value": 72.9
+    },
+    {
+     "resource_id": "Observation/GLP1-011-WT-2026-08-11",
+     "date": "2026-08-11",
+     "value": 71.7
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-011-HT-2025-12-11",
+   "date": "2025-12-11",
+   "value": 170.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-011-BP-2026-08-11",
+    "date": "2026-08-11",
+    "systolic": 116.0,
+    "diastolic": 72.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-011-BP-2025-12-11",
+     "date": "2025-12-11",
+     "systolic": 112.0,
+     "diastolic": 75.0
+    },
+    {
+     "resource_id": "Observation/GLP1-011-BP-2026-02-28",
+     "date": "2026-02-28",
+     "systolic": 115.0,
+     "diastolic": 74.0
+    },
+    {
+     "resource_id": "Observation/GLP1-011-BP-2026-08-11",
+     "date": "2026-08-11",
+     "systolic": 116.0,
+     "diastolic": 72.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-011-A1C-2025-12-11",
+    "date": "2025-12-11",
+    "value": 5.5
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-011-LDL-2025-12-11",
+    "date": "2025-12-11",
+    "value": 120.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-011-HDL-2025-12-11",
+    "date": "2025-12-11",
+    "value": 54.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-011-TG-2025-12-11",
+    "date": "2025-12-11",
+    "value": 103.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-011-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2017-07-05",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-011-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2017-08-09",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-011-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2015-10-19",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-011-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2024-04-06",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-011-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2016-05-02",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-011-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2022-07-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-011-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2023-04-09",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-011-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2024-11-26",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-011-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-011-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-011-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-11",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "lifestyle_adjunct": [
+   {
+    "chunk_id": "DocumentReference/GLP1-011-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-011-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-11",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Weight gain / BMI 25.5 — wants a structured plan. Starting today:\n - Reduced-calorie meal plan of about 1500 kcal/day, food logging in a phone app.\n - Water aerobics / lap swimming at the Y, 4 times a week.\n - Enrolled in the clinic's Healthy Weight lifestyle program; RD intake to follow.\n Follow-up in ~3 months.\n2. Migraine — ~2/month, sumatriptan effective.\n3. Eczema — stable.",
+    "score": 23.975741,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-011-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-011-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-27",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 12/27/2025\nHealthy Weight program intake. 4-day food log: regular meals; frequent grazing on crackers/granola bars while working; wine 3–4 nights/week.\nPlan: ~1500 kcal/day logged in phone app; set snack times (10 AM, 3 PM); keep snacks out of the workspace; wine limited to 2 nights/week.\nActivity: lap swimming / water aerobics 4x/week.\nRD follow-up in ~6 weeks.",
+    "score": 17.601567,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-011-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-011-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-28",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 02/28/2026\nS: Follow-up. Continues the meal plan and swimming routine started in December; logging most days, pool 3–4 times a week. Good adherence most weeks.\nO: Wt 72.9 kg, BMI 25.2. BP 115/74.\nA/P:\n1. Weight management — continue current plan and program visits.\n2. GERD — stable on omeprazole.",
+    "score": 9.344485,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-011-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-011-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-17",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/17/2026\nFood log reviewed: adherent most days, averaging ~1500–1600 kcal. Snacking now scheduled.\nAdjustments: add protein to afternoon snack, lighter weekend brunches.\nReports she keeps up with swimming 4x/week.\nContinue program; next visit ~2–3 months.",
+    "score": 12.25042,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-011-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-011-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/11/2026\nS: Weight follow-up. Continues the diet and exercise plan and program visits since December — logging meals, swimming regularly. Frustrated: weight 71.7 kg today vs 73.6 kg when the plan began (-2.6%), no change since spring despite reported adherence. Asks about medication; a friend is on Wegovy. No MTC/MEN2 history, no pancreatitis. On OCP.\nO: Wt 71.7 kg, BMI 24.8. BP 116/72.",
+    "score": 13.903084,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-011-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-011-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 12/11/2025\nS: 35 y/o F would like to lose weight. Gained ~6 kg over the last two years after changing to a remote job; feels her clothes don't fit and energy is lower. Eats well at meals but snacks through the day. Used to swim competitively in college.\nO: Wt 73.6 kg, Ht 170 cm, BMI 25.5. BP 112/75.\nExam unremarkable.",
+    "score": 1.167744,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-011-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-011-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-28",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 02/28/2026\nS: Follow-up. Continues the meal plan and swimming routine started in December; logging most days, pool 3–4 times a week. Good adherence most weeks.\nO: Wt 72.9 kg, BMI 25.2. BP 115/74.\nA/P:\n1. Weight management — continue current plan and program visits.\n2. GERD — stable on omeprazole.",
+    "score": 1.270722,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-011-OSR-001#c0",
+    "resource_id": "DocumentReference/GLP1-011-OSR-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-06-25",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 06/25/2026\nSource: Lakeview Hospital Emergency Department, visit 06/21/2026\n35 y/o F with sudden right flank pain, nausea. UA: large blood. CT: 3 mm right distal ureteral stone, no hydronephrosis. Ketorolac, ondansetron; discharged with tamsulosin and strainer. Passed stone the next day per patient call. Urology follow-up as needed; increase fluids.",
+    "score": 2.109851,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-011-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-011-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/11/2026\nS: Weight follow-up. Continues the diet and exercise plan and program visits since December — logging meals, swimming regularly. Frustrated: weight 71.7 kg today vs 73.6 kg when the plan began (-2.6%), no change since spring despite reported adherence. Asks about medication; a friend is on Wegovy. No MTC/MEN2 history, no pancreatitis. On OCP.\nO: Wt 71.7 kg, BMI 24.8. BP 116/72.",
+    "score": 1.122271,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 12,
+  "n_notes": 10,
+  "tokens": {
+   "raw_chart": {
+    "structured": 7610,
+    "notes": 1114,
+    "total": 8724
+   },
+   "retrieved_evidence": 748,
+   "structured_features": 1572,
+   "profile_total": 3438
+  }
+ }
+}

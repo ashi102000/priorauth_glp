@@ -1,0 +1,104 @@
+=== GLP1-013-UC-001
+URGENT CARE — 10/12/2024
+
+47 y/o F with 10+ days of nasal congestion, thick green drainage, right maxillary pain and upper tooth ache; was improving and then got worse. Temp 100.3 at home.
+Exam: right maxillary tenderness, purulent drainage, TMs clear, lungs clear.
+Dx: acute bacterial sinusitis. Amoxicillin-clavulanate 875/125 mg BID x 7 days; saline irrigation. Return if worsening, periorbital swelling, or vision changes.
+
+=== GLP1-013-TEL-001
+TELEPHONE ENCOUNTER — 10/29/2024
+
+Pt asked when her lab appointment is and whether to fast. Confirmed 11/04 at 7:30 AM. Fasting 10–12 hours for lipid panel; water and usual meds OK. Pt verbalized understanding.
+
+=== GLP1-013-LAB-001
+LAB RESULT NOTE — 11/07/2024
+
+25-OH vitamin D 25 ng/mL — low-normal. Continue vitamin D3 2000 IU daily; recheck in a year.
+
+=== GLP1-013-MSG-001
+PATIENT PORTAL MESSAGE — 12/03/2024
+
+Pt: "Need to reschedule my 12/9 follow-up — work conference. Also HR wants a note for my sick days in October."
+MA reply: Rescheduled to 12/20 at 1:00 PM. Work note for 10/12–10/14 uploaded.
+
+=== GLP1-013-IMM-001
+IMMUNIZATION VISIT — 06/14/2025
+
+Influenza vaccine given ahead of Southern Hemisphere travel (Australia, July) per travel clinic recommendation; 0.5 mL IM R deltoid. No reaction after 15 min.
+
+=== GLP1-013-MSG-002
+PATIENT PORTAL MESSAGE — 09/18/2025
+
+Pt: "Visiting Morocco in November. Do I need shots?"
+RN reply: Hepatitis A and typhoid recommended; confirm tetanus. Rabies pre-exposure only if extensive rural/animal contact. Please schedule a travel nurse visit.
+
+=== GLP1-013-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 10/13/2025
+
+S: 48 y/o F would like to lose weight. Gradual gain through perimenopause; back pain flares when weight is up. Eats large portions at dinner; no regular exercise since knee-friendly pool classes ended.
+
+O: Wt 89.1 kg, Ht 175 cm, BMI 29.1. BP 120/74.
+Exam unremarkable.
+
+A/P:
+1. Overweight, BMI 29.1 — plan today:
+ - Portion-controlled plate method with daily food diary, about 1800 kcal/day.
+ - Water aerobics / lap swimming 4 times a week (joining community pool again).
+ - Referred to a dietitian-led weight management program.
+ Follow-up in ~3 months.
+2. Low back pain — chronic, stable; pool exercise helpful.
+3. GERD — controlled.
+
+=== GLP1-013-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 10/31/2025
+
+Dietitian-led program intake. Diary: good breakfast and lunch, large dinner portions and seconds, dessert nightly.
+Plan: plate method (½ vegetables, ¼ protein, ¼ starch), ~1800 kcal/day, daily paper food diary; dessert 3x/week in small portion; no seconds.
+Activity: water aerobics / swimming 4x/week.
+RD follow-up 6 weeks.
+
+=== GLP1-013-LAB-002
+LAB RESULT NOTE — 11/21/2025
+
+CBC and CMP within normal limits (Hgb 13.4, Cr 0.74, glucose 93, ALT 17). No action needed.
+
+=== GLP1-013-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 01/19/2026
+
+S: Follow-up. Continues the plate-method diet and pool routine started in October; food diary most days, pool 3–4x/week. Adherence good most weeks.
+
+O: Wt 88.1 kg, BMI 28.8. BP 122/70.
+
+A/P:
+1. Overweight — continue program.
+2. Low back pain — improved.
+
+=== GLP1-013-OSR-001
+OUTSIDE RECORDS — SCANNED — 03/06/2026
+Source: Harbor Dental
+
+Clearance for periodontal surgery under local anesthesia. No anticoagulants, no bisphosphonates, no cardiac conditions. Cleared without restrictions.
+
+=== GLP1-013-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 04/29/2026
+
+Food diary reviewed: adherent most days, no seconds, dessert ~3x/week.
+Adjustments: add a protein snack after swimming to curb evening hunger; keep dinner portions on the plate-method template.
+Reports keeping up with swimming / water aerobics ~4x/week.
+Continue program.
+
+=== GLP1-013-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/13/2026
+
+S: Follow-up. Continues the diet and exercise plan and program visits since October. Swimming regularly, diary most days. Frustrated — weight 87.0 kg today vs 89.1 kg when she began (-2.4%) despite reported adherence. Interested in medication. No MTC/MEN2 history, no pancreatitis. Postmenopausal.
+
+O: Wt 87.0 kg, BMI 28.4. BP 120/76.
+
+A/P:
+1. Overweight, BMI 28.4 — plateau. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.
+2. Low back pain — stable.

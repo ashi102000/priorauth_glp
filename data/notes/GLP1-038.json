@@ -1,0 +1,23 @@
+{
+  "patient_id": "GLP1-038",
+  "notes": {
+    "GLP1-038-LAB-001": "LAB RESULT NOTE — 09/11/2024\n\n25-OH vitamin D 30 ng/mL — low-normal. Continue vitamin D3 2000 IU daily.\n",
+    "GLP1-038-LAB-002": "LAB RESULT NOTE — 02/19/2025\n\nCBC and CMP within normal limits. No action needed.\n",
+    "GLP1-038-OSR-001": "OUTSIDE RECORDS — SCANNED — 04/03/2025\nSource: Riverside Dental\n\nClearance for implant #30. No anticoagulants, no bisphosphonates. Cleared without restrictions.\n",
+    "GLP1-038-DERM-001": "DERMATOLOGY — 04/26/2025\n\n47 y/o M with itchy, red rash in the lower abdominal fold and groin, worse in heat. Satellite papules.\nDx: intertrigo, candidal. Nystatin powder BID; keep dry; breathable fabrics. Hand eczema — continue triamcinolone PRN.\n",
+    "GLP1-038-MSG-001": "PATIENT PORTAL MESSAGE — 05/20/2025\n\nPt: \"My gym is asking for my immunization record for membership paperwork. Can you send it?\"\nMA reply: Uploaded to documents.\n",
+    "GLP1-038-LAB-003": "LAB RESULT NOTE — 08/20/2025\n\nLipid panel drawn after a light breakfast — TG not interpretable. Repeat fasting (10–12 hours, water only). Order re-entered.\n",
+    "GLP1-038-TEL-001": "TELEPHONE ENCOUNTER — 09/08/2025\n\nPt asked for an allergy prescription for fall pollen. No allergy medication on file; advised OTC cetirizine 10 mg daily PRN. Call if not controlled.\n",
+    "GLP1-038-PHARM-001": "PHARMACIST MEDICATION REVIEW — 09/30/2025\n\nPt asked about zinc, vitamin C, and fish oil supplements. No interactions with vitamin D or topical triamcinolone. OK.\n",
+    "GLP1-038-MSG-002": "PATIENT PORTAL MESSAGE — 10/16/2025\n\nPt: \"Trip to Vietnam in January — vaccines?\"\nRN reply: Hepatitis A and typhoid; Japanese encephalitis if extended rural travel. Book a travel visit.\n",
+    "GLP1-038-PCP-001": "PRIMARY CARE PROGRESS NOTE\nDate: 12/12/2025\n\nS: 48 y/o M wants to work on weight. Sedentary job, large portions, snacks after dinner. Would like a structured plan.\n\nO: Wt 90.3 kg, Ht 168 cm, BMI 32.0. BP 112/78.\nExam unremarkable.\n\nA/P:\n1. Obesity, BMI 32.0 — plan starting today:\n - Reduced-calorie meal plan of about 1600 kcal/day with food logging in a phone app.\n - Walking about 30 minutes 5 days a week.\n - Referred to a dietitian-led weight management program.\n Follow-up visits planned.\n2. Eczema — stable.\n",
+    "GLP1-038-NUTR-001": "NUTRITION CONSULT — INITIAL\nDate: 01/05/2026\n\nDietitian-led program intake. Food log: large dinners, snacking after dinner (ice cream, chips), sweetened coffee.\nPlan: ~1600 kcal/day logged in phone app; portion guidance; one planned evening snack; unsweetened coffee.\nActivity: walking ~30 min 5 days/week.\nRD follow-up 6–8 weeks.\n",
+    "GLP1-038-PCP-002": "PRIMARY CARE PROGRESS NOTE\nDate: 03/01/2026\n\nS: Follow-up. Continues the meal plan and walking started in December; logging most days. Good adherence most weeks. Some nausea on and off.\n\nO: Wt 90.1 kg, BMI 31.9. BP 126/73.\n\nA/P:\n1. Obesity — continue program.\n",
+    "GLP1-038-TEL-002": "TELEPHONE ENCOUNTER — 05/20/2026\n\nPt confirmed fasting lab appointment 05/26 at 7:30 AM; fast 10–12 hours. Understood.\n",
+    "GLP1-038-NUTR-002": "NUTRITION FOLLOW-UP\nDate: 05/27/2026\n\nFood log reviewed: adherent most days, ~1600 kcal.\nAdjustments: smaller dinner portions, protein at breakfast.\nReports keeping up with walking.\nContinue program.\n",
+    "GLP1-038-MSG-003": "PATIENT PORTAL MESSAGE — 06/04/2026\n\nPt: \"Need to reschedule next week's appointment and get a work note for my lab visit.\"\nMA reply: Rescheduled to 06/22. Note uploaded.\n",
+    "GLP1-038-OSR-002": "OUTSIDE RECORDS — SCANNED — 07/13/2026\nSource: Mercy Hospital ED, visit 07/09/2026\n\n49 y/o M, left flank pain, hematuria. CT: 4 mm left ureteral stone. Ketorolac, tamsulosin; stone passed 07/11. Urology PRN.\n",
+    "GLP1-038-LAB-004": "LAB RESULT NOTE — 07/23/2026\n\nTSH 1.84 mIU/L — within normal limits. No thyroid follow-up needed.\n",
+    "GLP1-038-PCP-003": "PRIMARY CARE PROGRESS NOTE\nDate: 08/12/2026\n\nS: Follow-up. Continues the diet and exercise plan and dietitian follow-ups since December. Frustrated — weight 88.9 kg today vs 90.3 kg when the lifestyle plan began (-1.6%) despite reported adherence.\nMedications: stopped Ozempic about 2 months ago because of nausea and cost; not currently taking it. Asks about Wegovy instead. No MTC/MEN2 history, no pancreatitis.\n\nO: Wt 88.9 kg, BMI 31.5. BP 123/71.\n\nA/P:\n1. Obesity, BMI 31.5 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects, slower titration given prior nausea. Continue lifestyle plan. Recheck in 3 months.\n"
+  }
+}

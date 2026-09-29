@@ -1,0 +1,400 @@
+{
+ "patient_id": "GLP1-050",
+ "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1997-10-10",
+   "age": 28,
+   "gender": "male"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-050-BMI-2026-08-07",
+    "date": "2026-08-07",
+    "value": 35.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-050-BMI-2024-12-27",
+     "date": "2024-12-27",
+     "value": 35.2
+    },
+    {
+     "resource_id": "Observation/GLP1-050-BMI-2026-04-12",
+     "date": "2026-04-12",
+     "value": 35.0
+    },
+    {
+     "resource_id": "Observation/GLP1-050-BMI-2026-08-07",
+     "date": "2026-08-07",
+     "value": 35.0
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-050-WT-2026-08-07",
+    "date": "2026-08-07",
+    "value": 93.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-050-WT-2024-12-27",
+     "date": "2024-12-27",
+     "value": 93.5
+    },
+    {
+     "resource_id": "Observation/GLP1-050-WT-2026-04-12",
+     "date": "2026-04-12",
+     "value": 93.0
+    },
+    {
+     "resource_id": "Observation/GLP1-050-WT-2026-08-07",
+     "date": "2026-08-07",
+     "value": 93.0
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-050-HT-2024-12-27",
+   "date": "2024-12-27",
+   "value": 163.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-050-BP-2026-08-07",
+    "date": "2026-08-07",
+    "systolic": 126.0,
+    "diastolic": 84.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-050-BP-2024-12-27",
+     "date": "2024-12-27",
+     "systolic": 128.0,
+     "diastolic": 84.0
+    },
+    {
+     "resource_id": "Observation/GLP1-050-BP-2026-04-12",
+     "date": "2026-04-12",
+     "systolic": 136.0,
+     "diastolic": 82.0
+    },
+    {
+     "resource_id": "Observation/GLP1-050-BP-2026-08-07",
+     "date": "2026-08-07",
+     "systolic": 126.0,
+     "diastolic": 84.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-050-A1C-2024-12-27",
+    "date": "2024-12-27",
+    "value": 5.4
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-050-LDL-2024-12-27",
+    "date": "2024-12-27",
+    "value": 100.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-050-HDL-2024-12-27",
+    "date": "2024-12-27",
+    "value": 55.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-050-TG-2024-12-27",
+    "date": "2024-12-27",
+    "value": 90.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-050-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2024-07-09",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-050-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2022-05-07",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-050-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2020-11-10",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-050-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2019-03-26",
+    "abatement": null,
+    "weight_related": true
+   },
+   {
+    "resource_id": "Condition/GLP1-050-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-05-11",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [
+   {
+    "resource_id": "Condition/GLP1-050-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2019-03-26",
+    "abatement": null,
+    "weight_related": true
+   }
+  ],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-050-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2023-12-08",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-050-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2024-12-14",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-050-AMLODIPINE",
+    "resource_type": "MedicationRequest",
+    "text": "amlodipine 5 mg PO daily",
+    "status": "active",
+    "date": "2025-01-14",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-050-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-050-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-07",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "adjunct_diet_and_activity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-050-ORTH-001#c0",
+    "resource_id": "DocumentReference/GLP1-050-ORTH-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-12-27",
+    "note_type": "Orthopedics consult",
+    "text": "ORTHOPEDICS — 12/27/2024\n27 y/o M, left shoulder pain lifting overhead at the gym. Vitals: Wt 93.5 kg, BMI 35.2, BP 128/84.\nPositive impingement signs, strength intact.\nDx: left shoulder impingement. Subacromial injection; home exercise program for rotator cuff daily; avoid overhead pressing for 4 weeks.",
+    "score": 4.672058,
+    "reason": "earliest_relevant"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PT-001#c0",
+    "resource_id": "DocumentReference/GLP1-050-PT-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-03-14",
+    "note_type": "Physical therapy note",
+    "text": "PHYSICAL THERAPY — 03/14/2025\nMechanical low back pain after moving furniture, 3 weeks; no radicular signs.\nPlan of care: 6 visits; core stabilization home exercise program daily; lifting mechanics.",
+    "score": 8.430411,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-050-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-12",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 04/12/2026\nS: 28 y/o M, BP and weight follow-up. Says he is \"trying to eat better and be more active.\" Works long hours; reflux controlled.\nO: Wt 93.0 kg, Ht 163 cm, BMI 35.0. BP 136/82.",
+    "score": 5.405145,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-050-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-12",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity — encouraged; revisit at next visit.\n2. Hypertension: BP 136/82 on amlodipine 5 mg daily; continue, home log.\n3. GERD — stable on omeprazole.",
+    "score": 4.919242,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-050-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-07",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/07/2026\nS: 28 y/o M, weight and BP follow-up. Lifestyle: \"doing what he can\" with food choices; busy schedule; some walking. Weight 93.0 kg, not much change. Asks about Wegovy.\nMedications: states he was on \"a weight-loss shot\" through a telehealth service; not sure whether he is still taking it or what it was — will check and call back.\nNo MTC/MEN2 history, no pancreatitis.\nO: Wt 93.0 kg, BMI 35.0. BP 126/84.",
+    "score": 10.051457,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PCP-002#c1",
+    "resource_id": "DocumentReference/GLP1-050-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-07",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 35.0 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Will confirm telehealth medication before starting. Recheck in 3 months.\n2. Hypertension: BP 126/84 on amlodipine 5 mg daily; continue.",
+    "score": 8.718412,
+    "reason": "top_k"
+   }
+  ],
+  "program_6_months": [
+   {
+    "chunk_id": "DocumentReference/GLP1-050-ORTH-001#c0",
+    "resource_id": "DocumentReference/GLP1-050-ORTH-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-12-27",
+    "note_type": "Orthopedics consult",
+    "text": "ORTHOPEDICS — 12/27/2024\n27 y/o M, left shoulder pain lifting overhead at the gym. Vitals: Wt 93.5 kg, BMI 35.2, BP 128/84.\nPositive impingement signs, strength intact.\nDx: left shoulder impingement. Subacromial injection; home exercise program for rotator cuff daily; avoid overhead pressing for 4 weeks.",
+    "score": 4.672058,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PT-001#c0",
+    "resource_id": "DocumentReference/GLP1-050-PT-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-03-14",
+    "note_type": "Physical therapy note",
+    "text": "PHYSICAL THERAPY — 03/14/2025\nMechanical low back pain after moving furniture, 3 weeks; no radicular signs.\nPlan of care: 6 visits; core stabilization home exercise program daily; lifting mechanics.",
+    "score": 8.430411,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-050-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-12",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 04/12/2026\nS: 28 y/o M, BP and weight follow-up. Says he is \"trying to eat better and be more active.\" Works long hours; reflux controlled.\nO: Wt 93.0 kg, Ht 163 cm, BMI 35.0. BP 136/82.",
+    "score": 5.405145,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-050-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-07",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/07/2026\nS: 28 y/o M, weight and BP follow-up. Lifestyle: \"doing what he can\" with food choices; busy schedule; some walking. Weight 93.0 kg, not much change. Asks about Wegovy.\nMedications: states he was on \"a weight-loss shot\" through a telehealth service; not sure whether he is still taking it or what it was — will check and call back.\nNo MTC/MEN2 history, no pancreatitis.\nO: Wt 93.0 kg, BMI 35.0. BP 126/84.",
+    "score": 10.051457,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PCP-002#c1",
+    "resource_id": "DocumentReference/GLP1-050-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-07",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 35.0 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Will confirm telehealth medication before starting. Recheck in 3 months.\n2. Hypertension: BP 126/84 on amlodipine 5 mg daily; continue.",
+    "score": 7.021235,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-050-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-06-04",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 06/04/2025\nPt asked about creatine and a pre-workout powder. Pre-workout has high caffeine — may raise BP (on amlodipine) and worsen anxiety; suggested avoiding or using a caffeine-free version. Creatine OK with hydration.",
+    "score": 0.976441,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-050-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-12",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 04/12/2026\nS: 28 y/o M, BP and weight follow-up. Says he is \"trying to eat better and be more active.\" Works long hours; reflux controlled.\nO: Wt 93.0 kg, Ht 163 cm, BMI 35.0. BP 136/82.",
+    "score": 1.233804,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-050-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-12",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity — encouraged; revisit at next visit.\n2. Hypertension: BP 136/82 on amlodipine 5 mg daily; continue, home log.\n3. GERD — stable on omeprazole.",
+    "score": 3.258986,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-050-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-07",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/07/2026\nS: 28 y/o M, weight and BP follow-up. Lifestyle: \"doing what he can\" with food choices; busy schedule; some walking. Weight 93.0 kg, not much change. Asks about Wegovy.\nMedications: states he was on \"a weight-loss shot\" through a telehealth service; not sure whether he is still taking it or what it was — will check and call back.\nNo MTC/MEN2 history, no pancreatitis.\nO: Wt 93.0 kg, BMI 35.0. BP 126/84.",
+    "score": 0.957798,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-050-PCP-002#c1",
+    "resource_id": "DocumentReference/GLP1-050-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-07",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 35.0 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Will confirm telehealth medication before starting. Recheck in 3 months.\n2. Hypertension: BP 126/84 on amlodipine 5 mg daily; continue.",
+    "score": 2.548378,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 16,
+  "n_notes": 14,
+  "tokens": {
+   "raw_chart": {
+    "structured": 7445,
+    "notes": 989,
+    "total": 8434
+   },
+   "retrieved_evidence": 562,
+   "structured_features": 1550,
+   "profile_total": 4417
+  }
+ }
+}

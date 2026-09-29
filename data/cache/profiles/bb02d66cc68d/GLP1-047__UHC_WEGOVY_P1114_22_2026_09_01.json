@@ -1,0 +1,371 @@
+{
+ "patient_id": "GLP1-047",
+ "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1984-03-27",
+   "age": 42,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-047-BMI-2026-08-04",
+    "date": "2026-08-04",
+    "value": 34.4
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-047-BMI-2025-04-18",
+     "date": "2025-04-18",
+     "value": 35.1
+    },
+    {
+     "resource_id": "Observation/GLP1-047-BMI-2025-05-20",
+     "date": "2025-05-20",
+     "value": 34.4
+    },
+    {
+     "resource_id": "Observation/GLP1-047-BMI-2025-12-04",
+     "date": "2025-12-04",
+     "value": 34.8
+    },
+    {
+     "resource_id": "Observation/GLP1-047-BMI-2026-08-04",
+     "date": "2026-08-04",
+     "value": 34.4
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-047-WT-2026-08-04",
+    "date": "2026-08-04",
+    "value": 101.8
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-047-WT-2025-04-18",
+     "date": "2025-04-18",
+     "value": 103.9
+    },
+    {
+     "resource_id": "Observation/GLP1-047-WT-2025-05-20",
+     "date": "2025-05-20",
+     "value": 101.8
+    },
+    {
+     "resource_id": "Observation/GLP1-047-WT-2025-12-04",
+     "date": "2025-12-04",
+     "value": 103.1
+    },
+    {
+     "resource_id": "Observation/GLP1-047-WT-2026-08-04",
+     "date": "2026-08-04",
+     "value": 101.8
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-047-HT-2025-04-18",
+   "date": "2025-04-18",
+   "value": 172.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-047-BP-2026-08-04",
+    "date": "2026-08-04",
+    "systolic": 116.0,
+    "diastolic": 76.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-047-BP-2025-04-18",
+     "date": "2025-04-18",
+     "systolic": 120.0,
+     "diastolic": 72.0
+    },
+    {
+     "resource_id": "Observation/GLP1-047-BP-2025-05-20",
+     "date": "2025-05-20",
+     "systolic": 119.0,
+     "diastolic": 71.0
+    },
+    {
+     "resource_id": "Observation/GLP1-047-BP-2025-12-04",
+     "date": "2025-12-04",
+     "systolic": 113.0,
+     "diastolic": 79.0
+    },
+    {
+     "resource_id": "Observation/GLP1-047-BP-2026-08-04",
+     "date": "2026-08-04",
+     "systolic": 116.0,
+     "diastolic": 76.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-047-A1C-2025-04-18",
+    "date": "2025-04-18",
+    "value": 5.5
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-047-LDL-2025-09-25",
+    "date": "2025-09-25",
+    "value": 102.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-047-HDL-2025-09-25",
+    "date": "2025-09-25",
+    "value": 51.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-047-TG-2025-09-25",
+    "date": "2025-09-25",
+    "value": 135.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-047-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2024-08-22",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-047-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2021-09-01",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-047-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2018-02-22",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-047-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2023-04-14",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-047-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-12-22",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-047-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2015-09-11",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-047-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2021-01-11",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-047-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2021-05-06",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-047-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2025-08-27",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-047-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-047-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-047-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-04",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "lifestyle_adjunct": [
+   {
+    "chunk_id": "DocumentReference/GLP1-047-GI-001#c0",
+    "resource_id": "DocumentReference/GLP1-047-GI-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-02-07",
+    "note_type": "Gastroenterology procedure note",
+    "text": "GASTROENTEROLOGY PROCEDURE NOTE — 02/07/2025\nIndication: screening colonoscopy, age 40, family history (mother with colon cancer at 52).\nPrep: clear liquid diet the day before, split-dose PEG; BBPS 3-3-3.\nSedation: propofol per anesthesia. Cecum reached, TI intubated; withdrawal time 9 min.\nFindings: 4 mm sessile polyp in ascending colon and 5 mm polyp in sigmoid, both removed by cold snare. No other lesions.\nPlan: resume regular diet today; pathology pending; repeat interval per pathology (family history — likely 5 years).",
+    "score": 6.431584,
+    "reason": "earliest_relevant"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-047-DERM-001#c0",
+    "resource_id": "DocumentReference/GLP1-047-DERM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-04-18",
+    "note_type": "Dermatology consult",
+    "text": "DERMATOLOGY — 04/18/2025\n40 y/o F with facial redness and papules on cheeks/chin x 3 months, flushing with wine and heat. Vitals: Wt 103.9 kg, BMI 35.1, BP 120/72.\nNo comedones; mild telangiectasia.\nDx: papulopustular rosacea, mild-moderate.\nPlan: metronidazole 0.75% gel daily; gentle cleanser; SPF 30+; trigger diary. Follow-up 3 months; consider oral doxycycline if not improving.",
+    "score": 9.414922,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-047-UC-002#c1",
+    "resource_id": "DocumentReference/GLP1-047-UC-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-04",
+    "note_type": "Urgent care visit",
+    "text": "Mentions she is starting the health system's 12-month lifestyle modification program this week — calorie tracking (~1400 kcal/day), cutting late-night snacking and takeout, and stationary bike 30–40 minutes 3 days a week. Exam: Wt 103.1 kg. T 99.9, HR 84, BP 118/74, SpO2 99%. Right maxillary tenderness; purulent drainage; nasal turbinates edematous. TMs normal. Oropharynx mildly erythematous. Neck: shotty anterior cervical nodes. Lungs clear, no wheeze. Assessment: acute bacterial rhinosinusitis, second episode this year. Plan: doxycycline 100 mg BID x 7 days (recent amoxicillin-clavulanate); saline irrigation; fluticasone nasal spray daily. If a third episode occurs within 12 months, consider ENT referral and CT sinuses. Return precautions discussed.",
+    "score": 21.450605,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-047-ORTH-002#c1",
+    "resource_id": "DocumentReference/GLP1-047-ORTH-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-04",
+    "note_type": "Orthopedics consult",
+    "text": "CC: bilateral anterior knee pain. HPI: 41 y/o F with 6 weeks of aching anterior knee pain, right worse than left, worse with stairs, squatting, and prolonged sitting (\"theater sign\"). No trauma, locking, or giving way. No swelling. She remains in the weight program started in the winter and has been riding the stationary bike and walking daily — pain started after she increased bike resistance quickly. PMH: left shoulder impingement (improved after 2025 injection), low back pain, migraine, anxiety. Exam: normal gait. No effusion. Patellar tracking with mild lateral tilt; positive patellar grind bilaterally; J-sign absent. Full ROM. Ligaments stable (Lachman, varus/valgus, posterior drawer negative). McMurray negative. Hip abductor weakness 4/5 bilaterally. Tight IT bands and hamstrings.",
+    "score": 9.943205,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-047-ORTH-002#c2",
+    "resource_id": "DocumentReference/GLP1-047-ORTH-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-04",
+    "note_type": "Orthopedics consult",
+    "text": "Imaging: knee X-rays (3 views bilateral) — normal joint spaces, no patella alta, no osteophytes. Assessment: bilateral patellofemoral pain syndrome. Plan: PT referral for hip/quad strengthening; lower bike resistance and raise seat height; ice after activity; ibuprofen PRN with food; avoid deep squats for 4–6 weeks. Follow-up in 8 weeks or sooner if swelling or mechanical symptoms.",
+    "score": 10.903493,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-047-PCP-001#c2",
+    "resource_id": "DocumentReference/GLP1-047-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-04",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Reflux — avoid meals within 3 hours of bedtime, limit coffee after noon, elevate head of bed; if not improved in 4–6 weeks, start acid suppression.\n2. Insomnia — sleep hygiene reviewed (consistent wake time, no screens 1 hour before bed, bed for sleep only); CBT-I app recommended; follow-up if not improved.\n3. Patellofemoral pain — improving; continue home exercises.\n4. Obesity, BMI 34.4 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects (may transiently worsen reflux). Recheck in 3 months.\n5. Health maintenance — flu vaccine in the fall.",
+    "score": 10.226646,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-047-UC-001#c0",
+    "resource_id": "DocumentReference/GLP1-047-UC-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-09-09",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 09/09/2025\nCC: sinus congestion and facial pain. HPI: 41 y/o F with 10 days of nasal congestion, thick yellow-green drainage, pressure over both cheeks and forehead, upper tooth ache on the right, worse when bending forward. Improved around day 5, then worsened again over the last 3 days with low-grade fever (100.4 at home). Mild cough from postnasal drip. No vision changes, no periorbital swelling, no severe headache, no neck stiffness. Tried saline spray and OTC decongestant with minimal relief. ROS: fatigue; otherwise negative — no chest pain, no dyspnea, no rash. Meds: sertraline, sumatriptan PRN, vitamin D, ibuprofen PRN, triamcinolone cream PRN. Allergies: NKDA. Exam: T 100.1, HR 88, BP 122/76, SpO2 98%.",
+    "score": 2.930393,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-047-LAB-002#c0",
+    "resource_id": "DocumentReference/GLP1-047-LAB-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-09-25",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 09/25/2025\nFasting lipid panel reviewed: LDL 102, HDL 51, TG 135 mg/dL. 10-year ASCVD risk low; no statin indicated. Reminder for future lipid draws: fast 10–12 hours with water only.",
+    "score": 6.669297,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-047-LAB-003#c0",
+    "resource_id": "DocumentReference/GLP1-047-LAB-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-04",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 04/04/2026\nFollow-up labs reviewed (ordered at winter visit for fatigue).\nCBC: WBC 5.9, Hgb 13.4, Plt 255 — normal.\nCMP: Na 140, K 4.0, Cr 0.71, glucose 89, AST 18, ALT 20, alk phos 70 — normal.\nLipids (fasting): total cholesterol 181, LDL 98, HDL 53, TG 118 mg/dL — slightly improved from September.\n25-OH vitamin D 31 ng/mL — low-normal on supplement; continue vitamin D3 2000 IU daily.\nPortal comment from patient with the lab request: reports adherence to the program meal plan and asks whether that explains the better lipid numbers.\nReply: results are normal; lipid improvement is consistent with dietary changes; continue current plan. No medication changes. Next labs in 1 year.",
+    "score": 4.125535,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-047-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-047-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-04",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/04/2026\nS: 42 y/o F, multi-problem visit.\n1) Reflux: heartburn 2–3 nights/week, worse after late dinners and coffee; no dysphagia, weight loss, or GI bleeding.\n2) Sleep: difficulty falling asleep, phone use in bed, wakes unrefreshed; no witnessed apneas or loud snoring per partner.\n3) Knee pain follow-up: patellofemoral pain much better after 6 PT sessions; doing home strengthening.\n4) Weight: weight 101.8 kg today vs 103.1 kg in the winter despite staying with the program (-1.3%). Frustrated. Asks about medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease. Uses IUD.\nAlso: tinea versicolor improving; migraine ~1/month, sumatriptan effective; mood stable on sertraline.",
+    "score": 4.081682,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-047-PCP-001#c2",
+    "resource_id": "DocumentReference/GLP1-047-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-04",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Reflux — avoid meals within 3 hours of bedtime, limit coffee after noon, elevate head of bed; if not improved in 4–6 weeks, start acid suppression.\n2. Insomnia — sleep hygiene reviewed (consistent wake time, no screens 1 hour before bed, bed for sleep only); CBT-I app recommended; follow-up if not improved.\n3. Patellofemoral pain — improving; continue home exercises.\n4. Obesity, BMI 34.4 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects (may transiently worsen reflux). Recheck in 3 months.\n5. Health maintenance — flu vaccine in the fall.",
+    "score": 3.049267,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 26,
+  "n_notes": 18,
+  "tokens": {
+   "raw_chart": {
+    "structured": 9321,
+    "notes": 3394,
+    "total": 12715
+   },
+   "retrieved_evidence": 1603,
+   "structured_features": 1752,
+   "profile_total": 4575
+  }
+ }
+}

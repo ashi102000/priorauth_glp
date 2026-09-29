@@ -1,0 +1,407 @@
+{
+ "patient_id": "GLP1-006",
+ "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1990-11-02",
+   "age": 35,
+   "gender": "male"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-006-BMI-2026-08-04",
+    "date": "2026-08-04",
+    "value": 39.7
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-006-BMI-2025-08-04",
+     "date": "2025-08-04",
+     "value": 40.2
+    },
+    {
+     "resource_id": "Observation/GLP1-006-BMI-2025-11-03",
+     "date": "2025-11-03",
+     "value": 40.2
+    },
+    {
+     "resource_id": "Observation/GLP1-006-BMI-2026-08-04",
+     "date": "2026-08-04",
+     "value": 39.7
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-006-WT-2026-08-04",
+    "date": "2026-08-04",
+    "value": 121.6
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-006-WT-2025-08-04",
+     "date": "2025-08-04",
+     "value": 123.2
+    },
+    {
+     "resource_id": "Observation/GLP1-006-WT-2025-11-03",
+     "date": "2025-11-03",
+     "value": 123.0
+    },
+    {
+     "resource_id": "Observation/GLP1-006-WT-2026-08-04",
+     "date": "2026-08-04",
+     "value": 121.6
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-006-HT-2025-08-04",
+   "date": "2025-08-04",
+   "value": 175.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-006-BP-2026-08-04",
+    "date": "2026-08-04",
+    "systolic": 138.0,
+    "diastolic": 80.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-006-BP-2025-08-04",
+     "date": "2025-08-04",
+     "systolic": 128.0,
+     "diastolic": 90.0
+    },
+    {
+     "resource_id": "Observation/GLP1-006-BP-2025-11-03",
+     "date": "2025-11-03",
+     "systolic": 134.0,
+     "diastolic": 81.0
+    },
+    {
+     "resource_id": "Observation/GLP1-006-BP-2026-08-04",
+     "date": "2026-08-04",
+     "systolic": 138.0,
+     "diastolic": 80.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-006-A1C-2025-08-04",
+    "date": "2025-08-04",
+    "value": 5.4
+   },
+   "ldl": {
+    "resource_id": "Observation/GLP1-006-LDL-2025-08-04",
+    "date": "2025-08-04",
+    "value": 123.0
+   },
+   "hdl": {
+    "resource_id": "Observation/GLP1-006-HDL-2025-08-04",
+    "date": "2025-08-04",
+    "value": 52.0
+   },
+   "tg": {
+    "resource_id": "Observation/GLP1-006-TG-2025-08-04",
+    "date": "2025-08-04",
+    "value": 143.0
+   }
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-006-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2022-11-07",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-006-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2021-05-03",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-006-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2023-05-26",
+    "abatement": null,
+    "weight_related": true
+   },
+   {
+    "resource_id": "Condition/GLP1-006-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-05-21",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-006-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2021-09-19",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [
+   {
+    "resource_id": "Condition/GLP1-006-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2023-05-26",
+    "abatement": null,
+    "weight_related": true
+   }
+  ],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-006-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2021-05-23",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-006-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2023-04-27",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-006-LISINOPRIL",
+    "resource_type": "MedicationRequest",
+    "text": "lisinopril 10 mg PO daily",
+    "status": "active",
+    "date": "2024-05-24",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-006-ORLISTAT",
+    "resource_type": "MedicationStatement",
+    "text": "orlistat 120 mg PO TID with meals",
+    "status": "completed",
+    "date": "2024-07-15",
+    "anti_obesity": true
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-006-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [
+   {
+    "resource_id": "MedicationStatement/GLP1-006-ORLISTAT",
+    "resource_type": "MedicationStatement",
+    "text": "orlistat 120 mg PO TID with meals",
+    "status": "completed",
+    "date": "2024-07-15",
+    "anti_obesity": true
+   }
+  ],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-006-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-04",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "adjunct_diet_and_activity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-006-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-006-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-04",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Class III obesity, BMI 40.2 — start lifestyle plan today:\n - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout (currently 4–5 nights/week).\n - Water aerobics / lap swimming at the community pool 3 times a week.\n - Referred to the clinic's Healthy Weight lifestyle program; RD intake scheduled.\n - Not restarting orlistat given prior intolerance.\n Follow-up in ~3 months.\n2. HTN — diastolic elevated today; continue lisinopril 10 mg daily and recheck.",
+    "score": 24.00243,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-006-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-18",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 08/18/2025\nHealthy Weight program intake. Shift worker (alternating days/nights). Food recall: energy drinks on night shifts, vending machine snacks, fast food after shift.\nPlan: calorie tracking at ~1800 kcal/day; pack 2 meals + 2 snacks for each shift; no energy drinks (switch to unsweetened iced coffee); stop late-night takeout after shifts, keep simple prepared meals at home.\nActivity: water aerobics / lap swimming 3x/week, schedule around shifts.\nFollow-up with RD in ~6 weeks.",
+    "score": 19.50691,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-006-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-28",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 01/28/2026\nFood log reviewed: adherent most days, ~1800–1900 kcal. No energy drinks since September. Night shift weeks still include a fast-food meal.\nAdjustments: higher-protein shift snacks, keep a frozen meal at work for night shifts, smaller dinner portions on days off.\nReports he keeps up with swimming/water aerobics about 3 times a week.\nNext RD visit per program schedule.",
+    "score": 20.568373,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-006-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-04",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/04/2026\nS: Follow-up weight and BP. Continues the diet and exercise plan and has attended program follow-ups for the past year. Tracking food, packing shift meals, swimming 3x/week. Frustrated with the plateau — weight 121.6 kg today vs 123.2 kg in August 2025 when the plan began (-1.3%) despite reported adherence. Remembers orlistat did not work for him and caused GI problems. Asks about injectable medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 121.6 kg, BMI 39.7. BP 138/80.",
+    "score": 14.572934,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-006-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-04",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 39.7 — minimal response to lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration from 0.25 mg. Discussed nausea, constipation, hydration, and timing doses on days off. Continue diet and exercise plan. Recheck in 3 months.\n2. Hypertension — BP 138/80 on lisinopril 10 mg daily; continue.\n3. Eczema — stable.",
+    "score": 11.964337,
+    "reason": "top_k"
+   }
+  ],
+  "program_6_months": [
+   {
+    "chunk_id": "DocumentReference/GLP1-006-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-006-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-04",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Class III obesity, BMI 40.2 — start lifestyle plan today:\n - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout (currently 4–5 nights/week).\n - Water aerobics / lap swimming at the community pool 3 times a week.\n - Referred to the clinic's Healthy Weight lifestyle program; RD intake scheduled.\n - Not restarting orlistat given prior intolerance.\n Follow-up in ~3 months.\n2. HTN — diastolic elevated today; continue lisinopril 10 mg daily and recheck.",
+    "score": 22.923979,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-006-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-18",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 08/18/2025\nHealthy Weight program intake. Shift worker (alternating days/nights). Food recall: energy drinks on night shifts, vending machine snacks, fast food after shift.\nPlan: calorie tracking at ~1800 kcal/day; pack 2 meals + 2 snacks for each shift; no energy drinks (switch to unsweetened iced coffee); stop late-night takeout after shifts, keep simple prepared meals at home.\nActivity: water aerobics / lap swimming 3x/week, schedule around shifts.\nFollow-up with RD in ~6 weeks.",
+    "score": 19.50691,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-006-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-28",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 01/28/2026\nFood log reviewed: adherent most days, ~1800–1900 kcal. No energy drinks since September. Night shift weeks still include a fast-food meal.\nAdjustments: higher-protein shift snacks, keep a frozen meal at work for night shifts, smaller dinner portions on days off.\nReports he keeps up with swimming/water aerobics about 3 times a week.\nNext RD visit per program schedule.",
+    "score": 20.568373,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-TEL-002#c0",
+    "resource_id": "DocumentReference/GLP1-006-TEL-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-07",
+    "note_type": "Telephone encounter",
+    "text": "TELEPHONE ENCOUNTER — 05/07/2026\nRN check-in call for Healthy Weight program. Pt continues the diet and swimming plan he started last August; logging food most days, pool 3x/week. Reports good adherence most weeks, some slips on night-shift weeks. No questions. Reminded of upcoming PCP visit.",
+    "score": 10.579728,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-006-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-04",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/04/2026\nS: Follow-up weight and BP. Continues the diet and exercise plan and has attended program follow-ups for the past year. Tracking food, packing shift meals, swimming 3x/week. Frustrated with the plateau — weight 121.6 kg today vs 123.2 kg in August 2025 when the plan began (-1.3%) despite reported adherence. Remembers orlistat did not work for him and caused GI problems. Asks about injectable medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 121.6 kg, BMI 39.7. BP 138/80.",
+    "score": 14.572934,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-006-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-006-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-04",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/04/2025\nS: 34 y/o M here for weight. \"I'm tired of feeling like this at 34.\" Works rotating shifts, eats late at night and relies on takeout. Tried orlistat in spring 2024 from a previous doctor; stopped after about 3 months due to GI side effects (urgency, oily stools). Swam in high school and enjoys the pool.\nO: Wt 123.2 kg, Ht 175 cm, BMI 40.2. BP 128/90.\nExam: acanthosis absent, CV/lungs normal, no edema.",
+    "score": 1.007666,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-006-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-08-04",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Class III obesity, BMI 40.2 — start lifestyle plan today:\n - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout (currently 4–5 nights/week).\n - Water aerobics / lap swimming at the community pool 3 times a week.\n - Referred to the clinic's Healthy Weight lifestyle program; RD intake scheduled.\n - Not restarting orlistat given prior intolerance.\n Follow-up in ~3 months.\n2. HTN — diastolic elevated today; continue lisinopril 10 mg daily and recheck.",
+    "score": 1.604958,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-006-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-11-03",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 11/03/2025\nS: Follow-up. Continues the diet and swimming plan started in August; tracking most days, packing food for shifts, swimming 2–3 times a week. Reports good adherence most weeks; night-shift weeks are hardest.\nO: Wt 123.0 kg, BMI 40.2. BP 134/81.\nA/P:\n1. Obesity — continue lifestyle program; RD follow-ups.\n2. HTN — improved diastolic; continue lisinopril.",
+    "score": 2.792386,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-006-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-04",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/04/2026\nS: Follow-up weight and BP. Continues the diet and exercise plan and has attended program follow-ups for the past year. Tracking food, packing shift meals, swimming 3x/week. Frustrated with the plateau — weight 121.6 kg today vs 123.2 kg in August 2025 when the plan began (-1.3%) despite reported adherence. Remembers orlistat did not work for him and caused GI problems. Asks about injectable medication. No MTC/MEN2 history, no pancreatitis.\nO: Wt 121.6 kg, BMI 39.7. BP 138/80.",
+    "score": 1.454241,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-006-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-006-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-04",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 39.7 — minimal response to lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration from 0.25 mg. Discussed nausea, constipation, hydration, and timing doses on days off. Continue diet and exercise plan. Recheck in 3 months.\n2. Hypertension — BP 138/80 on lisinopril 10 mg daily; continue.\n3. Eczema — stable.",
+    "score": 3.526311,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 14,
+  "n_notes": 12,
+  "tokens": {
+   "raw_chart": {
+    "structured": 7624,
+    "notes": 1350,
+    "total": 8974
+   },
+   "retrieved_evidence": 939,
+   "structured_features": 1687,
+   "profile_total": 4965
+  }
+ }
+}

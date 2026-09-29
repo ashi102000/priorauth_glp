@@ -1,0 +1,29 @@
+[project]
+name = "pa-bench"
+version = "0.1.0"
+description = "GLP-1 prior-authorization benchmark: GPT vs Jev + GPT hybrid"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2",
+  "httpx",
+  "jsonschema",
+  "fhir.resources>=7,<8",
+  "tiktoken",
+  "numpy",
+  "pandas",
+  "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["engine"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["engine", "."]

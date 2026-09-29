@@ -1,0 +1,459 @@
+{
+ "patient_id": "GLP1-043",
+ "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1977-07-07",
+   "age": 49,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-043-BMI-2026-08-08",
+    "date": "2026-08-08",
+    "value": 32.8
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-043-BMI-2025-12-12",
+     "date": "2025-12-12",
+     "value": 32.6
+    },
+    {
+     "resource_id": "Observation/GLP1-043-BMI-2026-05-11",
+     "date": "2026-05-11",
+     "value": 32.9
+    },
+    {
+     "resource_id": "Observation/GLP1-043-BMI-2026-08-08",
+     "date": "2026-08-08",
+     "value": 32.8
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-043-WT-2026-08-08",
+    "date": "2026-08-08",
+    "value": 87.1
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-043-WT-2025-12-12",
+     "date": "2025-12-12",
+     "value": 86.7
+    },
+    {
+     "resource_id": "Observation/GLP1-043-WT-2026-05-11",
+     "date": "2026-05-11",
+     "value": 87.3
+    },
+    {
+     "resource_id": "Observation/GLP1-043-WT-2026-08-08",
+     "date": "2026-08-08",
+     "value": 87.1
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-043-HT-2025-12-12",
+   "date": "2025-12-12",
+   "value": 163.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-043-BP-2026-08-08",
+    "date": "2026-08-08",
+    "systolic": 126.0,
+    "diastolic": 77.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-043-BP-2025-12-12",
+     "date": "2025-12-12",
+     "systolic": 124.0,
+     "diastolic": 76.0
+    },
+    {
+     "resource_id": "Observation/GLP1-043-BP-2026-05-11",
+     "date": "2026-05-11",
+     "systolic": 112.0,
+     "diastolic": 79.0
+    },
+    {
+     "resource_id": "Observation/GLP1-043-BP-2026-08-08",
+     "date": "2026-08-08",
+     "systolic": 126.0,
+     "diastolic": 77.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-043-A1C-2025-12-12",
+    "date": "2025-12-12",
+    "value": 5.0
+   },
+   "ldl": null,
+   "hdl": null,
+   "tg": null
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-043-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2017-12-28",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-043-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2019-01-03",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-043-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2015-07-27",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-043-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2022-09-20",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-043-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2020-09-11",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-043-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2018-08-13",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-043-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-07-19",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-043-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2022-10-28",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-043-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2021-10-17",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-043-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2022-10-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-043-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2024-04-08",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-043-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2025-06-23",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-043-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-043-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-043-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-043-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-08",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "weight_management_program": [
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-043-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-12",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 32.6 — long discussion about weight management options: structured weight-loss program through the clinic, dietitian referral, meal replacement approach, and an exercise prescription. Patient declined enrollment in the structured weight management program and declined the dietitian referral at this time; prefers to manage on her own. Referral placed anyway in case she changes her mind.\n2. GERD — stable on omeprazole.\n3. Low back pain — stable.",
+    "score": 13.313912,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-GI-001#c0",
+    "resource_id": "DocumentReference/GLP1-043-GI-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-31",
+    "note_type": "Gastroenterology procedure note",
+    "text": "GASTROENTEROLOGY PROCEDURE NOTE — 01/31/2026\nScreening colonoscopy.\nPrep: clear liquid diet the day before, split-dose; good prep.\nFindings: two small (3 mm) polyps in sigmoid colon removed. Otherwise normal.\nPlan: resume regular diet; pathology pending.",
+    "score": 4.204259,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-TEL-002#c0",
+    "resource_id": "DocumentReference/GLP1-043-TEL-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-03-17",
+    "note_type": "Telephone encounter",
+    "text": "TELEPHONE ENCOUNTER — 03/17/2026\nNutrition referral closed — patient did not schedule after 3 outreach attempts. Not enrolled in the weight management program. PCP notified.",
+    "score": 10.191399,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-043-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 05/11/2026\nS: Follow-up reflux and weight. Weight management reviewed: no formal diet or exercise regimen at this time. Did not schedule with nutrition.\nO: Wt 87.3 kg, BMI 32.9. BP 112/79.\nA/P:\n1. Obesity — options reviewed again; she will consider.\n2. GERD — stable.",
+    "score": 8.393466,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-043-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/08/2026\nS: 49 y/o F, follow-up weight. Weight 87.1 kg, unchanged since December. Weight-loss goals discussed again; still no structured diet or exercise program. Would like to try medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease.\nO: Wt 87.1 kg, BMI 32.8. BP 126/77.",
+    "score": 7.714054,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_glp1": [
+   {
+    "chunk_id": "DocumentReference/GLP1-043-MSG-001#c0",
+    "resource_id": "DocumentReference/GLP1-043-MSG-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-09-14",
+    "note_type": "Patient portal message",
+    "text": "PATIENT PORTAL MESSAGE — 09/14/2024\nPt: \"Going to Morocco in November — shots needed?\"\nRN reply: Hepatitis A and typhoid recommended; confirm tetanus. Book a nurse visit.",
+    "score": 2.885767,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-043-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-07",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 05/07/2026\nPt asked about garcinia cambogia and a \"metabolism booster\" (green tea extract). Advised against — minimal evidence, rare liver injury reports; green tea extract may interact with multiple meds. Pt will avoid.",
+    "score": 3.83028,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-043-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 05/11/2026\nS: Follow-up reflux and weight. Weight management reviewed: no formal diet or exercise regimen at this time. Did not schedule with nutrition.\nO: Wt 87.3 kg, BMI 32.9. BP 112/79.\nA/P:\n1. Obesity — options reviewed again; she will consider.\n2. GERD — stable.",
+    "score": 2.424055,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-043-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/08/2026\nS: 49 y/o F, follow-up weight. Weight 87.1 kg, unchanged since December. Weight-loss goals discussed again; still no structured diet or exercise program. Would like to try medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease.\nO: Wt 87.1 kg, BMI 32.8. BP 126/77.",
+    "score": 2.94229,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-043-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 32.8 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Recheck in 3 months.\n2. GERD — stable.",
+    "score": 5.333602,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_pa_weight_loss_med": [
+   {
+    "chunk_id": "DocumentReference/GLP1-043-MSG-001#c0",
+    "resource_id": "DocumentReference/GLP1-043-MSG-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-09-14",
+    "note_type": "Patient portal message",
+    "text": "PATIENT PORTAL MESSAGE — 09/14/2024\nPt: \"Going to Morocco in November — shots needed?\"\nRN reply: Hepatitis A and typhoid recommended; confirm tetanus. Book a nurse visit.",
+    "score": 2.885767,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-043-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-07",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 05/07/2026\nPt asked about garcinia cambogia and a \"metabolism booster\" (green tea extract). Advised against — minimal evidence, rare liver injury reports; green tea extract may interact with multiple meds. Pt will avoid.",
+    "score": 3.83028,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-043-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 05/11/2026\nS: Follow-up reflux and weight. Weight management reviewed: no formal diet or exercise regimen at this time. Did not schedule with nutrition.\nO: Wt 87.3 kg, BMI 32.9. BP 112/79.\nA/P:\n1. Obesity — options reviewed again; she will consider.\n2. GERD — stable.",
+    "score": 2.424055,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-043-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/08/2026\nS: 49 y/o F, follow-up weight. Weight 87.1 kg, unchanged since December. Weight-loss goals discussed again; still no structured diet or exercise program. Would like to try medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease.\nO: Wt 87.1 kg, BMI 32.8. BP 126/77.",
+    "score": 2.94229,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-043-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 32.8 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Recheck in 3 months.\n2. GERD — stable.",
+    "score": 5.333602,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-043-UC-001#c0",
+    "resource_id": "DocumentReference/GLP1-043-UC-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-04-08",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 04/08/2025\n47 y/o F with chest tightness and cough starting a few minutes into outdoor jogs on cold mornings; resolves with rest; no symptoms at rest. Lungs clear, SpO2 99%.\nDx: exercise-induced bronchospasm. Albuterol 2 puffs 15 minutes before exertion; warm up gradually.",
+    "score": 2.172311,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-043-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-12",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 12/12/2025\nS: 48 y/o F here to discuss weight. Concerned about weight gain over the past few years; reflux and back pain.\nO: Wt 86.7 kg, Ht 163 cm, BMI 32.6. BP 124/76.",
+    "score": 1.44952,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-043-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-11",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 05/11/2026\nS: Follow-up reflux and weight. Weight management reviewed: no formal diet or exercise regimen at this time. Did not schedule with nutrition.\nO: Wt 87.3 kg, BMI 32.9. BP 112/79.\nA/P:\n1. Obesity — options reviewed again; she will consider.\n2. GERD — stable.",
+    "score": 1.332751,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-043-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-043-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/08/2026\nS: 49 y/o F, follow-up weight. Weight 87.1 kg, unchanged since December. Weight-loss goals discussed again; still no structured diet or exercise program. Would like to try medication. No MTC/MEN2 history, no pancreatitis, no gallbladder disease.\nO: Wt 87.1 kg, BMI 32.8. BP 126/77.",
+    "score": 1.220396,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 17,
+  "n_notes": 15,
+  "tokens": {
+   "raw_chart": {
+    "structured": 8217,
+    "notes": 1035,
+    "total": 9252
+   },
+   "retrieved_evidence": 720,
+   "structured_features": 1750,
+   "profile_total": 4985
+  }
+ }
+}

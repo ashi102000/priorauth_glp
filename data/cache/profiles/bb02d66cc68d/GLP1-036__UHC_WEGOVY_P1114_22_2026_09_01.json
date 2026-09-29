@@ -1,0 +1,374 @@
+{
+ "patient_id": "GLP1-036",
+ "policy_id": "UHC_WEGOVY_P1114_22_2026_09_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1991-07-27",
+   "age": 35,
+   "gender": "male"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-036-BMI-2026-08-08",
+    "date": "2026-08-08",
+    "value": 36.1
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-036-BMI-2025-01-10",
+     "date": "2025-01-10",
+     "value": 37.1
+    },
+    {
+     "resource_id": "Observation/GLP1-036-BMI-2026-01-12",
+     "date": "2026-01-12",
+     "value": 37.1
+    },
+    {
+     "resource_id": "Observation/GLP1-036-BMI-2026-08-08",
+     "date": "2026-08-08",
+     "value": 36.1
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-036-WT-2026-08-08",
+    "date": "2026-08-08",
+    "value": 95.9
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-036-WT-2025-01-10",
+     "date": "2025-01-10",
+     "value": 98.7
+    },
+    {
+     "resource_id": "Observation/GLP1-036-WT-2026-01-12",
+     "date": "2026-01-12",
+     "value": 98.6
+    },
+    {
+     "resource_id": "Observation/GLP1-036-WT-2026-08-08",
+     "date": "2026-08-08",
+     "value": 95.9
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-036-HT-2025-01-10",
+   "date": "2025-01-10",
+   "value": 163.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-036-BP-2026-08-08",
+    "date": "2026-08-08",
+    "systolic": 131.0,
+    "diastolic": 84.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-036-BP-2025-01-10",
+     "date": "2025-01-10",
+     "systolic": 141.0,
+     "diastolic": 79.0
+    },
+    {
+     "resource_id": "Observation/GLP1-036-BP-2026-01-12",
+     "date": "2026-01-12",
+     "systolic": 141.0,
+     "diastolic": 85.0
+    },
+    {
+     "resource_id": "Observation/GLP1-036-BP-2026-08-08",
+     "date": "2026-08-08",
+     "systolic": 131.0,
+     "diastolic": 84.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-036-A1C-2025-01-10",
+    "date": "2025-01-10",
+    "value": 5.3
+   },
+   "ldl": null,
+   "hdl": null,
+   "tg": null
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-036-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2018-02-28",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-036-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2023-01-22",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-036-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2015-09-07",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-036-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2023-01-24",
+    "abatement": null,
+    "weight_related": true
+   },
+   {
+    "resource_id": "Condition/GLP1-036-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2023-07-06",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-036-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2019-07-21",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-036-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-08-26",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-036-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2016-01-22",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [
+   {
+    "resource_id": "Condition/GLP1-036-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2023-01-24",
+    "abatement": null,
+    "weight_related": true
+   }
+  ],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-036-AMLODIPINE",
+    "resource_type": "MedicationRequest",
+    "text": "amlodipine 5 mg PO daily",
+    "status": "active",
+    "date": "2021-05-11",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-036-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2022-08-28",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-036-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2025-07-06",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-036-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2025-08-20",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-036-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-036-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-036-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-036-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-08",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "lifestyle_adjunct": [
+   {
+    "chunk_id": "DocumentReference/GLP1-036-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-036-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-12",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 01/12/2026\nS: 34 y/o M wants to lose weight — New Year's resolution, and BP has been higher. Eats fast food at work, snacks at night. Gym membership but hasn't gone regularly.\nO: Wt 98.6 kg, Ht 163 cm, BMI 37.1. BP 141/85.\nExam: CV RRR, no edema.",
+    "score": 6.230981,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-036-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-036-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-12",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 37.1 — plan starting today:\n - Reduced-calorie meal plan of about 1400 kcal/day with food logging in a phone app.\n - Gym sessions (treadmill + light weights) 4 days a week, ~150 min/week.\n - Enrolled in the clinic's Healthy Weight lifestyle program; RD visit scheduled.\n Follow-up visits planned.\n2. Hypertension: BP 141/85 on amlodipine 5 mg daily; continue; home log.\n3. Anxiety — stable.",
+    "score": 22.913409,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-036-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-036-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2026-01-26",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 01/26/2026\nHealthy Weight program intake. Food log: drive-through lunch, energy drinks, late-night chips.\nPlan: ~1400 kcal/day logged in phone app; pack lunch; no energy drinks; pre-portioned evening snack.\nActivity: gym 4 days/week, treadmill + weights, ~150 min/week.\nRD follow-up in 4 weeks.",
+    "score": 21.073998,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-036-TEL-003#c0",
+    "resource_id": "DocumentReference/GLP1-036-TEL-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-27",
+    "note_type": "Telephone encounter",
+    "text": "TELEPHONE ENCOUNTER — 02/27/2026\nRN call re: missed dietitian follow-up. Patient states he stopped following the meal plan and stopped going to the gym a few weeks ago — work has been very stressful (new manager, overtime). He cancelled the dietitian follow-up and does not wish to reschedule at this time. Encouraged to call when ready.",
+    "score": 14.628711,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-036-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-036-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/08/2026\nS: 35 y/o M here about weight and BP. Tried diet and exercise earlier this year without much success. Work stress improving. Asks about Wegovy. No MTC/MEN2 history, no pancreatitis.\nO: Wt 95.9 kg, BMI 36.1. BP 131/84.",
+    "score": 8.764595,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-036-LAB-001#c0",
+    "resource_id": "DocumentReference/GLP1-036-LAB-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-09-05",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 09/05/2024\nTSH 3.19 mIU/L — within normal limits (checked for fatigue). No thyroid follow-up needed. Consider sleep evaluation if fatigue persists.",
+    "score": 2.86949,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-036-UC-001#c0",
+    "resource_id": "DocumentReference/GLP1-036-UC-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-03-20",
+    "note_type": "Urgent care visit",
+    "text": "URGENT CARE — 03/20/2025\n33 y/o M, cough and chest tightness 5–10 minutes into outdoor runs on cold mornings; resolves with rest. Lungs clear, SpO2 98%.\nDx: exercise-induced bronchospasm. Albuterol before exertion.",
+    "score": 2.639039,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-036-OSR-001#c0",
+    "resource_id": "DocumentReference/GLP1-036-OSR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-07-27",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 07/27/2025\nSource: Downtown Dental\nClearance for extraction #16. HTN on amlodipine; no anticoagulants. Cleared, no restrictions.",
+    "score": 2.552176,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-036-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-036-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-23",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 10/23/2025\nPt asked about kava for anxiety and a \"fat burner\" supplement with green tea extract and synephrine. Advised against kava (liver toxicity, sedation with sertraline) and against synephrine products (BP elevation — on amlodipine for HTN). Pt will not use them.",
+    "score": 3.020822,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-036-PCP-002#c1",
+    "resource_id": "DocumentReference/GLP1-036-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-08",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 36.1 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Recheck in 3 months.\n2. Hypertension: BP 131/84 on amlodipine 5 mg daily; continue.\n3. Anxiety — stable on sertraline.",
+    "score": 2.983394,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 18,
+  "n_notes": 16,
+  "tokens": {
+   "raw_chart": {
+    "structured": 7870,
+    "notes": 1237,
+    "total": 9107
+   },
+   "retrieved_evidence": 800,
+   "structured_features": 1798,
+   "profile_total": 3562
+  }
+ }
+}

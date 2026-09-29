@@ -1,0 +1,9 @@
+{
+  "version": "RETRIEVAL_V1",
+  "chunking": {"max_words": 120, "min_words": 25},
+  "bm25": {"k1": 1.5, "b": 0.75},
+  "top_k": 5,
+  "min_relative_score": 0.2,
+  "temporal_extras": true,
+  "notes": "Defaults fixed a priori (not tuned on the evidence map). K sweeps are reported as sensitivity analysis only."
+}

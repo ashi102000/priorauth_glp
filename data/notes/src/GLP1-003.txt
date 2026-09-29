@@ -1,0 +1,101 @@
+=== GLP1-003-OSR-001
+OUTSIDE RECORDS — SCANNED — 10/30/2024
+Source: Brightside Dental Group
+
+Request for medical clearance prior to scaling and root planing, all quadrants, local anesthesia. Reviewed chart: no cardiac valve disease, no prosthetic joints, no anticoagulants, no bleeding history. Medications: sertraline, omeprazole, cetirizine PRN, sumatriptan PRN. No antibiotic prophylaxis required. Patient cleared for dental procedure without restrictions. Faxed back 10/30/2024.
+
+=== GLP1-003-TEL-001
+TELEPHONE ENCOUNTER — 02/27/2025
+
+Pt called: out of cetirizine, spring allergies starting early — sneezing, itchy eyes. No fever, no wheeze. Refill of cetirizine 10 mg daily PRN sent to pharmacy. Suggested adding saline rinse and OTC ketotifen eye drops. Call back if symptoms not controlled; could add intranasal steroid. Pt agreed.
+
+=== GLP1-003-TEL-002
+TELEPHONE ENCOUNTER — 05/05/2025
+
+Pt calling to confirm tomorrow's lab draw time and whether she needs to fast. Appointment confirmed 8:15 AM. Fasting 10–12 h requested for glucose/lipids; may drink water, take sertraline and omeprazole as usual. Hold vitamin D the morning of draw — not necessary but fine either way. Pt understood.
+
+=== GLP1-003-OSR-002
+OUTSIDE RECORDS — SCANNED — 07/20/2025
+Source: St. Anne Hospital Emergency Department, visit 07/16/2025
+
+48 y/o F with sudden left flank pain and nausea. UA: large blood, no nitrites. CT abdomen/pelvis without contrast: 3 mm left UVJ stone, mild left hydronephrosis. Given IV fluids, ondansetron, ketorolac. Pain controlled. Discharged with tamsulosin 0.4 mg x 14 days, oxycodone 5 mg #6, strainer.
+Follow-up call from ED 07/18: stone passed. Urology follow-up PRN.
+
+=== GLP1-003-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 11/11/2025
+
+S: 48 y/o F requesting help with weight. Gradual gain over 5 years, worse after starting sertraline, which she wants to stay on (mood stable). Main habits: late-night snacking after kids are in bed, takeout 3–4 nights/week. Works in an office; not doing any regular exercise.
+
+O: Wt 91.1 kg, Ht 168 cm, BMI 32.3. BP 116/69.
+Thyroid not enlarged. Rest of exam normal.
+
+A/P:
+1. Obesity — plan starting today:
+ - Calorie tracking in an app, target ~1600 kcal/day; stop eating after 8 PM; cut takeout to once weekly.
+ - Brisk walking with a coworker at lunch 5 days a week.
+ - Referred to the clinic's Healthy Weight lifestyle program; RD intake to be scheduled.
+ Follow-up visit in ~3 months.
+2. Anxiety — stable on sertraline 50 mg; continue.
+3. Migraine — rare, sumatriptan PRN effective.
+
+=== GLP1-003-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 12/02/2025
+
+Healthy Weight program intake. 3-day food log reviewed: adequate breakfast/lunch; 700–900 kcal of snacking after 9 PM (chips, cookies, ice cream); takeout pizza/Chinese several nights.
+Plan: calorie tracking at ~1600 kcal/day; planned evening snack of ≤150 kcal, kitchen "closed" after 8 PM; batch-cook two dinners on Sundays to replace takeout; takeout max 1x/week.
+Activity: continue lunchtime brisk walks with coworker, 5 days/week.
+RD follow-up in 6–8 weeks.
+
+=== GLP1-003-APE-001
+ANNUAL PHYSICAL — 01/01/2026
+
+48 y/o F, annual exam. No acute concerns.
+Vitals: Wt 90.7 kg, BMI 32.1, BP 112/72, HR 68.
+Exam: normal. Breast exam without masses. Skin without suspicious lesions.
+Screening: mammogram due — ordered. Colon cancer screening: FIT kit given (declines colonoscopy for now). Cervical screening up to date (2023). Vaccines: flu given in October; shingles vaccine #1 given today.
+Return 1 year.
+
+=== GLP1-003-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 02/08/2026
+
+S: Weight follow-up. Continues the plan started in November — tracking calories most days, no eating after 8 PM on weeknights, takeout down to once a week. Walking at lunch with coworker most days. Had one RD visit so far, next one scheduled. Good adherence most weeks.
+
+O: Wt 90.8 kg, BMI 32.2. BP 117/67.
+
+A/P:
+1. Obesity — continue lifestyle program, reinforce evening routine.
+2. Migraine — no recent attacks.
+
+=== GLP1-003-LAB-001
+LAB RESULT NOTE — 04/15/2026
+
+TSH 1.62 mIU/L — within normal limits (checked for fatigue at recent visit). No thyroid follow-up needed. Fatigue likely related to sleep; discussed sleep hygiene by portal message.
+
+=== GLP1-003-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 05/16/2026
+
+Food log reviewed for past month: tracking ~6 days/week, averaging 1550–1700 kcal/day. Adherent most days. Evening snacks now mostly fruit or yogurt. Still one takeout night.
+Small adjustments: add protein at lunch to reduce afternoon vending-machine snacks; portion control on weekend dinners.
+Reports she keeps up with the lunchtime walks.
+Next RD visit per program schedule.
+
+=== GLP1-003-LAB-002
+LAB RESULT NOTE — 07/07/2026
+
+CBC and CMP within normal limits (Hgb 13.2, Plt 265, Cr 0.78, glucose 94, ALT 22). No action needed; released to portal.
+
+=== GLP1-003-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/11/2026
+
+S: Weight follow-up. Continues the calorie tracking and lunchtime walks; attends program follow-ups with RD. Weight today 89.8 kg vs 91.1 kg in November when the plan began (-1.4%). She is discouraged by the plateau despite doing "everything they asked." Interested in medication. No personal/family hx MTC/MEN2, no pancreatitis, no gallbladder disease. Postmenopausal x2 years.
+
+O: Wt 89.8 kg, BMI 31.8. BP 113/77.
+
+A/P:
+1. Obesity, BMI 31.8 — minimal response to lifestyle changes. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration beginning at 0.25 mg weekly. Counseled on GI side effects, slowing down at meals, hydration. Continue diet and activity plan. Recheck in 3 months.
+2. Anxiety — stable on sertraline.

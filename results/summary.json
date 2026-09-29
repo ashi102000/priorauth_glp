@@ -1,0 +1,491 @@
+{
+  "experiment": {
+    "patients": 50,
+    "policies": 3,
+    "evaluations_per_pipeline": 150,
+    "request_date": "2026-09-01",
+    "policy_ids": [
+      "AETNA_WEGOVY_4774C_2026_08_20",
+      "BCBS_FEP_WEGOVY_2026_07_01",
+      "UHC_WEGOVY_P1114_22_2026_09_01"
+    ],
+    "runs": {
+      "gpt": "main_gpt",
+      "hybrid": "main_hybrid_t0.90"
+    }
+  },
+  "gpt": {
+    "pa_accuracy": 0.9466666666666667,
+    "pa_accuracy_ci95": [
+      0.9066666666666666,
+      0.98
+    ],
+    "pa_macro_f1": 0.8615984405458089,
+    "pa_macro_f1_ci95": [
+      0.6414285714285715,
+      0.9581438163309507
+    ],
+    "pa_per_state": {
+      "READY": {
+        "precision": 0.976471,
+        "recall": 0.965116,
+        "f1": 0.97076,
+        "support": 86
+      },
+      "NOT_READY": {
+        "precision": 0.931034,
+        "recall": 0.964286,
+        "f1": 0.947368,
+        "support": 56
+      },
+      "REVIEW_REQUIRED": {
+        "precision": 0.714286,
+        "recall": 0.625,
+        "f1": 0.666667,
+        "support": 8
+      }
+    },
+    "pa_confusion": {
+      "READY": {
+        "READY": 83,
+        "NOT_READY": 2,
+        "REVIEW_REQUIRED": 1
+      },
+      "NOT_READY": {
+        "READY": 1,
+        "NOT_READY": 54,
+        "REVIEW_REQUIRED": 1
+      },
+      "REVIEW_REQUIRED": {
+        "READY": 1,
+        "NOT_READY": 2,
+        "REVIEW_REQUIRED": 5
+      }
+    },
+    "binary_auto_ready": {
+      "accuracy": 0.9666666666666667,
+      "precision": 0.9764705882352941,
+      "recall": 0.9651162790697675,
+      "f1": 0.9707602339181286,
+      "tp": 83,
+      "fp": 2,
+      "fn": 3,
+      "tn": 62,
+      "false_auto_submissions": 2
+    },
+    "criterion_accuracy": 0.972,
+    "criterion_macro_f1": 0.8114417030616218,
+    "semantic_criterion_accuracy": 0.97,
+    "semantic_criterion_macro_f1": 0.8402476943346509,
+    "total_cost_usd": 2.3329840000000006,
+    "cost_per_pa_usd": 0.015553226666666671,
+    "gpt_cost_usd": 2.3329840000000006,
+    "jev_cost_usd": 0,
+    "decision_cost_usd": 2.3329840000000006,
+    "decision_cost_per_pa_usd": 0.015553226666666671,
+    "narrative_cost_usd": 0.0,
+    "gpt_calls": 150,
+    "gpt_decision_calls": 150,
+    "narrative_calls": 0,
+    "jev_calls": 0,
+    "gpt_input_tokens": 633572,
+    "gpt_output_tokens": 106584,
+    "gpt_reasoning_tokens": 23982,
+    "gpt_decision_input_tokens": 633572,
+    "gpt_decision_output_tokens": 106584,
+    "jev_input_tokens": 0,
+    "latency_total_ms": {
+      "n": 150,
+      "mean": 10691.550666666673,
+      "median": 10582.3,
+      "p50": 10582.3,
+      "p90": 15145.48,
+      "p95": 16318.989999999998,
+      "max": 26924.8
+    },
+    "latency_decision_ms": {
+      "n": 150,
+      "mean": 10691.550666666673,
+      "median": 10582.3,
+      "p50": 10582.3,
+      "p90": 15145.48,
+      "p95": 16318.989999999998,
+      "max": 26924.8
+    },
+    "p50_latency_ms": 10582.3,
+    "p95_latency_ms": 16318.989999999998,
+    "p50_decision_latency_ms": 10582.3,
+    "p95_decision_latency_ms": 16318.989999999998,
+    "median_context_reduction_pct": 52.977392282564004,
+    "median_frontier_context_reduction_pct": 52.977392282564004,
+    "cases_escalated": 0,
+    "criteria_escalated": 0,
+    "review_required_predicted": 7,
+    "self_reported_state_consistency": 1.0
+  },
+  "hybrid": {
+    "threshold": 0.9,
+    "pa_accuracy": 0.9666666666666667,
+    "pa_accuracy_ci95": [
+      0.9266666666666666,
+      0.9933333333333333
+    ],
+    "pa_macro_f1": 0.9156482246077622,
+    "pa_macro_f1_ci95": [
+      0.7587972750763449,
+      0.9952727924755896
+    ],
+    "pa_per_state": {
+      "READY": {
+        "precision": 0.977011,
+        "recall": 0.988372,
+        "f1": 0.982659,
+        "support": 86
+      },
+      "NOT_READY": {
+        "precision": 0.964286,
+        "recall": 0.964286,
+        "f1": 0.964286,
+        "support": 56
+      },
+      "REVIEW_REQUIRED": {
+        "precision": 0.857143,
+        "recall": 0.75,
+        "f1": 0.8,
+        "support": 8
+      }
+    },
+    "pa_confusion": {
+      "READY": {
+        "READY": 85,
+        "NOT_READY": 1,
+        "REVIEW_REQUIRED": 0
+      },
+      "NOT_READY": {
+        "READY": 1,
+        "NOT_READY": 54,
+        "REVIEW_REQUIRED": 1
+      },
+      "REVIEW_REQUIRED": {
+        "READY": 1,
+        "NOT_READY": 1,
+        "REVIEW_REQUIRED": 6
+      }
+    },
+    "binary_auto_ready": {
+      "accuracy": 0.98,
+      "precision": 0.9770114942528736,
+      "recall": 0.9883720930232558,
+      "f1": 0.9826589595375722,
+      "tp": 85,
+      "fp": 2,
+      "fn": 1,
+      "tn": 62,
+      "false_auto_submissions": 2
+    },
+    "criterion_accuracy": 0.984,
+    "criterion_macro_f1": 0.8896165116339375,
+    "semantic_criterion_accuracy": 0.98,
+    "semantic_criterion_macro_f1": 0.9019623728558885,
+    "total_cost_usd": 0.8663997700000001,
+    "cost_per_pa_usd": 0.005775998466666667,
+    "gpt_cost_usd": 0.8282216000000001,
+    "jev_cost_usd": 0.03817817,
+    "decision_cost_usd": 0.3685611699999999,
+    "decision_cost_per_pa_usd": 0.002457074466666666,
+    "narrative_cost_usd": 0.49783859999999996,
+    "gpt_calls": 114,
+    "gpt_decision_calls": 27,
+    "narrative_calls": 87,
+    "jev_calls": 150,
+    "gpt_input_tokens": 229398,
+    "gpt_output_tokens": 39680,
+    "gpt_reasoning_tokens": 13007,
+    "gpt_decision_input_tokens": 110363,
+    "gpt_decision_output_tokens": 11674,
+    "jev_input_tokens": 909004,
+    "latency_total_ms": {
+      "n": 150,
+      "mean": 4969.3573333333325,
+      "median": 5562.8,
+      "p50": 5562.8,
+      "p90": 8110.699999999999,
+      "p95": 10307.42499999999,
+      "max": 23887.8
+    },
+    "latency_decision_ms": {
+      "n": 150,
+      "mean": 1684.6779999999999,
+      "median": 198.14999999999998,
+      "p50": 198.14999999999998,
+      "p90": 6944.989999999999,
+      "p95": 8655.554999999982,
+      "max": 18592.2
+    },
+    "p50_latency_ms": 5562.8,
+    "p95_latency_ms": 10307.42499999999,
+    "p50_decision_latency_ms": 198.14999999999998,
+    "p95_decision_latency_ms": 8655.554999999982,
+    "median_context_reduction_pct": 30.67281922741647,
+    "median_frontier_context_reduction_pct": 100.0,
+    "cases_escalated": 27,
+    "criteria_escalated": 32,
+    "review_required_predicted": 7,
+    "gpt_calls_avoided_pct": 24.0,
+    "gpt_decision_calls_avoided_pct": 82.0,
+    "gpt_tokens_avoided_pct": 63.645771972395,
+    "gpt_decision_tokens_avoided_pct": 83.51198936440426,
+    "cost_reduction_pct": 62.86302134948204,
+    "decision_cost_reduction_pct": 84.20215612280239
+  },
+  "jev": {
+    "model": "jev-1.13.0",
+    "brier_score": 0.020822018348623843,
+    "ece": 0.03810397553516852,
+    "n": 327,
+    "scope": "criterion-level confidence for criteria evaluated by Jev before routing",
+    "gpt_same_scope_brier": 0.05583455657492355,
+    "gpt_same_scope_ece": 0.03525993883792224
+  },
+  "paired_comparison": {
+    "pa_state": {
+      "a_only_correct": 0,
+      "b_only_correct": 3,
+      "p_value": 0.25,
+      "accuracy_difference_hybrid_minus_gpt": 0.02,
+      "accuracy_difference_ci95": [
+        0.0,
+        0.04666666666666667
+      ],
+      "note": "a = GPT-only, b = hybrid; exact two-sided McNemar on PA-state correctness; CI = patient-cluster bootstrap"
+    },
+    "criterion_status": {
+      "a_only_correct": 1,
+      "b_only_correct": 10,
+      "p_value": 0.01171875,
+      "note": "a = GPT-only, b = hybrid"
+    }
+  },
+  "escalation_effect": {
+    "both_correct": 16,
+    "escalation_fixed": 5,
+    "escalation_broke": 9,
+    "both_wrong": 2
+  },
+  "threshold_sweep": [
+    {
+      "threshold": 0.6,
+      "run_id": "sweep_t0.60",
+      "pa_accuracy": 0.973333,
+      "pa_macro_f1": 0.942716,
+      "criterion_accuracy": 0.992,
+      "jev_evaluated_criteria": 327,
+      "jev_coverage": 0.987768,
+      "criteria_escalated": 4,
+      "criterion_escalation_rate": 0.012232,
+      "cases_escalated": 4,
+      "case_escalation_rate": 0.026667,
+      "jev_auto_decision_accuracy": 0.981424,
+      "jev_auto_decision_error_rate": 0.018576,
+      "gpt_calls": 88,
+      "gpt_decision_calls": 4,
+      "gpt_calls_avoided_pct": 41.333333,
+      "gpt_decision_calls_avoided_pct": 97.333333,
+      "gpt_tokens": 159531,
+      "gpt_tokens_avoided_pct": 78.446301,
+      "gpt_decision_tokens_avoided_pct": 97.556056,
+      "total_cost_usd": 0.563509,
+      "decision_cost_usd": 0.085044,
+      "cost_per_pa_usd": 0.003757,
+      "p50_latency_ms": 5153.45,
+      "p95_latency_ms": 7412.005,
+      "p50_decision_latency_ms": 207.15,
+      "p95_decision_latency_ms": 426.495,
+      "headline": false
+    },
+    {
+      "threshold": 0.7,
+      "run_id": "sweep_t0.70",
+      "pa_accuracy": 0.973333,
+      "pa_macro_f1": 0.942716,
+      "criterion_accuracy": 0.988,
+      "jev_evaluated_criteria": 327,
+      "jev_coverage": 0.978593,
+      "criteria_escalated": 7,
+      "criterion_escalation_rate": 0.021407,
+      "cases_escalated": 7,
+      "case_escalation_rate": 0.046667,
+      "jev_auto_decision_accuracy": 0.98125,
+      "jev_auto_decision_error_rate": 0.01875,
+      "gpt_calls": 91,
+      "gpt_decision_calls": 7,
+      "gpt_calls_avoided_pct": 39.333333,
+      "gpt_decision_calls_avoided_pct": 95.333333,
+      "gpt_tokens": 172490,
+      "gpt_tokens_avoided_pct": 76.695453,
+      "gpt_decision_tokens_avoided_pct": 95.805209,
+      "total_cost_usd": 0.600875,
+      "decision_cost_usd": 0.12241,
+      "cost_per_pa_usd": 0.004006,
+      "p50_latency_ms": 5208.0,
+      "p95_latency_ms": 7954.95,
+      "p50_decision_latency_ms": 226.1,
+      "p95_decision_latency_ms": 460.51,
+      "headline": false
+    },
+    {
+      "threshold": 0.8,
+      "run_id": "sweep_t0.80",
+      "pa_accuracy": 0.98,
+      "pa_macro_f1": 0.948505,
+      "criterion_accuracy": 0.989333,
+      "jev_evaluated_criteria": 327,
+      "jev_coverage": 0.954128,
+      "criteria_escalated": 15,
+      "criterion_escalation_rate": 0.045872,
+      "cases_escalated": 13,
+      "case_escalation_rate": 0.086667,
+      "jev_auto_decision_accuracy": 0.990385,
+      "jev_auto_decision_error_rate": 0.009615,
+      "gpt_calls": 99,
+      "gpt_decision_calls": 13,
+      "gpt_calls_avoided_pct": 34.0,
+      "gpt_decision_calls_avoided_pct": 91.333333,
+      "gpt_tokens": 204313,
+      "gpt_tokens_avoided_pct": 72.395954,
+      "gpt_decision_tokens_avoided_pct": 91.997903,
+      "total_cost_usd": 0.689145,
+      "decision_cost_usd": 0.198594,
+      "cost_per_pa_usd": 0.004594,
+      "p50_latency_ms": 5279.95,
+      "p95_latency_ms": 8661.96,
+      "p50_decision_latency_ms": 225.0,
+      "p95_decision_latency_ms": 6815.82,
+      "headline": false
+    },
+    {
+      "threshold": 0.9,
+      "run_id": "sweep_t0.90",
+      "pa_accuracy": 0.966667,
+      "pa_macro_f1": 0.915648,
+      "criterion_accuracy": 0.984,
+      "jev_evaluated_criteria": 327,
+      "jev_coverage": 0.902141,
+      "criteria_escalated": 32,
+      "criterion_escalation_rate": 0.097859,
+      "cases_escalated": 27,
+      "case_escalation_rate": 0.18,
+      "jev_auto_decision_accuracy": 0.99661,
+      "jev_auto_decision_error_rate": 0.00339,
+      "gpt_calls": 114,
+      "gpt_decision_calls": 27,
+      "gpt_calls_avoided_pct": 24.0,
+      "gpt_decision_calls_avoided_pct": 82.0,
+      "gpt_tokens": 269078,
+      "gpt_tokens_avoided_pct": 63.645772,
+      "gpt_decision_tokens_avoided_pct": 83.511989,
+      "total_cost_usd": 0.8664,
+      "decision_cost_usd": 0.368561,
+      "cost_per_pa_usd": 0.005776,
+      "p50_latency_ms": 5550.45,
+      "p95_latency_ms": 10360.05,
+      "p50_decision_latency_ms": 234.6,
+      "p95_decision_latency_ms": 8681.455,
+      "headline": true
+    },
+    {
+      "threshold": 0.95,
+      "run_id": "sweep_t0.95",
+      "pa_accuracy": 0.973333,
+      "pa_macro_f1": 0.937751,
+      "criterion_accuracy": 0.978667,
+      "jev_evaluated_criteria": 327,
+      "jev_coverage": 0.663609,
+      "criteria_escalated": 110,
+      "criterion_escalation_rate": 0.336391,
+      "cases_escalated": 88,
+      "case_escalation_rate": 0.586667,
+      "jev_auto_decision_accuracy": 1.0,
+      "jev_auto_decision_error_rate": 0.0,
+      "gpt_calls": 175,
+      "gpt_decision_calls": 88,
+      "gpt_calls_avoided_pct": -16.666667,
+      "gpt_decision_calls_avoided_pct": 41.333333,
+      "gpt_tokens": 546424,
+      "gpt_tokens_avoided_pct": 26.174482,
+      "gpt_decision_tokens_avoided_pct": 45.766973,
+      "total_cost_usd": 1.592729,
+      "decision_cost_usd": 1.098081,
+      "cost_per_pa_usd": 0.010618,
+      "p50_latency_ms": 6937.3,
+      "p95_latency_ms": 14772.79,
+      "p50_decision_latency_ms": 4568.05,
+      "p95_decision_latency_ms": 14265.185,
+      "headline": false
+    },
+    {
+      "threshold": "gpt_only",
+      "run_id": "main_gpt",
+      "pa_accuracy": 0.946667,
+      "pa_macro_f1": 0.861598,
+      "criterion_accuracy": 0.972,
+      "gpt_calls": 150,
+      "gpt_decision_calls": 150,
+      "gpt_calls_avoided_pct": 0.0,
+      "gpt_tokens": 740156,
+      "gpt_tokens_avoided_pct": 0.0,
+      "total_cost_usd": 2.332984,
+      "decision_cost_usd": 2.332984,
+      "cost_per_pa_usd": 0.015553,
+      "p50_latency_ms": 10582.3,
+      "p95_latency_ms": 16318.99,
+      "p50_decision_latency_ms": 10582.3,
+      "p95_decision_latency_ms": 16318.99,
+      "headline": false
+    }
+  ],
+  "retrieval": {
+    "queries": 450,
+    "mean_recall": 0.917131242740999,
+    "mean_recall_contradicts": 1.0,
+    "critical_misses": 0,
+    "report": "reports/retrieval_eval.md"
+  },
+  "failure_categories": {
+    "gpt": {
+      "all_criterion_errors": {
+        "MISSING_NOT_NEGATIVE": 10,
+        "TEMPORAL_REASONING": 7,
+        "SEMANTIC_INTERPRETATION": 1,
+        "CONTRADICTION": 3
+      },
+      "errors_in_pa_state_wrong_cases": {
+        "TEMPORAL_REASONING": 4,
+        "SEMANTIC_INTERPRETATION": 1,
+        "CONTRADICTION": 3
+      }
+    },
+    "hybrid": {
+      "all_criterion_errors": {
+        "TEMPORAL_REASONING": 5,
+        "MISSING_NOT_NEGATIVE": 4,
+        "CONTRADICTION": 3
+      },
+      "errors_in_pa_state_wrong_cases": {
+        "TEMPORAL_REASONING": 2,
+        "CONTRADICTION": 3
+      }
+    }
+  },
+  "pricing_version": "PRICING_2026_09_29",
+  "generated_at": "2026-09-29T09:12:43+00:00",
+  "limitations": [
+    "n = 150 evaluations (50 synthetic patients x 3 policies); cases are challenge-stratified, not epidemiologically representative.",
+    "Evaluations of the same patient are correlated; CIs use a patient-cluster bootstrap.",
+    "Hybrid questions/rules were revised once after a 5-patient smoke test on this cohort (no separate dev set); GPT baseline received one provenance formatting fix.",
+    "Ground truth derives from user-approved policy interpretations; some labels (REVIEW_REQUIRED cases) encode judgment calls.",
+    "Headline threshold 0.90 was fixed before the runs; the sweep is sensitivity analysis, not selection.",
+    "Latency measured application-side with concurrency 4; GPT latency depends on provider load at run time.",
+    "Clinical notes were authored by an LLM (Claude) from structured plans; distribution differs from real EHR text."
+  ]
+}

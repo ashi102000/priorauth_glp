@@ -1,0 +1,106 @@
+=== GLP1-049-LAB-001
+LAB RESULT NOTE — 09/08/2024
+
+Fasting lipid panel reviewed: LDL 180, HDL 41, TG 229 mg/dL. Pt confirms she fasted 12 hours. LDL remains above goal on rosuvastatin 10 mg — adherence confirmed; discuss dose increase at next visit. For future lipid draws continue a 10–12 hour fast.
+
+=== GLP1-049-MSG-001
+PATIENT PORTAL MESSAGE — 02/13/2025
+
+Pt: "Can I reschedule next week's appointment? And need a work note for 2/11."
+MA reply: Moved to 03/04. Note uploaded.
+
+=== GLP1-049-TEL-001
+TELEPHONE ENCOUNTER — 03/31/2025
+
+Refill: cetirizine 10 mg daily PRN — spring pollen. Sent to pharmacy.
+
+=== GLP1-049-MSG-002
+PATIENT PORTAL MESSAGE — 04/17/2025
+
+Pt: "Visiting family in Jamaica in June — anything I need?"
+RN reply: Hepatitis A and typhoid recommended; mosquito precautions (dengue). Book a nurse visit.
+
+=== GLP1-049-GI-001
+GASTROENTEROLOGY PROCEDURE NOTE — 04/24/2025
+
+Screening colonoscopy.
+Prep: clear liquid diet the day before, split-dose; good prep.
+Findings: two small polyps (3 mm, 5 mm) in rectosigmoid removed; mild diverticulosis.
+Plan: resume regular diet; pathology pending.
+
+=== GLP1-049-MSG-003
+PATIENT PORTAL MESSAGE — 04/30/2025
+
+Pt: "The Y needs my immunization record for their membership form. Can you send?"
+MA reply: Uploaded.
+
+=== GLP1-049-OSR-001
+OUTSIDE RECORDS — SCANNED — 05/06/2025
+Source: Cornerstone Dental
+
+Clearance for crown #18 and extraction #17. No anticoagulants. Cleared without restrictions.
+
+=== GLP1-049-OSR-002
+OUTSIDE RECORDS — SCANNED — 05/15/2025
+Source: Methodist ED, visit 05/11/2025
+
+55 y/o F, right flank pain and hematuria. CT: 4 mm right UVJ stone. Ketorolac, tamsulosin; passed 05/13. Urology PRN.
+
+=== GLP1-049-TEL-002
+TELEPHONE ENCOUNTER — 07/11/2025
+
+Pt confirmed lab draw 07/15 at 7:45 AM; fast 10–12 hours, water only. Understood.
+
+=== GLP1-049-LAB-002
+LAB RESULT NOTE — 09/19/2025
+
+CBC and CMP within normal limits (ALT 24, CK not indicated). No action needed.
+
+=== GLP1-049-LAB-003
+LAB RESULT NOTE — 12/23/2025
+
+25-OH vitamin D 27 ng/mL — low-normal. Recommend OTC vitamin D3 1000–2000 IU daily.
+
+=== GLP1-049-PT-001
+PHYSICAL THERAPY — 03/13/2026
+
+Mechanical low back pain after gardening, 3 weeks; no radicular signs.
+Plan of care: 6 visits; core stabilization home exercise program; hip hinge training.
+
+=== GLP1-049-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 06/15/2026
+
+S: 56 y/o F, follow-up cholesterol and weight. Enrolled in a weight management program since November 2025 — diet changes and walking; continuing. Back pain resolved after PT.
+
+O: Wt 76.3 kg, Ht 160 cm, BMI 29.8. BP 122/72.
+
+A/P:
+1. Overweight — continue weight management program.
+2. Hyperlipidemia on rosuvastatin 10 mg daily; last LDL 180. Increase to 20 mg discussed — patient prefers to recheck first after lifestyle changes.
+
+=== GLP1-049-NUTR-001
+NUTRITION FOLLOW-UP
+Date: 07/06/2026
+
+Dietitian follow-up. Patient began the program in April 2026. Reviewing her reduced-calorie meal plan of about 1500 kcal/day with food logging in a phone app — logging most days. Walking most days.
+Adjustments: lower saturated fat for LDL (swap red meat for fish/beans 3x/week), portion control at dinner.
+Follow-up 6–8 weeks.
+
+=== GLP1-049-PHARM-001
+PHARMACIST MEDICATION REVIEW — 07/16/2026
+
+Pt asked about berberine for cholesterol/weight and fish oil. Advised berberine has limited evidence and possible GI effects and drug interactions; not recommended with statin without PCP input. Fish oil OK.
+
+=== GLP1-049-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 08/21/2026
+
+S: 56 y/o F, follow-up weight. Continues the program; weight 74.5 kg, minimal change. Frustrated. Asks about medication.
+Previously on liraglutide (Saxenda) in 2024, stopped after about 6 months due to nausea. Willing to try a weekly option with slow titration. No MTC/MEN2 history, no pancreatitis.
+
+O: Wt 74.5 kg, BMI 29.1. BP 113/76.
+
+A/P:
+1. Overweight, BMI 29.1, with hyperlipidemia — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects, slower titration given prior nausea on liraglutide. Continue program. Recheck in 3 months.
+2. Hyperlipidemia on rosuvastatin 10 mg daily; last LDL 180. Fasting lipid panel ordered.

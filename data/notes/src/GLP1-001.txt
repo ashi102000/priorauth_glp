@@ -1,0 +1,124 @@
+=== GLP1-001-UC-001
+URGENT CARE VISIT — 09/03/2024
+
+CC: chest tightness and cough with running
+
+HPI: 33 y/o F reports 3 weeks of chest tightness, wheeze and dry cough that start about 5–10 min into jogging outdoors in the mornings, now that it is colder and drier. Resolves within 30 min of stopping. No symptoms at rest, no nocturnal cough, no fever, no URI symptoms. No prior asthma diagnosis. Non-smoker.
+
+Exam: T 98.4, HR 78, RR 14, SpO2 99% RA. Lungs clear, no wheeze at rest. Heart RRR. No accessory muscle use.
+
+A/P: Symptoms consistent with exercise-induced bronchoconstriction.
+- Albuterol HFA 2 puffs 15 min before exertion, spacer technique reviewed.
+- Warm-up period, scarf/mask over mouth in cold air.
+- Return / PCP follow-up if symptoms occur at rest or rescue inhaler needed more than a few times per week.
+
+=== GLP1-001-OPH-001
+OPHTHALMOLOGY — 10/12/2024
+
+Routine eye exam. No complaints except mild blurring at distance when driving at night.
+
+VA sc: OD 20/40, OS 20/40. Manifest refraction: OD -1.25 sph, OS -1.00 -0.25 x 180 → 20/20 OU.
+IOP 15/16 mmHg. Pupils equal, no APD. SLE: lids/lashes normal, conjunctiva quiet, cornea clear, AC deep and quiet.
+Dilated fundus exam: C/D 0.3 OU, healthy rim, macula flat, vessels normal, periphery without breaks.
+
+Impression: mild myopia OU, otherwise normal exam. No hypertensive retinopathy.
+Plan: glasses Rx given. Return 2 years or sooner PRN.
+
+=== GLP1-001-PHARM-001
+PHARMACIST MEDICATION REVIEW — 12/28/2024
+
+Patient called with questions about OTC products she picked up: magnesium glycinate for sleep and an elderberry/zinc cold supplement. Reviewed against current list (amlodipine, omeprazole). No clinically significant interactions. Advised to take magnesium at bedtime; no need to separate it from omeprazole. Avoid combining multiple zinc-containing products. Patient verbalized understanding.
+
+=== GLP1-001-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 12/12/2025
+
+S: 35 y/o F here to talk about her weight. Has gained gradually over the past several years with a desk job and two young kids. Says she is "ready to actually do something structured this time." Mild reflux, controlled on omeprazole. BP meds taken daily, no side effects.
+
+O: Wt 99.6 kg, Ht 163 cm, BMI 37.5. BP 139/85, HR 76.
+Gen: well appearing. CV: RRR. Lungs clear. Ext: no edema.
+
+A/P:
+1. Obesity, BMI 37.5 — Discussed options at length. She would like to start with a lifestyle plan.
+ - Diet: Mediterranean-style, reduced calorie, target roughly 1400 kcal/day; cutting out sugar-sweetened drinks (currently 2–3 sodas/day).
+ - Activity: stationary bike at home, 30–40 min, 4 days a week.
+ - Enrolled in the health system's 12-month lifestyle modification program; dietitian intake to be scheduled. Will follow up in clinic in about 3 months.
+2. HTN — BP above goal today; recheck at next visit before any change. Continue amlodipine 5 mg daily.
+3. GERD — stable on omeprazole.
+
+=== GLP1-001-NUTR-001
+NUTRITION CONSULT — INITIAL
+Date: 12/31/2025
+Referred by PCP for weight management (lifestyle modification program).
+
+Pt brought a 1-week food log. Typical day: skips breakfast, fast-food lunch, large dinner, 2 sodas. Evening snacking while watching TV.
+
+Plan developed with patient:
+- Mediterranean-style reduced-calorie pattern, ~1400 kcal/day. Emphasis on vegetables, legumes, fish, olive oil in place of butter; smaller starch portions.
+- Replace soda with sparkling water; no sugar-sweetened beverages.
+- Breakfast daily (Greek yogurt + fruit or eggs + toast).
+- Continue logging food in the app she started.
+- Activity goal reinforced: stationary bike 30–40 min 4 days/week.
+
+Goals: 3 meals/day, no SSBs, food log 5+ days/week. RD follow-up in ~6 weeks, then per program schedule.
+
+=== GLP1-001-MSG-001
+PATIENT PORTAL MESSAGE — 02/13/2026
+
+From patient: "Hi, I'm going to Costa Rica in April with my family. Do I need any vaccines or pills before I go? I think I had hep A as a kid but not sure."
+
+Reply (RN): Hepatitis A and typhoid vaccines are generally recommended for Costa Rica; we do not have a hep A record on file. Recommended scheduling a nurse visit at least 2 weeks before travel. Malaria prophylaxis usually not needed for the main tourist areas but depends on itinerary — please send us your itinerary. Mosquito repellent advised.
+
+=== GLP1-001-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 03/07/2026
+
+S: Follow-up for weight and BP. Continues the diet and activity plan started in December — logging food most days, no soda since January, on the bike 3–4 times a week. Has had a couple of off weeks with sick kids but otherwise sticking with it. Saw the dietitian end of December. No chest pain, no SOB, no headaches.
+
+O: Wt 98.2 kg, BMI 37.0. BP 135/79, HR 72.
+
+A/P:
+1. Obesity — continuing lifestyle program; good adherence. Continue current plan and RD follow-ups.
+2. Hypertension — BP 135/79 on amlodipine 5 mg daily. Improved from last visit. Continue, home BP log.
+
+=== GLP1-001-APE-001
+ANNUAL PHYSICAL — 03/17/2026
+
+35 y/o F for annual exam. No acute complaints.
+Vitals: Wt 98.7 kg, BMI 37.1, BP 127/84, HR 70.
+ROS negative. Exam: normal HEENT, thyroid not enlarged, CV/lungs normal, abdomen benign, skin without concerning lesions.
+
+Health maintenance: Pap/HPV co-test done 2024, next due 2029. Tdap 2021. Flu vaccine this season done. Hep A #1 today ahead of travel. Depression screen PHQ-2 negative.
+Hypertension: BP 127/84 on amlodipine 5 mg; continue.
+Labs: CMP, CBC ordered.
+Return 1 year.
+
+=== GLP1-001-NUTR-002
+NUTRITION FOLLOW-UP
+Date: 05/24/2026
+
+Reviewed food log from the past 4 weeks — logged 5–6 days/week. Still no sugar-sweetened drinks. Breakfast daily. Adherent most days; main struggle is weekend dinners out.
+Adjustments: pre-plan restaurant choices, swap chips at night for air-popped popcorn or fruit, portion down rice at dinner.
+She reports keeping up with the stationary bike about 4 days a week.
+Continue current calorie target. Next RD visit per program in ~2 months.
+
+=== GLP1-001-OSR-001
+OUTSIDE RECORDS — SCANNED
+Received: 07/02/2026
+Source: Mercy Regional Emergency Department, visit 06/27/2026
+
+ED summary: acute onset right flank pain radiating to groin. UA with microscopic hematuria. CT renal stone protocol: 4 mm right distal ureteral stone, no hydronephrosis. Treated with ketorolac and tamsulosin. Pain resolved; patient later reported passing the stone at home.
+Discharge dx: right ureterolithiasis. Instructions: hydration, strain urine, urology follow-up as needed.
+
+=== GLP1-001-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/12/2026
+
+S: Follow-up weight and BP. Continues the Mediterranean-style plan and bike workouts; still attending program follow-ups and RD visits. Logs food most days. She is frustrated — weight 96.7 kg today vs 99.6 kg in December when she started (-2.9%), and the scale has barely moved since spring despite sticking with it. Asks about medication. No personal/family hx of medullary thyroid cancer or MEN2. No hx pancreatitis. Not pregnant, not planning pregnancy; uses IUD.
+
+O: Wt 96.7 kg, BMI 36.4. BP 142/87, HR 78.
+
+A/P:
+1. Obesity, BMI 36.4 — plateau despite consistent lifestyle changes. Plan: start semaglutide 2.4 mg weekly (Wegovy), titrate from 0.25 mg per standard schedule. Counseled on nausea, constipation, hydration, and to call with persistent abdominal pain. Continue diet/activity plan alongside. Recheck in 3 months.
+2. Hypertension — BP 142/87 on amlodipine 5 mg daily; continue, bring home log next visit.
+3. GERD — stable.

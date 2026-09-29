@@ -1,0 +1,44 @@
+{
+  "pricing_version": "PRICING_2026_09_29",
+  "currency": "USD",
+  "unit": "per_1M_tokens",
+  "models": {
+    "gpt-6-sol": {
+      "provider": "openai",
+      "tier": "standard",
+      "context_band": "short (<= 272K input tokens)",
+      "input_per_million": 2.0,
+      "cached_input_per_million": 0.2,
+      "output_per_million": 10.0,
+      "long_context": {
+        "threshold_input_tokens": 272000,
+        "input_per_million": 4.0,
+        "cached_input_per_million": 0.4,
+        "output_per_million": 15.0
+      },
+      "notes": "Reasoning tokens are billed as output tokens (included in usage.output_tokens). Benchmark uses Standard processing only. Cache-write pricing not listed for this model on the pricing table.",
+      "source": [
+        "https://developers.openai.com/api/docs/pricing",
+        "https://developers.openai.com/api/docs/models/gpt-6-sol"
+      ],
+      "verified_at": "2026-09-29",
+      "verification_note": "Values read from the primary OpenAI pricing and model pages. A web-search summary misreported output as $0.20 (that is cached input); primary page used."
+    },
+    "jev-1.13.0": {
+      "provider": "typesafe",
+      "tier": "standard",
+      "input_per_million": 0.042,
+      "cached_input_per_million": 0.042,
+      "output_per_million": 0.0,
+      "notes": "Charged per input token; output tokens are free ('Price (per Btok / per Mtok) $42 / $0.042'). jev-latest alias -> jev-1.13.0 at time of verification; benchmark pins the versioned id.",
+      "limits": {
+        "context": "64k tokens per request; 32k for state + longest question",
+        "rate": "250,000 tokens/s; 1,200 requests/min (dynamic)"
+      },
+      "source": [
+        "https://docs.typesafe.ai/models.md"
+      ],
+      "verified_at": "2026-09-29"
+    }
+  }
+}

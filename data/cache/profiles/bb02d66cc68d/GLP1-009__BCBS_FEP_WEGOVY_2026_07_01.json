@@ -1,0 +1,469 @@
+{
+ "patient_id": "GLP1-009",
+ "policy_id": "BCBS_FEP_WEGOVY_2026_07_01",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1969-12-15",
+   "age": 56,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-009-BMI-2026-08-06",
+    "date": "2026-08-06",
+    "value": 30.4
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-009-BMI-2025-09-06",
+     "date": "2025-09-06",
+     "value": 30.8
+    },
+    {
+     "resource_id": "Observation/GLP1-009-BMI-2025-12-26",
+     "date": "2025-12-26",
+     "value": 30.6
+    },
+    {
+     "resource_id": "Observation/GLP1-009-BMI-2026-08-06",
+     "date": "2026-08-06",
+     "value": 30.4
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-009-WT-2026-08-06",
+    "date": "2026-08-06",
+    "value": 82.8
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-009-WT-2025-09-06",
+     "date": "2025-09-06",
+     "value": 83.9
+    },
+    {
+     "resource_id": "Observation/GLP1-009-WT-2025-12-26",
+     "date": "2025-12-26",
+     "value": 83.3
+    },
+    {
+     "resource_id": "Observation/GLP1-009-WT-2026-08-06",
+     "date": "2026-08-06",
+     "value": 82.8
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-009-HT-2025-09-06",
+   "date": "2025-09-06",
+   "value": 165.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-009-BP-2026-08-06",
+    "date": "2026-08-06",
+    "systolic": 111.0,
+    "diastolic": 68.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-009-BP-2025-09-06",
+     "date": "2025-09-06",
+     "systolic": 126.0,
+     "diastolic": 79.0
+    },
+    {
+     "resource_id": "Observation/GLP1-009-BP-2025-12-26",
+     "date": "2025-12-26",
+     "systolic": 115.0,
+     "diastolic": 78.0
+    },
+    {
+     "resource_id": "Observation/GLP1-009-BP-2026-08-06",
+     "date": "2026-08-06",
+     "systolic": 111.0,
+     "diastolic": 68.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-009-A1C-2025-09-06",
+    "date": "2025-09-06",
+    "value": 5.4
+   },
+   "ldl": null,
+   "hdl": null,
+   "tg": null
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-009-ALLERGY",
+    "display": "Seasonal allergic rhinitis",
+    "clinical_status": "active",
+    "onset": "2015-09-27",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-009-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2024-05-01",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-009-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2016-05-25",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-009-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2023-03-11",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-009-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2019-09-22",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-009-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2017-08-11",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-009-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-03-02",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-009-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2016-11-09",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-009-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2021-12-24",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-009-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2023-12-19",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-009-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2024-05-20",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-009-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2025-01-14",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-009-CETIRIZINE",
+    "resource_type": "MedicationStatement",
+    "text": "cetirizine 10 mg PO daily PRN",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-009-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-009-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-009-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-06",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "weight_management_program": [
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-009-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-09-06",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 30.8 — plan starting today:\n - Calorie tracking, ~1800 kcal/day; cut late-night snacking and takeout.\n - Gym sessions (treadmill + light weights) 5 days a week, ~150 min/week.\n - Referred to a dietitian-led weight management program; RD intake scheduled.\n Follow-up in ~3–4 months.\n2. Low back pain — chronic, stable; strengthening at gym encouraged.",
+    "score": 15.855028,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-009-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-09-28",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 09/28/2025\nDietitian-led program intake. Food log: small breakfast, moderate lunch, takeout dinner 3–4 nights, snacks after 9 PM (cheese and crackers, wine 1–2 glasses).\nPlan: calorie tracking at ~1800 kcal/day; cook at home 5 nights; kitchen closed after 8:30 PM; wine limited to weekends.\nActivity: gym 5 days/week, treadmill + light weights, ~150 min/week.\nRD follow-up in 6 weeks, then per program.",
+    "score": 15.743109,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-009-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-04-10",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 04/10/2026\nFood log reviewed: adherent most days, ~1750–1850 kcal. Cooking at home 5 nights. Evening snack now yogurt or fruit.\nAdjustments: add protein at breakfast; portion down bread at dinner.\nReports she keeps up with the gym routine.\nContinue program; next RD visit in ~2–3 months.",
+    "score": 11.841298,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-009-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-06",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/06/2026\nS: Weight follow-up. Continues the diet and exercise plan and program follow-ups since September 2025. Tracking, cooking at home, gym most weekdays. Frustrated — weight 82.8 kg today vs 83.9 kg when the plan began (-1.3%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Postmenopausal.\nO: Wt 82.8 kg, BMI 30.4. BP 111/68.",
+    "score": 7.585484,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-009-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-06",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 30.4 — minimal response to lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration from 0.25 mg; counseled on GI side effects, protein intake, and continuing strength training. Continue diet plan. Recheck in 3 months.\n2. Low back pain — stable.",
+    "score": 5.299061,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_glp1": [
+   {
+    "chunk_id": "DocumentReference/GLP1-009-LAB-001#c0",
+    "resource_id": "DocumentReference/GLP1-009-LAB-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-12-13",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 12/13/2024\nLipid panel reviewed — drawn non-fasting (pt had breakfast). TG not interpretable. Repeat as fasting panel: nothing but water for 10–12 hours before the draw; take usual morning medications. Lab order re-entered; message sent to patient.",
+    "score": 2.630965,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-OSR-002#c0",
+    "resource_id": "DocumentReference/GLP1-009-OSR-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-07-31",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 07/31/2025\nSource: Main Street Dental\nMedical clearance request for implant placement at #19 under local anesthesia. Reviewed: no anticoagulants, no bisphosphonates, no cardiac valve disease. Meds: sertraline, omeprazole, cetirizine PRN, sumatriptan PRN, vitamin D. Cleared for procedure without restrictions.",
+    "score": 1.141017,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-009-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-13",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 10/13/2025\nPt asked about adding fish oil, glucosamine, and a \"sleep gummy\" (melatonin + L-theanine). No significant interactions with current meds (sertraline, omeprazole, cetirizine, sumatriptan, vitamin D, triamcinolone cream, ibuprofen PRN). Advised glucosamine evidence is limited; melatonin at lowest effective dose.",
+    "score": 2.578017,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-009-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-06",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/06/2026\nS: Weight follow-up. Continues the diet and exercise plan and program follow-ups since September 2025. Tracking, cooking at home, gym most weekdays. Frustrated — weight 82.8 kg today vs 83.9 kg when the plan began (-1.3%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Postmenopausal.\nO: Wt 82.8 kg, BMI 30.4. BP 111/68.",
+    "score": 1.138993,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-009-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-06",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 30.4 — minimal response to lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration from 0.25 mg; counseled on GI side effects, protein intake, and continuing strength training. Continue diet plan. Recheck in 3 months.\n2. Low back pain — stable.",
+    "score": 4.554506,
+    "reason": "top_k"
+   }
+  ],
+  "no_concurrent_pa_weight_loss_med": [
+   {
+    "chunk_id": "DocumentReference/GLP1-009-LAB-001#c0",
+    "resource_id": "DocumentReference/GLP1-009-LAB-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-12-13",
+    "note_type": "Lab result follow-up",
+    "text": "LAB RESULT NOTE — 12/13/2024\nLipid panel reviewed — drawn non-fasting (pt had breakfast). TG not interpretable. Repeat as fasting panel: nothing but water for 10–12 hours before the draw; take usual morning medications. Lab order re-entered; message sent to patient.",
+    "score": 2.630965,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-OSR-002#c0",
+    "resource_id": "DocumentReference/GLP1-009-OSR-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-07-31",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 07/31/2025\nSource: Main Street Dental\nMedical clearance request for implant placement at #19 under local anesthesia. Reviewed: no anticoagulants, no bisphosphonates, no cardiac valve disease. Meds: sertraline, omeprazole, cetirizine PRN, sumatriptan PRN, vitamin D. Cleared for procedure without restrictions.",
+    "score": 1.141017,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-009-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-13",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 10/13/2025\nPt asked about adding fish oil, glucosamine, and a \"sleep gummy\" (melatonin + L-theanine). No significant interactions with current meds (sertraline, omeprazole, cetirizine, sumatriptan, vitamin D, triamcinolone cream, ibuprofen PRN). Advised glucosamine evidence is limited; melatonin at lowest effective dose.",
+    "score": 2.578017,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-009-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-06",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/06/2026\nS: Weight follow-up. Continues the diet and exercise plan and program follow-ups since September 2025. Tracking, cooking at home, gym most weekdays. Frustrated — weight 82.8 kg today vs 83.9 kg when the plan began (-1.3%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Postmenopausal.\nO: Wt 82.8 kg, BMI 30.4. BP 111/68.",
+    "score": 1.138993,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-009-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-06",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 30.4 — minimal response to lifestyle program. Start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration from 0.25 mg; counseled on GI side effects, protein intake, and continuing strength training. Continue diet plan. Recheck in 3 months.\n2. Low back pain — stable.",
+    "score": 4.554506,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-009-OSR-001#c0",
+    "resource_id": "DocumentReference/GLP1-009-OSR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-06-01",
+    "note_type": "Outside records (scanned)",
+    "text": "OUTSIDE RECORDS — SCANNED — 06/01/2025\nSource: Valley Medical Center ED, visit 05/28/2025\n55 y/o F, acute right flank pain radiating to groin, nausea. UA: moderate blood. CT: 4 mm right UVJ stone with mild hydronephrosis. Treated with IV fluids, ketorolac, ondansetron. Discharged with tamsulosin, strainer; stone passed 05/30 per callback. Urology follow-up PRN.",
+    "score": 2.074614,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-009-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-09-06",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 09/06/2025\nS: 55 y/o F, would like to lose weight; knees and back ache more, and she has gained steadily since menopause. Snacks late at night; frequent takeout since kids left home. Has a gym membership through retirement community center.\nO: Wt 83.9 kg, Ht 165 cm, BMI 30.8. BP 126/79.\nExam unremarkable.",
+    "score": 1.196722,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PHARM-001#c0",
+    "resource_id": "DocumentReference/GLP1-009-PHARM-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-10-13",
+    "note_type": "Pharmacist medication review",
+    "text": "PHARMACIST MEDICATION REVIEW — 10/13/2025\nPt asked about adding fish oil, glucosamine, and a \"sleep gummy\" (melatonin + L-theanine). No significant interactions with current meds (sertraline, omeprazole, cetirizine, sumatriptan, vitamin D, triamcinolone cream, ibuprofen PRN). Advised glucosamine evidence is limited; melatonin at lowest effective dose.",
+    "score": 2.345997,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-009-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2025-12-26",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 12/26/2025\nS: Follow-up. Continues the diet and gym plan started in September; tracking most days, gym 4–5 days/week. Good adherence most weeks; holidays a challenge.\nO: Wt 83.3 kg, BMI 30.6. BP 115/78.\nA/P:\n1. Obesity — continue program; RD follow-up in the new year.\n2. Anxiety — stable on sertraline.",
+    "score": 1.249497,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-009-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-009-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-06",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/06/2026\nS: Weight follow-up. Continues the diet and exercise plan and program follow-ups since September 2025. Tracking, cooking at home, gym most weekdays. Frustrated — weight 82.8 kg today vs 83.9 kg when the plan began (-1.3%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Postmenopausal.\nO: Wt 82.8 kg, BMI 30.4. BP 111/68.",
+    "score": 1.138993,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 12,
+  "n_notes": 10,
+  "tokens": {
+   "raw_chart": {
+    "structured": 7466,
+    "notes": 1149,
+    "total": 8615
+   },
+   "retrieved_evidence": 1099,
+   "structured_features": 1750,
+   "profile_total": 5627
+  }
+ }
+}

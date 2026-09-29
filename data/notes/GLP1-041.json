@@ -1,0 +1,21 @@
+{
+  "patient_id": "GLP1-041",
+  "notes": {
+    "GLP1-041-TEL-001": "TELEPHONE ENCOUNTER — 10/18/2024\n\nPt confirmed lab appointment 10/22 at 7:50 AM. Fasting 10–12 hours, water only; take sertraline after the draw. Understood.\n",
+    "GLP1-041-MSG-001": "PATIENT PORTAL MESSAGE — 11/28/2024\n\nPt: \"Joining a gym — they need my immunization record for the membership paperwork.\"\nMA reply: Record uploaded.\n",
+    "GLP1-041-LAB-001": "LAB RESULT NOTE — 02/17/2025\n\n25-OH vitamin D 33 ng/mL — normal on supplement. Continue vitamin D3 2000 IU daily.\n",
+    "GLP1-041-TEL-002": "TELEPHONE ENCOUNTER — 03/28/2025\n\nRefill: cetirizine 10 mg daily PRN for spring allergies. Sent to pharmacy.\n",
+    "GLP1-041-MSG-002": "PATIENT PORTAL MESSAGE — 05/05/2025\n\nPt: \"Going to Guatemala for a volunteer trip in July. What do I need?\"\nRN reply: Hepatitis A, typhoid; consider rabies pre-exposure if working with animals; malaria prophylaxis depends on region. Book a travel visit.\n",
+    "GLP1-041-LAB-002": "LAB RESULT NOTE — 05/10/2025\n\nCBC and CMP within normal limits. No action needed.\n",
+    "GLP1-041-MSG-003": "PATIENT PORTAL MESSAGE — 08/18/2025\n\nPt: \"Can I reschedule? And I need a work note for 8/15 — migraine.\"\nMA reply: Rescheduled to 09/02. Note uploaded.\n",
+    "GLP1-041-OSR-001": "OUTSIDE RECORDS — SCANNED — 08/26/2025\nSource: Community Hospital ED, visit 08/22/2025\n\n33 y/o F, left flank pain, nausea. CT: 3 mm left UVJ stone. Ketorolac, tamsulosin; passed 08/24. Urology PRN.\n",
+    "GLP1-041-OSR-002": "OUTSIDE RECORDS — SCANNED — 12/05/2025\nSource: Willow Dental\n\nClearance for extraction #1. No anticoagulants. Cleared, no restrictions.\n",
+    "GLP1-041-PCP-001": "PRIMARY CARE PROGRESS NOTE\nDate: 12/19/2025\n\nS: 34 y/o F wants to lose weight; back pain and reflux worse with weight gain. Large portions at dinner, snacks at work.\n\nO: Wt 93.1 kg, Ht 175 cm, BMI 30.4. BP 122/68.\nExam unremarkable.\n\nA/P:\n1. Obesity, BMI 30.4 — plan starting today:\n - Portion-controlled plate method with a daily food diary, ~1600 kcal/day.\n - Stationary bike 30–40 minutes 4 days a week.\n - Referred to a dietitian-led weight management program.\n Follow-up visits planned.\n2. GERD — continue omeprazole.\n",
+    "GLP1-041-PHARM-001": "PHARMACIST MEDICATION REVIEW — 01/05/2026\n\nPt asked about apple cider vinegar capsules and a fiber supplement. No interactions; take fiber 2 hours apart from other medications. ACV may worsen reflux.\n",
+    "GLP1-041-NUTR-001": "NUTRITION CONSULT — INITIAL\nDate: 01/08/2026\n\nDietitian-led program intake. Food diary: large dinners, office snacks, sweetened lattes.\nPlan: plate method at ~1600 kcal/day, daily food diary; bring snacks from home; unsweetened coffee.\nActivity: stationary bike 30–40 min 4 days/week.\nRD follow-up 6–8 weeks.\n",
+    "GLP1-041-PCP-002": "PRIMARY CARE PROGRESS NOTE\nDate: 03/04/2026\n\nS: Follow-up. Continues the plate-method diet and bike routine started in December; diary most days. Good adherence most weeks.\n\nO: Wt 92.8 kg, BMI 30.3. BP 123/73.\n\nA/P:\n1. Obesity — continue program.\n",
+    "GLP1-041-LAB-003": "LAB RESULT NOTE — 03/24/2026\n\nFasting lipid panel reviewed: LDL 104, HDL 64, TG 91 mg/dL — acceptable. Pt had black coffee only — fine. For future draws continue to fast 10–12 hours. No action needed.\n",
+    "GLP1-041-NUTR-002": "NUTRITION FOLLOW-UP\nDate: 05/30/2026\n\nFood diary reviewed: adherent most days.\nAdjustments: add vegetables at lunch; plan for summer barbecues.\nReports keeping up with the bike 4 days/week.\nContinue program.\n",
+    "GLP1-041-PCP-003": "PRIMARY CARE PROGRESS NOTE\nDate: 08/19/2026\n\nS: Follow-up. Continues the diet and exercise plan and dietitian follow-ups since December. Frustrated — weight 91.3 kg today vs 93.1 kg when the lifestyle plan began (-1.9%) despite reported adherence. Asks about medication. No MTC/MEN2 history, no pancreatitis. Uses IUD.\n\nO: Wt 91.3 kg, Ht 175 cm, BMI 29.8. BP 117/68.\n\nA/P:\n1. Weight management, BMI 29.8 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.\n2. Low back pain — stable.\n"
+  }
+}

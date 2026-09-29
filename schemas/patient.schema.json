@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Synthetic GLP-1 PA Patient Truth",
+  "type": "object",
+  "required": [
+    "patient_id",
+    "request",
+    "demographics",
+    "anthropometrics",
+    "clinical_truth",
+    "benchmark_design"
+  ]
+}

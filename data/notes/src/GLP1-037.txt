@@ -1,0 +1,109 @@
+=== GLP1-037-ORTH-001
+ORTHOPEDICS — 09/12/2024
+
+40 y/o F, left shoulder pain with overhead reaching x 3 months. Positive impingement signs, cuff strength intact.
+Dx: left shoulder impingement. Subacromial injection; home exercise program for rotator cuff 5x/week. Follow-up 6 weeks.
+
+=== GLP1-037-LAB-001
+LAB RESULT NOTE — 12/15/2024
+
+TSH 2.16 mIU/L — within normal limits. No thyroid follow-up needed.
+
+=== GLP1-037-TEL-001
+TELEPHONE ENCOUNTER — 02/02/2025
+
+Pt asked about her lab appointment and fasting. Confirmed 02/05 at 8:10 AM; fast 10–12 hours with water only. Understood.
+
+=== GLP1-037-MSG-001
+PATIENT PORTAL MESSAGE — 02/16/2025
+
+Pt: "Trip to Egypt in April — do I need vaccines?"
+RN reply: Hepatitis A and typhoid recommended; rabies pre-exposure only for high-risk activities. Book a nurse visit.
+
+=== GLP1-037-LAB-002
+LAB RESULT NOTE — 05/21/2025
+
+25-OH vitamin D 33 ng/mL — normal. No supplement needed.
+
+=== GLP1-037-PHARM-001
+PHARMACIST MEDICATION REVIEW — 06/16/2025
+
+Pt asked about magnesium and melatonin for sleep. No interactions with sertraline or omeprazole (long-term omeprazole can lower magnesium — supplement reasonable). OK to use.
+
+=== GLP1-037-OSR-001
+OUTSIDE RECORDS — SCANNED — 08/06/2025
+Source: Fairview ED, visit 08/02/2025
+
+41 y/o F, right flank pain radiating to groin. CT: 4 mm right UVJ stone. Ketorolac, tamsulosin. Passed stone 08/04. Urology PRN.
+
+=== GLP1-037-ORTH-002
+ORTHOPEDICS — 11/15/2025
+
+41 y/o F missed a step, inverted right ankle. Lateral swelling; Ottawa negative.
+Dx: R ankle sprain. CAM boot, weight-bearing as tolerated in boot, ice/elevation; rehab exercises at 2 weeks.
+
+=== GLP1-037-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 01/02/2026
+
+S: 42 y/o F wants to lose weight in the new year; ankle healed. Evening snacking and takeout. Employer offers a weight management program with coaching.
+
+O: Wt 98.0 kg, Ht 165 cm, BMI 36.0. BP 114/74.
+Exam unremarkable.
+
+A/P:
+1. Obesity, BMI 36.0 — plan starting today:
+ - Calorie tracking, ~1400 kcal/day; cut late-night snacking and takeout.
+ - Gym sessions (treadmill + light weights) 3 days a week, ~150 min/week.
+ - Enrolling in the employer-sponsored weight management program with monthly coaching.
+ Follow-up visits planned.
+2. Anxiety — stable on sertraline.
+3. GERD — stable.
+
+=== GLP1-037-MSG-002
+PATIENT PORTAL MESSAGE — 03/31/2026
+
+Pt: "Just letting you know I stopped going to the weight program and stopped the meal plan this month — my mom had surgery and I'm taking care of her. I'll try to get back to it later."
+Reply (RN): Sorry to hear about your mom. Let us know when you're ready to restart; we can reconnect you with the program.
+
+=== GLP1-037-OSR-002
+OUTSIDE RECORDS — SCANNED — 06/27/2026
+Source: Lakeview Dental
+
+Clearance for crown #20. No anticoagulants. Cleared without restrictions.
+
+=== GLP1-037-PCP-002
+PRIMARY CARE PROGRESS NOTE
+Date: 07/01/2026
+
+S: Follow-up. Mother recovering. Ready to get back on track — restarting the diet and walking plan today after a ~3-month break (walking instead of the gym for now, 30 min most days; calorie tracking again). Will rejoin program coaching.
+
+O: Wt 95.8 kg, BMI 35.2. BP 111/73.
+
+A/P:
+1. Obesity — restarting lifestyle plan; program re-referral sent.
+2. Anxiety — stable, some caregiver stress; counseling resources given.
+
+=== GLP1-037-MSG-003
+PATIENT PORTAL MESSAGE — 08/21/2026
+
+Pt: "Can my appointment next week be moved to the afternoon? Also need a work note for the 28th."
+MA reply: Moved to 08/28 at 3:20 PM; work note will be available after the visit.
+
+=== GLP1-037-MSG-004
+PATIENT PORTAL MESSAGE — 08/25/2026
+
+Pt: "Joining a gym again — they need my immunization record for the membership paperwork."
+MA reply: Record uploaded to documents.
+
+=== GLP1-037-PCP-003
+PRIMARY CARE PROGRESS NOTE
+Date: 08/28/2026
+
+S: Follow-up. Back on the diet and walking plan since July; tracking most days and back in program coaching. Weight 95.0 kg today vs 98.0 kg when she first started the lifestyle plan in January (-3.1%). Frustrated with slow progress. Asks about medication. No MTC/MEN2 history, no pancreatitis.
+
+O: Wt 95.0 kg, BMI 34.9. BP 117/80.
+
+A/P:
+1. Obesity, BMI 34.9 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue diet and walking. Recheck in 3 months.
+2. Anxiety — stable.

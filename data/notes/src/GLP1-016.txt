@@ -1,0 +1,66 @@
+=== GLP1-016-IMM-001
+IMMUNIZATION / NURSE VISIT — 03/30/2025
+
+Late-season influenza vaccine requested (missed fall dose). Vitals: Wt 87.1 kg, BMI 32.0, BP 123/74.
+Influenza vaccine 0.5 mL IM L deltoid. VIS given. No reaction after 15 minutes.
+
+=== GLP1-016-TEL-001
+TELEPHONE ENCOUNTER — 04/10/2025
+
+Pt called about spring itching/rash flare on forearms (eczema) — asks for "the allergy cream" refill. Refill of triamcinolone 0.1% cream sent to pharmacy. Advised OTC cetirizine at night if itching disrupts sleep. Call if rash spreads or weeps.
+
+=== GLP1-016-MSG-001
+PATIENT PORTAL MESSAGE — 05/09/2025
+
+Pt: "Can I move my derm appointment? And I need a work note for leaving early on 5/7 for my migraine."
+MA reply: Dermatology moved to 05/12 at 11:00 AM. Work note uploaded.
+
+=== GLP1-016-DERM-001
+DERMATOLOGY CONSULT — 05/12/2025
+
+33 y/o M with itchy, stuck-on brown lesion on lower back catching on belt. Vitals: Wt 87.3 kg, BMI 32.1, BP 111/75.
+Dermoscopy: seborrheic keratosis. Other nevi benign-appearing. Hand eczema mild.
+Plan: reassurance; LN2 cryotherapy to irritated lesion. Continue triamcinolone PRN for eczema. Full skin check in 2 years.
+
+=== GLP1-016-UC-001
+URGENT CARE — 05/31/2025
+
+33 y/o M with dysuria and urgency x 2 days. No fever, no flank pain, no discharge. UA: + LE, + nitrite. Culture sent.
+Dx: acute cystitis. Nitrofurantoin 100 mg BID x 7 days. PCP follow-up to discuss further evaluation (male UTI).
+
+=== GLP1-016-TEL-002
+TELEPHONE ENCOUNTER — 07/01/2025
+
+Pt confirmed lab appointment for 07/03 at 7:15 AM. Fasting 10–12 hours before draw for lipid panel; water OK, take morning sertraline and omeprazole. Understood.
+
+=== GLP1-016-MSG-002
+PATIENT PORTAL MESSAGE — 11/07/2025
+
+Pt: "Heading to Colombia over the holidays — Bogotá and Cartagena. Anything I need?"
+RN reply: Hepatitis A and typhoid recommended; yellow fever vaccine depends on itinerary (not needed for Bogotá/Cartagena alone). Mosquito precautions on the coast. Please schedule a travel visit.
+
+=== GLP1-016-LAB-001
+LAB RESULT NOTE — 02/21/2026
+
+Fasting lipid panel reviewed — patient reports he only fasted ~6 hours; triglycerides mildly elevated likely nonfasting. Please repeat with a 10–12 hour fast (water OK). Other values unremarkable. Message sent.
+
+=== GLP1-016-UC-002
+URGENT CARE — 06/16/2026
+
+35 y/o M, 10 days of sinus congestion, facial pressure, discolored drainage, now worsening with low-grade fever.
+Exam: maxillary tenderness, purulent drainage; lungs clear.
+Dx: acute bacterial sinusitis. Amoxicillin-clavulanate 875/125 mg BID x 7 days, saline rinses.
+
+=== GLP1-016-PCP-001
+PRIMARY CARE PROGRESS NOTE
+Date: 08/22/2026
+
+S: 35 y/o M here to discuss his weight and medication options. Bothered by reflux at night and low back pain. Asks specifically about Wegovy — coworker has had good results. No personal/family hx MTC or MEN2, no pancreatitis, no gallbladder disease.
+
+O: Wt 87.1 kg, Ht 165 cm, BMI 32.0. BP 108/68, HR 72.
+Exam: CV/lungs normal, abdomen benign.
+
+A/P:
+1. Obesity, BMI 32.0 — Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration from 0.25 mg. Counseled on nausea, constipation, hydration, and to call with severe abdominal pain. Recheck in 3 months.
+2. GERD — continue omeprazole; raise head of bed.
+3. Low back pain — stable, ibuprofen PRN sparingly.

@@ -1,0 +1,658 @@
+{
+  "patient_id": "GLP1-010",
+  "index_date": "2026-09-01",
+  "patient": {
+    "id": "GLP1-010",
+    "given": "David",
+    "family": "Foster",
+    "gender": "male",
+    "birthDate": "1997-11-21"
+  },
+  "conditions": [
+    {
+      "id": "GLP1-010-HTN",
+      "code": "38341003",
+      "display": "Hypertensive disorder",
+      "clinical_status": "active",
+      "onset": "2023-08-28"
+    },
+    {
+      "id": "GLP1-010-OBESITY",
+      "code": "414916001",
+      "display": "Obesity",
+      "clinical_status": "active",
+      "onset": "2024-12-05"
+    },
+    {
+      "id": "GLP1-010-MIGRAINE",
+      "code": "37796009",
+      "display": "Migraine",
+      "clinical_status": "active",
+      "onset": "2015-11-04"
+    },
+    {
+      "id": "GLP1-010-ECZEMA",
+      "code": "43116000",
+      "display": "Eczema",
+      "clinical_status": "active",
+      "onset": "2018-10-03"
+    },
+    {
+      "id": "GLP1-010-VITD",
+      "code": "34713006",
+      "display": "Vitamin D deficiency",
+      "clinical_status": "active",
+      "onset": "2018-04-17"
+    },
+    {
+      "id": "GLP1-010-GERD",
+      "code": "235595009",
+      "display": "Gastroesophageal reflux disease",
+      "clinical_status": "active",
+      "onset": "2021-11-24"
+    },
+    {
+      "id": "GLP1-010-ALLERGY",
+      "code": "367498001",
+      "display": "Seasonal allergic rhinitis",
+      "clinical_status": "active",
+      "onset": "2016-12-06"
+    }
+  ],
+  "observations": [
+    {
+      "id": "GLP1-010-HT-2024-10-17",
+      "key": "HT",
+      "date": "2024-10-17",
+      "value": 168,
+      "encounter_id": "GLP1-010-ENC-2024-10-17"
+    },
+    {
+      "id": "GLP1-010-WT-2024-10-17",
+      "key": "WT",
+      "date": "2024-10-17",
+      "value": 122.2,
+      "encounter_id": "GLP1-010-ENC-2024-10-17"
+    },
+    {
+      "id": "GLP1-010-BMI-2024-10-17",
+      "key": "BMI",
+      "date": "2024-10-17",
+      "value": 43.3,
+      "encounter_id": "GLP1-010-ENC-2024-10-17"
+    },
+    {
+      "id": "GLP1-010-BP-2024-10-17",
+      "key": "BP",
+      "date": "2024-10-17",
+      "systolic": 140,
+      "diastolic": 88,
+      "encounter_id": "GLP1-010-ENC-2024-10-17"
+    },
+    {
+      "id": "GLP1-010-WT-2025-06-14",
+      "key": "WT",
+      "date": "2025-06-14",
+      "value": 122.8,
+      "encounter_id": "GLP1-010-ENC-2025-06-14"
+    },
+    {
+      "id": "GLP1-010-BMI-2025-06-14",
+      "key": "BMI",
+      "date": "2025-06-14",
+      "value": 43.5,
+      "encounter_id": "GLP1-010-ENC-2025-06-14"
+    },
+    {
+      "id": "GLP1-010-BP-2025-06-14",
+      "key": "BP",
+      "date": "2025-06-14",
+      "systolic": 132,
+      "diastolic": 79,
+      "encounter_id": "GLP1-010-ENC-2025-06-14"
+    },
+    {
+      "id": "GLP1-010-WT-2025-09-26",
+      "key": "WT",
+      "date": "2025-09-26",
+      "value": 121.8,
+      "encounter_id": "GLP1-010-ENC-2025-09-26"
+    },
+    {
+      "id": "GLP1-010-BMI-2025-09-26",
+      "key": "BMI",
+      "date": "2025-09-26",
+      "value": 43.2,
+      "encounter_id": "GLP1-010-ENC-2025-09-26"
+    },
+    {
+      "id": "GLP1-010-BP-2025-09-26",
+      "key": "BP",
+      "date": "2025-09-26",
+      "systolic": 137,
+      "diastolic": 86,
+      "encounter_id": "GLP1-010-ENC-2025-09-26"
+    },
+    {
+      "id": "GLP1-010-WT-2026-08-14",
+      "key": "WT",
+      "date": "2026-08-14",
+      "value": 119.4,
+      "encounter_id": "GLP1-010-ENC-2026-08-14"
+    },
+    {
+      "id": "GLP1-010-BMI-2026-08-14",
+      "key": "BMI",
+      "date": "2026-08-14",
+      "value": 42.3,
+      "encounter_id": "GLP1-010-ENC-2026-08-14"
+    },
+    {
+      "id": "GLP1-010-BP-2026-08-14",
+      "key": "BP",
+      "date": "2026-08-14",
+      "systolic": 135,
+      "diastolic": 81,
+      "encounter_id": "GLP1-010-ENC-2026-08-14"
+    },
+    {
+      "id": "GLP1-010-A1C-2024-10-17",
+      "key": "A1C",
+      "date": "2024-10-17",
+      "value": 5.2,
+      "encounter_id": "GLP1-010-ENC-2024-10-17"
+    },
+    {
+      "id": "GLP1-010-LDL-2024-10-17",
+      "key": "LDL",
+      "date": "2024-10-17",
+      "value": 124,
+      "encounter_id": "GLP1-010-ENC-2024-10-17"
+    },
+    {
+      "id": "GLP1-010-HDL-2024-10-17",
+      "key": "HDL",
+      "date": "2024-10-17",
+      "value": 57,
+      "encounter_id": "GLP1-010-ENC-2024-10-17"
+    },
+    {
+      "id": "GLP1-010-TG-2024-10-17",
+      "key": "TG",
+      "date": "2024-10-17",
+      "value": 135,
+      "encounter_id": "GLP1-010-ENC-2024-10-17"
+    }
+  ],
+  "medications": [
+    {
+      "id": "GLP1-010-LISINOPRIL",
+      "resourceType": "MedicationRequest",
+      "text": "lisinopril 10 mg PO daily",
+      "status": "active",
+      "intent": "order",
+      "authoredOn": "2023-06-10"
+    },
+    {
+      "id": "GLP1-010-SUMATRIPTAN",
+      "resourceType": "MedicationRequest",
+      "text": "sumatriptan 50 mg PO PRN migraine",
+      "status": "active",
+      "intent": "order",
+      "authoredOn": "2021-02-15"
+    },
+    {
+      "id": "GLP1-010-TRIAMCINOLON",
+      "resourceType": "MedicationRequest",
+      "text": "triamcinolone 0.1% cream BID PRN",
+      "status": "active",
+      "intent": "order",
+      "authoredOn": "2025-05-05"
+    },
+    {
+      "id": "GLP1-010-VITAMIN",
+      "resourceType": "MedicationStatement",
+      "text": "vitamin D3 2000 IU PO daily",
+      "status": "active",
+      "effective_start": "2020-02-01",
+      "dateAsserted": "2026-01-15"
+    },
+    {
+      "id": "GLP1-010-OMEPRAZOLE",
+      "resourceType": "MedicationRequest",
+      "text": "omeprazole 20 mg PO daily",
+      "status": "active",
+      "intent": "order",
+      "authoredOn": "2023-03-25"
+    },
+    {
+      "id": "GLP1-010-CETIRIZINE",
+      "resourceType": "MedicationStatement",
+      "text": "cetirizine 10 mg PO daily PRN",
+      "status": "active",
+      "effective_start": "2023-08-01",
+      "dateAsserted": "2026-01-15"
+    },
+    {
+      "id": "GLP1-010-WEGOVY-REQ",
+      "resourceType": "MedicationRequest",
+      "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+      "status": "draft",
+      "intent": "order",
+      "authoredOn": "2026-08-14",
+      "requested_drug": true
+    }
+  ],
+  "encounters": [
+    {
+      "id": "GLP1-010-ENC-2024-10-06",
+      "date": "2024-10-06",
+      "type": "Urgent care visit",
+      "setting": "UC"
+    },
+    {
+      "id": "GLP1-010-ENC-2024-10-17",
+      "date": "2024-10-17",
+      "type": "Annual physical exam",
+      "setting": "APE"
+    },
+    {
+      "id": "GLP1-010-ENC-2025-06-14",
+      "date": "2025-06-14",
+      "type": "Primary care progress note",
+      "setting": "PCP"
+    },
+    {
+      "id": "GLP1-010-ENC-2025-07-08",
+      "date": "2025-07-08",
+      "type": "Nutrition / dietitian note",
+      "setting": "NUTR"
+    },
+    {
+      "id": "GLP1-010-ENC-2025-09-26",
+      "date": "2025-09-26",
+      "type": "Primary care progress note",
+      "setting": "PCP"
+    },
+    {
+      "id": "GLP1-010-ENC-2026-01-14",
+      "date": "2026-01-14",
+      "type": "Nutrition / dietitian note",
+      "setting": "NUTR"
+    },
+    {
+      "id": "GLP1-010-ENC-2026-08-14",
+      "date": "2026-08-14",
+      "type": "Primary care progress note",
+      "setting": "PCP"
+    }
+  ],
+  "notes": [
+    {
+      "doc_id": "GLP1-010-UC-001",
+      "date": "2024-10-06",
+      "setting": "UC",
+      "note_type": "Urgent care visit",
+      "doc_type_loinc": "11506-3",
+      "doc_type_display": "Progress note",
+      "author_role": "Urgent care NP",
+      "encounter_id": "GLP1-010-ENC-2024-10-06",
+      "role": "distractor",
+      "trap": true,
+      "length": "medium",
+      "vitals": null,
+      "facts_to_express": [
+        "Exercise-induced bronchospasm while jogging in cold air; albuterol before exertion.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-010-APE-001",
+      "date": "2024-10-17",
+      "setting": "APE",
+      "note_type": "Annual physical exam",
+      "doc_type_loinc": "34117-2",
+      "doc_type_display": "History and physical note",
+      "author_role": "Primary care physician",
+      "encounter_id": "GLP1-010-ENC-2024-10-17",
+      "role": "distractor",
+      "trap": false,
+      "length": "medium",
+      "vitals": {
+        "weight_kg": 122.2,
+        "bmi": 43.3,
+        "bp": "140/88",
+        "height_cm": 168
+      },
+      "facts_to_express": [
+        "Annual physical: age-appropriate screening, vaccines reviewed, no acute complaints.",
+        "Do NOT discuss diet, exercise, or weight-loss plans beyond recording vitals.",
+        "Hypertension: BP 140/88 on lisinopril 10 mg PO daily; continue."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-010-MSG-001",
+      "date": "2025-06-10",
+      "setting": "MSG",
+      "note_type": "Patient portal message",
+      "doc_type_loinc": "34109-9",
+      "doc_type_display": "Note",
+      "author_role": "Patient / MA reply",
+      "encounter_id": null,
+      "role": "distractor",
+      "trap": false,
+      "length": "short",
+      "vitals": null,
+      "facts_to_express": [
+        "Portal message asking to reschedule appointment and for a work note.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-010-PCP-001",
+      "date": "2025-06-14",
+      "setting": "PCP",
+      "note_type": "Primary care progress note",
+      "doc_type_loinc": "11506-3",
+      "doc_type_display": "Progress note",
+      "author_role": "Primary care physician",
+      "encounter_id": "GLP1-010-ENC-2025-06-14",
+      "role": "program_start",
+      "trap": false,
+      "length": "medium",
+      "vitals": {
+        "weight_kg": 122.8,
+        "bmi": 43.5,
+        "bp": "132/79",
+        "height_cm": 168
+      },
+      "facts_to_express": [
+        "Weight 122.8 kg today; patient wants to work on weight.",
+        "Starting today: Mediterranean-style reduced-calorie diet, cutting sugar-sweetened drinks, target ~1800 kcal/day.",
+        "Activity plan: stationary bike 30\u201340 minutes 4 days a week.",
+        "Enrolled in / referred to the clinic's Healthy Weight lifestyle program; follow-up visits planned."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-010-NUTR-001",
+      "date": "2025-07-08",
+      "setting": "NUTR",
+      "note_type": "Nutrition / dietitian note",
+      "doc_type_loinc": "11488-4",
+      "doc_type_display": "Consult note",
+      "author_role": "Registered dietitian",
+      "encounter_id": "GLP1-010-ENC-2025-07-08",
+      "role": "program_nutrition",
+      "trap": false,
+      "length": "medium",
+      "vitals": null,
+      "facts_to_express": [
+        "Initial dietitian visit: reviewed food log, set plan \u2014 Mediterranean-style reduced-calorie diet, cutting sugar-sweetened drinks, target ~1800 kcal/day.",
+        "Reinforced activity goal: stationary bike 30\u201340 minutes 4 days a week."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-010-PCP-002",
+      "date": "2025-09-26",
+      "setting": "PCP",
+      "note_type": "Primary care progress note",
+      "doc_type_loinc": "11506-3",
+      "doc_type_display": "Progress note",
+      "author_role": "Primary care physician",
+      "encounter_id": "GLP1-010-ENC-2025-09-26",
+      "role": "program_followup",
+      "trap": false,
+      "length": "medium",
+      "vitals": {
+        "weight_kg": 121.8,
+        "bmi": 43.2,
+        "bp": "137/86",
+        "height_cm": 168
+      },
+      "facts_to_express": [
+        "Weight 121.8 kg.",
+        "Continues the diet and activity plan started earlier; reports good adherence most weeks."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-010-LAB-001",
+      "date": "2025-10-10",
+      "setting": "LAB",
+      "note_type": "Lab result follow-up",
+      "doc_type_loinc": "34109-9",
+      "doc_type_display": "Note",
+      "author_role": "Primary care physician",
+      "encounter_id": null,
+      "role": "distractor",
+      "trap": false,
+      "length": "short",
+      "vitals": null,
+      "facts_to_express": [
+        "CBC and CMP within normal limits; no action needed.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-010-NUTR-002",
+      "date": "2026-01-14",
+      "setting": "NUTR",
+      "note_type": "Nutrition / dietitian note",
+      "doc_type_loinc": "11488-4",
+      "doc_type_display": "Consult note",
+      "author_role": "Registered dietitian",
+      "encounter_id": "GLP1-010-ENC-2026-01-14",
+      "role": "program_nutrition",
+      "trap": false,
+      "length": "medium",
+      "vitals": null,
+      "facts_to_express": [
+        "Dietitian follow-up: food log reviewed, adherent most days; small adjustments to snacks/portions.",
+        "Reports keeping up with activity plan."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-010-OSR-001",
+      "date": "2026-03-10",
+      "setting": "OSR",
+      "note_type": "Outside records (scanned)",
+      "doc_type_loinc": "34109-9",
+      "doc_type_display": "Note",
+      "author_role": "Outside clinic",
+      "encounter_id": null,
+      "role": "distractor",
+      "trap": false,
+      "length": "medium",
+      "vitals": null,
+      "facts_to_express": [
+        "Outside emergency department records: kidney stone, passed spontaneously; urology follow-up PRN.",
+        "Unrelated to weight management; do NOT mention weight-loss plans."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-010-TEL-001",
+      "date": "2026-04-28",
+      "setting": "TEL",
+      "note_type": "Telephone encounter",
+      "doc_type_loinc": "34109-9",
+      "doc_type_display": "Note",
+      "author_role": "RN, primary care",
+      "encounter_id": null,
+      "role": "program_followup",
+      "trap": false,
+      "length": "short",
+      "vitals": null,
+      "facts_to_express": [
+        "Continues the diet and activity plan started earlier; reports good adherence most weeks."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    },
+    {
+      "doc_id": "GLP1-010-PCP-003",
+      "date": "2026-08-14",
+      "setting": "PCP",
+      "note_type": "Primary care progress note",
+      "doc_type_loinc": "11506-3",
+      "doc_type_display": "Progress note",
+      "author_role": "Primary care physician",
+      "encounter_id": "GLP1-010-ENC-2026-08-14",
+      "role": "final_request",
+      "trap": false,
+      "length": "medium",
+      "vitals": {
+        "weight_kg": 119.4,
+        "bmi": 42.3,
+        "bp": "135/81",
+        "height_cm": 168
+      },
+      "facts_to_express": [
+        "Continues the diet and exercise plan; attends program follow-ups.",
+        "Weight 119.4 kg vs 122.8 kg when the lifestyle plan began (-2.8% change) despite reported adherence; frustrated with plateau.",
+        "Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counsel on GI side effects; recheck in 3 months.",
+        "Hypertension: BP 135/81 on lisinopril 10 mg PO daily; continue."
+      ],
+      "must_not_say": [
+        "meets criteria",
+        "meets the criteria",
+        "satisfies",
+        "qualifies",
+        "prior authorization",
+        "insurance requirement",
+        "6-month requirement",
+        "six-month requirement",
+        "criterion",
+        "eligible for coverage",
+        "documented for PA"
+      ]
+    }
+  ],
+  "generator_notes": []
+}

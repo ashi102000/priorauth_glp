@@ -1,0 +1,463 @@
+{
+ "patient_id": "GLP1-039",
+ "policy_id": "AETNA_WEGOVY_4774C_2026_08_20",
+ "request": {
+  "drug": "Wegovy (semaglutide 2.4 mg injection)",
+  "indication": "chronic_weight_management",
+  "request_type": "initial",
+  "request_date": "2026-09-01"
+ },
+ "structured": {
+  "demographics": {
+   "birth_date": "1970-06-29",
+   "age": 56,
+   "gender": "female"
+  },
+  "bmi": {
+   "latest": {
+    "resource_id": "Observation/GLP1-039-BMI-2026-08-09",
+    "date": "2026-08-09",
+    "value": 33.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-039-BMI-2025-11-09",
+     "date": "2025-11-09",
+     "value": 33.7
+    },
+    {
+     "resource_id": "Observation/GLP1-039-BMI-2026-02-14",
+     "date": "2026-02-14",
+     "value": 33.5
+    },
+    {
+     "resource_id": "Observation/GLP1-039-BMI-2026-08-09",
+     "date": "2026-08-09",
+     "value": 33.0
+    }
+   ]
+  },
+  "weight": {
+   "latest": {
+    "resource_id": "Observation/GLP1-039-WT-2026-08-09",
+    "date": "2026-08-09",
+    "value": 95.4
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-039-WT-2025-11-09",
+     "date": "2025-11-09",
+     "value": 97.5
+    },
+    {
+     "resource_id": "Observation/GLP1-039-WT-2026-02-14",
+     "date": "2026-02-14",
+     "value": 96.9
+    },
+    {
+     "resource_id": "Observation/GLP1-039-WT-2026-08-09",
+     "date": "2026-08-09",
+     "value": 95.4
+    }
+   ]
+  },
+  "height": {
+   "resource_id": "Observation/GLP1-039-HT-2025-11-09",
+   "date": "2025-11-09",
+   "value": 170.0
+  },
+  "blood_pressure": {
+   "latest": {
+    "resource_id": "Observation/GLP1-039-BP-2026-08-09",
+    "date": "2026-08-09",
+    "systolic": 142.0,
+    "diastolic": 86.0
+   },
+   "history": [
+    {
+     "resource_id": "Observation/GLP1-039-BP-2025-11-09",
+     "date": "2025-11-09",
+     "systolic": 142.0,
+     "diastolic": 85.0
+    },
+    {
+     "resource_id": "Observation/GLP1-039-BP-2026-02-14",
+     "date": "2026-02-14",
+     "systolic": 126.0,
+     "diastolic": 78.0
+    },
+    {
+     "resource_id": "Observation/GLP1-039-BP-2026-08-09",
+     "date": "2026-08-09",
+     "systolic": 142.0,
+     "diastolic": 86.0
+    }
+   ]
+  },
+  "labs": {
+   "a1c": {
+    "resource_id": "Observation/GLP1-039-A1C-2025-11-09",
+    "date": "2025-11-09",
+    "value": 5.0
+   },
+   "ldl": null,
+   "hdl": null,
+   "tg": null
+  },
+  "conditions": [
+   {
+    "resource_id": "Condition/GLP1-039-ANX",
+    "display": "Anxiety disorder",
+    "clinical_status": "active",
+    "onset": "2018-12-23",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-039-ECZEMA",
+    "display": "Eczema",
+    "clinical_status": "active",
+    "onset": "2024-11-04",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-039-GERD",
+    "display": "Gastroesophageal reflux disease",
+    "clinical_status": "active",
+    "onset": "2020-12-15",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-039-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2019-11-09",
+    "abatement": null,
+    "weight_related": true
+   },
+   {
+    "resource_id": "Condition/GLP1-039-LBP",
+    "display": "Low back pain",
+    "clinical_status": "active",
+    "onset": "2021-09-07",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-039-MIGRAINE",
+    "display": "Migraine",
+    "clinical_status": "active",
+    "onset": "2024-07-04",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-039-OBESITY",
+    "display": "Obesity",
+    "clinical_status": "active",
+    "onset": "2024-05-02",
+    "abatement": null,
+    "weight_related": false
+   },
+   {
+    "resource_id": "Condition/GLP1-039-VITD",
+    "display": "Vitamin D deficiency",
+    "clinical_status": "active",
+    "onset": "2020-02-03",
+    "abatement": null,
+    "weight_related": false
+   }
+  ],
+  "weight_related_conditions": [
+   {
+    "resource_id": "Condition/GLP1-039-HTN",
+    "display": "Hypertensive disorder",
+    "clinical_status": "active",
+    "onset": "2019-11-09",
+    "abatement": null,
+    "weight_related": true
+   }
+  ],
+  "medications": [
+   {
+    "resource_id": "MedicationRequest/GLP1-039-TRIAMCINOLON",
+    "resource_type": "MedicationRequest",
+    "text": "triamcinolone 0.1% cream BID PRN",
+    "status": "active",
+    "date": "2021-03-26",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-039-SUMATRIPTAN",
+    "resource_type": "MedicationRequest",
+    "text": "sumatriptan 50 mg PO PRN migraine",
+    "status": "active",
+    "date": "2021-10-24",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-039-LOSARTAN",
+    "resource_type": "MedicationRequest",
+    "text": "losartan 50 mg PO daily",
+    "status": "active",
+    "date": "2023-06-01",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-039-WEGOVY-2023",
+    "resource_type": "MedicationStatement",
+    "text": "Wegovy (semaglutide) 1.7 mg SC once weekly",
+    "status": "active",
+    "date": "2024-01-09",
+    "anti_obesity": true
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-039-SERTRALINE",
+    "resource_type": "MedicationRequest",
+    "text": "sertraline 50 mg PO daily",
+    "status": "active",
+    "date": "2024-11-26",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationRequest/GLP1-039-OMEPRAZOLE",
+    "resource_type": "MedicationRequest",
+    "text": "omeprazole 20 mg PO daily",
+    "status": "active",
+    "date": "2025-10-12",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-039-IBUPROFEN",
+    "resource_type": "MedicationStatement",
+    "text": "ibuprofen 400 mg PO PRN pain",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   },
+   {
+    "resource_id": "MedicationStatement/GLP1-039-VITAMIN",
+    "resource_type": "MedicationStatement",
+    "text": "vitamin D3 2000 IU PO daily",
+    "status": "active",
+    "date": "2026-01-15",
+    "anti_obesity": false
+   }
+  ],
+  "anti_obesity_medications": [
+   {
+    "resource_id": "MedicationStatement/GLP1-039-WEGOVY-2023",
+    "resource_type": "MedicationStatement",
+    "text": "Wegovy (semaglutide) 1.7 mg SC once weekly",
+    "status": "active",
+    "date": "2024-01-09",
+    "anti_obesity": true
+   }
+  ],
+  "requested_order": {
+   "resource_id": "MedicationRequest/GLP1-039-WEGOVY-REQ",
+   "resource_type": "MedicationRequest",
+   "text": "Wegovy (semaglutide) 0.25 mg SC once weekly x4 weeks, then titrate per label to 2.4 mg weekly",
+   "status": "draft",
+   "date": "2026-08-09",
+   "anti_obesity": true,
+   "is_requested_order": true
+  }
+ },
+ "evidence": {
+  "adjunct_diet_and_activity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-039-ORTH-001#c0",
+    "resource_id": "DocumentReference/GLP1-039-ORTH-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-11-30",
+    "note_type": "Orthopedics consult",
+    "text": "ORTHOPEDICS — 11/30/2024\n54 y/o F, left shoulder pain reaching overhead and at night x 2 months. Painful arc, positive Hawkins, cuff strength 5/5.\nDx: left shoulder subacromial impingement. Corticosteroid injection; home exercise program for rotator cuff and scapular stabilizers daily; follow-up 6 weeks.",
+    "score": 5.397072,
+    "reason": "earliest_relevant"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-039-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-11-09",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 33.7 — plan starting today:\n - Calorie tracking, ~1500 kcal/day; cut late-night snacking and takeout.\n - Walking about 30 minutes 3 days a week.\n - Enrolled in the health system's 12-month lifestyle modification program.\n Follow-up visits planned.\n2. Hypertension: BP 142/85 on losartan 50 mg daily; continue, home log.\n3. Anxiety — stable on sertraline.",
+    "score": 18.037638,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-039-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-11-30",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 11/30/2025\nLifestyle program intake. Food log: takeout 3–4 nights, chips and cookies after 9 PM.\nPlan: calorie tracking at ~1500 kcal/day; cook 4 nights/week (simple recipes given); no eating after 8:30 PM; lower sodium for BP.\nActivity: walking ~30 min 3 days/week.\nRD follow-up 6 weeks.",
+    "score": 16.862087,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-039-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-14",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 02/14/2026\nS: Follow-up. Continues the calorie tracking and walking plan started in November; good adherence most weeks.\nO: Wt 96.9 kg, BMI 33.5. BP 126/78.\nA/P:\n1. Obesity — continue program.\n2. Hypertension: BP 126/78 on losartan 50 mg daily; continue.",
+    "score": 9.834271,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-039-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-05",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/05/2026\nFood log reviewed: adherent most days, ~1500 kcal; cooking at home most nights.\nAdjustments: protein at breakfast; swap evening snack for yogurt.\nReports keeping up with walking.\nContinue program.",
+    "score": 13.777021,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-039-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-09",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/09/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since November. Frustrated — weight 95.4 kg today vs 97.5 kg when the lifestyle plan began (-2.2%) despite reported adherence. Asks about medication.\nCurrent medications reviewed with patient: losartan 50 mg daily, triamcinolone 0.1% cream BID PRN, omeprazole 20 mg daily, vitamin D3 2000 IU daily, sertraline 50 mg daily, ibuprofen 400 mg PRN pain, sumatriptan 50 mg PRN migraine. No other prescriptions or injections.\nNo MTC/MEN2 history, no pancreatitis.\nO: Wt 95.4 kg, BMI 33.0. BP 142/86.",
+    "score": 9.995278,
+    "reason": "top_k"
+   }
+  ],
+  "program_6_months": [
+   {
+    "chunk_id": "DocumentReference/GLP1-039-ORTH-001#c0",
+    "resource_id": "DocumentReference/GLP1-039-ORTH-001",
+    "resource_type": "DocumentReference",
+    "date": "2024-11-30",
+    "note_type": "Orthopedics consult",
+    "text": "ORTHOPEDICS — 11/30/2024\n54 y/o F, left shoulder pain reaching overhead and at night x 2 months. Painful arc, positive Hawkins, cuff strength 5/5.\nDx: left shoulder subacromial impingement. Corticosteroid injection; home exercise program for rotator cuff and scapular stabilizers daily; follow-up 6 weeks.",
+    "score": 5.397072,
+    "reason": "earliest_relevant"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-039-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-11-09",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 11/09/2025\nS: 55 y/o F wants to work on weight; ankle healed. Evening snacking and takeout since kids moved out; stress eating.\nO: Wt 97.5 kg, Ht 170 cm, BMI 33.7. BP 142/85.\nExam unremarkable.",
+    "score": 8.472917,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-039-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-11-09",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 33.7 — plan starting today:\n - Calorie tracking, ~1500 kcal/day; cut late-night snacking and takeout.\n - Walking about 30 minutes 3 days a week.\n - Enrolled in the health system's 12-month lifestyle modification program.\n Follow-up visits planned.\n2. Hypertension: BP 142/85 on losartan 50 mg daily; continue, home log.\n3. Anxiety — stable on sertraline.",
+    "score": 17.062138,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-039-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-11-30",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 11/30/2025\nLifestyle program intake. Food log: takeout 3–4 nights, chips and cookies after 9 PM.\nPlan: calorie tracking at ~1500 kcal/day; cook 4 nights/week (simple recipes given); no eating after 8:30 PM; lower sodium for BP.\nActivity: walking ~30 min 3 days/week.\nRD follow-up 6 weeks.",
+    "score": 16.862087,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-NUTR-002#c0",
+    "resource_id": "DocumentReference/GLP1-039-NUTR-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-05-05",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION FOLLOW-UP\nDate: 05/05/2026\nFood log reviewed: adherent most days, ~1500 kcal; cooking at home most nights.\nAdjustments: protein at breakfast; swap evening snack for yogurt.\nReports keeping up with walking.\nContinue program.",
+    "score": 12.53933,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-PCP-003#c0",
+    "resource_id": "DocumentReference/GLP1-039-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-09",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 08/09/2026\nS: Follow-up. Continues the diet and exercise plan and program visits since November. Frustrated — weight 95.4 kg today vs 97.5 kg when the lifestyle plan began (-2.2%) despite reported adherence. Asks about medication.\nCurrent medications reviewed with patient: losartan 50 mg daily, triamcinolone 0.1% cream BID PRN, omeprazole 20 mg daily, vitamin D3 2000 IU daily, sertraline 50 mg daily, ibuprofen 400 mg PRN pain, sumatriptan 50 mg PRN migraine. No other prescriptions or injections.\nNo MTC/MEN2 history, no pancreatitis.\nO: Wt 95.4 kg, BMI 33.0. BP 142/86.",
+    "score": 9.995278,
+    "reason": "top_k"
+   }
+  ],
+  "comorbidity": [
+   {
+    "chunk_id": "DocumentReference/GLP1-039-PCP-001#c0",
+    "resource_id": "DocumentReference/GLP1-039-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-11-09",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 11/09/2025\nS: 55 y/o F wants to work on weight; ankle healed. Evening snacking and takeout since kids moved out; stress eating.\nO: Wt 97.5 kg, Ht 170 cm, BMI 33.7. BP 142/85.\nExam unremarkable.",
+    "score": 0.914078,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-PCP-001#c1",
+    "resource_id": "DocumentReference/GLP1-039-PCP-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-11-09",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 33.7 — plan starting today:\n - Calorie tracking, ~1500 kcal/day; cut late-night snacking and takeout.\n - Walking about 30 minutes 3 days a week.\n - Enrolled in the health system's 12-month lifestyle modification program.\n Follow-up visits planned.\n2. Hypertension: BP 142/85 on losartan 50 mg daily; continue, home log.\n3. Anxiety — stable on sertraline.",
+    "score": 2.197308,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-NUTR-001#c0",
+    "resource_id": "DocumentReference/GLP1-039-NUTR-001",
+    "resource_type": "DocumentReference",
+    "date": "2025-11-30",
+    "note_type": "Nutrition / dietitian note",
+    "text": "NUTRITION CONSULT — INITIAL\nDate: 11/30/2025\nLifestyle program intake. Food log: takeout 3–4 nights, chips and cookies after 9 PM.\nPlan: calorie tracking at ~1500 kcal/day; cook 4 nights/week (simple recipes given); no eating after 8:30 PM; lower sodium for BP.\nActivity: walking ~30 min 3 days/week.\nRD follow-up 6 weeks.",
+    "score": 0.814655,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-PCP-002#c0",
+    "resource_id": "DocumentReference/GLP1-039-PCP-002",
+    "resource_type": "DocumentReference",
+    "date": "2026-02-14",
+    "note_type": "Primary care progress note",
+    "text": "PRIMARY CARE PROGRESS NOTE\nDate: 02/14/2026\nS: Follow-up. Continues the calorie tracking and walking plan started in November; good adherence most weeks.\nO: Wt 96.9 kg, BMI 33.5. BP 126/78.\nA/P:\n1. Obesity — continue program.\n2. Hypertension: BP 126/78 on losartan 50 mg daily; continue.",
+    "score": 2.721986,
+    "reason": "top_k"
+   },
+   {
+    "chunk_id": "DocumentReference/GLP1-039-PCP-003#c1",
+    "resource_id": "DocumentReference/GLP1-039-PCP-003",
+    "resource_type": "DocumentReference",
+    "date": "2026-08-09",
+    "note_type": "Primary care progress note",
+    "text": "A/P:\n1. Obesity, BMI 33.0 — plateau. Plan: start semaglutide 2.4 mg weekly (Wegovy) with standard dose titration; counseled on GI side effects. Continue plan. Recheck in 3 months.\n2. Hypertension: BP 142/86 on losartan 50 mg daily; continue for now, recheck with home log.",
+    "score": 2.47156,
+    "reason": "top_k"
+   }
+  ]
+ },
+ "meta": {
+  "retrieval_version": "RETRIEVAL_V1",
+  "retrieval_config_hash": "bb02d66cc68d",
+  "n_chunks_indexed": 16,
+  "n_notes": 14,
+  "tokens": {
+   "raw_chart": {
+    "structured": 8619,
+    "notes": 1228,
+    "total": 9847
+   },
+   "retrieved_evidence": 795,
+   "structured_features": 1949,
+   "profile_total": 5297
+  }
+ }
+}
