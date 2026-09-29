@@ -8,3 +8,9 @@ node_modules/
 .next/
 .vercel/
 .venv-r4/
+
+# Not published: presentation decks and the web app (kept locally)
+presentation/
+web/
+scripts/dev_live_server.py
+scripts/export_web_data.py

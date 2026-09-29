@@ -38,7 +38,8 @@
 
 ## Phase 8 — Evaluation (next)
 - [x] results/ outputs + presentation_results/ package + reports/evaluation_report.md + reports/failure_analysis.md (161 tests)
-- [x] Results deck: presentation/sutter_jev_priorauth_results.html (41 slides; original left untouched). Recorded 6-slide demo walkthrough (GLP1-045 FEP) replaces live-app demo; added models/pricing, by-payer/difficulty, every-PA-error slides
+- [x] Main deck: presentation/sutter_jev_priorauth_results.html (25 slides, plain language, Jev-focused, conclusion slide; src/slides_25.html)
+- [x] Detailed deck: presentation/sutter_jev_priorauth_results_detailed.html (41 slides; original left untouched). Recorded 6-slide demo walkthrough (GLP1-045 FEP) replaces live-app demo; added models/pricing, by-payer/difficulty, every-PA-error slides
 
 ## Phase 9 — Vercel UI (next)
 - [x] Next.js app (web/): Overview, Patients, PA Workbench (replay + live for 10 curated cases via api/run_pa.py, server-side ground-truth reveal), Benchmark replay, Results — all from exported run data
